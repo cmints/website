@@ -14,5 +14,4 @@ const templateData =
 const markdownOptions = {};
 
 exports.templateData = templateData;
-exports.port = 4000;
 exports.markdownOptions = markdownOptions;
