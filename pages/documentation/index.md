@@ -33,11 +33,19 @@ Get Node.js from the [https://nodejs.org/](https://nodejs.org).
 
 [Fork](https://help.github.com/articles/fork-a-repo/) or clone the [CMintS repository](https://github.com/Manvel/cmints):
 ```bash
-git clone https://github.com/Manvel/cmints.git myNewWebsite
-cd myNewWebsite
+git clone https://github.com/Manvel/cmints.git CMintS
+cd CMintS
+npm i
 ```
 
 With cloned CMintS repository you will also get current website downloaded, you can modify existing files, delete or manage the way you want. [Learn more about folders structure](/documentation/getting-started/structure).
+
+### Example projects
+
+In order to have quick start it's recommended to generate example project by running:
+```bash
+npm run example
+```
 
 ### Starting server
 
