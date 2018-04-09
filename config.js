@@ -13,5 +13,8 @@ const templateData =
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
 const markdownOptions = {};
 
+const defaultLocale = "en";
+
 exports.templateData = templateData;
 exports.markdownOptions = markdownOptions;
+exports.defaultLocale = defaultLocale;
