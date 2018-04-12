@@ -116,6 +116,11 @@
   grid-column-end: 6;
 }
 
+.middle
+{
+  align-self: center;
+}
+
 .center
 {
   justify-self: center;
@@ -148,18 +153,21 @@
 
 @media (max-width: @tablet-width)
 {
-  .col2, .col3, .col4, .col5
+  main
   {
-    > *
+    .col2, .col3, .col4, .col5
     {
-      grid-column-start: 1;
-      grid-column-end: 1;
-    }
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    .tablet-middle
-    {
-      align-items: center;
+      > *
+      {
+        grid-column-start: 1;
+        grid-column-end: 1;
+      }
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      .tablet-middle
+      {
+        align-items: center;
+      }
     }
   }
 }

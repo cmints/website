@@ -7,10 +7,10 @@
 <body>
   <% include partials/header %>
 <main>
-  <div class="col5 device">
+  <div class="col5">
     <!-- Navigation Start -->
     <%if (page.showDocNav) { %> 
-      <aside id="sitemap" class="cell1">
+      <aside id="sitemap" class="cell1 tablet-hide">
         <% let documentation = getSitemap("documentation"); %>
         <%if (documentation) { %>
           <% include partials/docNav %>
@@ -25,7 +25,7 @@
 
     <!-- TOC Start -->
     <%if (page.showDocNav) { %>
-      <aside id="toc" class="cell5">
+      <aside id="toc" class="cell5 tablet-hide">
         <h2>Table of content</h2>
         <%- include('partials/toc', {items: toc.children}) %> 
       </aside>

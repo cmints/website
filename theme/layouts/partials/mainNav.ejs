@@ -1,0 +1,8 @@
+<% for (let navigation of navigations) { %>
+  <li>
+    <a <%-href(navigation.path)%>
+      <% if (navigation.path == currentPage) { %>class="active"<% } %>>
+      {<%-navigation.stringId%>(header)}
+    </a>
+  </li>
+<% } %>

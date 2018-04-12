@@ -28,9 +28,53 @@ header
     }
     display: flex;
     padding: 0;
+    margin: 0;
     list-style: none;
   }
+  padding: 1rem;
   color: @primary;
   box-shadow: 0px 0px 5px 1px #cacaca;
   position: relative;
+}
+
+#hamburger
+{
+  &::before
+  {
+    content: "";
+    display: block;
+    background-image: url(/images/hamburger.svg);
+    height: 2rem;
+    width: 2rem;
+  }
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 0;
+}
+#hamburger-menu
+{
+  ul
+  {
+    li
+    {
+      padding: 0;
+    }
+    display: block;
+    font-size: 0.8rem;
+  }
+  h2
+  {
+    font-size: 1rem;
+    color: @content;
+  }
+  a
+  {
+    padding: 10px;
+    display: block;
+  }
+  &:not(.visible)
+  {
+    display: none;
+  }
+  text-align: center; 
 }

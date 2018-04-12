@@ -30,7 +30,7 @@ a
 
 main
 {
-  padding: 20px 0px;
+  padding: 2rem 0;
 }
 
 /* Content */
@@ -66,8 +66,20 @@ article
   }
 }
 
+@media (min-width: @tablet-width)
+{
+  .desktop-hide
+  {
+    display: none;
+  }
+}
+
 @media (max-width: @tablet-width)
 {
+  .tablet-hide
+  {
+    display: none;
+  }
   article
   {
     padding: 0px 1rem;
