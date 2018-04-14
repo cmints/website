@@ -1,18 +1,21 @@
-<% if (currentPage == "index" || currentPage == ".") currentPage = "" %>
-<% let pageLocales = getPageLocales() %>
-<% if (pageLocales.length) { %>
-  <select id="languageSelector" data-page="/<%= currentPage %>">
-<% } %>
-<% for (let pageLocale of pageLocales) { %>
-  <% if (pageLocale != currentLocale) { %>
-    <option value="<%= pageLocale %>"><%= pageLocale %></option>
-  <% } else { %>
-    <option value="<%= pageLocale %>" selected><%= pageLocale %></option>
+<div class="languageSelector">
+  <% if (currentPage == "index" || currentPage == ".") currentPage = "" %>
+  <% let pageLocales = getPageLocales() %>
+  <% if (pageLocales.length) { %>
+    <select data-page="/<%= currentPage %>">
   <% } %>
-<% } %>
-<% if (pageLocales.length) { %>
-  </select>
-<% } %>
+  <% for (let pageLocale of pageLocales) { %>
+    <% if (pageLocale != currentLocale) { %>
+      <option value="<%= pageLocale %>"><%= pageLocale %></option>
+    <% } else { %>
+      <option value="<%= pageLocale %>" selected><%= pageLocale %></option>
+    <% } %>
+  <% } %>
+  <% if (pageLocales.length) { %>
+    </select>
+  <% } %>
+  <label><span><%= currentLocale %></span></label>
+</div>
 
 <noscript>
   <ul>

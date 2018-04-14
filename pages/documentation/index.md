@@ -1,6 +1,6 @@
 ---
 title: Documentation
-navTitle: Document
+navTitle: Installation
 showDocNav: true
 ---
 

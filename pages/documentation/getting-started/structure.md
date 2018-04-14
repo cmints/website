@@ -8,7 +8,7 @@ showDocNav: true
 
 The project structure is straighforward, the website related files are located
 in src folder, so this is the folder where your website/project will be located.
-```javascript
+```
 src
 ├── public
 ├── locales

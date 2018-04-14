@@ -39,7 +39,7 @@ the CMintS.
 *templateData* object holds the data which are passed to the ejs template. So you
 can directly access the values of the that object by simply refferencing them from the .ejs file:
 
-```javascript
+```
 <% for (let navigation of navigations) { %>
   <li>
     <a <%-href(navigation.path)%>
