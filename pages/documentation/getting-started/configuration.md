@@ -5,14 +5,14 @@ showDocNav: true
 
 # {config[Header] Configuration}
 
-config.js in the root is where you can find all various website configurations:
+config.js in the `src` folder is where you can overwrite various website default configurations:
 
 ```javascript
 const templateData =
 {
   site: {
-    title: "I18n CMS",
-    description: "CMS with the internationalization in mind"
+    title: "CMintS",
+    description: "CMS created with the internationalization in mind"
   },
   navigations: [
       {path: "documentation", stringId: "menu-item-docs"},
@@ -21,21 +21,18 @@ const templateData =
 };
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
-const markdownOptions =
-{
-  html:         true,
-  xhtmlOut:     false,
-  breaks:       false,
-  langPrefix:   'language-',
-  linkify:      false,
-  typographer:  false,
-  quotes: '“”‘’',
-  highlight(str, lang)
-  {
-    return (lang && getLanguage(lang)) ? highlight(lang, str).value : "";
-  }
-};
+const markdownOptions = {};
+
+const defaultLocale = "en";
+
+exports.templateData = templateData;
+exports.markdownOptions = markdownOptions;
+exports.defaultLocale = defaultLocale;
 ```
+
+This file suppose to overwrite [default
+configurations](https://github.com/Manvel/cmints/blob/master/config.js) set by
+the CMintS.
 
 ## templateData
 
