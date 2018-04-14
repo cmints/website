@@ -5,9 +5,7 @@ const templateData =
     description: "CMS created with the internationalization in mind"
   },
   navigations: [
-      {path: "documentation", stringId: "menu-item-docs"},
-      {path: "news", stringId: "menu-item-news"},
-      {path: "blog", stringId: "menu-item-blog"}]
+      {path: "documentation", stringId: "menu-item-docs"}]
 };
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
