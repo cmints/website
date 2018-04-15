@@ -2,6 +2,7 @@
 title: Using i18n strings in the pages
 navTitle: pages
 showDocNav: true
+order: 1
 ---
 
 # Pages

@@ -2,6 +2,7 @@
 title: Crowdin TMS integration
 navTitle: Crowdin
 showDocNav: true
+order: 3
 ---
 
 # Crowdin integration

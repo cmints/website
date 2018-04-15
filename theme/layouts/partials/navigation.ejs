@@ -1,12 +1,12 @@
-<% items.forEach(function(item){ %>
+<% items.sort((a, b) => a.metadata.order > b.metadata.order).forEach(function(item){ %>
   <li>
     <% let title = ""; %>
-    <% if (!item.metadata) { %>
-      <% let title = item.url; %>
-    <% } else if (item.metadata.navTitle) { %>
+    <% if (item.metadata.navTitle) { %>
       <% title = item.metadata.navTitle; %>
     <% } else if (item.metadata.title) { %>
       <% title = item.metadata.title; %>
+    <% } else { %>
+      <% title = item.url; %>
     <% } %>
     <% if (item.url) { %>
       <a <%-href(item.url)%>

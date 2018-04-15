@@ -3,6 +3,7 @@ title: Writing translation strings
 navTitle: Overview
 topicTitle: i18n
 showDocNav: true
+order: 0
 ---
 
 # {i18n[Heading text] internationalization}

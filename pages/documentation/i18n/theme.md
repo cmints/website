@@ -2,6 +2,7 @@
 title: Themes
 navTitle: Themes
 showDocNav: true
+order: 2
 ---
 
 # Themes i18n
