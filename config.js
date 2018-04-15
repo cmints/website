@@ -13,6 +13,12 @@ const markdownOptions = {};
 
 const defaultLocale = "en";
 
+const port = {
+  https: 4000,
+  http: 3000
+};
+
 exports.templateData = templateData;
 exports.markdownOptions = markdownOptions;
 exports.defaultLocale = defaultLocale;
+exports.port = port;
