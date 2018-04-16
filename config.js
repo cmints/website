@@ -1,11 +1,18 @@
 const templateData =
 {
   site: {
+    domain: "cmints.io",
     title: "CMintS",
     description: "CMS created with the internationalization in mind"
   },
   navigations: [
-      {path: "documentation", stringId: "menu-item-docs"}]
+      {path: "documentation", stringId: "menu-item-docs"}],
+  localeRegionMap:
+  {
+    "en": "en_US",
+    "de": "de_DE",
+    "ru": "ru_RU"
+  }
 };
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new

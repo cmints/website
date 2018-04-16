@@ -1,3 +1,15 @@
 <meta charset="UTF-8">
 <meta property="og:image" content="/images/logo.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- i18n  -->
+<% for (const locale of getPageLocales()) { %>
+  <% const localeRegion = localeRegionMap[locale] ? localeRegionMap[locale] : locale; %>
+  <% if (locale == currentLocale) { %>
+    <meta property="og:locale" content="<%= localeRegion %>" />
+    <link rel="canonical" href="https://<%= site.domain %>/<%= currentPage == '.' ? "" : currentPage %>">
+  <% } else { %>
+    <meta property="og:locale:alternate" content="<%= localeRegion %>" />
+    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= currentPage == '.' ? "" : currentPage %>" hreflang="<%= locale %>" />
+  <% } %>
+<% } %>
