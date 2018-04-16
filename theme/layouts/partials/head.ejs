@@ -1,5 +1,7 @@
 <title>{title[Page title] <fix><%= site.title %></fix> | <%= page.title %>}</title>
 <meta property="og:title" content="{title}">
+<meta content="{description[Page description] <%= page.description %>}" name="description">
+<meta content="{description}" property="og:description">
+<% include meta %>
 <link rel="stylesheet" type="text/css" href="/css/main.css">
 <script src="/js/main.js" defer></script>
-<% include meta %>

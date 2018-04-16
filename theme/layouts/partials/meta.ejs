@@ -7,9 +7,9 @@
   <% const localeRegion = localeRegionMap[locale] ? localeRegionMap[locale] : locale; %>
   <% if (locale == currentLocale) { %>
     <meta property="og:locale" content="<%= localeRegion %>" />
-    <link rel="canonical" href="https://<%= site.domain %>/<%= currentPage == '.' ? "" : currentPage %>">
+    <link rel="canonical" href="https://<%= site.domain %>/<%= currentPage %>">
   <% } else { %>
     <meta property="og:locale:alternate" content="<%= localeRegion %>" />
-    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= currentPage == '.' ? "" : currentPage %>" hreflang="<%= locale %>" />
+    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= currentPage %>" hreflang="<%= locale %>" />
   <% } %>
 <% } %>
