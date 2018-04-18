@@ -5,19 +5,24 @@ showDocNav: true
 order: 2
 ---
 
-# Themes i18n
+# {themes-i18n[Page heading] Themes i18n}
 
+{themes-i18n-p[Paragraph in "Themes i18n" section]
 In comparison to the regular pages when developing a Theme it's more common to
 have translation strings that are consistent accross the website, ex. navigation
 items, as it would be very unproductive translating each common string
 individually accross the website pages. For that reason translation file
 references can be used when accessing strings:
+}
+
 ```
 {string-id(location)}
 ```
 
+{themes-i18n-p2[Paragraph in "Themes i18n" section]
 For example consider there is a `locales/en/navigation/header.json` file which
 content is:
+}
 
 ```json
 {
@@ -36,7 +41,9 @@ content is:
 }
 ```
 
+{themes-i18n-p3[Paragraph in "Themes i18n" section]
 And also translation file located in `locales/ru/navigation/header.json`:
+}
 
 ```json
 {
@@ -55,8 +62,11 @@ And also translation file located in `locales/ru/navigation/header.json`:
 }
 ```
 
+{themes-i18n-p4[Paragraph in "Themes i18n" section]
 In order to access the strings in the files above, you can use translation file
 references:
+}
+
 ```html
 <ul>
   <li>
@@ -68,7 +78,9 @@ references:
 </ul>
 ```
 
+{themes-i18n-p5[Paragraph in "Themes i18n" section]
 so the example above will be converted for "en" locale into:
+}
 
 ```html
 <ul>
@@ -81,7 +93,9 @@ so the example above will be converted for "en" locale into:
 </ul>
 ```
 
+{themes-i18n-p6[Paragraph in "Themes i18n" section]
 And for the "ru" locale into:
+}
 
 ```html
 <ul>
