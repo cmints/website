@@ -7,10 +7,11 @@ order: 3
 
 # Crowdin integration
 
-[Crowdin](https://crowdin.com/) is a localization and translation management
-platform. CMintS uses Crowdin because of it's user friendly UI, ability to
-provide external collaborators with user friendly enviroment for translation and
-most importantly because it's free for Open Source projects.
+<a href="https://crowdin.com/" target="_blank">Crowdin</a> is a localization and
+translation management platform. CMintS uses Crowdin because of it's user
+friendly UI, ability to provide external collaborators with user friendly
+enviroment for translation and most importantly because it's free for Open
+Source projects.
 
 ## Setting up
 

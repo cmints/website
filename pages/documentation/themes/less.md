@@ -46,4 +46,5 @@ a:hover {
 **Note:** That no src/public/_variables.css is generated because the file starts
 with "_" sign.
 
-To learn more about LESS visit [http://lesscss.org/](http://lesscss.org/).
+To learn more about LESS visit <a href="http://lesscss.org/" target="_blank">
+http://lesscss.org/</a>.

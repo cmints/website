@@ -34,10 +34,11 @@ path, if for example you host your website at example.com domain, that would be
 ## Markdown
 
 In order to write page content using Markdown, just assign `.md` extension to
-the file. CMintS uses [CommonMark](http://commonmark.org/) in order to support
-Markdown pages. CommonMark is a a strongly defined, highly compatible
-specification of Markdown, basically speaking it's a Markdown, but specified.
-You can learn more about writing CommonMark [here](http://commonmark.org/help/).
+the file. CMintS uses <a href="http://commonmark.org/"
+target="_blank">CommonMark</a> in order to support Markdown pages. CommonMark is
+a a strongly defined, highly compatible specification of Markdown, basically
+speaking it's a Markdown, but specified. You can learn more about writing
+CommonMark <a href="http://commonmark.org/help/" target="_blank">here</a>.
 
 ## EJS
 
@@ -46,9 +47,9 @@ would prefer writing your actual content using markdown without having to
 include HTML tags that will require you also managing them and not forgetting to
 close when required, but when it comes to some complex landing pages sometimes
 Markdown is useless. EJS is a simple templating language that lets you generate
-HTML markup with plain JavaScript. You can learn more about EJS
-[here](http://ejs.co/). In order to create EJS page just assign `.ejs` extension
-to the file.
+HTML markup with plain JavaScript. You can learn more about EJS <a
+href="http://ejs.co/" target="_blank">here</a>. In order to create EJS page just
+assign `.ejs` extension to the file.
 
 ## HTML
 

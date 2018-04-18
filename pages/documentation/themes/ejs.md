@@ -5,13 +5,15 @@ showDocNav: true
 
 # EJS
 
-CMintS is using [EJS](http://ejs.co/) as a templating engine for creating
-layouts, EJS can also be used for the [page](/documentation/pages#ejs) creation.
-EJS is a simple templating language that lets you generate HTML markup while
-writing plain JavaScript. Detailed EJS syntax documentation can be found
-[here](https://github.com/mde/ejs/blob/master/docs/syntax.md), also there is an
-online playground, to [try out the
-syntax](https://ionicabizau.github.io/ejs-playground/).
+CMintS is using <a href="http://ejs.co/" target="_blank">EJS</a> as a templating
+engine for creating layouts, EJS can also be used for the
+[page](/documentation/pages#ejs) creation. EJS is a simple templating language
+that lets you generate HTML markup while writing plain JavaScript. Detailed EJS
+syntax documentation can be found <a
+href="https://github.com/mde/ejs/blob/master/docs/syntax.md"
+target="_blank">here</a>, also there is an online playground, to <a
+href="https://ionicabizau.github.io/ejs-playground/" target="_blank">try out the
+syntax</a>.
 
 ## Layout
 

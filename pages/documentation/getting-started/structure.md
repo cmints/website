@@ -77,14 +77,14 @@ the page with `index` files points to the actual directory:
 Supported page content files are:
 extention | Descriptio
 --- | ---
-`.md` | Markdown files, use [CommonMark](http://commonmark.org/) to create markdown content. Learn more about writing markdown in CMintS [here](/documentation/pages/markdown).
-`.ejs` | For more robust pages you can use [EJS](http://ejs.co/) for creating a complex page content. Learn more about creating ejs pages in CMintS [here](/documentation/pages/ejs).
+`.md` | Markdown files, use<a href="http://commonmark.org/" target="_blank">CommonMark</a> to create markdown content. Learn more about writing markdown in CMintS <a href="/documentation/pages/markdown" target="_blank">here</a>.
+`.ejs` | For more robust pages you can use <a href="http://ejs.co/" target="_blank">EJS</a> for creating a complex page content. Learn more about creating ejs pages in CMintS <a href="/documentation/pages/ejs" target="_blank">here</a>.
 `.html` | HTML files
 
 ## theme
-Actual theme of the project, main folders are [layout]() where actual website
-layouts reside and [less]() folder which holds website less files which are
-compiled into the css folder of the [public]() directory:
+Theme of the project, main folders are `layouts` where actual website layouts
+reside and `less` folder which holds website less files which are compiled into
+the `public/css` folder:
 ```bash
 ├── layouts
 │   ├── default.ejs

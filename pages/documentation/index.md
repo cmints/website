@@ -8,32 +8,33 @@ showDocNav: true
 
 ## What is CMintS?
 
-CMintS is a CMS and Static Content Generator that has been implemented with the
-Internationalization in mind. CMintS is quite easy to install, it has only few
+<fix>CMintS</fix> is a CMS and Static Content Generator that has been implemented with the
+Internationalization in mind. <fix>CMintS</fix> is quite easy to install, it has only few
 requirements.
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/download/)
-- [Git](https://git-scm.com/)
+- <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
+- <a href="https://git-scm.com/" target="_blank">Git</a>
 
 If you have both requirements in place, please follow this installation steps.
 
 ## Installing Git
 
-- Mac: [installing the Xcode Command Line
-  Tools](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_mac)
-- Windows: Get [git for windows](https://git-scm.com/download/win)
+- Mac: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_mac" target="_blank">Using Xcode Command Line
+  Tools</a>
+- Windows: Get <a href="https://git-scm.com/download/win" target="_blank">git for windows</a>
 - Linux (Ubuntu, Debian): `sudo apt-get install git-core`
 
 ## Installing Node.js
 
-Get Node.js from the [https://nodejs.org/](https://nodejs.org).
+Get Node.js from the <a href="https://nodejs.org" target="_blank">https://nodejs.org/</a>.
 
 ## Install CMintS
 
-[Fork](https://help.github.com/articles/fork-a-repo/) or clone the [CMintS
-repository](https://github.com/Manvel/cmints):
+<a href="https://help.github.com/articles/fork-a-repo/" target="_blank">Fork</a>
+or clone the <a href="https://github.com/Manvel/cmints" target="_blank">CMintS
+repository</a>:
 ```bash
 git clone https://github.com/Manvel/cmints.git CMintS
 cd CMintS
@@ -52,7 +53,7 @@ npm run example
 ```
 
 The example project is the content of current website, which can also be found
-in the [github](https://github.com/Manvel/cmints-website).
+in the <a href="https://github.com/Manvel/cmints-website" target="_blank">github</a>.
 
 The generated project will be placed in the `src` directory. See
 [structures](/documentation/getting-started/structure) documentation for more
