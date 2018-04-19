@@ -1,7 +1,7 @@
 <ul>
   <% documentation.children.forEach(function(item) { %>
     <li>
-      <h2><%= item.metadata.topicTitle %></h2>
+      <h2>{<%= item.metadata.topicTitle %>(common)}</h2>
     </li>
     <ul>
       <% let indexItem = {items: [item]}; %>

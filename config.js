@@ -6,7 +6,7 @@ const templateData =
     description: "CMS created with the internationalization in mind"
   },
   navigations: [
-      {path: "documentation", stringId: "menu-item-docs"}],
+      {path: "documentation", stringId: "header-menu-item-docs"}],
   localeRegionMap:
   {
     "en": "en_US",

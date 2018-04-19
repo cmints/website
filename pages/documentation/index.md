@@ -1,6 +1,6 @@
 ---
 title: Documentation
-navTitle: Installation
+navTitleId: nav-doc-title-installation
 showDocNav: true
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Using i18n strings in the pages
-navTitle: pages
+navTitleId: nav-doc-title-pages
 showDocNav: true
 order: 1
 ---
 
-# {pages[] Pages}
+# {pages[Page heading] Pages}
 
 {pages-p[Paragraph in "Pages" section]
 In order to make a content translatable the [translation

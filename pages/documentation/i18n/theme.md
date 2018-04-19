@@ -1,6 +1,6 @@
 ---
 title: Themes
-navTitle: Themes
+navTitleId: nav-doc-title-themes
 showDocNav: true
 order: 2
 ---

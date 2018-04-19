@@ -1,6 +1,6 @@
 ---
 title: Project structure
-navTitle: Structure
+navTitleId: nav-doc-title-structure
 showDocNav: true
 ---
 

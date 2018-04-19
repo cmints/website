@@ -1,8 +1,4 @@
 {
-  "menu-item-home": {
-    "description": "Header manu item",
-    "message": "Главное"
-  },
   "menu-item-docs": {
     "description": "Header manu item",
     "message": "Документация"

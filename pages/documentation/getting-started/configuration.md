@@ -1,5 +1,6 @@
 ---
 title: Configuration
+navTitleId: nav-doc-title-configuration
 showDocNav: true
 ---
 

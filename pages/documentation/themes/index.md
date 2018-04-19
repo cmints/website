@@ -1,7 +1,7 @@
 ---
 title: Themes
-navTitle: Overview
-topicTitle: Themes
+navTitleId: nav-doc-title-overview
+topicTitle: nav-doc-title-themes
 showDocNav: true
 ---
 

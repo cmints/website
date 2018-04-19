@@ -1,6 +1,6 @@
 ---
 title: Front Matter
-navTitle: Front Matter
+navTitleId: nav-doc-title-front-matter
 showDocNav: true
 ---
 
@@ -15,7 +15,7 @@ format, metadata defined in page can be used by the theme and accessed through
 ```yaml
 ---
 title: Front Matter
-navTitle: Front Matter
+navTitleId: Front Matter
 showDocNav: true
 ---
 ```

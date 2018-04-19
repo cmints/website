@@ -1,7 +1,7 @@
 ---
 title: Pages
-navTitle: Overview
-topicTitle: Pages
+navTitleId: nav-doc-title-overview
+topicTitle: nav-doc-title-pages
 showDocNav: true
 ---
 

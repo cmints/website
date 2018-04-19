@@ -1,7 +1,7 @@
 ---
 title: Writing translation strings
-navTitle: Overview
-topicTitle: i18n
+navTitleId: nav-doc-title-overview
+topicTitle: nav-doc-title-i18n
 showDocNav: true
 order: 0
 ---

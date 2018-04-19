@@ -1,7 +1,7 @@
 ---
 title: Getting started
-navTitle: Overviews
-topicTitle: Getting started
+navTitleId: Overviews
+topicTitle: nav-doc-title-getting-started
 showDocNav: true
 ---
 

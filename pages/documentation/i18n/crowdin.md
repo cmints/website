@@ -1,6 +1,5 @@
 ---
-title: Crowdin TMS integration
-navTitle: Crowdin
+title: Crowdin
 showDocNav: true
 order: 3
 ---
@@ -39,7 +38,7 @@ API. You can find Crowdin API key in the  key tab of project settings page:
 ![Crowdin api location](/images/crowdin-key.png)
 
 {upload-source-strings-p2[Paragraph in "Uploading Source Strings" section]
-After locating crowdin API key, run command below replacing `{crowdin-key}` with
+After locating crowdin API key, run command below replacing `crowdin-key` with
 actual one in the CMintS root directory:
 }
 
