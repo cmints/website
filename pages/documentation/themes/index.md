@@ -4,9 +4,10 @@ description: Learn theme directory structure, how to create layouts and use LESS
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-themes
 showDocNav: true
+showTOC: true
+showEdit: true
+showTranslate: true
 ---
-
-# theme
 
 ```bash
 src

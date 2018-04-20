@@ -1,12 +1,12 @@
 ---
-title: Themes
+title: Themes i18n
 description: Using translation strings in the themes. Get most out of the CMintS Internationalization(i18n) tools.
 navTitleId: nav-doc-title-themes
 showDocNav: true
+showEdit: true
+showTranslate: true
 order: 2
 ---
-
-# {themes-i18n[Page heading] Themes i18n}
 
 {themes-i18n-p[Paragraph in "Themes i18n" section]
 In comparison to the regular pages when developing a Theme it's more common to

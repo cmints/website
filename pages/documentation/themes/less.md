@@ -2,9 +2,9 @@
 title: Less
 description: Use LESS to create modularize CSS with less code for CMintS themes.
 showDocNav: true
+showEdit: true
+showTranslate: true
 ---
-
-# LESS
 
 {less-p[Paragraph in "less" section] 
 Less is a backwards-compatible language extension for CSS. It's quite easy start

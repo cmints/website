@@ -6,6 +6,7 @@
 @import "_languageSelector.less";
 @import "_sidebars.less";
 @import "_footer.less";
+@import "_icons.less";
 @import "highlightjs/tomorrow";
 
 body
@@ -39,6 +40,14 @@ article
 {
   h1
   {
+    .icon::before
+    {
+      width: 1.3rem;
+      height: 1.3rem;
+      margin: 0rem 0.2rem;
+    }
+    display: flex;
+    justify-content: space-between;
     font-weight: 300;
     margin: 0px;
     padding-bottom: 0.5rem;

@@ -3,7 +3,9 @@ const templateData =
   site: {
     domain: "cmints.io",
     title: "CMintS",
-    description: "CMS created with the internationalization in mind"
+    description: "CMS created with the internationalization in mind",
+    github: "https://github.com/Manvel/cmints-website",
+    crowdin: "https://crowdin.com/project/cmints-website"
   },
   navigations: [
       {path: "documentation", stringId: "header-menu-item-docs"}],

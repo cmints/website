@@ -3,9 +3,10 @@ title: Project structure
 description: Structure of the project, learn how organize your project and directory naming.
 navTitleId: nav-doc-title-structure
 showDocNav: true
+showTOC: true
+showEdit: true
+showTranslate: true
 ---
-
-# {project-structure[Page heading] Project structure}
 
 {project-structure-p[Paragraph in "Project structure" section]
 The project structure is straighforward, the website related files are located

@@ -4,9 +4,10 @@ description: Learn about pages structure and how to create pages in CMintS using
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-pages
 showDocNav: true
+showTOC: true
+showEdit: true
+showTranslate: true
 ---
-
-# {pages[Page heading] Pages}
 
 {pages-p[Paragraph in "Pages" section]
 Actual content of the website goes to the `src/pages` directory. Content can be

@@ -1,12 +1,13 @@
 ---
-title: Using i18n strings in the pages
+title: Pages
 description: Use translation strings while writing your content in Markdown, ejs or HTML. Get most out of the CMintS Internationalization(i18n) tools.
 navTitleId: nav-doc-title-pages
 showDocNav: true
+showTOC: true
+showEdit: true
+showTranslate: true
 order: 1
 ---
-
-# {pages[Page heading] Pages}
 
 {pages-p[Paragraph in "Pages" section]
 In order to make a content translatable the [translation

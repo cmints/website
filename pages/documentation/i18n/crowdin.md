@@ -2,12 +2,13 @@
 title: Crowdin
 description: Project integration with Crowdin. Crowdin synchronization scripts and how to request Open Source setup for free.
 showDocNav: true
+showTOC: true
+showEdit: true
+showTranslate: true
 order: 3
 ---
 
-# {crowdin-integration[Page heading] Crowdin integration}
-
-{crowdin-integration-p[Paragraph in "Crowdin integration" section]
+{crowdin-p[Paragraph in "Crowdin integration" section]
 <a href="https://crowdin.com/" target="_blank">Crowdin</a> is a localization and
 translation management platform. CMintS uses Crowdin because of it's user
 friendly UI, ability to provide external collaborators with user friendly

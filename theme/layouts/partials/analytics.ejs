@@ -5,6 +5,9 @@
   {
     dataLayer.push(arguments);
   }
-  gtag('js', new Date());
-  gtag('config', 'UA-117702399-1');
+  if (window.location.host === "cmints.io")
+  {
+    gtag('js', new Date());
+    gtag('config', 'UA-117702399-1');
+  }
 </script>

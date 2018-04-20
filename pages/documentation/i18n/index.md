@@ -1,13 +1,14 @@
 ---
-title: Writing translation strings
+title: Internationalization
 description: Learn how to use internationalization strings in CMintS project. Usage of i18n strings, learn about translation files structure and start creating multilanguage websites.
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-i18n
 showDocNav: true
+showTOC: true
+showEdit: true
+showTranslate: true
 order: 0
 ---
-
-# {i18n[Page heading] internationalization}
 
 {i18n-p1[Paragraph in "internationalization" section]
 Internaltionalization is one of the

@@ -3,9 +3,10 @@ title: Configuration
 description: How to configure CMintS and using templateData to pass data to the template.
 navTitleId: nav-doc-title-configuration
 showDocNav: true
+showTOC: true
+showEdit: true
+showTranslate: true
 ---
-
-# {config[Page heading] Configuration}
 
 {config-p[Paragraph in "Configuration" section]
 config.js in the `src` folder is where you can overwrite various website default configurations:

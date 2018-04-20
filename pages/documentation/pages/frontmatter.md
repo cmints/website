@@ -3,9 +3,9 @@ title: Front Matter
 description: Front Matter is a powerful tool that allows pages to define metadata in the YAML format.
 navTitleId: nav-doc-title-front-matter
 showDocNav: true
+showEdit: true
+showTranslate: true
 ---
-
-# {front-matter[Page heading] Front Matter}
 
 {front-matter-p[Paragraph in "Front Matter" section]
 Front Matter is a powerful tool that allows pages to define metadata in the YAML

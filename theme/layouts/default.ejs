@@ -19,14 +19,26 @@
     <!-- Navigation End -->
 
     <article class="cell2-4">
+      <h1>{title}
+        <span>
+          <% if (page.showEdit) {%>
+            <a href="<%= site.github %>/tree/master/pages/<%= currentPage %>.md"
+               class="icon edit" target="_blank" title="Edit page"></a>
+          <% } %>
+          <% if (page.showTranslate) {%>
+            <a href="<%= site.crowdin %>" class="icon translate" target="_blank"
+               title="Translate"></a>
+          <% } %>
+        </span>
+      </h1>
       <%- body %>
     </article>
 
     <!-- TOC Start -->
-    <%if (page.showDocNav) { %>
-      <aside id="toc" class="cell5 tablet-hide">
+    <%if (page.showTOC) { %>
+      <aside id="toc" class="cell5 center tablet-hide">
         <h2>{toc-sidebar-header(common)}</h2>
-        <%- include('partials/toc', {items: toc.children}) %> 
+        <%- include('partials/toc', {items: toc.children}) %>
       </aside>
     <% } %>
     <!-- TOC End -->
