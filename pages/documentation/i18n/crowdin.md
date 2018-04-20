@@ -1,5 +1,6 @@
 ---
 title: Crowdin
+description: Project integration with Crowdin. Crowdin synchronization scripts and how to request Open Source setup for free.
 showDocNav: true
 order: 3
 ---

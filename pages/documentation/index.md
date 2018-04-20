@@ -1,5 +1,6 @@
 ---
 title: Documentation
+description: CMintS documentation, what is CMintS and how to install it.
 navTitleId: nav-doc-title-installation
 showDocNav: true
 ---

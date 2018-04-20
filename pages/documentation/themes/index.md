@@ -1,5 +1,6 @@
 ---
 title: Themes
+description: Learn theme directory structure, how to create layouts and use LESS to create modularize CSS with less code.
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-themes
 showDocNav: true

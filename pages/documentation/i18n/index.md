@@ -1,5 +1,6 @@
 ---
 title: Writing translation strings
+description: Learn how to use internationalization strings in CMintS project. Usage of i18n strings, learn about translation files structure and start creating multilanguage websites.
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-i18n
 showDocNav: true

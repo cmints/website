@@ -1,5 +1,6 @@
 ---
 title: EJS
+description: Learn how to create layouts in CMintS. CMintS is using ejs as a templating engine for creating layouts.
 showDocNav: true
 ---
 

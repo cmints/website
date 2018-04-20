@@ -1,5 +1,6 @@
 ---
 title: Themes
+description: Using translation strings in the themes. Get most out of the CMintS Internationalization(i18n) tools.
 navTitleId: nav-doc-title-themes
 showDocNav: true
 order: 2
