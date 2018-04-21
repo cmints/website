@@ -4,7 +4,7 @@ description: Learn how to create layouts in CMintS. CMintS is using ejs as a tem
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 155
 ---
 
 {ejs-p[Paragraph in "ejs" section]

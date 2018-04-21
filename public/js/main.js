@@ -17,3 +17,11 @@ hamburger.addEventListener("click", e =>
 {
   document.querySelector("#hamburger-menu").classList.toggle("visible");
 });
+
+const translateElem = document.querySelector("#translate");
+const translateButton = translateElem.querySelector("button");
+
+translateButton.addEventListener("click", e =>
+{
+  translateElem.classList.toggle("visible");
+});

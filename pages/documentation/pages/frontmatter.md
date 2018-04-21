@@ -4,7 +4,7 @@ description: Front Matter is a powerful tool that allows pages to define metadat
 navTitleId: nav-doc-title-front-matter
 showDocNav: true
 showEdit: true
-showTranslate: true
+showTranslate: 157
 ---
 
 {front-matter-p[Paragraph in "Front Matter" section]

@@ -1,0 +1,58 @@
+#edit-page
+{
+  position: absolute;
+  right: 0;
+  top: 0;
+  @media (max-width: @tablet-width)
+  {
+    right: 1rem;
+  }
+  .icon::before
+  {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0rem 0.2rem;
+  }
+  button
+  {
+    background-color: transparent;
+    border: none;
+    padding: 0.2rem;
+    cursor: pointer;
+  }
+  #translate
+  {
+    position: relative;
+    display: inline-block;
+    ul
+    {
+      list-style: none;
+      margin: 0;
+      padding: 1rem;
+      position: absolute;
+      width: 5rem;
+      left: -4.9rem;
+      top: 2rem;
+      display: none;
+      border-radius: 0.2rem;
+      box-shadow: 0px 0px 5px 1px #cacaca;
+      a
+      {
+        width: 100%;
+        display: inline-block;  
+        padding: 0.5rem 0;
+        text-align: center; 
+      }
+    }
+    &.visible
+    {
+      background-color: @secondary;
+      box-shadow: inset 0 0 2px @content;
+      ul
+      {
+        background-color: @secondary;
+        display: block;
+      }
+    }
+  }
+}

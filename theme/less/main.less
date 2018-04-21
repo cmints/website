@@ -7,6 +7,7 @@
 @import "_sidebars.less";
 @import "_footer.less";
 @import "_icons.less";
+@import "_editPage.less";
 @import "highlightjs/tomorrow";
 
 body
@@ -38,14 +39,9 @@ main
 /* Content */
 article
 {
+  position: relative;
   h1
   {
-    .icon::before
-    {
-      width: 1.3rem;
-      height: 1.3rem;
-      margin: 0rem 0.2rem;
-    }
     display: flex;
     justify-content: space-between;
     font-weight: 300;

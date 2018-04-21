@@ -6,7 +6,7 @@ topicTitle: nav-doc-title-pages
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 150
 ---
 
 {pages-p[Paragraph in "Pages" section]

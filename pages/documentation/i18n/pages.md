@@ -5,7 +5,7 @@ navTitleId: nav-doc-title-pages
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 152
 order: 1
 ---
 

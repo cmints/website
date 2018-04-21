@@ -5,7 +5,12 @@ const templateData =
     title: "CMintS",
     description: "CMS created with the internationalization in mind",
     github: "https://github.com/Manvel/cmints-website",
-    crowdin: "https://crowdin.com/project/cmints-website"
+    crowdin: "https://crowdin.com/translate/cmints-website",
+    localesToTranslate: [
+      ["en-ru", "Русский"],
+      ["en-de", "Deutsch"],
+      ["en-es", "Español"]
+    ]
   },
   navigations: [
       {path: "documentation", stringId: "header-menu-item-docs"}],

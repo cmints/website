@@ -6,7 +6,7 @@ topicTitle: nav-doc-title-i18n
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 156
 order: 0
 ---
 

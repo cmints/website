@@ -19,18 +19,8 @@
     <!-- Navigation End -->
 
     <article class="cell2-4">
-      <h1>{title}
-        <span>
-          <% if (page.showEdit) {%>
-            <a href="<%= site.github %>/tree/master/pages/<%= currentPage %>.md"
-               class="icon edit" target="_blank" title="Edit page"></a>
-          <% } %>
-          <% if (page.showTranslate) {%>
-            <a href="<%= site.crowdin %>" class="icon translate" target="_blank"
-               title="Translate"></a>
-          <% } %>
-        </span>
-      </h1>
+      <h1>{title}</h1>
+      <% include partials/editPage %>
       <%- body %>
     </article>
 

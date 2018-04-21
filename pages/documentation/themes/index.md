@@ -6,7 +6,7 @@ topicTitle: nav-doc-title-themes
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 150
 ---
 
 ```bash

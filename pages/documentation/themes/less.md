@@ -3,7 +3,6 @@ title: Less
 description: Use LESS to create modularize CSS with less code for CMintS themes.
 showDocNav: true
 showEdit: true
-showTranslate: true
 ---
 
 {less-p[Paragraph in "less" section] 

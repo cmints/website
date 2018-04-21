@@ -4,7 +4,7 @@ description: Project integration with Crowdin. Crowdin synchronization scripts a
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 149
 order: 3
 ---
 

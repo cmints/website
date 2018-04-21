@@ -4,7 +4,7 @@ description: Using translation strings in the themes. Get most out of the CMintS
 navTitleId: nav-doc-title-themes
 showDocNav: true
 showEdit: true
-showTranslate: true
+showTranslate: 154
 order: 2
 ---
 

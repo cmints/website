@@ -1,0 +1,20 @@
+<div id="edit-page">
+  <% if (page.showEdit) {%>
+    <a href="<%= site.github %>/edit/master/pages/<%= currentPage %>.md"
+        class="icon edit" target="_blank" title="Edit page"></a>
+  <% } %>
+  <% if (page.showTranslate) {%>
+    <div id="translate">
+      <button class="icon translate" title="Translate page"></button>
+      <ul>
+        <% for (let locale of site.localesToTranslate) { %>
+          <li>
+            <a href="<%= site.crowdin %>/<%= page.showTranslate %>/<%= locale[0] %>" target="_blank">
+              <%= locale[1] %>
+            </a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  <% } %>
+</div>

@@ -5,7 +5,7 @@ navTitleId: nav-doc-title-structure
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 151
 ---
 
 {project-structure-p[Paragraph in "Project structure" section]

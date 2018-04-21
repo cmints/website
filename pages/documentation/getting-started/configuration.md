@@ -5,7 +5,7 @@ navTitleId: nav-doc-title-configuration
 showDocNav: true
 showTOC: true
 showEdit: true
-showTranslate: true
+showTranslate: 158
 ---
 
 {config-p[Paragraph in "Configuration" section]
