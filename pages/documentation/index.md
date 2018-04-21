@@ -4,6 +4,8 @@ description: CMintS documentation, what is CMintS and how to install it.
 navTitleId: nav-doc-title-installation
 showDocNav: true
 showTOC: true
+showEdit: documentation/index.md
+showTranslate: 148
 ---
 
 ## {what-is-cmints[Page heading] What is CMintS?}

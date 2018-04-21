@@ -4,7 +4,7 @@ description: How to configure CMintS and using templateData to pass data to the 
 navTitleId: nav-doc-title-configuration
 showDocNav: true
 showTOC: true
-showEdit: true
+showEdit: documentation/getting-started/configuration.md
 showTranslate: 158
 ---
 

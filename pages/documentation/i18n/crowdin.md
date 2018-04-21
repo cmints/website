@@ -3,7 +3,7 @@ title: Crowdin
 description: Project integration with Crowdin. Crowdin synchronization scripts and how to request Open Source setup for free.
 showDocNav: true
 showTOC: true
-showEdit: true
+showEdit: documentation/i18n/crowdin.md
 showTranslate: 149
 order: 3
 ---

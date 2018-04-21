@@ -4,7 +4,7 @@ description: Structure of the project, learn how organize your project and direc
 navTitleId: nav-doc-title-structure
 showDocNav: true
 showTOC: true
-showEdit: true
+showEdit: documentation/getting-started/structure.md
 showTranslate: 151
 ---
 

@@ -5,7 +5,7 @@ navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-themes
 showDocNav: true
 showTOC: true
-showEdit: true
+showEdit: documentation/themes/index.md
 showTranslate: 150
 ---
 

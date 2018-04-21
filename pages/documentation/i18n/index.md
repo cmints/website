@@ -5,7 +5,7 @@ navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-i18n
 showDocNav: true
 showTOC: true
-showEdit: true
+showEdit: documentation/i18n/index.md
 showTranslate: 156
 order: 0
 ---

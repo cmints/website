@@ -4,7 +4,7 @@ description: Use translation strings while writing your content in Markdown, ejs
 navTitleId: nav-doc-title-pages
 showDocNav: true
 showTOC: true
-showEdit: true
+showEdit: documentation/i18n/pages.md
 showTranslate: 152
 order: 1
 ---
