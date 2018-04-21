@@ -35,7 +35,7 @@ exports.markdownOptions = markdownOptions;
 exports.defaultLocale = defaultLocale;
 ```
 
-{config-p2[Paragraph in "Page heading" section]
+{config-p2[Paragraph in 'Page heading' section]
 This file suppose to overwrite [default
 configurations](https://github.com/Manvel/cmints/blob/master/config.js) set by
 the CMintS.
@@ -43,7 +43,7 @@ the CMintS.
 
 ## templateData
 
-{templateData[Paragraph in "templateData" section]
+{templateData[Paragraph in 'templateData' section]
 *templateData* object holds the data which are passed to the ejs template. So you
 can directly access the values of the that object by simply refferencing them from the .ejs file:
 }
