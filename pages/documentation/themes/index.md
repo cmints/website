@@ -27,14 +27,14 @@ src
         └── header.ejs
 ```
 
-{theme-p[Paragraph in "theme" section]
+{theme-p[Paragraph in 'theme' section]
 <fix>theme</fix> directory is the place where website layout and less files reside.
 CMintS uses EJS as a templating language and LESS as a CSS Preprocessor.
 }
 
 ## layouts
 
-{layouts-p[Paragraph in "layouts" section] 
+{layouts-p[Paragraph in 'layouts' section] 
 <fix>layouts</fix> folder holds different layouts for the website, in some cases you would
 like to use diffrent layouts for specific pages, ex.: Homepage may contain more
 complex layout rather than the documentations page and Blog page can have a
@@ -56,7 +56,7 @@ This page is using home.ejs layout
 
 ## less
 
-{less-p[Paragraph in "less" section] 
+{less-p[Paragraph in 'less' section] 
 <fix>`.less`</fix> files inside of the "less" directory are being processed into the "public/css"
 directory, only filenames starting with "_" are not compiled into the target
 directory, but yet they can be used by other less files.

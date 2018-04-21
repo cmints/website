@@ -8,7 +8,7 @@ showEdit: documentation/getting-started/configuration.md
 showTranslate: 158
 ---
 
-{config-p[Paragraph in "Configuration" section]
+{config-p[Paragraph in 'Configuration' section]
 config.js in the `src` folder is where you can overwrite various website default configurations:
 }
 

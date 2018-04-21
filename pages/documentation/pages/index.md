@@ -9,7 +9,7 @@ showEdit: documentation/pages/index.md
 showTranslate: 150
 ---
 
-{pages-p[Paragraph in "Pages" section]
+{pages-p[Paragraph in 'Pages' section]
 Actual content of the website goes to the `src/pages` directory. Content can be
 written using Markdown(default), EJS(Complex pages) and HTML. The folder
 structure inside of the pages directory reflect actual path when the page is
@@ -37,7 +37,7 @@ path, if for example you host your website at example.com domain, that would be
 
 ## Markdown
 
-{markdown-p[Paragraph in "Markdown" section]
+{markdown-p[Paragraph in 'Markdown' section]
 In order to write page content using Markdown, just assign `.md` extension to
 the file. CMintS uses <a href="http://commonmark.org/"
 target="_blank">CommonMark</a> in order to support Markdown pages. CommonMark is
@@ -48,7 +48,7 @@ CommonMark <a href="http://commonmark.org/help/" target="_blank">here</a>.
 
 ## ejs
 
-{ejs-p[Paragraph in "ejs" section]
+{ejs-p[Paragraph in 'ejs' section]
 ejs pages are used for more complex pages, in most of the cases you probably
 would prefer writing your actual content using markdown without having to
 include HTML tags that will require you also managing them and not forgetting to
@@ -61,7 +61,7 @@ assign `.ejs` extension to the file.
 
 ## HTML
 
-{html-p[Paragraph in "HTML" section]
+{html-p[Paragraph in 'HTML' section]
 If you are reading this page you probably already familiar with HTML and you
 most probably used it for your website or you might be familiar with some common
 tags and terms. You should mostly cover your needs by Markdown and EJS for the

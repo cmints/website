@@ -10,7 +10,7 @@ showTranslate: 148
 
 ## {what-is-cmints[Page heading] What is CMintS?}
 
-{what-is-cmints-p[Paragraph in "What is CMintS" section]
+{what-is-cmints-p[Paragraph in 'What is CMintS' section]
 <fix>CMintS</fix> is a CMS and Static Content Generator that has been
 implemented with the Internationalization in mind. <fix>CMintS</fix> is quite
 easy to install, it has only few requirements.
@@ -21,7 +21,7 @@ easy to install, it has only few requirements.
 - <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
 - <a href="https://git-scm.com/" target="_blank">Git</a>
 
-{requirements-p[Paragraph in "Requirements" section]
+{requirements-p[Paragraph in 'Requirements' section]
 If you have both requirements in place, please follow this installation steps.
 }
 
@@ -34,7 +34,7 @@ If you have both requirements in place, please follow this installation steps.
 
 ## {installing-node[Page heading] Installing Node.js}
 
-{installing-node-p[Paragraph in "Installing Node.js" section]
+{installing-node-p[Paragraph in 'Installing Node.js' section]
 Get Node.js from the <a href="https://nodejs.org" target="_blank">https://nodejs.org/</a>.
 }
 
@@ -55,19 +55,19 @@ folders structure](/documentation/getting-started/structure).
 
 ### {example-project[Page heading] Example projects}
 
-{example-project-p[Paragraph in "Example projects" section]
+{example-project-p[Paragraph in 'Example projects' section]
 In order to have quick start it's recommended to generate example project by running:
 }
 ```bash
 npm run example
 ```
 
-{example-project-p2[Paragraph in "Example projects" section]
+{example-project-p2[Paragraph in 'Example projects' section]
 The example project is the content of current website, which can also be found
 in the <a href="https://github.com/Manvel/cmints-website" target="_blank">github</a>.
 }
 
-{example-project-p3[Paragraph in "Example projects" section]
+{example-project-p3[Paragraph in 'Example projects' section]
 The generated project will be placed in the `src` directory. See
 [structures](/documentation/getting-started/structure) documentation for more
 information about the direcotry structure.
@@ -75,7 +75,7 @@ information about the direcotry structure.
 
 ### {start-server[Page heading] Starting server}
 
-{start-server-p[Paragraph in "Starting server" section]
+{start-server-p[Paragraph in 'Starting server' section]
 For the development purposes Use `--no-cache` flag to disable the caching.
 }
 
@@ -85,7 +85,7 @@ npm start # will cache pages, use it for production
 ```
 ### {generate-static-content[Page heading] Generating static content}
 
-{generate-static-content-p[Paragraph in "Generating static content" section]
+{generate-static-content-p[Paragraph in 'Generating static content' section]
 Run commands below in order to generate static content
 }
 ```bash

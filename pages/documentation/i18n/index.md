@@ -10,7 +10,7 @@ showTranslate: 156
 order: 0
 ---
 
-{i18n-p1[Paragraph in "internationalization" section]
+{i18n-p1[Paragraph in 'internationalization' section]
 Internaltionalization is one of the
 core features of CMintS. The idea behind is to use common structure and syntax
 in content pages, themes and provide additional helpers for multilanguage
@@ -19,7 +19,7 @@ website management.
 
 ## {locales-dir-structure[Page heading] Locales directory structure}
 
-{locales-dir-structure-p[Paragraph in "Locales directory structure" section]
+{locales-dir-structure-p[Paragraph in 'Locales directory structure' section]
 Locale files should be located in the `src/locales` directory:
 }
 
@@ -45,7 +45,7 @@ Locale files should be located in the `src/locales` directory:
     └── news.json
 ```
 
-{locales-dir-structure-p2[Paragraph in "Locales directory structure" section]
+{locales-dir-structure-p2[Paragraph in 'Locales directory structure' section]
 Top level directories in the `src/locales` are the locale codes.
 Actual directory structure reflects the page path, so for example translations
 for the `about/teams.md` [page]() translations should be located in
@@ -55,7 +55,7 @@ path.
 
 ## {locale-file[Page heading] Locale file}
 
-{locale-file-p[Paragraph in "Locale file" section]
+{locale-file-p[Paragraph in 'Locale file' section]
 Locale files hold list of the translations strings, the translation strings
 consist of stringid, message and optional description.
 }
@@ -72,7 +72,7 @@ consist of stringid, message and optional description.
 
 ## {translation-strings[Page heading] Translation strings}
 
-{translation-strings-p[Paragraph in "Translation strings" section]
+{translation-strings-p[Paragraph in 'Translation strings' section]
 The translation strings can be defined in the source files by placing them
 inside of "{" and "}" braces. Translation string consist of stringId, optional
 description and source text:
@@ -82,7 +82,7 @@ description and source text:
 {stringId[Description] Source text}
 ```
 
-{translation-strings-p2[Paragraph in "Translation strings" section]
+{translation-strings-p2[Paragraph in 'Translation strings' section]
 So for example considering the `ru` locale in [Locale file](#locale-file) and
 translation string below:
 }
@@ -91,14 +91,14 @@ translation string below:
 {heading-main[Heading of the main page] Heading}
 ```
 
-{translation-strings-p3[Paragraph in "Translation strings" section]
+{translation-strings-p3[Paragraph in 'Translation strings' section]
 Will be converted to `Heading` for the source(default) locale and to `Заголовок`
 for the russian locale.
 }
 
 ### {defining-path[Page heading] Defining the path}
 
-{defining-path-p[Paragraph in "Defining the path" section]
+{defining-path-p[Paragraph in 'Defining the path' section]
 In order to use translation string from a specific path rather than defining source text in the page content, it's possible to define the file path next to the stringID:
 }
 
@@ -106,7 +106,7 @@ In order to use translation string from a specific path rather than defining sou
 {menu-item-about(menu/header)}
 ```
 
-{defining-path-p2[Paragraph in "Defining the path" section]
+{defining-path-p2[Paragraph in 'Defining the path' section]
 The expression above means - use string with the ID menu-item-about from the
 `{locale}/menu/header.json` files:
 }
@@ -130,7 +130,7 @@ The expression above means - use string with the ID menu-item-about from the
 }
 ```
 
-{defining-path-p3[Paragraph in "Defining the path" section]
+{defining-path-p3[Paragraph in 'Defining the path' section]
 Considering the en and ru locales above, the expression
 `{menu-item-about(menu/header)}`, will be converted to "about us" for the "en"
 locale and to the "о нас" for the "ru" locale.
@@ -138,7 +138,7 @@ locale and to the "о нас" for the "ru" locale.
 
 ### {using-tags[Page heading] Using tags}
 
-{using-tags-p[Paragraph in "Using tags" section]
+{using-tags-p[Paragraph in 'Using tags' section]
 Current tags `a, img, p, span, div, em, i, b, strong` can be used by default in
 the translation strings, ex:
 }
@@ -149,7 +149,7 @@ the translation strings, ex:
 
 #### {a-tag[Page heading] \<a\> tag}
 
-{a-tag-p[Paragraph in "<a> tag" section]
+{a-tag-p[Paragraph in '<a> tag' section]
 Order of the links inside of the translaton strings can be different depending
 on the language, for that reason the order in the locale file string need to be
 defined, so considering the translation string below:
@@ -159,7 +159,7 @@ defined, so considering the translation string below:
 {paragraph-1 This is <a href="https//www.example1.com">first link</a>, <a href="/random1">second link</a> and <a href="/random2">third link</a>}
 ```
 
-{a-tag-p2[Paragraph in "<a> tag" section]
+{a-tag-p2[Paragraph in '<a> tag' section]
 And Locale file with the translation string:
 }
  
@@ -173,7 +173,7 @@ And Locale file with the translation string:
 }
 ```
 
-{a-tag-p3[Paragraph in "<a> tag" section]
+{a-tag-p3[Paragraph in '<a> tag' section]
 The result will be the one below:
 }
 
@@ -181,14 +181,14 @@ The result will be the one below:
 Это <a href="/en/random1" hreflang="en">вторая ссылка</a>, <a href="https//www.example1.com">первая</a> и <a href="/en/random2" hreflang="en">третья ссылка</a>
 ```
 
-{a-tag-p4[Paragraph in "<a> tag" section]
+{a-tag-p4[Paragraph in '<a> tag' section]
 **Note:** The `hreflang` attribute will be set automatically depending on
 whether the relative link target is translated to the language or not.
 }
 
 #### {fix-tag[Page heading] \<fix\> tag}
 
-{fix-tag-p[Paragraph in "fix tag" section]
+{fix-tag-p[Paragraph in 'fix tag' section]
 Some words do not suppose to be translated in the website(ex: brand names), for
 that reason `<fix>` tag can be used:
 }
@@ -197,7 +197,7 @@ that reason `<fix>` tag can be used:
 {fixed-id <fix>CMintS</fix> uses <fix>fix</fix> tag}
 ```
 
-{fix-tag-p2[Paragraph in "fix tag" section]
+{fix-tag-p2[Paragraph in 'fix tag' section]
 and the locales below:
 }
 
@@ -207,7 +207,7 @@ and the locales below:
 }
 ```
 
-{fix-tag-p3[Paragraph in "fix tag" section]
+{fix-tag-p3[Paragraph in 'fix tag' section]
 Will result into:
 }
 
@@ -217,7 +217,7 @@ fix тэг используется CMintS-ом
 
 #### {img-tag[Page heading] \<img\> tag}
 
-{img-tag-p[Paragraph in "<img> tag" section]
+{img-tag-p[Paragraph in '<img> tag' section]
 Similar to the `<a>` and `<fix>` tags `<img>` tag also should keep it's order in
 the translation strings, so for:
 }
@@ -226,7 +226,7 @@ the translation strings, so for:
 {test-img1 This is <img href="/first.png"> and <img href="/second.png"> image}
 ```
 
-{img-tag-p2[Paragraph in "<img> tag" section]
+{img-tag-p2[Paragraph in '<img> tag' section]
 and the locales below:
 }
 
@@ -237,7 +237,7 @@ and the locales below:
 }
 ```
 
-{img-tag-p3[Paragraph in "<img> tag" section]
+{img-tag-p3[Paragraph in '<img> tag' section]
 will result into:
 }
 
@@ -247,7 +247,7 @@ will result into:
 
 #### {title-alt-attr[Page heading] title and alt attributes}
 
-{title-alt-attr-p[Paragraph in "title and alt attributes" section]
+{title-alt-attr-p[Paragraph in 'title and alt attributes' section]
 Some attributes are also suppose to be translated in different languages, so
 that attributes can also be used in the translation string tags:
 }
@@ -256,7 +256,7 @@ that attributes can also be used in the translation string tags:
 {test-attribute1 <div title="Website Logo" id="logo"><img src="/random/path" alt="Jumping puma" />Picture</div>}
 ```
 
-{title-alt-attr-p2[Paragraph in "title and alt attributes" section]
+{title-alt-attr-p2[Paragraph in 'title and alt attributes' section]
 and the locales below:
 }
 
@@ -267,7 +267,7 @@ and the locales below:
 }
 ```
 
-{title-alt-attr-p3[Paragraph in "title and alt attributes" section]
+{title-alt-attr-p3[Paragraph in 'title and alt attributes' section]
 will result into:
 }
 

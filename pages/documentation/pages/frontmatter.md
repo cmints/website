@@ -7,7 +7,7 @@ showEdit: documentation/pages/frontmatter.md
 showTranslate: 157
 ---
 
-{front-matter-p[Paragraph in "Front Matter" section]
+{front-matter-p[Paragraph in 'Front Matter' section]
 Front Matter is a powerful tool that allows pages to define metadata in the YAML
 format, metadata defined in page can be used by the theme and accessed through
 `page` variable. Considering metadata defined below:
@@ -21,7 +21,7 @@ showDocNav: true
 ---
 ```
 
-{front-matter-p2[Paragraph in "Front Matter" section]
+{front-matter-p2[Paragraph in 'Front Matter' section]
 You can now use page metadata to adjust theme and page accordingly:
 }
 

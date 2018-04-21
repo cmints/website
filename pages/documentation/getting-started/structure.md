@@ -8,7 +8,7 @@ showEdit: documentation/getting-started/structure.md
 showTranslate: 151
 ---
 
-{project-structure-p[Paragraph in "Project structure" section]
+{project-structure-p[Paragraph in 'Project structure' section]
 The project structure is straighforward, the website related files are located
 in src folder, so this is the folder where your website/project will be located.
 }
@@ -27,7 +27,7 @@ src
 
 ## {public[Page heading] public}
 
-{public-p[Paragraph in "public" section]
+{public-p[Paragraph in 'public' section]
 Stores all the static content of the website. Good example is CSS files, Fonts,
 JS, favicon, robots.txt and etc. By default CSS folder is used as the
 compilation target directory for `.less` files. The content of the folder will
@@ -36,7 +36,7 @@ be copied to the *content* directory after static content generation.
 
 ## {locales[Page heading] locales}
 
-{locales-p[Paragraph in "locales" section]
+{locales-p[Paragraph in 'locales' section]
 Holds pages and themes language specific data in `.json` format for each locale:
 }
 
@@ -61,14 +61,14 @@ Holds pages and themes language specific data in `.json` format for each locale:
     ├── index.json
     └── news.json
 ```
-{locales-p2[Paragraph in "locales" section]
+{locales-p2[Paragraph in 'locales' section]
 The folder names should reflect the `locales` value, set in the configuration
 file. `.json` reflect the path to the page, similar to the structure inside of
 the `pages` directory. [See]() for more information about the i18n files.
 }
 
 ## {pages[Page heading] pages}
-{pages-p[Paragraph in "pages" section]
+{pages-p[Paragraph in 'pages' section]
 Actual content of the website goes here and the structure reflects the path to
 the page with `index` files points to the actual directory:
 }
@@ -89,7 +89,7 @@ the page with `index` files points to the actual directory:
 └── news.md
 ```
 
-{pages-p2[Paragraph in "pages" section]
+{pages-p2[Paragraph in 'pages' section]
 Supported page content files are:
 }
 
@@ -101,7 +101,7 @@ extention | Descriptio
 
 ## {theme[Page heading] theme}
 
-{theme-p[Paragraph in "theme" section]
+{theme-p[Paragraph in 'theme' section]
 Theme of the project, main folders are `layouts` where actual website layouts
 reside and `less` folder which holds website less files which are compiled into
 the `public/css` folder:

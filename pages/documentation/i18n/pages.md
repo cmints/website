@@ -9,7 +9,7 @@ showTranslate: 152
 order: 1
 ---
 
-{pages-p[Paragraph in "Pages" section]
+{pages-p[Paragraph in 'Pages' section]
 In order to make a content translatable the [translation
 blocks](/documentation/i18n) should be used, below you can find several examples
 of using translation strings in different page types:
@@ -43,9 +43,9 @@ const paragraphs = ["My awesome <em>source text</em> goes here",
 <% } %>
 ```
 
-## {reusing-id[] Reusing IDs}
+## {reusing-id[Page heading] Reusing IDs}
 
-{reusing-id-p[Paragraph in "Reusing IDs" section]
+{reusing-id-p[Paragraph in 'Reusing IDs' section]
 Early defined stringId in the page can be used in multiple places, that's
 possible by referencing to the stringId inside of the braces, ex:
 }
@@ -59,9 +59,9 @@ possible by referencing to the stringId inside of the braces, ex:
 <div>
 ```
 
-## {markdown-heading-id[] Heading IDs in markdown}
+## {markdown-heading-id[Page heading] Heading IDs in markdown}
 
-{markdown-heading-id-p[Paragraph in "Heading IDs in markdown" section]
+{markdown-heading-id-p[Paragraph in 'Heading IDs in markdown' section]
 Markdown headers are automatically getting ID set to them, for the future
 reference and TOC generation, whenever a translation string is used as a
 markdown heading element text translation StringID is used as a header ID,
@@ -72,7 +72,7 @@ considering the example below:
 # {about-us[Heading about us] About Us}
 ```
 
-{markdown-heading-id-p2[Paragraph in "Heading IDs in markdown" section]
+{markdown-heading-id-p2[Paragraph in 'Heading IDs in markdown' section]
 Actual HTML output of the markdown above will be:
 }
 
