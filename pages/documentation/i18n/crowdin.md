@@ -10,8 +10,8 @@ order: 3
 
 {crowdin-p[Paragraph in 'Crowdin integration' section]
 <a href="https://crowdin.com/" target="_blank">Crowdin</a> is a localization and
-translation management platform. CMintS uses Crowdin because of it's user
-friendly UI, ability to provide external collaborators with user friendly
+translation management platform. <fix>CMintS</fix> uses Crowdin because of it's
+user friendly UI, ability to provide external collaborators with user friendly
 enviroment for translation and most importantly because it's free for Open
 Source projects.
 }
@@ -31,17 +31,18 @@ project](https://support.crowdin.com/creating-project/).
 ## {upload-source-strings[Page heading] Uploading Source Strings}
 
 {upload-source-strings-p[Paragraph in 'Uploading Source Strings' section]
-After setting up the project you can use CMintS crowdin integration API to
-upload all the source translation strings of your website to the Crowdin
-project, to do that use your Crowdin API key with the CMintS Synchronization
-API. You can find Crowdin API key in the  key tab of project settings page:
+After setting up the project you can use <fix>CMintS</fix> crowdin integration
+API to upload all the source translation strings of your website to the Crowdin
+project, to do that use your Crowdin API key with the <fix>CMintS</fix>
+Synchronization API. You can find Crowdin API key in the  key tab of project
+settings page:
 }
 
 ![Crowdin api location](/images/crowdin-key.png)
 
 {upload-source-strings-p2[Paragraph in 'Uploading Source Strings' section]
 After locating crowdin API key, run command below replacing `crowdin-key` with
-actual one in the CMintS root directory:
+actual one in the <fix>CMintS</fix> root directory:
 }
 
 ```bash
@@ -49,15 +50,16 @@ npm run crowdin-update-source -- --key {crowdin-key}
 ```
 
 {upload-source-strings-p3[Paragraph in 'Uploading Source Strings' section]
-This will generate source JSON files from the CMintS project and upload them to
-the Crowdin project.
+This will generate source JSON files from the <fix>CMintS</fix> project and
+upload them to the Crowdin project.
 }
 
 ## {download-translation[Page heading] Download translations}
 
 {download-translation-p[Paragraph in 'Download translations' section]
 After translations are ready in the crowdin to be downloaded and the translation
-project has been built run the command below in the CMintS root directory:
+project has been built run the command below in the <fix>CMintS</fix> root
+directory:
 }
 
 ```bash
@@ -66,14 +68,15 @@ npm run crowdin-get-translations -- --key {crowdin-key}
 
 {download-translation-p2[Paragraph in 'Download translations' section]
 **Note:** in order to update correct locales, the directory names inside of the
-`locales` directory should be consistent with the Crowdin translation [locale
-names](https://support.crowdin.com/api/language-codes/).
+<fix>`locales`</fix> directory should be consistent with the Crowdin translation
+[locale names](https://support.crowdin.com/api/language-codes/).
 }
 
 ## {upload-translation[Page heading] Upload translations}
 
 {upload-translation-p[Paragraph in 'Upload translations' section]
-Use command below to update crowdin project with the local(CMintS) translations:
+Use command below to update crowdin project with the local(<fix>CMintS</fix>)
+translations:
 }
 
 ```bash

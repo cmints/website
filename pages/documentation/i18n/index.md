@@ -1,6 +1,6 @@
 ---
 title: Internationalization
-description: Learn how to use internationalization strings in CMintS project. Usage of i18n strings, learn about translation files structure and start creating multilanguage websites.
+description: Learn how to use internationalization strings in <fix>CMintS</fix> project. Usage of i18n strings, learn about translation files structure and start creating multilanguage websites.
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-i18n
 showDocNav: true
@@ -11,16 +11,15 @@ order: 0
 ---
 
 {i18n-p1[Paragraph in 'internationalization' section]
-Internaltionalization is one of the
-core features of CMintS. The idea behind is to use common structure and syntax
-in content pages, themes and provide additional helpers for multilanguage
-website management.
+Internaltionalization is one of the core features of <fix>CMintS</fix>. The idea
+behind is to use common structure and syntax in content pages, themes and
+provide additional helpers for multilanguage website management.
 }
 
 ## {locales-dir-structure[Page heading] Locales directory structure}
 
 {locales-dir-structure-p[Paragraph in 'Locales directory structure' section]
-Locale files should be located in the `src/locales` directory:
+Locale files should be located in the <fix>`src/locales`</fix> directory:
 }
 
 ```bash
@@ -46,11 +45,11 @@ Locale files should be located in the `src/locales` directory:
 ```
 
 {locales-dir-structure-p2[Paragraph in 'Locales directory structure' section]
-Top level directories in the `src/locales` are the locale codes.
+Top level directories in the <fix>`src/locales`</fix> are the locale codes.
 Actual directory structure reflects the page path, so for example translations
-for the `about/teams.md` [page]() translations should be located in
-`/de/about/teams.json` file to be accessible through `/de/about/teams` website
-path.
+for the <fix>`about/teams.md`</fix> [page](documentation/pages) translations
+should be located in <fix>`/de/about/teams.json`</fix> file to be accessible
+through <fix>`/de/about/teams`</fix> website path.
 }
 
 ## {locale-file[Page heading] Locale file}
@@ -74,8 +73,8 @@ consist of stringid, message and optional description.
 
 {translation-strings-p[Paragraph in 'Translation strings' section]
 The translation strings can be defined in the source files by placing them
-inside of "{" and "}" braces. Translation string consist of stringId, optional
-description and source text:
+inside of opening and closing curly braces. Translation string consist of
+stringId, optional description and source text:
 }
 
 ```javascript
@@ -83,8 +82,8 @@ description and source text:
 ```
 
 {translation-strings-p2[Paragraph in 'Translation strings' section]
-So for example considering the `ru` locale in [Locale file](#locale-file) and
-translation string below:
+So for example considering the <fix>**ru**</fix> locale in [Locale
+file](#locale-file) and translation string below:
 }
 
 ```html
@@ -92,14 +91,16 @@ translation string below:
 ```
 
 {translation-strings-p3[Paragraph in 'Translation strings' section]
-Will be converted to `Heading` for the source(default) locale and to `Заголовок`
-for the russian locale.
+Will be converted to <fix>`Heading`</fix> for the source(default) locale and to
+<fix>`Заголовок`</fix> for the russian locale.
 }
 
 ### {defining-path[Page heading] Defining the path}
 
 {defining-path-p[Paragraph in 'Defining the path' section]
-In order to use translation string from a specific path rather than defining source text in the page content, it's possible to define the file path next to the stringID:
+In order to use translation string from a specific path rather than defining
+source text in the page content, it's possible to define the file path next to
+the stringID:
 }
 
 ```html
@@ -107,8 +108,8 @@ In order to use translation string from a specific path rather than defining sou
 ```
 
 {defining-path-p2[Paragraph in 'Defining the path' section]
-The expression above means - use string with the ID menu-item-about from the
-`{locale}/menu/header.json` files:
+The expression above means - use string with the ID <fix>**menu-item-about**</fix>
+from the <fix>`%locale%/menu/header.json`</fix> files:
 }
 
 ```json
@@ -130,24 +131,30 @@ The expression above means - use string with the ID menu-item-about from the
 }
 ```
 
+```
+// Translation expression
+{menu-item-about(menu/header)}
+```
+
 {defining-path-p3[Paragraph in 'Defining the path' section]
-Considering the en and ru locales above, the expression
-`{menu-item-about(menu/header)}`, will be converted to "about us" for the "en"
-locale and to the "о нас" for the "ru" locale.
+Considering the <fix>**en**</fix> and <fix>**ru**</fix> locales above, the
+translation expression will be converted to <fix>`about us`</fix> for the
+<fix>**en**</fix> locale and to the <fix>`о нас`</fix> for the <fix>**ru**</fix>
+locale.
 }
 
 ### {using-tags[Page heading] Using tags}
 
 {using-tags-p[Paragraph in 'Using tags' section]
-Current tags `a, img, p, span, div, em, i, b, strong` can be used by default in
-the translation strings, ex:
+Current tags <fix>`a, img, p, span, div, em, i, b, strong`</fix> can be used by
+default in the translation strings, ex:
 }
 
 ```html
 {stringId[Description] My awesome <em>source text</em> goes here}
 ```
 
-#### {a-tag[Page heading] \<a\> tag}
+#### \<a\>
 
 {a-tag-p[Paragraph in '<a> tag' section]
 Order of the links inside of the translaton strings can be different depending
@@ -182,15 +189,16 @@ The result will be the one below:
 ```
 
 {a-tag-p4[Paragraph in '<a> tag' section]
-**Note:** The `hreflang` attribute will be set automatically depending on
-whether the relative link target is translated to the language or not.
+**Note:** The <fix>`hreflang`</fix> attribute will be set automatically
+depending on whether the relative link target is translated to the language or
+not.
 }
 
-#### {fix-tag[Page heading] \<fix\> tag}
+#### \<fix\>
 
 {fix-tag-p[Paragraph in 'fix tag' section]
 Some words do not suppose to be translated in the website(ex: brand names), for
-that reason `<fix>` tag can be used:
+that reason <fix>`<fix>`</fix> tag can be used:
 }
 
 ```html
@@ -215,11 +223,11 @@ Will result into:
 fix тэг используется CMintS-ом
 ```
 
-#### {img-tag[Page heading] \<img\> tag}
+#### \<img\>
 
 {img-tag-p[Paragraph in '<img> tag' section]
-Similar to the `<a>` and `<fix>` tags `<img>` tag also should keep it's order in
-the translation strings, so for:
+Similar to the <fix>`<a>`</fix> and <fix>`<fix>`</fix> tags <fix>`<img>`</fix>
+tag also should keep it's order in the translation strings, so for:
 }
 
 ```html

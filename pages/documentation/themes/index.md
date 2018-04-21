@@ -29,7 +29,7 @@ src
 
 {theme-p[Paragraph in 'theme' section]
 <fix>theme</fix> directory is the place where website layout and less files reside.
-CMintS uses EJS as a templating language and LESS as a CSS Preprocessor.
+<fix>CMintS</fix> uses EJS as a templating language and LESS as a CSS Preprocessor.
 }
 
 ## layouts

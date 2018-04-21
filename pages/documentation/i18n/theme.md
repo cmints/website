@@ -1,6 +1,6 @@
 ---
 title: Themes i18n
-description: Using translation strings in the themes. Get most out of the CMintS Internationalization(i18n) tools.
+description: Using translation strings in the themes. Get most out of the <fix>CMintS</fix> Internationalization(i18n) tools.
 navTitleId: nav-doc-title-themes
 showDocNav: true
 showEdit: documentation/i18n/theme.md
@@ -21,8 +21,8 @@ references can be used when accessing strings:
 ```
 
 {themes-i18n-p2[Paragraph in 'Themes i18n' section]
-For example consider there is a `locales/en/navigation/header.json` file which
-content is:
+For example consider there is a <fix>*locales/en/navigation/header.json*</fix>
+file which content is:
 }
 
 ```json
@@ -43,7 +43,8 @@ content is:
 ```
 
 {themes-i18n-p3[Paragraph in 'Themes i18n' section]
-And also translation file located in `locales/ru/navigation/header.json`:
+And also translation file located in
+<fix>*locales/ru/navigation/header.json*</fix>:
 }
 
 ```json
@@ -80,7 +81,7 @@ references:
 ```
 
 {themes-i18n-p5[Paragraph in 'Themes i18n' section]
-so the example above will be converted for "en" locale into:
+so the example above will be converted for <fix>*en*</fix> locale into:
 }
 
 ```html
@@ -95,7 +96,7 @@ so the example above will be converted for "en" locale into:
 ```
 
 {themes-i18n-p6[Paragraph in 'Themes i18n' section]
-And for the "ru" locale into:
+And for the <fix>*ru*</fix> locale into:
 }
 
 ```html

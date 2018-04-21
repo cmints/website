@@ -1,6 +1,6 @@
 ---
 title: Pages
-description: Use translation strings while writing your content in Markdown, ejs or HTML. Get most out of the CMintS Internationalization(i18n) tools.
+description: Use translation strings while writing your content in Markdown, ejs or HTML. Get most out of the <fix>CMintS</fix> Internationalization(i18n) tools.
 navTitleId: nav-doc-title-pages
 showDocNav: true
 showTOC: true

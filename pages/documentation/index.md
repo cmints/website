@@ -35,7 +35,7 @@ If you have both requirements in place, please follow this installation steps.
 ## {installing-node[Page heading] Installing Node.js}
 
 {installing-node-p[Paragraph in 'Installing Node.js' section]
-Get Node.js from the <a href="https://nodejs.org" target="_blank">https://nodejs.org/</a>.
+Get <fix>Node.js</fix> from the <a href="https://nodejs.org" target="_blank">https://nodejs.org/</a>.
 }
 
 ## {install-cmints[Page heading] Install CMintS}

@@ -64,7 +64,8 @@ Holds pages and themes language specific data in `.json` format for each locale:
 {locales-p2[Paragraph in 'locales' section]
 The folder names should reflect the `locales` value, set in the configuration
 file. `.json` reflect the path to the page, similar to the structure inside of
-the `pages` directory. [See]() for more information about the i18n files.
+the `pages` directory. [See](/documentation/i18n) for more information about the
+i18n files.
 }
 
 ## {pages[Page heading] pages}
@@ -95,16 +96,16 @@ Supported page content files are:
 
 extention | Descriptio
 --- | ---
-`.md` | Markdown files, use<a href="http://commonmark.org/" target="_blank">CommonMark</a> to create markdown content. Learn more about writing markdown in CMintS <a href="/documentation/pages/markdown" target="_blank">here</a>.
-`.ejs` | For more robust pages you can use <a href="http://ejs.co/" target="_blank">EJS</a> for creating a complex page content. Learn more about creating ejs pages in CMintS <a href="/documentation/pages/ejs" target="_blank">here</a>.
+`.md` | Markdown files, use<a href="http://commonmark.org/" target="_blank">CommonMark</a> to create markdown content. Learn more about writing markdown in <fix>CMintS</fix> <a href="/documentation/pages/markdown" target="_blank">here</a>.
+`.ejs` | For more robust pages you can use <a href="http://ejs.co/" target="_blank">EJS</a> for creating a complex page content. Learn more about creating ejs pages in <fix>CMintS</fix> <a href="/documentation/pages/ejs" target="_blank">here</a>.
 `.html` | HTML files
 
 ## {theme[Page heading] theme}
 
 {theme-p[Paragraph in 'theme' section]
-Theme of the project, main folders are `layouts` where actual website layouts
-reside and `less` folder which holds website less files which are compiled into
-the `public/css` folder:
+Theme of the project, main folders are <fix>`layouts`</fix> where actual website layouts
+reside and <fix>`less`</fix> folder which holds website less files which are compiled into
+the <fix>`public/css`</fix> folder:
 }
 
 ```bash

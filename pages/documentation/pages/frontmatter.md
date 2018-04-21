@@ -8,9 +8,9 @@ showTranslate: 157
 ---
 
 {front-matter-p[Paragraph in 'Front Matter' section]
-Front Matter is a powerful tool that allows pages to define metadata in the YAML
-format, metadata defined in page can be used by the theme and accessed through
-`page` variable. Considering metadata defined below:
+Front Matter is a powerful tool that allows pages to define metadata in the
+<fix>YAML</fix> format, metadata defined in page can be used by the theme and
+accessed through <fix>`page`</fix> variable. Considering metadata defined below:
 }
 
 ```yaml

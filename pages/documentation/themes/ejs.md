@@ -1,6 +1,6 @@
 ---
 title: EJS
-description: Learn how to create layouts in CMintS. CMintS is using ejs as a templating engine for creating layouts.
+description: Learn how to create layouts in <fix>CMintS</fix>. <fix>CMintS</fix> is using ejs as a templating engine for creating layouts.
 showDocNav: true
 showTOC: true
 showEdit: documentation/themes/ejs.md
@@ -8,7 +8,7 @@ showTranslate: 155
 ---
 
 {ejs-p[Paragraph in 'ejs' section]
-CMintS is using <a href="http://ejs.co/" target="_blank">EJS</a> as a templating
+<fix>CMintS</fix> is using <a href="http://ejs.co/" target="_blank">EJS</a> as a templating
 engine for creating layouts, EJS can also be used for the
 [page](/documentation/pages#ejs) creation. EJS is a simple templating language
 that lets you generate HTML markup while writing plain JavaScript. Detailed EJS
@@ -28,7 +28,7 @@ property needs to be used, which falls back to the default layout.
 }
 
 {layout-p2[Paragraph in 'Layout' section]
-Considering snippet below being `src/theme/layouts/default.ejs`:
+Considering snippet below being <fix>`src/theme/layouts/default.ejs`</fix>:
 }
 
 ```html
@@ -91,10 +91,11 @@ This page is using home.ejs layout
 ## body
 
 {body-p[Paragraph in 'body' section]
-As you might have noticed from the previous example `<%- body %>` placeholder in
-the layout ejs is replaced with the actual content, no matter what [page is
-used(markdown, html or ejs)](/documentation/pages) actual content of the page is
-being rendered and replaces the `<%- body %>` placeholder.
+As you might have noticed from the previous example <fix>`<%- body %>`</fix>
+placeholder in the layout ejs is replaced with the actual content, no matter
+what [page is used(markdown, html or ejs)](/documentation/pages) actual content
+of the page is being rendered and replaces the <fix>`<%- body %>`</fix>
+placeholder.
 }
 
 ## partials
@@ -131,7 +132,7 @@ This can come handy for different layout parts separation and reuse:
 
 {partials-p3[Paragraph in 'partials' section]
 Considering the example above, we could for example create partial that will be
-reusable accross different layouts, ex, consider `partials/head.ejs` with
+reusable accross different layouts, ex, consider <fix>`partials/head.ejs`</fix> with
 content below:
 }
 
@@ -141,8 +142,8 @@ content below:
 ```
 
 {partials-p4[Paragraph in 'partials' section] 
-this snippet now can be used and loaded in the layout by just adding `<% include
-partials/head %>` into the layout.
+this snippet now can be used and loaded in the layout by just adding <fix>`<%
+include partials/head %>`</fix> into the layout.
 }
 
 ## {front-matter[Page heading] Front Matter}
@@ -184,7 +185,7 @@ Data defined in the Front Matter is accessible from the layout files using page 
 ## {helpers[Page heading] Helpers}
 
 {helpers-p[Paragraph in 'Helpers' section] 
-There are also some built in helpers in CMintS that can be used out of the box.
+There are also some built in helpers in <fix>CMintS</fix> that can be used out of the box.
 }
 
 ### currentPage
@@ -200,12 +201,12 @@ The <fix>currentPage</fix> variable represents the path of the URL:
 ### {toc[Page heading] Table Of Content}
 
 {toc-p[Paragraph in 'Table Of Content' section] 
-With the markdown pages "toc" variable in the ".ejs" layouts can be used in
-order to create a Table Of Content. The "toc" variable is a tree like object
-where each node corresponds to a markdown Heading containing id and title of the
-heading. ID for headings are slugyfied and generated automatically. If the node
-contain children, then all children nodes can be accessible by the node's
-children property:
+With the markdown pages <fix>`toc`</fix> variable in the ".ejs" layouts can be
+used in order to create a Table Of Content. The **toc** variable is a tree like
+object where each node corresponds to a markdown Heading containing id and title
+of the heading. ID for headings are slugyfied and generated automatically. If
+the node contain children, then all children nodes can be accessible by the
+node's children property:
 }
 
 ```JSON
@@ -227,7 +228,8 @@ children property:
 ```
 
 {toc-p2[Paragraph in 'Table Of Content' section] 
-So, in order to construct a Table Of Content from that variable an EJS snippet can be used as the one below:
+So, in order to construct a Table Of Content from that variable an EJS snippet
+can be used as the one below:
 }
 
 ```javascript
