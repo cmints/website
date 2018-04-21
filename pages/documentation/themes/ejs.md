@@ -1,6 +1,6 @@
 ---
 title: EJS
-description: Learn how to create layouts in <fix>CMintS</fix>. <fix>CMintS</fix> is using ejs as a templating engine for creating layouts.
+description: Learn how to create layouts in CMintS. CMintS is using ejs as a templating engine for creating layouts.
 showDocNav: true
 showTOC: true
 showEdit: documentation/themes/ejs.md

@@ -1,6 +1,6 @@
 ---
 title: Pages
-description: Learn about pages structure and how to create pages in <fix>CMintS/fix> using Markdown, ejs and HTML.
+description: Learn about pages structure and how to create pages in CMintS using Markdown, ejs and HTML.
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-pages
 showDocNav: true
