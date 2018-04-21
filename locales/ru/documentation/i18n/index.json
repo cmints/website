@@ -1,5 +1,126 @@
 {
-  "intern": {
-    "message": "Интернализация"
+  "title": {
+    "message": "Интернационализация",
+    "description": "Page title"
+  },
+  "description": {
+    "message": "Узнайте, как использовать строки интернационализации в проекте CMintS. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов.",
+    "description": "Page description"
+  },
+  "i18n-p1": {
+    "message": "Internaltionalization является одной из основных особенностей <fix1>. Идея заключается в том, чтобы использовать общие структуры и синтаксис в страницах, темах и предоставить дополнительные устроиства для управления многоязыковым веб-сайтом.",
+    "description": "Paragraph in 'internationalization' section\n\n Fixed placeholders: \n <fix1> - CMintS \n"
+  },
+  "locales-dir-structure": {
+    "message": "Структура директории locales",
+    "description": "Page heading"
+  },
+  "locales-dir-structure-p": {
+    "message": "Файлы локалей должны быть расположены в папке <fix1>:",
+    "description": "Paragraph in 'Locales directory structure' section\n\n Fixed placeholders: \n <fix1> - <code>src\/locales<\/code> \n"
+  },
+  "locales-dir-structure-p2": {
+    "message": "Директории верхнего уровня в <fix1> являются коды языков. Структура директории отражает пути страницы, так например переводы для <fix2> <a1>страницы<\/a1> должны находиться в <fix3> файле, чтобы быть доступным через <fix4> ссылку.",
+    "description": "Paragraph in 'Locales directory structure' section\n\n Fixed placeholders: \n <fix1> - <code>src\/locales<\/code> \n<fix2> - <code>about\/teams.md<\/code> \n<fix3> - <code>\/de\/about\/teams.json<\/code> \n<fix4> - <code>\/de\/about\/teams<\/code> \n"
+  },
+  "locale-file": {
+    "message": "Файл локалей",
+    "description": "Page heading"
+  },
+  "locale-file-p": {
+    "message": "Файлы локалей содержат список переводимых строк, строки перевода состоят из stringid, сообщения и необязательного описания.",
+    "description": "Paragraph in 'Locale file' section"
+  },
+  "translation-strings": {
+    "message": "Строки перевода",
+    "description": "Page heading"
+  },
+  "translation-strings-p": {
+    "message": "Строки перевода могут быть определены в исходных файлах, помещая их\nвнутри открывающих и закрывающих фигурных скобок. Строка перевода состоит из\nstringId, необязательное описание и исходный текст",
+    "description": "Paragraph in 'Translation strings' section"
+  },
+  "translation-strings-p2": {
+    "message": "Например, рассмотрим локаль <fix1>  в <a1> Локальном файле <\/a1> и строку перевода ниже:",
+    "description": "Paragraph in 'Translation strings' section\n\n Fixed placeholders: \n <fix1> - <strong>ru<\/strong> \n"
+  },
+  "translation-strings-p3": {
+    "message": "Будут преобразованы в <fix1> для языка по умолчанию и в <fix2> для русского языка.",
+    "description": "Paragraph in 'Translation strings' section\n\n Fixed placeholders: \n <fix1> - <code>Heading<\/code> \n<fix2> - <code>Заголовок<\/code> \n"
+  },
+  "defining-path": {
+    "message": "Определение пути",
+    "description": "Page heading"
+  },
+  "defining-path-p": {
+    "message": "Чтобы использовать строку перевода из определенного пути, а не определять\nисходного текста в содержимом страницы, можно определить путь к файлу рядом с\nstringID:",
+    "description": "Paragraph in 'Defining the path' section"
+  },
+  "defining-path-p2": {
+    "message": "Вышеприведенное выражение означает использование строки с идентификатором <fix1> из файла <fix2>:",
+    "description": "Paragraph in 'Defining the path' section\n\n Fixed placeholders: \n <fix1> - <strong>menu-item-about<\/strong> \n<fix2> - <code>%locale%\/menu\/header.json<\/code> \n"
+  },
+  "defining-path-p3": {
+    "message": "Учитывая <fix1> и <fix2> языков выше, перевод выражения будут преобразованы в <fix3> для\n<fix4> языка и <fix5> для <fix6> локали.",
+    "description": "Paragraph in 'Defining the path' section\n\n Fixed placeholders: \n <fix1> - <strong>en<\/strong> \n<fix2> - <strong>ru<\/strong> \n<fix3> - <code>about us<\/code> \n<fix4> - <strong>en<\/strong> \n<fix5> - <code>о нас<\/code> \n<fix6> - <strong>ru<\/strong> \n"
+  },
+  "using-tags": {
+    "message": "Использование тегов",
+    "description": "Page heading"
+  },
+  "using-tags-p": {
+    "message": "Текущие теги <fix1> могут использоваться по умолчанию в переводе строки, на пример:",
+    "description": "Paragraph in 'Using tags' section\n\n Fixed placeholders: \n <fix1> - <code>a, img, p, span, div, em, i, b, strong<\/code> \n"
+  },
+  "a-tag-p": {
+    "message": "Порядок ссылок внутри строк перевода может быть различным в зависимости\nна языке, поэтому порядок в строке файла языкового стандарта должен быть\n, поэтому рассмотрим строку перевода ниже:",
+    "description": "Paragraph in '<a> tag' section"
+  },
+  "a-tag-p2": {
+    "message": "И файл Locale со строкой перевода",
+    "description": "Paragraph in '<a> tag' section"
+  },
+  "a-tag-p3": {
+    "message": "Результат будет:",
+    "description": "Paragraph in '<a> tag' section"
+  },
+  "a-tag-p4": {
+    "message": "<strong1> Примечание. <\/strong1> Атрибут <fix1> будет установлен автоматически\nв зависимости от того, переведена ли ссылка относительной ссылки на язык или\nне.",
+    "description": "Paragraph in '<a> tag' section\n\n Fixed placeholders: \n <fix1> - <code>hreflang<\/code> \n"
+  },
+  "fix-tag-p": {
+    "message": "Некоторые слова не надо переводить на веб-сайте (например, название бренда), для\nэтого можно использовать тег <fix1>:",
+    "description": "Paragraph in 'fix tag' section\n\n Fixed placeholders: \n <fix1> - <code>&lt;fix&gt;<\/code> \n"
+  },
+  "fix-tag-p2": {
+    "message": "и локали ниже:",
+    "description": "Paragraph in 'fix tag' section"
+  },
+  "fix-tag-p3": {
+    "message": "Получится:",
+    "description": "Paragraph in 'fix tag' section"
+  },
+  "img-tag-p2": {
+    "message": "и локали ниже:",
+    "description": "Paragraph in '<img> tag' section"
+  },
+  "img-tag-p3": {
+    "message": "Получится:",
+    "description": "Paragraph in '<img> tag' section"
+  },
+  "title-alt-attr": {
+    "message": "атрибуты title и alt",
+    "description": "Page heading"
+  },
+  "title-alt-attr-p": {
+    "message": "Некоторые атрибуты также должны быть переведены на разные языки, поэтому\nэти атрибуты также могут использоваться в тегах строки перевода:",
+    "description": "Paragraph in 'title and alt attributes' section"
+  },
+  "title-alt-attr-p2": {
+    "message": "и локали ниже:",
+    "description": "Paragraph in 'title and alt attributes' section"
+  },
+  "title-alt-attr-p3": {
+    "message": "Получится:",
+    "description": "Paragraph in 'title and alt attributes' section"
   }
 }
