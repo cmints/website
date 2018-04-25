@@ -1,0 +1,34 @@
+<div class="languageSelector custom contextMenu">
+  <button class="icon text-arrow">
+    <span><%= currentLocale %></span>
+  </button>
+  <% if (currentPage == "index" || currentPage == ".") currentPage = "" %>
+  <% let pageLocales = getPageLocales() %>
+  <% if (pageLocales.length > 1) { %>
+    <ul>
+  <% } %>
+  <% for (let pageLocale of pageLocales) { %>
+    <% if (pageLocale != currentLocale) { %>
+      <li>
+        <a href="/<%= pageLocale %>/<%= currentPage %>">
+          Русский
+        </a>
+      </li>
+    <% } %>
+  <% } %>
+  <% if (pageLocales.length > 1) { %>
+    </ul>
+  <% } %>
+</div>
+
+<noscript>
+  <ul>
+    <% for (let pageLocale of pageLocales) { %>
+      <% if (pageLocale != currentLocale) { %>
+        <li>
+          <a href="/<%= pageLocale %>/<%= currentPage %>"><%= pageLocale %></a>
+        </li>
+      <% } %>
+    <% } %>
+  </ul>
+</noscript>

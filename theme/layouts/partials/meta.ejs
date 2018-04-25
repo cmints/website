@@ -4,7 +4,7 @@
 
 <!-- i18n  -->
 <% for (const locale of getPageLocales()) { %>
-  <% const localeRegion = localeRegionMap[locale] ? localeRegionMap[locale] : locale; %>
+  <% const localeRegion = site.localeMap[locale] ? site.localeMap[locale].region : locale; %>
   <% if (locale == currentLocale) { %>
     <meta property="og:locale" content="<%= localeRegion %>" />
     <link rel="canonical" href="https://<%= site.domain %>/<%= currentPage %>">

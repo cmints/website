@@ -6,21 +6,16 @@ const templateData =
     description: "CMS created with the internationalization in mind",
     github: "https://github.com/Manvel/cmints-website",
     crowdin: "https://crowdin.com/translate/cmints-website",
-    localesToTranslate: [
-      ["en-ru", "Русский"],
-      ["en-de", "Deutsch"],
-      ["en-es", "Español"]
-    ]
+    localeMap: {
+      "en": {name: "English", region: "en_US"},
+      "de": {name: "Deutsch", region: "de_DE", crowdin: "en-de"},
+      "ru": {name: "Русский", region: "ru_RU", crowdin: "en-ru" },
+      "es": {name: "Español", region: "es_ES", crowdin: "en-es" }
+    },
+    defaultLocale: "en"
   },
   navigations: [
-      {path: "documentation", stringId: "header-menu-item-docs"}],
-  localeRegionMap:
-  {
-    "en": "en_US",
-    "de": "de_DE",
-    "ru": "ru_RU"
-  }
-};
+      {path: "documentation", stringId: "header-menu-item-docs"}]};
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
 const markdownOptions = {};

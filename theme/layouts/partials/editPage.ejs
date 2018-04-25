@@ -4,15 +4,19 @@
         class="icon edit" target="_blank" title="Edit page"></a>
   <% } %>
   <% if (page.showTranslate) {%>
-    <div id="translate">
+    <div class="contextMenu">
       <button class="icon translate" title="Translate page"></button>
       <ul>
-        <% for (let locale of site.localesToTranslate) { %>
-          <li>
-            <a href="<%= site.crowdin %>/<%= page.showTranslate %>/<%= locale[0] %>" target="_blank">
-              <%= locale[1] %>
-            </a>
-          </li>
+        <% for (let locale in site.localeMap) { %>
+          <% if (locale != site.defaultLocale) {%>
+            <li>
+              <% const localeMap = site.localeMap[locale]; %>
+              <a href="<%= site.crowdin %>/<%= page.showTranslate %>/<%= localeMap.crowdin %>"
+                 target="_blank">
+              <%= localeMap.name %>
+              </a>
+            </li>
+          <% } %>
         <% } %>
       </ul>
     </div>

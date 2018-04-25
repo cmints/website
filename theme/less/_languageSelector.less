@@ -1,4 +1,4 @@
-.languageSelector
+.languageSelector.native
 {
   position: relative;
   display: inline-block;
@@ -8,12 +8,35 @@
     opacity: 0;
     position: absolute;
   }
-  label
+}
+
+.languageSelector.custom
+{
+  button
+  {
+    font-size: 1rem;
+  }
+  ul
+  {
+    left: -3.2rem;
+    top: 1.5rem;
+  }
+}
+
+.languageSelector
+{
+  button
+  {
+    cursor: pointer;
+  }
+  .text-arrow
   {
     text-transform: uppercase;
     display: flex;
     align-items: center;
     color: @content;
+    background-color: transparent;
+    border: none;
     &::after
     {
       content: "";
@@ -21,6 +44,13 @@
       background-image: url(/images/arrow.svg);
       height: 1rem;
       width: 1rem;
+    }
+  }
+  &.visible
+  {
+    .text-arrow::after
+    {
+      transform: rotate(180deg);
     }
   }
 }

@@ -1,4 +1,4 @@
-let langaugeSelectors = document.querySelectorAll(".languageSelector select");
+let langaugeSelectors = document.querySelectorAll(".nativeLanguageSelector select");
 for (const langaugeSelector of langaugeSelectors)
 {
   langaugeSelector.addEventListener("change", () =>
@@ -18,10 +18,12 @@ hamburger.addEventListener("click", e =>
   document.querySelector("#hamburger-menu").classList.toggle("visible");
 });
 
-const translateElem = document.querySelector("#translate");
-const translateButton = translateElem.querySelector("button");
-
-translateButton.addEventListener("click", e =>
+const contextMenus = document.querySelectorAll(".contextMenu");
+for (const contextMenu of contextMenus)
 {
-  translateElem.classList.toggle("visible");
-});
+  const contextMenuButton = contextMenu.querySelector("button");
+  contextMenuButton.addEventListener("click", (e) =>
+  {
+    contextMenu.classList.toggle("visible");
+  });
+}
