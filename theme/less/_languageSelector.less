@@ -29,14 +29,15 @@
   {
     cursor: pointer;
   }
-  .text-arrow
+  label
   {
     text-transform: uppercase;
+    color: @content;
+  }
+  .text-arrow
+  {
     display: flex;
     align-items: center;
-    color: @content;
-    background-color: transparent;
-    border: none;
     &::after
     {
       content: "";

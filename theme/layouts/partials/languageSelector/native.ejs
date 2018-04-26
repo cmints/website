@@ -19,14 +19,4 @@
   </label>
 </div>
 
-<noscript>
-  <ul>
-    <% for (let pageLocale of pageLocales) { %>
-      <% if (pageLocale != currentLocale) { %>
-        <li>
-          <a href="/<%= pageLocale %>/<%= currentPage %>"><%= pageLocale %></a>
-        </li>
-      <% } %>
-    <% } %>
-  </ul>
-</noscript>
+<% include noscript %>
