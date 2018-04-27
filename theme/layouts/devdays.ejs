@@ -12,6 +12,8 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="devdays/reveal/lib/css/zenburn.css">
 
+		<link rel="stylesheet" href="css/devdays/pain-points.css">
+
 	</head>
 	<body>
 		<div class="reveal">
@@ -35,6 +37,8 @@
 					{ src: 'devdays/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+			Reveal.configure({ history: true });
 		</script>
+		<script src="devdays/pain-points.js"></script>
 	</body>
 </html>
