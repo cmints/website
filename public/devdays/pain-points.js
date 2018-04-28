@@ -1,6 +1,5 @@
 const doneButton = document.getElementById("done-button");
 
-
 document.body.addEventListener("click", onClick, false);
 document.body.addEventListener("change", onChange, false);
 

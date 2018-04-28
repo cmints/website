@@ -28,23 +28,71 @@ layout: devdays
   </p>
   <p>
     <div style="display: inline-block; border: 1px solid grey; padding: 10px;">
-      <label>Change me to smth meaninigful </label>
+      <label data-action="add-flexible-width">Change me to smth meaninigful </label>
       <div style="display: inline-block">
-        <button data-action="add-flexible-width" id="done-button" style="width: 100px; font-size: 30px;">
+        <button id="done-button" style="width: 100px; font-size: 30px;">
           Done
         </button>
       </div>
     </div>
   </p>
 </section>
-<section>
-  <h3>LTR and RTL</h3>
+<section data-background-image="/devdays/images/abp-options-ltr.png" data-background-size="auto 100%">
+</section>
+<section data-background-image="/devdays/images/abp-options-rtl.png" data-background-size="auto 100%">
+</section>
+<section data-background-image="/devdays/images/abp-options-ar-advanced.png" data-background-size="auto 100%">
 </section>
 <section>
-  <h3>Localization</h3>
-  <p>Name problem</p>
-  <p>Date</p>
-  <p>currency</p>
+  <pre>
+    <code>
+      &lt;html dir="rtl">&lt;/html>
+    </code>
+  </pre>
+  <div dir="rtl" style="display: inline-block; border: 1px solid grey; padding: 10px;">
+    <label>Change me to smth meaninigful </label>
+    <div style="display: inline-block">
+      <button style="width: 100px; font-size: 30px;">
+        Done
+      </button>
+    </div>
+  </div>
+</section>
+<section>
+  <h3>Date</h3>
+  <p>Date: 12/11/2018</p>
+  <pre class="fragment fade-up">
+    <code>
+      var date = new Date(2018, 10, 12);
+      console.log(new Intl.DateTimeFormat('en-GB').format(date));
+      console.log(new Intl.DateTimeFormat('en-US').format(date));
+      console.log(new Intl.DateTimeFormat('lt-LT').format(date));
+    </code>
+  </pre>
+  <p class="fragment fade-up">
+    12/11/2018
+    <br/>
+    11/12/2018
+    <br/>
+    2018-11-12
+  </p>
+</section>
+<section>
+  <h3>Name = Nika </h3>
+  <p class="fragment fade-up">{Name} was tagged in photo</p>
+  <p class="fragment fade-up">{Name} был(а) отметмечен(а) на фотографии</p>
+  <p class="fragment fade-up">{Name}ին նշել են նկարում</p>
+</section>
+<section>
+  <h3>Order</h3>
+  <p class="fragment fade-up">Bob</p>
+  <p class="fragment fade-up">Nika</p>
+  <p class="fragment fade-up" data-action="move-item-up">Yves</p>
+</section>
+
+<section>
+    <h3>Sorting</h3>
+    String.prototype.localeCompare()
 </section>
 <section>
   <h3>SEO</h3>
@@ -64,7 +112,10 @@ layout: devdays
       </code>
     </pre>
   </p>
-  
+</section>
+<section>
+  Choosing widely supported fonts.
+  Font size, Unicode range.
 </section>
 <section>
   <p class="fragment grow">grow</p>
