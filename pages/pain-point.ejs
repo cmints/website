@@ -20,7 +20,7 @@ layout: devdays
 </section>
 <section id="showcase">
   <h3>Layouts designed for the fixed width</h3>
-  <p class="fragment fade-up" data-fragment-index="1">
+  <p class="fragment fade-up" data-fragment-index="1" data-queue="add-flexible-width">
     <select data-change="set-button-german">
       <option>Select language</option>
       <option>Deutsch</option>
@@ -28,7 +28,7 @@ layout: devdays
   </p>
   <p>
     <div style="display: inline-block; border: 1px solid grey; padding: 10px;">
-      <label data-action="add-flexible-width">Change me to smth meaninigful </label>
+      <label>Change me to smth meaninigful </label>
       <div style="display: inline-block">
         <button id="done-button" style="width: 100px; font-size: 30px;">
           Done
@@ -60,13 +60,13 @@ layout: devdays
 </section>
 <section>
   <h3>Date</h3>
-  <p>Date: 12/11/2018</p>
+  <p>Date: <a href="https://en.wikipedia.org/wiki/Date_format_by_country">12/11/2018</a></p>
   <pre class="fragment fade-up">
     <code>
-      var date = new Date(2018, 10, 12);
-      console.log(new Intl.DateTimeFormat('en-GB').format(date));
-      console.log(new Intl.DateTimeFormat('en-US').format(date));
-      console.log(new Intl.DateTimeFormat('lt-LT').format(date));
+  const date = new Date(2018, 10, 12);
+  console.log(new Intl.DateTimeFormat('en-GB').format(date));
+  console.log(new Intl.DateTimeFormat('en-US').format(date));
+  console.log(new Intl.DateTimeFormat('lt-LT').format(date));
     </code>
   </pre>
   <p class="fragment fade-up">
@@ -76,6 +76,40 @@ layout: devdays
     <br/>
     2018-11-12
   </p>
+  <aside class="notes">
+    For more comprehensive date and time usage there are libraries like
+    <a href="https://momentjs.com/">Moment.js</a>
+  </aside>
+</section>
+<section>
+    <h3>Decimal separators</h3>
+    <p>Number: 1234567.89</p>
+    <pre class="fragment fade-up">
+      <code>
+  const number = 1234567.89;
+  console.log(new Intl.NumberFormat('en-US').format(number));
+  console.log(new Intl.NumberFormat('fr-FR').format(number));
+  console.log(new Intl.NumberFormat('de-CH').format(number));
+  console.log(new Intl.NumberFormat('es-ES').format(number));
+      </code>
+    </pre>
+    <p class="fragment fade-up">
+        en-US: 1,234,567.89 <br/>
+        fr-FR: 1 234 567,89 <br/>
+        de-CH: 1’234’567.89 <br/>
+        es-ES: 1.234.567,89
+    </p>
+</section>
+<section>
+  <h3>Order</h3>
+  <p class="fragment fade-up">Bob</p>
+  <p class="fragment fade-up">Nika</p>
+  <p class="fragment fade-up" data-queue="move-item-up">Yves</p>
+  <pre class="fragment fade-up"><code class="js">
+  const items = ["Bob", "Nika", "Yves"];
+  console.log(items.sort((a, b) => a.localeCompare(b)));
+  console.log(items.sort((a, b) => a.localeCompare(b, 'lt')));
+  </code></pre>
 </section>
 <section>
   <h3>Name = Nika </h3>
@@ -83,16 +117,21 @@ layout: devdays
   <p class="fragment fade-up">{Name} был(а) отметмечен(а) на фотографии</p>
   <p class="fragment fade-up">{Name}ին նշել են նկարում</p>
 </section>
+
 <section>
-  <h3>Order</h3>
-  <p class="fragment fade-up">Bob</p>
-  <p class="fragment fade-up">Nika</p>
-  <p class="fragment fade-up" data-action="move-item-up">Yves</p>
+  <h3>lang attribute</h3>
+  <p>Declares the default language of document</p>
+  <p>
+    <pre>
+      <code>
+        &lt;html lang="de">&lt;/html>
+      </code>
+    </pre>
+  </p>
 </section>
 
 <section>
-    <h3>Sorting</h3>
-    String.prototype.localeCompare()
+  ### Content-Language header
 </section>
 <section>
   <h3>SEO</h3>
@@ -100,22 +139,32 @@ layout: devdays
   <p>Canonical</p>
   <p>link rel="alternate"</p>
 </section>
+
 <section>
-  <h3>Accessibility</h3>
-  <p>hreflang</p>
-  <p>
-    <pre>
-      <code>
-        <!--
-          <html lang="en"> 
-        -->
-      </code>
-    </pre>
-  </p>
+  <h3>Fonts</h3>
+  <p class="fragment fade-up">Supported by target languages</p>
+  <p class="fragment fade-up">Consider fallbacks</p>
+  <p class="fragment fade-up">Make use of unicode Ranges</p>
+</section>
+<section data-background-image="/devdays/images/source-sans-pro.png" data-background-size="auto 100%">
+  <p class="fragment fade-up" style="color:red">350kb woff2 <br/>1.1mb ttf</p>
 </section>
 <section>
-  Choosing widely supported fonts.
-  Font size, Unicode range.
+  <h3>Unicode range (5-18kb)</h3>
+  <pre class="fragment fade-up">
+    <code>
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Source Sans Pro'), url("300.woff2") format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+    </code>
+  </pre>
+  <a class="fragment fade-up" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese">
+    https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese
+  </a>
 </section>
 <section>
   <p class="fragment grow">grow</p>

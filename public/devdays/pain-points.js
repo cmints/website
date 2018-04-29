@@ -1,5 +1,28 @@
 const doneButton = document.getElementById("done-button");
 
+let actionQueu = [];
+
+Reveal.addEventListener('fragmentshown', function( event )
+{
+  if (event.fragment.dataset.queue)
+  {
+    actionQueu.push([event.fragment.dataset.queue, event.fragment]);
+  }
+});
+
+Reveal.configure({
+  keyboard: {
+    13: function() {
+      if (actionQueu.length == 0)
+        return;
+      let [action, fragment] = actionQueu.pop();
+      if (action)
+        execAction(action, fragment);
+    }  
+  }
+});
+
+
 document.body.addEventListener("click", onClick, false);
 document.body.addEventListener("change", onChange, false);
 
@@ -47,6 +70,11 @@ function execAction(action, element)
       break;
     case "add-flexible-width":
       doneButton.style.width = "100%";
+      break;
+    case "move-item-up":
+      let prevContent = element.previousElementSibling.textContent;
+      element.previousElementSibling.textContent = element.textContent;
+      element.textContent = prevContent;
       break;
   }
 }
