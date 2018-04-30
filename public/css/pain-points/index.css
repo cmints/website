@@ -2,4 +2,10 @@
   transition: width 1s ease-out;
   border-radius: 10px;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImlucHV0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFNBRUU7RUFFRSw2QkFBQTtFQUNBLG1CQUFBIn0= */
+.show-hreflang a[hreflang]:after {
+  content: "[" attr(hreflang) "]";
+  color: #999;
+  vertical-align: super;
+  font-size: 50%;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImlucHV0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFNBRUU7RUFFRSw2QkFBQTtFQUNBLG1CQUFBOztBQUdKLGNBQWUsRUFBQyxVQUFVO0VBRXhCLFNBQVMsSUFBRyxlQUFjLEdBQTFCO0VBQ0EsV0FBQTtFQUNBLHFCQUFBO0VBQ0EsY0FBQSJ9 */

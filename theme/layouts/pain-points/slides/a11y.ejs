@@ -3,24 +3,8 @@
 </section>
 
 <section>
-  <h3>hreflang</h3>
-</section>
-
-<section>
-  <h3>Content-Language header</h3>
-</section>
-
-<section>
-  <h3>alt attributes</h3>
-</section>
-
-<section>
-  <h3>title attributes</h3>
-</section>
-
-<section>
   <h3>lang attribute</h3>
-  <p>Declares the default language of document</p>
+  <p>Declares default language of the document</p>
   <p>
     <pre>
       <code>
@@ -28,4 +12,44 @@
       </code>
     </pre>
   </p>
+</section>
+
+<section>
+  <h3>hreflang</h3>
+  <pre class="fragment fade-up"><code>
+  <a href="/de/documentation" hreflang="de">Dokumentation</a>
+  <a href="http://devdays.lt/" hreflang="en">Address</a>
+  </code></pre>
+  <pre class="fragment fade-up"><code>
+  a[hreflang]:after
+  {
+    content: "["attr(hreflang)"]"; 
+    color: #999;
+    vertical-align: super;
+    font-size: 50%;
+  }
+    </code></pre>
+  <p class="fragment fade-up show-hreflang">
+    <a href="/de/documentation" hreflang="de">Dokumentation</a><br>
+    <a href="http://devdays.lt/" hreflang="en">Address</a>
+  </p>
+</section>
+
+<section>
+  <h3>Accept-Language header</h3>
+  <pre class="fragment fade-up"><code>
+  Accept-Language : en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,
+                    hy-AM;q=0.6,hy;q=0.5
+  </code></pre>
+</section>
+<section data-background-image="/pain-points/images/select-language.png" data-background-size="auto 100%"></section>
+<section data-background-image="/pain-points/images/german-ad.png" data-background-size="auto 100%"></section>
+
+<section>
+  <h3>Attributes</h3>
+  <pre><code>
+  <div title="Svetainės logotipas" id="logo">
+    <img src="/images/puma.svg" alt="Šokinėja puma" />
+  </div>
+  </code></pre>
 </section>
