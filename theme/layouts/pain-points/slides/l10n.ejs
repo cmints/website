@@ -1,17 +1,15 @@
 <section>
-  <h3>Localiz(s)ation vs Intenationaliz(s)ation</h3>
+  <h3>Localiz(s)ation</h3>
 </section>
 <section>
   <h3>Date</h3>
   <p>Date: <a href="https://en.wikipedia.org/wiki/Date_format_by_country">12/11/2018</a></p>
-  <pre class="fragment fade-up">
-    <code>
+  <pre class="fragment fade-up"><code>
   const date = new Date(2018, 10, 12);
   console.log(new Intl.DateTimeFormat('en-GB').format(date));
   console.log(new Intl.DateTimeFormat('en-US').format(date));
   console.log(new Intl.DateTimeFormat('lt-LT').format(date));
-    </code>
-  </pre>
+  </code></pre>
   <p class="fragment fade-up">
     12/11/2018
     <br/>
@@ -25,23 +23,21 @@
   </aside>
 </section>
 <section>
-    <h3>Decimal separators</h3>
-    <p>Number: 1234567.89</p>
-    <pre class="fragment fade-up">
-      <code>
+  <h3>Decimal separators</h3>
+  <p>Number: 1234567.89</p>
+  <pre class="fragment fade-up"><code>
   const number = 1234567.89;
   console.log(new Intl.NumberFormat('en-US').format(number));
   console.log(new Intl.NumberFormat('fr-FR').format(number));
   console.log(new Intl.NumberFormat('de-CH').format(number));
   console.log(new Intl.NumberFormat('es-ES').format(number));
-      </code>
-    </pre>
-    <p class="fragment fade-up">
-        en-US: 1,234,567.89 <br/>
-        fr-FR: 1 234 567,89 <br/>
-        de-CH: 1’234’567.89 <br/>
-        es-ES: 1.234.567,89
-    </p>
+  </code></pre>
+  <p class="fragment fade-up">
+      en-US: 1,234,567.89 <br/>
+      fr-FR: 1 234 567,89 <br/>
+      de-CH: 1’234’567.89 <br/>
+      es-ES: 1.234.567,89
+  </p>
 </section>
 <section>
   <h3>Order</h3>
