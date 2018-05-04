@@ -44,7 +44,7 @@
   getText("stringId", "filePath")
   </code></pre>
   <pre class="fragment fade-up"><code>
-  {stringId(filePath)}
+  &lcub;stringId(filePath)&rcub;
   </code></pre>
   <pre class="fragment current-visible"><code>
   <ul>
@@ -76,6 +76,35 @@
   </code></pre>
 </section>
 
-<section>
- <h3>Complex content</h3>
+<section style="font-size: 0.7em;">
+  <h3>Word order</h3>
+  <pre class="fragment fade-up"><code>
+    I <a href="#link1" class="red">love</a> <a href="#link2" class="blue">you</a>
+  </code></pre>
+  <p class="fragment fade-up">I <a href="#link1" class="red" style="color: palevioletred;">love</a> <a href="#link2"  class="blue" style="color: royalblue;">you</a> <sup>[SVO ~42%]</sup></p>
+  <p class="fragment fade-up">I <a href="#link2"  class="blue" style="color: royalblue;">you</a> <a href="#link1" class="red" style="color: palevioletred;">love</a> <sup>[SOV ~45%]</sup></p>
+  <p class="fragment fade-up"><a href="#link1" class="red" style="color: palevioletred;">love</a> I <a href="#link2"  class="blue" style="color: royalblue;">you</a> <sup>[VSO ~9%]</sup></p>
+  <p class="fragment fade-up"><a href="#link1" class="red" style="color: palevioletred;">love</a> <a href="#link2"  class="blue" style="color: royalblue;">you</a> I <sup>[VOS ~3%]</sup></p>
+  <p class="fragment fade-up"><a href="#link2"  class="blue" style="color: royalblue;">you</a> I <a href="#link1" class="red" style="color: palevioletred;">love</a> <sup>[OVS ~1%]</sup></p>
+  <pre class="fragment current-visible"><code>
+  {
+    "like-button-title": {
+      "message": "je <a2>t'</a2><a1>aime</a1>"
+    }
+  }
+  </code></pre>
+  <pre class="fragment current-visible"><code>
+  {
+    "like-button-title": {
+      "message": "eu <a2>te</a2> <a1>amo</a1>"
+    }
+  }
+  </code></pre>
+  <pre class="fragment current-visible"><code>
+  {
+    "like-button-title": {
+      "message": "Aš <a2>tave</a2> <a1>myliu</a1>"
+    }
+  }
+  </code></pre>
 </section>
