@@ -1,0 +1,81 @@
+<section>
+  <h3>Internationalization</h3>
+</section>
+
+<section>
+  <h3>Translation files</h3>
+  <p>JSON</p>
+  <p>XML</p>
+  <p>.po, .pot</p>
+</section>
+
+<section>
+  <h3>Translation strings</h3>
+  <div class="removable">
+    <p class="fragment fade-up">String ID</p>
+    <p class="fragment fade-up">Description</p>
+    <p class="fragment fade-up">Message/Text</p>
+  </div>
+  <pre class="fragment fade-up" data-queue="remove-p"><code>
+  /* /en/menu/header.json */
+  {
+    "menu-item-about": {
+      "description": "Menu item label located in the header",
+      "message": "About us"
+    }
+  }
+  </code></pre>
+  <pre class="fragment fade-up" data-queue="remove-p"><code>
+  /* /ru/menu/header.json */
+  {
+    "menu-item-about": {
+      "description": "Menu item label located in the header",
+      "message": "О нас"
+    }
+  }
+  </code></pre>
+</section>
+
+<section>
+  <h3>Using translation strings</h3>
+  <p class="fragment fade-up">Reference the translation file</p>
+  <p class="fragment fade-up">Referrence to StringID</p>
+  <pre class="fragment current-visible"><code>
+  getText("stringId", "filePath")
+  </code></pre>
+  <pre class="fragment fade-up"><code>
+  {stringId(filePath)}
+  </code></pre>
+  <pre class="fragment current-visible"><code>
+  <ul>
+    <li>
+      {menu-item-about(menu/header)}
+    </li>
+  </ul>
+  </code></pre>
+  <pre class="fragment current-visible"><code>
+  <ul>
+    <li>
+      About us
+    </li>
+  </ul>
+  </code></pre>
+  <pre class="fragment current-visible"><code>
+  <ul>
+    <li>
+      О нас
+    </li>
+  </ul>
+  </code></pre>
+  <pre class="fragment current-visible"><code>
+  <ul>
+    <li>
+      Apie mus
+    </li>
+  </ul>
+  </code></pre>
+</section>
+
+<section>
+ <h3>Complex content</h3>
+</section>

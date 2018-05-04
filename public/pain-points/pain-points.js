@@ -76,5 +76,12 @@ function execAction(action, element)
       element.previousElementSibling.textContent = element.textContent;
       element.textContent = prevContent;
       break;
+    case "remove-p":
+      const pTags = element.parentElement.querySelectorAll(".removable");
+      for (const pTag of pTags)
+      {
+        pTag.classList.add("remove");
+      }
+      break;
   }
 }
