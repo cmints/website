@@ -61,6 +61,15 @@ function findParentData(element, dataName, returnElement)
   return element.getAttribute(`data-${dataName}`);
 }
 
+function findSection(el)
+{
+  while (el = el.parentElement)
+  {
+    if (el.tagName.toLowerCase() == "section")
+      return el;
+  } 
+}
+
 function execAction(action, element)
 {
   switch (action)
@@ -76,12 +85,10 @@ function execAction(action, element)
       element.previousElementSibling.textContent = element.textContent;
       element.textContent = prevContent;
       break;
-    case "remove-p":
-      const pTags = element.parentElement.querySelectorAll(".removable");
-      for (const pTag of pTags)
-      {
-        pTag.classList.add("remove");
-      }
+    case "remove-removable":
+      const removable = findSection(element).querySelector(".removable:not(.remove)");
+      if (removable)
+        removable.classList.add("remove");
       break;
   }
 }

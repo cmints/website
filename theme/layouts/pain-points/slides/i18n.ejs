@@ -16,7 +16,7 @@
     <p class="fragment fade-up">Description</p>
     <p class="fragment fade-up">Message/Text</p>
   </div>
-  <pre class="fragment fade-up" data-queue="remove-p"><code>
+  <pre class="fragment fade-up" data-queue="remove-removable"><code>
   /* /en/menu/header.json */
   {
     "menu-item-about": {
@@ -25,7 +25,7 @@
     }
   }
   </code></pre>
-  <pre class="fragment fade-up" data-queue="remove-p"><code>
+  <pre class="fragment fade-up" data-queue="remove-removable"><code>
   /* /ru/menu/header.json */
   {
     "menu-item-about": {
@@ -106,5 +106,41 @@
       "message": "Aš <a2>tave</a2> <a1>myliu</a1>"
     }
   }
+  </code></pre>
+</section>
+<section>
+  <h3>Fixed</h3>
+  <div class="removable">
+    <p class="fragment fade-up">Fixed terms</p>
+    <p class="fragment fade-up">Brand names</p>
+    <p class="fragment fade-up">Usernames</p>
+  </div>
+  <div class="removable">
+    <pre class="fragment fade-up" data-queue="remove-removable"><code>
+    "whitelisted_notification": {
+      "message": "$domain$ was whitelisted",
+      "placeholders": {
+        "domain": {
+          "content": "$1",
+          "example": "www.example.com"
+        }
+      }
+    }
+    </code></pre>
+    <pre class="fragment fade-up"><code>
+    getMessage("whitelisted_notification", ["www.example.com"]);
+    </code></pre>
+    <p class="fragment fade-up">www.example.com was whitelisted</p>
+  </div>
+  <pre class="fragment fade-up" data-queue="remove-removable"><code>
+  {fixed-id &lt;fix>CMintS&lt;/fix> uses &lt;fix>fix&lt;/fix> tag}
+  </code></pre>
+  <pre class="fragment fade-up"><code>
+  "fixed-id": {
+    "message": "&lt;fix2> тэг используется &lt;fix1>-ом"
+  }
+  </code></pre>
+  <pre class="fragment fade-up"><code>
+  fix тэг используется CMintS-ом
   </code></pre>
 </section>
