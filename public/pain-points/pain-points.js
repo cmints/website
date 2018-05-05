@@ -26,6 +26,22 @@ Reveal.configure({
 document.body.addEventListener("click", onClick, false);
 document.body.addEventListener("change", onChange, false);
 
+document.querySelectorAll('[data-hover="highlight-feature"]').forEach((elem) => 
+{
+  const featuresList = document.querySelector("#features-list");
+  elem.addEventListener("mouseover", (e) =>
+  {
+    let action = findParentData(e.target, "info", false);
+    featuresList.className = "";
+    if (action)
+      featuresList.classList.add(action);
+  }, false);
+  elem.addEventListener("mouseout", (e) =>
+  {
+    featuresList.className = "";
+  });
+});
+
 function onClick(e)
 {
   let actions = findParentData(e.target, "action", false);

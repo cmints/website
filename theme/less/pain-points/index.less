@@ -31,9 +31,81 @@
     }
   }
   sup
-{
-  font-size: 0.5em; 
+  {
+    font-size: 0.5em; 
+  }
 }
+
+.static-gens
+{
+  li
+  {
+    list-style: none;
+    display: inline-block;
+  }
+  img
+  {
+    height: 50px;
+  }
+}
+
+#features-list
+{
+  .templating-engine::after, .markdown::after
+  {
+    color: #999;
+    vertical-align: super;
+    font-size: 50%;
+  }
+  &.jekyll
+  {
+    .i18n
+    {
+      color: #999;
+    }
+    .templating-engine::after
+    {
+      content: "[Liquid]";
+    }
+  }
+  &.hexo
+  {
+    .tms
+    {
+      color: #999;
+    }
+    .markdown
+    {
+      color: navajowhite;
+      &::after
+      {
+        content: "[per locale]";
+      }
+    }
+    .templating-engine::after
+    {
+      content: "[EJS, Pug]";
+    }
+  }
+  &.hugo
+  {
+    .preprocessor, .tms
+    {
+      color: #999;
+    }
+    .markdown
+    {
+      &::after
+      {
+        content: "[per locale]";
+      }
+      color: navajowhite;
+    }
+    .templating-engine::after
+    {
+      content: "[Go Templates]";
+    }
+  }
 }
 
 .fragment.current-visible.visible:not(.current-fragment) {
