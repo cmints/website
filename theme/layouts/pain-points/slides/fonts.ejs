@@ -1,15 +1,16 @@
-<section id="fonts">
+<section>
   <h3>Fonts</h3>
   <p class="fragment fade-up">Supported by target languages</p>
   <p class="fragment fade-up">Consider fallbacks</p>
   <p class="fragment fade-up">Make use of unicode Ranges</p>
 </section>
-<section id="big-font-file" data-background-image="/main-points/images/source-sans-pro.png" data-background-size="auto 100%">
+<section data-background-image="/presentation/images/source-sans-pro.png" data-background-size="auto 100%">
   <p class="fragment fade-up" style="color:red">350kb woff2 <br/>1.1mb ttf</p>
 </section>
-<section id="unicode-range">
+<section>
   <h3>Unicode range (5-18kb)</h3>
-  <pre class="fragment fade-up"><code>
+  <pre class="fragment fade-up">
+    <code>
   @font-face {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -17,7 +18,8 @@
     src: local('Source Sans Pro'), url("300.woff2") format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
   }
-  </code></pre>
+    </code>
+  </pre>
   <a class="fragment fade-up" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese">
     https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese
   </a>

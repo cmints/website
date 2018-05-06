@@ -16,7 +16,7 @@ const templateData =
   },
   navigations: [
     {path: "documentation", stringId: "header-menu-item-docs"},
-    {path: "main-points", stringId: "header-menu-item-slides"}]};
+    {path: "presentation", stringId: "header-menu-item-slides"}]};
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
 const markdownOptions = {};
