@@ -6,40 +6,8 @@
 <% include slides/seo %>
 <% include slides/smm %>
 <% include slides/i18n %>
-
-<section id="cms-choice">
-  <h3>Create a simple website</h3>
-  <ul id="features-list">
-    <li class="static-content fragment fade-up">Static content generation</li>
-    <li class="templating-engine fragment fade-up">Templating engine</li>
-    <li class="front-matter fragment fade-up">Front Matter</li>
-    <li class="preprocessor fragment fade-up">Preprocessors (LESS or SASS)</li>
-    <li class="i18n fragment fade-up">i18n
-      <ul>
-        <li class="layout">Layout</li>
-        <li class="tms">TMS integration</li>
-        <li class="markdown">Markdown</li>
-      </ul>
-    </li>
-  </ul>
-  <ul class="static-gens fragment fade-up">
-    <li>
-      <a href="https://jekyllrb.com/" data-hover="highlight-feature" data-info="jekyll">
-        <img src="/main-points/images/jekyll-logo.png" />
-      </a>
-    </li>
-    <li>
-      <a href="http://gohugo.io/" data-hover="highlight-feature" data-info="hexo">
-        <img src="/main-points/images/hexo-logo.svg" />
-      </a>
-    </li>
-    <li>
-      <a href="https://hexo.io/" data-hover="highlight-feature" data-info="hugo">
-        <img src="/main-points/images/hugo-logo.png" />
-      </a>
-    </li>
-  </ul>
-</section>
+<% include slides/cms-choice %>
+<% include slides/architecture %>
 
 <section id="tms">
   <h3>Translation management tools</h3>
@@ -74,5 +42,8 @@
   <p class="fragment highlight-red">highlight-red</p>
   <p class="fragment highlight-green">highlight-green</p>
   <p class="fragment highlight-blue">highlight-blue</p>
+  <aside class="notes">
+    Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+  </aside>
 </section>
 <section>{crowdin-example[Example Description for the Crowdin team] This is the <a href="https//www.example1.com">first link</a> and <a href="https//www.example2.com">second link</a>}</section>
