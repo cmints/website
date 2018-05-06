@@ -4,6 +4,10 @@ let actionQueu = [];
 
 Reveal.addEventListener('fragmentshown', function( event )
 {
+  if (event.fragment.dataset.dequeue)
+  {
+    dequeue();
+  }
   if (event.fragment.dataset.queue)
   {
     actionQueu.push([event.fragment.dataset.queue, event.fragment]);
@@ -12,15 +16,18 @@ Reveal.addEventListener('fragmentshown', function( event )
 
 Reveal.configure({
   keyboard: {
-    13: function() {
-      if (actionQueu.length == 0)
-        return;
-      let [action, fragment] = actionQueu.pop();
-      if (action)
-        execAction(action, fragment);
-    }  
+    13: dequeue
   }
 });
+
+function dequeue()
+{
+  if (actionQueu.length == 0)
+    return;
+  let [action, fragment] = actionQueu.pop();
+  if (action)
+    execAction(action, fragment);
+}
 
 
 document.body.addEventListener("click", onClick, false);
