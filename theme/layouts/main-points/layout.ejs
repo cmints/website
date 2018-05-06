@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="main-points/reveal/css/reveal.css">
+		<link rel="stylesheet" href="main-points/reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="main-points/reveal/lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="css/main-points/index.css">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<%- body %>
+				<% include index %>
+			</div>
+		</div>
+
+		<script src="main-points/reveal/lib/js/head.min.js"></script>
+		<script src="main-points/reveal/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'main-points/reveal/plugin/markdown/marked.js' },
+					{ src: 'main-points/reveal/plugin/markdown/markdown.js' },
+					{ src: 'main-points/reveal/plugin/notes/notes.js', async: true },
+					{ src: 'main-points/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+			Reveal.configure({ history: true });
+		</script>
+		<script src="main-points/index.js"></script>
+	</body>
+</html>
