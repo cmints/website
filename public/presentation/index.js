@@ -113,5 +113,8 @@ function execAction(action, element)
       if (removable)
         removable.classList.add("remove");
       break;
+    case "play-animation":
+      element.closest(".jump-chars").classList.toggle("play");
+      break;
   }
 }
