@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Visa card codes",
+    "description": "Page title\n"
+  },
+  "intern": {
+    "message": "интернационализация",
+    "description": "Header\n"
+  }
+}

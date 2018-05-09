@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Темы",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Изучите структуру каталога темы, как создать макеты и используйте LESS для создания модульного CSS с меньшим количеством кода.",
+    "description": "Page description\n"
+  },
+  "theme-p": {
+    "message": "<fix1> - это место, где размещается макет сайта и less файы.\n<fix2> использует EJS в качестве языка шаблонов и LESS как препроцессор CSS.",
+    "description": "Paragraph in 'theme' section\n<fix> placeholders:\n<fix1> - theme\n<fix2> - CMintS\n"
+  },
+  "layouts-p": {
+    "message": "Папка <fix1> содержит различные макеты для веб-сайта, в некоторых случаях вы\nнапример, использовать разные раскладки для определенных страниц, например: Домашняя страница может содержать больше\nсложная компоновка, а не страница документации и страница блога могут иметь\nразные макеты на одном сайте, поэтому вы можете определить макет для каждого\nтип страницы и выберите их с фактической страницы с помощью Front Matter. По умолчанию\nиспользуется макет с именем default.ejs из папки макетов. В приведенном ниже примере\nДля страницы используется макет home.ejs:",
+    "description": "Paragraph in 'layouts' section\n<fix> placeholders:\n<fix1> - layouts\n"
+  },
+  "less-p": {
+    "message": "<fix1> files inside of the &quot;less&quot; directory are being processed into the &quot;public\/css&quot;\ndirectory, only filenames starting with &quot;_&quot; are not compiled into the target\ndirectory, but yet they can be used by other less files.",
+    "description": "Paragraph in 'less' section\n<fix> placeholders:\n<fix1> - <code>.less<\/code>\n"
+  }
+}

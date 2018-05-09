@@ -1,6 +1,50 @@
 {
   "title": {
-    "message": "индекс",
-    "description": "Page title"
+    "message": "CMS с правильной  интернационализацией",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "CMintS - это CMS, созданная с учетом интернационализации. Всесторонняя реализация i18n, создание тем с помощью EJS templating engine и LESS, запись контента с помощью Markdown и интеграция TMS из коробки.",
+    "description": "Page description\n"
+  },
+  "i18n-in-mind": {
+    "message": "CMS, созданная с учетом интернационализации",
+    "description": "Main text\n"
+  },
+  "get-started": {
+    "message": "Начало",
+    "description": "Main button text\n"
+  },
+  "features": {
+    "message": "Возможности",
+    "description": "Features header\n"
+  },
+  "i18n-msg": {
+    "message": "Исчерпывающая интернационализация, прямо из коробки",
+    "description": "\"i18n\" feature text\n"
+  },
+  "learn-more": {
+    "message": "Подробнее",
+    "description": "Feature button text\n"
+  },
+  "theme": {
+    "message": "Тема",
+    "description": "Feature header\n"
+  },
+  "theme-msg": {
+    "message": "Начните создавать темы, используя EJS templating engine и LESS.",
+    "description": "\"Theme\" feature text\n"
+  },
+  "markdown-msg": {
+    "message": "Получите CommonMark из коробки, чтобы быстрее создавать контент.",
+    "description": "\"Markdown\" feature text\n"
+  },
+  "tms": {
+    "message": "Интеграция с TMS",
+    "description": "Feature header\n"
+  },
+  "tms-msg": {
+    "message": "API для интеграции вашего проекта с Crowdin",
+    "description": "\"TMS integration\" feature text\n"
   }
 }

@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Страницы",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Используйте строки перевода при написании своего контента в Markdown, ejs или HTML. Получите максимальную отдачу от инструментов интернационализации(i18n) CMintS .",
+    "description": "Page description\n"
+  },
+  "pages-p": {
+    "message": "Чтобы сделать перевод текста на <a1>\nблоки <\/a>, ниже вы можете найти несколько примеров\nиспользования строк перевода в разных типах страниц:",
+    "description": "Paragraph in 'Pages' section\n"
+  },
+  "reusing-id": {
+    "message": "Повторное использование идентификаторов",
+    "description": "Page heading\n"
+  },
+  "reusing-id-p": {
+    "message": "Раннее заданное stringId на странице можно использовать в нескольких местах, это\nвозможно, ссылаясь на stringId внутри фигурных скобок, например:",
+    "description": "Paragraph in 'Reusing IDs' section\n"
+  },
+  "markdown-heading-id": {
+    "message": "Идентификаторы заголовков в markdown",
+    "description": "Page heading\n"
+  },
+  "markdown-heading-id-p": {
+    "message": "Заголовки Markdown автоматически получают идентификатор, установленный для них, для будущего\nссылки и генерации TOC, всякий раз, когда строка перевода используется как\nУсловный текст заголовка элемента текста StringID используется как идентификатор заголовка,\nрассмотрев следующий пример:",
+    "description": "Paragraph in 'Heading IDs in markdown' section\n"
+  },
+  "markdown-heading-id-p2": {
+    "message": "Фактический вывод HTML уценки выше будет:",
+    "description": "Paragraph in 'Heading IDs in markdown' section\n"
+  }
+}
