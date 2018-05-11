@@ -1,4 +1,4 @@
-let langaugeSelectors = document.querySelectorAll(".nativeLanguageSelector select");
+let langaugeSelectors = document.querySelectorAll(".languageSelector select");
 for (const langaugeSelector of langaugeSelectors)
 {
   langaugeSelector.addEventListener("change", () =>
