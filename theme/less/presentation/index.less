@@ -1,5 +1,6 @@
 @import "_jumpChars.less";
 @import "_removing.less";
+@import "_rtlLayout.less";
 
 .show-hreflang a[hreflang]:after
 {
@@ -104,72 +105,19 @@
   font-size: 0px;
 }
 
-.common-rtl-issues
+ul.order
 {
-  ul
+  list-style: none;
+  margin: 0;
+  &.reorder
   {
-    list-style: none;
-    font-size: 50%;
-    display: flex;
-    li
+    .move-up
     {
-      cursor: pointer;
-      margin: 5px;
+      transform: translateY(-100%) !important;
     }
-    li:hover
+    .move-down
     {
-      color: darkgreen;
-    }
-  }
-  .header
-  {
-    width: 70%;
-    height: 35px;
-    display: inline-block;
-    border: 1px solid grey;
-    padding: 10px;
-    position: relative;
-
-    li:nth-of-type(1)::after
-    {
-      content: "About";
-    }
-    li:nth-of-type(2)::after
-    {
-      content: "Features";
-    }
-
-    &[lang="ar"]
-    {
-      li:nth-of-type(1)::after
-      {
-        content: "حول";
-      }
-      li:nth-of-type(2)::after
-      {
-        content: "الميزات";
-      }
-    }
-    .hamburger
-    {
-      cursor: pointer;
-      position: absolute;
-      right: 10px;
-      top: 10px;
-    }
-    &.adjust .hamburger
-    {
-      left: 10px;
-      top: 10px;
-    }
-
-    .hamburger::before
-    {
-      content: "";
-      display: block;
-      background-image: url(/presentation/images/hamburger.svg);
-      height: 2rem;
-      width: 2rem;
+      transform: translateY(100%) !important;
     }
   }
 }

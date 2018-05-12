@@ -108,9 +108,7 @@ function execAction(action, element)
       doneButton.style.width = "100%";
       break;
     case "move-item-up":
-      let prevContent = element.previousElementSibling.textContent;
-      element.previousElementSibling.textContent = element.textContent;
-      element.textContent = prevContent;
+      element.closest(".order").classList.add("reorder");
       break;
     case "remove-removable":
       const removable = findSection(element).querySelector(".removable:not(.remove)");

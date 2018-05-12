@@ -1,44 +1,5 @@
-<section id="architecture">
-  <h3>Architecture</h3>
-  <ul>
-    <li>Locales</li>
-    <li>Layouts/Themes</li>
-    <li>Pages/Content</li>
-  </ul>
-  <pre class="fragment current-visible"><code>
-  locales
-  ├── de
-  │   ├── about.json
-  │   └── header.json
-  ├── en
-  │   ├── about.json
-  │   └── header.json
-  └── ru
-      ├── about
-      └── header.json
-  </code></pre>
-  <pre class="fragment current-visible"><code>
-  theme
-  ├── layouts
-  │   ├── default.ejs
-  │   └── home.ejs
-  └── less/sass
-      ├── _header.less
-      ├── index.less
-      └── main.less
-  </code></pre>
-  <pre class="fragment current-visible"><code>
-  pages
-  ├── about
-  │   └── team.md
-  ├── about.md
-  ├── index.ejs
-  └── news.md
-  </code></pre>
-</section>
-
-<section id="architecture-common">
-  <h3>Common architecture</h3>
+<section id="pages">
+  <h3>Pages</h3>
   <p class="fragment fade-up">Serve page per locale</p>
   <pre class="fragment fade-up"><code>
   // From Hexo website
@@ -54,8 +15,8 @@
   </aside>
 </section>
 
-<section id="pages">
-  <h3>Pages</h3>
+<section id="markdown">
+  <h3>Markdown page</h3>
   <pre class="fragment fade-up" style="font-size: 15px;"><code>
   ## Translation strings
 

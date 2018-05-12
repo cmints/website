@@ -1,0 +1,84 @@
+.common-rtl-issues
+{
+  ul
+  {
+    list-style: none;
+    font-size: 50%;
+    display: flex;
+    li
+    {
+      cursor: pointer;
+      margin: 5px;
+    }
+    li:hover
+    {
+      color: darkgreen;
+    }
+  }
+  .header
+  {
+    width: 70%;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px;
+    position: relative;
+
+    li:nth-of-type(1)::after
+    {
+      content: "About";
+    }
+    li:nth-of-type(2)::after
+    {
+      content: "Features";
+    }
+
+    &[lang="ar"]
+    {
+      li:nth-of-type(1)::after
+      {
+        content: "حول";
+      }
+      li:nth-of-type(2)::after
+      {
+        content: "الميزات";
+      }
+    }
+    .hamburger
+    {
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+    &.adjust .hamburger
+    {
+      animation-name: rtl-adjustement;
+      animation-iteration-count: 1;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    .hamburger::before
+    {
+      content: "";
+      display: block;
+      background-image: url(/presentation/images/hamburger.svg);
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+}
+
+@keyframes rtl-adjustement
+{
+  0%
+  {
+    left: 90%;
+  }
+  100%
+  {
+    left: 10px;
+    top: 10px;
+  }
+}

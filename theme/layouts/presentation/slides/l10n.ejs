@@ -41,9 +41,11 @@
 </section>
 <section id="order">
   <h3>Order</h3>
-  <p class="fragment fade-up">Bob</p>
-  <p class="fragment fade-up">Nika</p>
-  <p class="fragment fade-up" data-queue="move-item-up">Yves</p>
+  <ul class="order">
+    <li class="fragment fade-up">Bob</li>
+    <li class="fragment fade-up move-down">Nika</li>
+    <li class="fragment fade-up move-up" data-queue="move-item-up">Yves</li>
+  </ul>
   <pre class="fragment fade-up"><code class="js">
   const items = ["Bob", "Nika", "Yves"];
   console.log(items.sort((a, b) => a.localeCompare(b)));
