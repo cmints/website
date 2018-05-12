@@ -131,5 +131,8 @@ function execAction(action, element)
       wrapper.querySelector(".header").classList.add("adjust");
     }
       break;
+    case "play-char-jumper": 
+    element.closest(".intro").querySelector(".char-jumper").classList.add("play");
+      break;
   }
 }
