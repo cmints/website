@@ -1,6 +1,0 @@
-{
-  "crowdin-example": {
-    "message": "Это <a2>вторая ссылка<\/a2> и <a1>первая<\/a1>",
-    "description": "Example Description for the Crowdin team\n<a> placeholders:\n<a1>first link<\/a1> - <a href=\"https\/\/www.example1.com\">first link<\/a>\n<a2>second link<\/a2> - <a href=\"https\/\/www.example2.com\">second link<\/a>\n"
-  }
-}
