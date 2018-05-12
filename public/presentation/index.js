@@ -12,6 +12,10 @@ Reveal.addEventListener('fragmentshown', function( event )
   {
     actionQueu.push([event.fragment.dataset.queue, event.fragment]);
   }
+  if (event.fragment.dataset.action)
+  {
+    execAction(event.fragment.dataset.action, event.fragment);
+  }
 });
 
 Reveal.configure({
@@ -51,7 +55,7 @@ document.querySelectorAll('[data-hover="highlight-feature"]').forEach((elem) =>
 
 function onClick(e)
 {
-  let actions = findParentData(e.target, "action", false);
+  let actions = findParentData(e.target, "click-action", false);
   if (!actions)
     return;
 
@@ -115,6 +119,19 @@ function execAction(action, element)
       break;
     case "play-animation":
       element.closest(".jump-chars").classList.toggle("play");
+      break;
+    case "set-header-rtl": {
+      const wrapper = element.closest(".common-rtl-issues");
+      wrapper.querySelector(".header").setAttribute("dir", "rtl");
+      wrapper.querySelector(".header").setAttribute("lang", "ar");
+      wrapper.querySelector(".html.target").style.display = "none";
+      wrapper.querySelector(".html.source").style.display = "block";
+    }
+      break;
+    case "adjust-rtl": {
+      const wrapper = element.closest(".common-rtl-issues");
+      wrapper.querySelector(".header").classList.add("adjust");
+    }
       break;
   }
 }

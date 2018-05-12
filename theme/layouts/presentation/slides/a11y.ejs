@@ -65,12 +65,69 @@
   <pre><code>
   &lt;html dir="rtl">&lt;/html>
   </code></pre>
-  <div dir="rtl" style="display: inline-block; border: 1px solid grey; padding: 10px;">
-    <label>Change me to smth meaninigful </label>
-    <div style="display: inline-block">
-      <button style="width: 100px; font-size: 30px;">
-        Done
-      </button>
-    </div>
+</section>
+
+<section class="common-rtl-issues">
+  <h3>Directions</h3>
+  <div class="header">
+    <ul id="menu-items">
+      <li></li>
+      <li></li>
+      <li>
+        <select data-change="set-header-rtl" style="vertical-align: middle;">
+          <option>English</option>
+          <option>العربية (AR)</option>
+        </select>
+      </li>
+    </ul>
+
+    <button class="hamburger"></button>
   </div>
+  <pre style="font-size: 1rem" class="html target"><code>
+    &lt;html>
+    <header class="header">
+      <ul id="menu-items"></ul>
+      <button class="hamburger"></button>
+    </header>
+  </code></pre>
+  <pre style="display: none; font-size: 1rem; " class="html source"><code>
+    &lt;html dir="rtl" lang="ar">
+    <header class="header">
+      <ul id="menu-items"></ul>
+      <button class="hamburger"></button>
+    </header>
+  </code></pre>
+  <pre style="font-size: 1rem" class="css fragment current-visible"><code>
+  .hamburger
+  {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  </code></pre>
+  <pre style="font-size: 1rem" class="fragment current-visible" data-action="adjust-rtl"><code>
+  .hamburger
+  {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  [dir="rtl"] .hamburger
+  {
+    left: 10px;
+    right: 0;
+  }
+  </code></pre>
+  <pre style="font-size: 1rem" class="fragment current-visible"><code>
+  header
+  {
+    display: flex;
+  }
+  #menu-items
+  {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+  }
+  </code></pre>
 </section>
