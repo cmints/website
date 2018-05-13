@@ -1,5 +1,3 @@
-const doneButton = document.getElementById("done-button");
-
 let actionQueu = [];
 
 Reveal.addEventListener('fragmentshown', function( event )
@@ -102,10 +100,30 @@ function execAction(action, element)
   switch (action)
   {
     case "set-button-german":
-      doneButton.textContent = "Fertigstellen";
+      const locale = document.querySelector("#fix-dir-select").value;
+      const doneButton = document.getElementById("done-button");
+      if (locale == "de")
+      {
+        doneButton.textContent = "Fertigstellen";
+      }
+      else if (locale == "he")
+      {
+        doneButton.textContent = "בוצע";
+        document.querySelector("#fix-dir-layout").setAttribute("dir", "rtl");
+      }
       break;
     case "add-flexible-width":
-      doneButton.style.width = "100%";
+      document.querySelector("#fix-dir-layout").classList.add("flex-width");
+      break;
+    case "add-right-margin":
+      document.querySelector("#fix-dir-layout").classList.add("marginate");
+      const arabic = document.createElement("option");
+      arabic.textContent = "עברית (HE)";
+      arabic.value = "he";
+      document.querySelector("#fix-dir-select").appendChild(arabic);
+      break;
+    case "add-left-margin":
+      document.querySelector("#fix-dir-layout").classList.add("rtl");
       break;
     case "move-item-up":
       element.closest(".order").classList.add("reorder");
@@ -131,8 +149,8 @@ function execAction(action, element)
       wrapper.querySelector(".header").classList.add("adjust");
     }
       break;
-    case "play-char-jumper": 
-    element.closest(".intro").querySelector(".char-jumper").classList.add("play");
+    case "play-char-jumper":
+      element.closest(".intro").querySelector(".char-jumper").classList.add("play");
       break;
   }
 }
