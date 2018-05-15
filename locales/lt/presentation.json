@@ -8,7 +8,7 @@
     "description": "Page description\n"
   },
   "main-title": {
-    "message": "Prezentacijos \"Internacionalizacijos pagrindiniai punktai\" skaidrės",
+    "message": "Internacionalizavimo pagrindiniai punktai",
     "description": "presentation title\n<span> placeholders:\n<span1><span>Z<\/span1> - <span class=\"behind-char-jumper\"><span>Z<\/span>\n<span2>S<\/span2> - <span>S<\/span>\n<span3><span>M<\/span3> - <span class=\"behind-char-jumper\"><span>M<\/span>\n<span4>P<\/span4> - <span>P<\/span>\n"
   },
   "me-i18n": {
@@ -16,7 +16,7 @@
     "description": "\"Me + i18n\" slide title\n"
   },
   "me-i18n-li1": {
-    "message": "Speak <fix1> Languages",
+    "message": "<fix>3.1<\/fix> kalba yra",
     "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - 3.1\n"
   },
   "me-i18n-li2": {
