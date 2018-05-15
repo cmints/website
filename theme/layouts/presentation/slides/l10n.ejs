@@ -1,9 +1,9 @@
 <section id="l10n">
-  <h3 class="jump-chars" data-click-action="play-animation">Locali<span>z</span><span>s</span>ation</h3>
+  <h3 class="jump-chars" data-click-action="play-animation">{l10n[Slide title] Locali<span>z</span><span>s</span>ation}</h3>
 </section>
 <section id="date">
-  <h3>Date</h3>
-  <p>Date: <a href="https://en.wikipedia.org/wiki/Date_format_by_country">12/11/2018</a></p>
+  <h3>{date[Slide title] Date}</h3>
+  <p>{date-p1[Point in "Date" slide] Date: <fix><a href="https://en.wikipedia.org/wiki/Date_format_by_country">12/11/2018</a></fix>}</p>
   <pre class="fragment fade-up"><code>
   const date = new Date(2018, 10, 12);
   console.log(new Intl.DateTimeFormat('en-GB').format(date));
@@ -24,8 +24,8 @@
 </section>
 <section id="date-format-meme" data-background-image="/presentation/images/date-format-meme.jpg" data-background-size="auto 100%"></section>
 <section id="decimal-separator">
-  <h3>Decimal separators</h3>
-  <p>Number: 1234567.89</p>
+  <h3>{decimal-sep[Slide title] Decimal separators}</h3>
+  <p>{decimal-sep-p1[Point in "Decimal separators" slide] Number: 1234567.89}</p>
   <pre class="fragment fade-up"><code>
   const number = 1234567.89;
   console.log(new Intl.NumberFormat('en-US').format(number));
@@ -41,7 +41,7 @@
   </p>
 </section>
 <section id="order">
-  <h3>Order</h3>
+  <h3>{order[Slide title] Order}</h3>
   <ul class="order">
     <li class="fragment fade-up">Bob</li>
     <li class="fragment fade-up move-down">Nika</li>
