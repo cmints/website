@@ -19,10 +19,6 @@
     "message": "Файлы локалей должны быть расположены в папке <fix1>:",
     "description": "Paragraph in 'Locales directory structure' section\n<fix> placeholders:\n<fix1> - <code>src\/locales<\/code>\n"
   },
-  "locales-dir-structure-p2": {
-    "message": "Директории верхнего уровня в <fix1> являются коды языков. Структура директории отражает пути страницы, так например переводы для <fix2> <a1>страницы<\/a1> должны находиться в <fix3> файле, чтобы быть доступным через <fix4> ссылку.",
-    "description": "Paragraph in 'Locales directory structure' section\n<fix> placeholders:\n<fix1> - <code>src\/locales<\/code>\n<fix2> - <code>about\/teams.md<\/code>\n<fix3> - <code>\/de\/about\/teams.json<\/code>\n<fix4> - <code>\/de\/about\/teams<\/code>\n<a> placeholders:\n<a1>page<\/a1> - <a href=\"documentation\/pages\">page<\/a>\n"
-  },
   "locale-file": {
     "message": "Файл локалей",
     "description": "Page heading\n"

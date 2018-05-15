@@ -1,0 +1,62 @@
+{
+  "title": {
+    "message": "Internacionalizavimo pagrindiniai punktai",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Prezentacijos \"Internacionalizacijos pagrindiniai punktai\" skaidrės",
+    "description": "Page description\n"
+  },
+  "main-title": {
+    "message": "Prezentacijos \"Internacionalizacijos pagrindiniai punktai\" skaidrės",
+    "description": "presentation title\n<span> placeholders:\n<span1><span>Z<\/span1> - <span class=\"behind-char-jumper\"><span>Z<\/span>\n<span2>S<\/span2> - <span>S<\/span>\n<span3><span>M<\/span3> - <span class=\"behind-char-jumper\"><span>M<\/span>\n<span4>P<\/span4> - <span>P<\/span>\n"
+  },
+  "me-i18n": {
+    "message": "Me + Internacionalizacija",
+    "description": "\"Me + i18n\" slide title\n"
+  },
+  "me-i18n-li1": {
+    "message": "Speak <fix1> Languages",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - 3.1\n"
+  },
+  "me-i18n-li2": {
+    "message": "<fix1> ir <fix2>",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/www.be2.com\/\">Be2\n<fix2> - C-date\n"
+  },
+  "me-i18n-li3": {
+    "message": "Chrome plėtiniai",
+    "description": "point in \"Me + i18n\" slide\n"
+  },
+  "me-i18n-li4": {
+    "message": "Tinklalapiai <fix1>\n",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/eyeo.com\/\">eyeo\n"
+  },
+  "me-i18n-li5": {
+    "message": "<fix1> vartotojo sąsaja",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus\n"
+  },
+  "l10n": {
+    "message": "Lokalizacija",
+    "description": "Slide title\n<span> placeholders:\n<span1>z<\/span1> - <span>z<\/span>\n<span2>s<\/span2> - <span>s<\/span>\n"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Slide title\n"
+  },
+  "date-p1": {
+    "message": "Data <fix1>",
+    "description": "Point in \"Date\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018\n"
+  },
+  "decimal-sep": {
+    "message": "Dešimtainiai separatoriai",
+    "description": "Slide title\n"
+  },
+  "decimal-sep-p1": {
+    "message": "Numeris: <fix1>",
+    "description": "Point in \"Decimal separators\" slide\n<fix> placeholders:\n<fix1> - 1234567.89\n"
+  },
+  "order": {
+    "message": "Įsakymas",
+    "description": "Slide title\n"
+  }
+}
