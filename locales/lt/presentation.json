@@ -16,7 +16,7 @@
     "description": "\"Me + i18n\" slide title\n"
   },
   "me-i18n-li1": {
-    "message": "<fix>3.1<\/fix> kalba yra",
+    "message": "<fix1> kalba yra",
     "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - 3.1\n"
   },
   "me-i18n-li2": {
