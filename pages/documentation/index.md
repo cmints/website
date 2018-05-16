@@ -19,7 +19,7 @@ easy to install, it has only few requirements.
 {what-is-cmints-p2[Paragraph in 'What is CMintS' section] <strong>Note:</strong>
 <fix>CMintS</fix> is under extensive beta development. Contributions in form of
 Bugreports, Documentation updates and Content Translations will help to boost
-the development speed up. Thanks for stars and word spreading.❤️
+the development speed up. Thanks for stars and word spreading.}❤️
 
 ## {requirements[Page heading] Requirements}
 
