@@ -15,6 +15,10 @@
     "message": "<fix1> - это CMS и статический контент-генератор, который был\nсоздан с учетом интернационализации. <fix2> довольно\nпростой в установке, он имеет лишь несколько требований.",
     "description": "Paragraph in 'What is CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
   },
+  "requirements": {
+    "message": "Требования",
+    "description": "Page heading\n"
+  },
   "requirements-p": {
     "message": "Если у вас установлены требования, следуйте этим инструкциям.",
     "description": "Paragraph in 'Requirements' section\n"
@@ -66,9 +70,5 @@
   "generate-static-content-p": {
     "message": "Выполните команды ниже для создания статического содержимого",
     "description": "Paragraph in 'Generating static content' section\n"
-  },
-  "requirements": {
-    "message": "Требования",
-    "description": "Page heading\n"
   }
 }

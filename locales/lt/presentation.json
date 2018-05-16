@@ -58,5 +58,149 @@
   "order": {
     "message": "Įsakymas",
     "description": "Slide title\n"
+  },
+  "Accessibility": {
+    "message": "Prieinamumas",
+    "description": "Slide title\n"
+  },
+  "lang-attr": {
+    "message": "<fix1> atributas",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - lang\n"
+  },
+  "lang-attr-p": {
+    "message": "Deklaruoja numatytojo dokumento kalba",
+    "description": "Point in \"lang attribute\" slide\n"
+  },
+  "accept-language": {
+    "message": "<fix1> antraštė",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - Accept-Language\n"
+  },
+  "accept-language-p": {
+    "message": "<fix1> - lokalės svoris",
+    "description": "Point in \"Accept-Language header\" slide\n<fix> placeholders:\n<fix1> - <code>q<\/code>\n"
+  },
+  "attributes": {
+    "message": "Atributai",
+    "description": "Slide title\n"
+  },
+  "directions": {
+    "message": "Kryptis",
+    "description": "Slide title\n"
+  },
+  "layouts-fix": {
+    "message": "Fiksuoto pločio formos maketai",
+    "description": "Slide title\n"
+  },
+  "select-language": {
+    "message": "Pasirinkite kalbą",
+    "description": "Drop down item in \"fixed Layouts\" slides\n"
+  },
+  "fonts": {
+    "message": "Šriftai",
+    "description": "SLide title\n"
+  },
+  "fonts-p1": {
+    "message": "Remiamos tikslinės kalbos",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "fonts-p2": {
+    "message": "Mano fallbacks",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "fonts-p3": {
+    "message": "Naudoti unicode diapazonų",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "unicode-range": {
+    "message": "unicode diapazonų <fix1>",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - (5-18kb)\n"
+  },
+  "seo-title-desc": {
+    "message": "Versti puslapio pavadinimas ir Aprašymas",
+    "description": "Slide title\n"
+  },
+  "canonical": {
+    "message": "Naudoti <fix1> turinys kartojasi",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - canonical\n"
+  },
+  "i18n": {
+    "message": "Internacionalizacija",
+    "description": "Slide title\n"
+  },
+  "i18n-files": {
+    "message": "Vertimo failai",
+    "description": "Slide title\n"
+  },
+  "i18n-strings": {
+    "message": "Vertimo stygos",
+    "description": "Slide title\n"
+  },
+  "i18n-translation-strings": {
+    "message": "Naudojant vertimo stygos",
+    "description": "Slide title\n"
+  },
+  "i18n-translation-strings-p1": {
+    "message": "Nuoroda vertimo failą",
+    "description": "Point in \"Using translation strings\" slide\n"
+  },
+  "i18n-translation-strings-p2": {
+    "message": "Referrence StringID",
+    "description": "Point in \"Using translation strings\" slide\n"
+  },
+  "word-order": {
+    "message": "Žodžių tvarka",
+    "description": "Slide title\n"
+  },
+  "fixed": {
+    "message": "Nustatytas",
+    "description": "Slide title\n"
+  },
+  "fixed-term": {
+    "message": "Nustatytą terminą",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "fixed-brand": {
+    "message": "Prekės ženklais",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "fixed-usernames": {
+    "message": "Naudotojų vardai",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "structure": {
+    "message": "Struktūra",
+    "description": "Slide title\n"
+  },
+  "simple-website": {
+    "message": "Sukurti paprastą svetainę",
+    "description": "Slide title\n"
+  },
+  "simple-website-static": {
+    "message": "Statinio turinio gamybą",
+    "description": "Point in \"simple website\" slide\n"
+  },
+  "simple-website-tmpl": {
+    "message": "Šablonų variklio",
+    "description": "Point in \"simple website\" slide\n"
+  },
+  "simple-website-layout": {
+    "message": "Maketas",
+    "description": "Point in \"simple website\" slide\n"
+  },
+  "simple-website-tms": {
+    "message": "<fix1> integracijos",
+    "description": "Point in \"simple website\" slide\n<fix> placeholders:\n<fix1> - TMS\n"
+  },
+  "pages": {
+    "message": "Puslapiai",
+    "description": "Slide title\n"
+  },
+  "pages-p": {
+    "message": "Tarnauti puslapis už lokalės",
+    "description": "Point in \"Pages\" slide\n"
+  },
+  "thanks": {
+    "message": "Ačiū už dėmesį!",
+    "description": "Slide title\n"
   }
 }
