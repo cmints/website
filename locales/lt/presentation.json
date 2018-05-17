@@ -199,6 +199,22 @@
     "message": "Tarnauti puslapis už lokalės",
     "description": "Point in \"Pages\" slide\n"
   },
+  "pages-markdown": {
+    "message": "<fix1 puslapis",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - Markdown\n"
+  },
+  "resources": {
+    "message": "Išteklių",
+    "description": "Slide title\n"
+  },
+  "libraries-frameworks": {
+    "message": "Bibliotekos\/sistemos",
+    "description": "Slide title\n"
+  },
+  "follow-contact": {
+    "message": "Sekite\/Kontaktai",
+    "description": "Slide title\n"
+  },
   "thanks": {
     "message": "Ačiū už dėmesį!",
     "description": "Slide title\n"
