@@ -33,7 +33,7 @@
 					{ src: 'presentation/reveal/plugin/markdown/marked.js' },
 					{ src: 'presentation/reveal/plugin/markdown/markdown.js' },
 					{ src: 'presentation/reveal/plugin/notes/notes.js', async: true },
-					{ src: 'presentation/reveal/plugin/highlight/highlight.js', callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'presentation/reveal/plugin/highlight/highlight.js', async: false, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 			Reveal.configure({ history: true });
