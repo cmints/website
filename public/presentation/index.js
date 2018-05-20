@@ -16,6 +16,16 @@ Reveal.addEventListener('fragmentshown', function( event )
   }
 });
 
+const contextMenus = document.querySelectorAll(".contextMenu");
+for (const contextMenu of contextMenus)
+{
+  const contextMenuButton = contextMenu.querySelector("button");
+  contextMenuButton.addEventListener("click", (e) =>
+  {
+    contextMenu.classList.toggle("visible");
+  });
+}
+
 Reveal.configure({
   keyboard: {
     13: dequeue

@@ -1,6 +1,11 @@
 @import "_jumpChars.less";
 @import "_removing.less";
 @import "_rtlLayout.less";
+@import "../_variables.less";
+@import "../_contextMenu.less";
+@import "../_languageSelector.less";
+@import "../_icons.less";
+@import "../_editPage.less";
 
 .show-hreflang a[hreflang]:after
 {
@@ -8,6 +13,32 @@
   color: #999;
   vertical-align: super;
   font-size: 50%;
+}
+
+.language-management
+{
+  top: 0px;
+  right: 0px;
+  position: fixed;
+  > div
+  {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #edit-page
+  {
+  position: relative;
+  font-size: 16px;
+  }
+  .languageSelector.custom ul
+  {
+    left: -2.5rem;
+    top: 1.9rem;
+  }
+  .contextMenu li
+  {
+    font-size: 16px;
+  }
 }
 
 .reveal
