@@ -12,11 +12,11 @@
     "description": "presentation title\n<span> placeholders:\n<span1><span>Z<\/span1> - <span class=\"behind-char-jumper\"><span>Z<\/span>\n<span2>S<\/span2> - <span>S<\/span>\n<span3><span>M<\/span3> - <span class=\"behind-char-jumper\"><span>M<\/span>\n<span4>P<\/span4> - <span>P<\/span>\n"
   },
   "me-i18n": {
-    "message": "Me + Internacionalizacija",
+    "message": "aš + Internacionalizacija",
     "description": "\"Me + i18n\" slide title\n"
   },
   "me-i18n-li1": {
-    "message": "<fix1> kalba yra",
+    "message": "kalbu <fix1> kalbomis",
     "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - 3.1\n"
   },
   "me-i18n-li2": {
@@ -56,7 +56,7 @@
     "description": "Point in \"Decimal separators\" slide\n<fix> placeholders:\n<fix1> - 1234567.89\n"
   },
   "order": {
-    "message": "Įsakymas",
+    "message": "Eiliškumas",
     "description": "Slide title\n"
   },
   "Accessibility": {
@@ -108,7 +108,7 @@
     "description": "Point in \"Fonts\" slide\n"
   },
   "fonts-p3": {
-    "message": "Naudoti unicode diapazonų",
+    "message": "Naudojant unicode diapazonų",
     "description": "Point in \"Fonts\" slide\n"
   },
   "unicode-range": {
@@ -116,7 +116,7 @@
     "description": "Slide title\n<fix> placeholders:\n<fix1> - (5-18kb)\n"
   },
   "seo-title-desc": {
-    "message": "Versti puslapio pavadinimas ir Aprašymas",
+    "message": "Išversti puslapio pavadinimus ir Aprašymus",
     "description": "Slide title\n"
   },
   "canonical": {
