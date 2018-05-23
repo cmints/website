@@ -1,10 +1,13 @@
 <title><%= site.title %> | {title[Page title] <%= page.title %>}</title>
 <meta property="og:title" content="<%= site.title %> | {title}">
+<meta name="twitter:title" content="<%= site.title %> | {title}">
 <meta content="{description[Page description] <%= page.description %>}" name="description">
 <meta content="{description}" property="og:description">
+<meta name="twitter:description" content="{description}">
 
 <meta charset="UTF-8">
 <meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
+<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
 <meta property="og:url" content="https://<%= site.domain %>/<%= currentLocale %>/<%= currentPage %>">
 <meta property="og:type" content="website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
