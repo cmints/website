@@ -5,7 +5,7 @@
   <% } %>
   <% if (page.showTranslate) {%>
     <div class="contextMenu">
-      <button class="icon translate" title="Translate page"></button>
+      <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
       <ul>
         <% for (let locale in site.localeMap) { %>
           <% if (locale != site.defaultLocale) {%>

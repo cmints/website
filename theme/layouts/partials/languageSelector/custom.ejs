@@ -2,7 +2,7 @@
 <% let pageLocales = getPageLocales() %>
 <div class="languageSelector custom contextMenu">
   <% if (pageLocales.length > 1) { %>
-    <button class="icon text-arrow">
+    <button class="icon text-arrow" data-action="toggle-context">
   <% } %>
     <label><%= currentLocale %></label>
   <% if (pageLocales.length > 1) { %>
