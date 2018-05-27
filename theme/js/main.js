@@ -1,3 +1,5 @@
+const {closeVisibleContext, toggleContextMenu} = require("./_contextMenu");
+
 let langaugeSelectors = document.querySelectorAll(".languageSelector select");
 for (const langaugeSelector of langaugeSelectors)
 {
@@ -36,19 +38,12 @@ function onKeyUp(e)
     closeVisibleContext();
 }
 
-function closeVisibleContext()
-{
-  const menus = document.querySelectorAll(".contextMenu.visible");
-  menus.forEach((menu) => menu.classList.remove("visible"));
-}
-
 function execAction(action, element)
 {
   switch (action)
   {
     case "toggle-context":
-      const contextMenus = element.closest(".contextMenu");
-      contextMenus.classList.toggle("visible");
+      toggleContextMenu(element);
       break;
   }
 }
