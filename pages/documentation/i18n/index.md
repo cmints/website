@@ -163,7 +163,7 @@ defined, so considering the translation string below:
 }
 
 ```html
-{paragraph-1 This is <a href="https//www.example1.com">first link</a>, <a href="/random1">second link</a> and <a href="/random2">third link</a>}
+{paragraph-1 This is <a href="https://www.example1.com">first link</a>, <a href="/random1">second link</a> and <a href="/random2">third link</a>}
 ```
 
 {a-tag-p2[Paragraph in '<a> tag' section]
@@ -185,7 +185,7 @@ The result will be the one below:
 }
 
 ```html
-Это <a href="/en/random1" hreflang="en">вторая ссылка</a>, <a href="https//www.example1.com">первая</a> и <a href="/en/random2" hreflang="en">третья ссылка</a>
+Это <a href="/en/random1" hreflang="en">вторая ссылка</a>, <a href="https://www.example1.com">первая</a> и <a href="/en/random2" hreflang="en">третья ссылка</a>
 ```
 
 {a-tag-p4[Paragraph in '<a> tag' section]
