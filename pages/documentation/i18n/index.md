@@ -271,7 +271,7 @@ and the locales below:
  ```json
 "test-img1": {
     "description": "Test images order",
-    "message": "<div1 title='Логотип сайта' id='logo'><img1 alt='Пума в прыжке'>Картинка</div1>"
+    "message": "<div1 title='Логотип сайта'><img1 alt='Пума в прыжке'>Картинка</div1>"
 }
 ```
 
