@@ -11,7 +11,8 @@ const templateData =
       "de": {name: "Deutsch", region: "de_DE", crowdin: "en-de"},
       "ru": {name: "Русский", region: "ru_RU", crowdin: "en-ru" },
       "es": {name: "Español", region: "es_ES", crowdin: "en-es" },
-      "lt": {name: "Lietuvių", region: "lt_LT", crowdin: "en-lt" }
+      "lt": {name: "Lietuvių", region: "lt_LT", crowdin: "en-lt" },
+      "hy-AM": {name: "Հայերեն", region: "hy_AM", crowdin: "en-hy" }
     },
     defaultLocale: "en"
   },

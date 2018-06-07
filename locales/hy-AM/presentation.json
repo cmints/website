@@ -1,0 +1,182 @@
+{
+  "title": {
+    "message": "Միջազգայնացման հիմնական կետերը",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Միջազգայնացման հիմնական կետերի Սլայդները",
+    "description": "Page description\n"
+  },
+  "main-title": {
+    "message": "Միջազգայնացման հիմնական կետերը",
+    "description": "presentation title\n<span> placeholders:\n<span1><span>Z<\/span1> - <span class=\"behind-char-jumper\"><span>Z<\/span>\n<span2>S<\/span2> - <span>S<\/span>\n<span3><span>M<\/span3> - <span class=\"behind-char-jumper\"><span>M<\/span>\n<span4>P<\/span4> - <span>P<\/span>\n"
+  },
+  "me-i18n": {
+    "message": "Ես եւ միջազգայնացումը",
+    "description": "\"Me + i18n\" slide title\n"
+  },
+  "me-i18n-li1": {
+    "message": "Խոսում եմ <fix1> լազուներով",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - 3.1\n"
+  },
+  "me-i18n-li2": {
+    "message": "<fix1> եւ <fix2>",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/www.be2.com\/\">Be2\n<fix2> - C-date\n"
+  },
+  "me-i18n-li3": {
+    "message": "Chrome Հավելումներ",
+    "description": "point in \"Me + i18n\" slide\n"
+  },
+  "me-i18n-li4": {
+    "message": "<fix1>-ի վեբ կայքերը",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/eyeo.com\/\">eyeo\n"
+  },
+  "me-i18n-li5": {
+    "message": "<fix1> UI",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus\n"
+  },
+  "l10n": {
+    "message": "Տեղայնացում",
+    "description": "Slide title\n<span> placeholders:\n<span1>z<\/span1> - <span>z<\/span>\n<span2>s<\/span2> - <span>s<\/span>\n"
+  },
+  "date": {
+    "message": "Ամսաթիվեր",
+    "description": "Slide title\n"
+  },
+  "date-p1": {
+    "message": "<fix1> Ամսաթիվը",
+    "description": "Point in \"Date\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018\n"
+  },
+  "decimal-sep": {
+    "message": "Կոտորակային տարանջատում",
+    "description": "Slide title\n"
+  },
+  "decimal-sep-p1": {
+    "message": "<fix1> թիվը",
+    "description": "Point in \"Decimal separators\" slide\n<fix> placeholders:\n<fix1> - 1234567.89\n"
+  },
+  "order": {
+    "message": "Հերթականություն",
+    "description": "Slide title\n"
+  },
+  "Accessibility": {
+    "message": "Հասանելիություն",
+    "description": "Slide title\n"
+  },
+  "lang-attr": {
+    "message": "<fix1> ատրիբուտը",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - lang\n"
+  },
+  "lang-attr-p": {
+    "message": "Հայտարարում է փաստաթղթի կանխադրված լեզուն",
+    "description": "Point in \"lang attribute\" slide\n"
+  },
+  "accept-language": {
+    "message": "<fix1> «header»-ը",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - Accept-Language\n"
+  },
+  "accept-language-p": {
+    "message": "<fix1> - լեզվի կարեւորությունը",
+    "description": "Point in \"Accept-Language header\" slide\n<fix> placeholders:\n<fix1> - <code>q<\/code>\n"
+  },
+  "attributes": {
+    "message": "Ատրիբուտներ",
+    "description": "Slide title\n"
+  },
+  "directions": {
+    "message": "Ուղղություն",
+    "description": "Slide title\n"
+  },
+  "layouts-fix": {
+    "message": "Նախագծում ֆիքսվաց չափերով",
+    "description": "Slide title\n"
+  },
+  "select-language": {
+    "message": "Ընտրել լեզուն",
+    "description": "Drop down item in \"fixed Layouts\" slides\n"
+  },
+  "fonts": {
+    "message": "Տառատեսակներ(Ֆոնտեր)",
+    "description": "SLide title\n"
+  },
+  "seo-title-desc": {
+    "message": "Թարգմանել էջի վերնագիրը եւ նկարագրությունը",
+    "description": "Slide title\n"
+  },
+  "canonical": {
+    "message": "Օգտագործել <fix1> կրկնվող քոնթենթի համար",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - canonical\n"
+  },
+  "i18n": {
+    "message": "Միջազգայնացում",
+    "description": "Slide title\n"
+  },
+  "i18n-files": {
+    "message": "Թարգմանության ֆայլեր",
+    "description": "Slide title\n"
+  },
+  "i18n-strings": {
+    "message": "Թարգմանության տողեր",
+    "description": "Slide title\n"
+  },
+  "i18n-translation-strings": {
+    "message": "Թարգմանության տողերի օգտագործում",
+    "description": "Slide title\n"
+  },
+  "word-order": {
+    "message": "Հերթականություն",
+    "description": "Slide title\n"
+  },
+  "fixed": {
+    "message": "Ֆիքսված",
+    "description": "Slide title\n"
+  },
+  "fixed-term": {
+    "message": "Ֆիքսված տերմիններ",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "fixed-brand": {
+    "message": "Բրենդերի անուններ",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "fixed-usernames": {
+    "message": "Օգտատերերի անուններ(Usernames)",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "structure": {
+    "message": "Կառուցվածքը",
+    "description": "Slide title\n"
+  },
+  "simple-website": {
+    "message": "Ստեղծել պարզ կայք",
+    "description": "Slide title\n"
+  },
+  "simple-website-static": {
+    "message": "Ստատիկ քոնթենթի գեներացիա",
+    "description": "Point in \"simple website\" slide\n"
+  },
+  "simple-website-tms": {
+    "message": "<fix1> ինտեգրացիա",
+    "description": "Point in \"simple website\" slide\n<fix> placeholders:\n<fix1> - TMS\n"
+  },
+  "pages": {
+    "message": "Էջեր",
+    "description": "Slide title\n"
+  },
+  "pages-markdown": {
+    "message": "<fix1> էջ",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - Markdown\n"
+  },
+  "resources": {
+    "message": "Ռեսուրսներ",
+    "description": "Slide title\n"
+  },
+  "follow-contact": {
+    "message": "Կոնտակտներ եւ հետեւելու հարթակներ",
+    "description": "Slide title\n"
+  },
+  "thanks": {
+    "message": "Շնորհակալությու ուշադրության համար",
+    "description": "Slide title\n"
+  }
+}

@@ -1,4 +1,5 @@
 .DS_Store
+public/css/presentation/index.css
 public/css/main.css
 public/js/main.js
 public/js/presentation.js
