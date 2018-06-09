@@ -44,6 +44,7 @@ function dequeue()
 
 document.body.addEventListener("click", onClick, false);
 document.body.addEventListener("change", onChange, false);
+document.addEventListener("DOMContentLoaded", domLoaded, false);
 
 document.querySelectorAll('[data-hover="highlight-feature"]').forEach((elem) => 
 {
@@ -60,6 +61,32 @@ document.querySelectorAll('[data-hover="highlight-feature"]').forEach((elem) =>
     featuresList.className = "";
   });
 });
+
+function domLoaded()
+{
+  const tocListElem = document.querySelector("#toc-list");
+  createTocItem = (text, id) =>
+  {
+    const listItem = document.createElement("li");
+    const anchorItem = document.createElement("a");
+    anchorItem.setAttribute("href", `#/${id}`);
+    anchorItem.textContent = text;
+    listItem.appendChild(anchorItem);
+    tocListElem.appendChild(listItem);
+  };
+  for (const section of document.querySelectorAll("section"))
+  {
+    const header = section.querySelector("h3");
+    if (section.id == "toc")
+      continue;
+
+    let text = header ? header.textContent : section.id;
+    if (section.id == "start")
+      text = section.id;
+
+    createTocItem(text, section.id);
+  }
+}
 
 function onClick(e)
 {
