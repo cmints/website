@@ -99,6 +99,22 @@
     "message": "Տառատեսակներ(Ֆոնտեր)",
     "description": "SLide title\n"
   },
+  "fonts-p1": {
+    "message": "Թիրախային լեզվի համապատասխանություն",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "fonts-p2": {
+    "message": "Շրջանցիկ նկատառում",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "fonts-p3": {
+    "message": "Օգտագործել յունիքոդի միջակայքը",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "unicode-range": {
+    "message": "Յունիքոդ միջակայք <fix1>",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - (5-18kb)\n"
+  },
   "seo-title-desc": {
     "message": "Թարգմանել էջի վերնագիրը եւ նկարագրությունը",
     "description": "Slide title\n"
@@ -122,6 +138,14 @@
   "i18n-translation-strings": {
     "message": "Թարգմանության տողերի օգտագործում",
     "description": "Slide title\n"
+  },
+  "i18n-translation-strings-p1": {
+    "message": "Հղղել թարգմանության ֆայլին",
+    "description": "Point in \"Using translation strings\" slide\n"
+  },
+  "i18n-translation-strings-p2": {
+    "message": "Հղղել թարգմանության տողի ID-ին(StringID)",
+    "description": "Point in \"Using translation strings\" slide\n"
   },
   "word-order": {
     "message": "Հերթականություն",
@@ -155,6 +179,14 @@
     "message": "Ստատիկ քոնթենթի գեներացիա",
     "description": "Point in \"simple website\" slide\n"
   },
+  "simple-website-tmpl": {
+    "message": "Ձեւանմուշի շարժիչ(Templating engine)",
+    "description": "Point in \"simple website\" slide\n"
+  },
+  "simple-website-layout": {
+    "message": "Դասավորություն(Layout)",
+    "description": "Point in \"simple website\" slide\n"
+  },
   "simple-website-tms": {
     "message": "<fix1> ինտեգրացիա",
     "description": "Point in \"simple website\" slide\n<fix> placeholders:\n<fix1> - TMS\n"
@@ -163,12 +195,20 @@
     "message": "Էջեր",
     "description": "Slide title\n"
   },
+  "pages-p": {
+    "message": "Առանձին էջ լեզվի համար",
+    "description": "Point in \"Pages\" slide\n"
+  },
   "pages-markdown": {
     "message": "<fix1> էջ",
     "description": "Slide title\n<fix> placeholders:\n<fix1> - Markdown\n"
   },
   "resources": {
     "message": "Ռեսուրսներ",
+    "description": "Slide title\n"
+  },
+  "libraries-frameworks": {
+    "message": "Գրադարաններ",
     "description": "Slide title\n"
   },
   "follow-contact": {
