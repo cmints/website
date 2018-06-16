@@ -17,7 +17,7 @@ const templateData =
     defaultLocale: "en"
   },
   navigations: [
-    {path: "documentation", stringId: "header-menu-item-docs"},
+    {path: "documentation", contains: "documentation", stringId: "header-menu-item-docs"},
     {path: "presentation", stringId: "header-menu-item-slides"}]};
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
