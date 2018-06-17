@@ -1,3 +1,5 @@
+require("./_contextMenu");
+
 let actionQueu = [];
 
 Reveal.addEventListener('fragmentshown', function( event )
@@ -15,16 +17,6 @@ Reveal.addEventListener('fragmentshown', function( event )
     execAction(event.fragment.dataset.action, event.fragment);
   }
 });
-
-const contextMenus = document.querySelectorAll(".contextMenu");
-for (const contextMenu of contextMenus)
-{
-  const contextMenuButton = contextMenu.querySelector("button");
-  contextMenuButton.addEventListener("click", (e) =>
-  {
-    contextMenu.classList.toggle("visible");
-  });
-}
 
 Reveal.configure({
   keyboard: {
