@@ -1,6 +1,6 @@
 ---
 title: Crowdin
-description: Project integration with Crowdin. Crowdin synchronization scripts and how to request Open Source setup for free.
+description: Project integration with <fix>Crowdin</fix>. <fix>Crowdin</fix> synchronization scripts and how to request Open Source setup for free.
 showDocNav: true
 showTOC: true
 showEdit: documentation/i18n/crowdin.md

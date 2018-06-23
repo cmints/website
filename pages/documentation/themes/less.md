@@ -1,6 +1,6 @@
 ---
 title: Less
-description: Use LESS to create modularize CSS with less code for CMintS themes.
+description: Use <fix>LESS</fix> to create modularize <fix>CSS</fix> with less code for <fix>CMintS</fix> themes.
 showDocNav: true
 showEdit: documentation/themes/less.md
 showTranslate: 160
