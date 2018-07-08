@@ -4,8 +4,8 @@
     "description": "Page title\n"
   },
   "description": {
-    "message": "CMintS, что такое CMintS и как его установить.",
-    "description": "Page description\n"
+    "message": "<fix1>, что такое <fix1> и как его установить.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
   },
   "what-is-cmints": {
     "message": "Что такое CMintS?",

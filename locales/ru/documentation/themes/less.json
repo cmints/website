@@ -1,7 +1,7 @@
 {
   "description": {
-    "message": "Используйте LESS для создания модульного CSS с меньшим количеством кода для тем CMintS.",
-    "description": "Page description\n"
+    "message": "Используйте <fix1> для создания модульного <fix2> с меньшим количеством кода для тем <fix3>.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - LESS\n<fix2> - CSS\n<fix3> - CMintS\n"
   },
   "less-p": {
     "message": "Less - это расширение, совместимое с предыдущими языками для CSS. Это довольно просто начать\nзапись Less файлов, потому что он выглядит так же, как CSS. Меньше файлов находятся в\nsrc\/theme\/less и все меньше файлов, у которых нет начального <code> _ <\/ code> в\nимя файла, например: <code> _variables.less <\/ code>, скомпилируется в &quot;public\/css&quot;\nи назначить расширение <code>.css<\/code> для имени файла.",
@@ -25,6 +25,6 @@
   },
   "less-p6": {
     "message": "Чтобы узнать больше о LESS, посетите <a1>http:\/\/lesscss.org\/<\/a1>.",
-    "description": "Paragraph in 'less' section\n"
+    "description": "Paragraph in 'less' section\n<a> placeholders:\n<a1> http:\/\/lesscss.org\/<\/a1> - <a href=\"http:\/\/lesscss.org\/\" target=\"_blank\"> http:\/\/lesscss.org\/<\/a>\n"
   }
 }

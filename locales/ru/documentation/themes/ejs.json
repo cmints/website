@@ -1,7 +1,11 @@
 {
+  "description": {
+    "message": "Узнайте, как для создания макет страницы в <fix>CMintS<\/fix>. <fix>CMintS<\/fix> использует ejs как шаблонизатор для создания макетов.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
+  },
   "ejs-p": {
     "message": "<fix1> использует <a1> EJS <\/a1> в качестве шаблона\nдвигатель для создания макетов, EJS также может использоваться для\n<a1> страница <\/a1>. EJS - простой шаблонный язык\nкоторый позволяет генерировать HTML-разметку при написании простого JavaScript. Детальный EJS\nсинтаксическая документация может быть найдена <a2 здесь <\/a2>, также есть онлайн-площадка, до <a3> попробуйте\nСинтаксис <\/a>.",
-    "description": "Paragraph in 'ejs' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>EJS<\/a1> - <a href=\"http:\/\/ejs.co\/\" target=\"_blank\">EJS<\/a>\n<a2>page<\/a2> - <a href=\"\/documentation\/pages#ejs\">page<\/a>\n"
+    "description": "Paragraph in 'ejs' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>EJS<\/a1> - <a href=\"http:\/\/ejs.co\/\" target=\"_blank\">EJS<\/a>\n<a2>page<\/a2> - <a href=\"\/documentation\/pages#ejs\">page<\/a>\n<a3>here<\/a3> - <a href=\"https:\/\/github.com\/mde\/ejs\/blob\/master\/docs\/syntax.md\" target=\"_blank\">here<\/a>\n<a4>try out the syntax<\/a4> - <a href=\"https:\/\/ionicabizau.github.io\/ejs-playground\/\" target=\"_blank\">try out the syntax<\/a>\n"
   },
   "layout": {
     "message": "Внешний вид",

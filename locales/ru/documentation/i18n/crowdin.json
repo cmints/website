@@ -1,7 +1,7 @@
 {
   "description": {
-    "message": "Проект интеграции с Crowdin. Crowdin синхронизации скриптов и как просить установки открытым исходным кодом бесплатно.",
-    "description": "Page description\n"
+    "message": "Интеграция проект с <fix1>. <fix1> синхронизация скриптов и как просить установки открытым исходным кодом бесплатно.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - Crowdin\n<fix2> - Crowdin\n"
   },
   "crowdin-p": {
     "message": "<a1>Crowdin<\/a1> это платформа управления переводом и локализацией. <fix1> использует Crowdin из-за простаты использования а так же из за того что Crowdin бесплатен для проектов с открытым кодом.",
@@ -13,7 +13,7 @@
   },
   "setting-up-p": {
     "message": "Прежде всего для того, чтобы иметь возможность использовать Crowdin <a1>следует создать аккаунт<\/a1>. Если вы разрабатываете проект с открытым кодом вы можете запросить <a2>бесплатную квоту<\/a2>. В остальных случаях вы будете иметь испытательный срок, чтобы попробовать его. После того, как аккаунт будет готов, вы можете<a3>создать Crowdin проект<\/a3>.",
-    "description": "Paragraph in 'Setting up' section\n"
+    "description": "Paragraph in 'Setting up' section\n<a> placeholders:\n<a1>create an account<\/a1> - <a href=\"https:\/\/crowdin.com\/join\">create an account<\/a>\n<a2>Open Source setup<\/a2> - <a href=\"https:\/\/crowdin.com\/page\/open-source-project-setup-request\">Open Source setup<\/a>\n<a3>see the Crowdin documentation about creating a project<\/a3> - <a href=\"https:\/\/support.crowdin.com\/creating-project\/\">see the Crowdin documentation about creating a project<\/a>\n"
   },
   "upload-source-strings": {
     "message": "Загрузка исходных строк перевода",

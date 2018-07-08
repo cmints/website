@@ -4,12 +4,12 @@
     "description": "Page title\n"
   },
   "description": {
-    "message": "Используйте строки перевода при написании своего контента в Markdown, ejs или HTML. Получите максимальную отдачу от инструментов интернационализации(i18n) CMintS .",
-    "description": "Page description\n"
+    "message": "Используйте строки перевода при написании своего контента в <fix1>, <fix2> или <fix3>. Получите максимальную отдачу от инструментов интернационализации(i18n) <fix4> .",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - Markdown\n<fix2> - ejs\n<fix3> - HTML\n<fix4> - CMintS\n"
   },
   "pages-p": {
     "message": "Чтобы сделать перевод текста на <a1>\nблоки <\/a>, ниже вы можете найти несколько примеров\nиспользования строк перевода в разных типах страниц:",
-    "description": "Paragraph in 'Pages' section\n"
+    "description": "Paragraph in 'Pages' section\n<a> placeholders:\n<a1>translation blocks<\/a1> - <a href=\"\/documentation\/i18n\">translation blocks<\/a>\n"
   },
   "reusing-id": {
     "message": "Повторное использование идентификаторов",

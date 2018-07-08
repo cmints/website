@@ -4,8 +4,8 @@
     "description": "Page title\n"
   },
   "description": {
-    "message": "Узнайте, как использовать строки интернационализации в проекте CMintS. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов.",
-    "description": "Page description\n"
+    "message": "Узнайте, как использовать строки интернационализации в проекте <fix1>. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
   "i18n-p1": {
     "message": "Internaltionalization является одной из основных особенностей <fix1>. Идея заключается в том, чтобы использовать общие структуры и синтаксис в страницах, темах и предоставить дополнительные устроиства для управления многоязыковым веб-сайтом.",
@@ -37,7 +37,7 @@
   },
   "translation-strings-p2": {
     "message": "Например, рассмотрим локаль <fix1>  в <a1> Локальном файле <\/a1> и строку перевода ниже:",
-    "description": "Paragraph in 'Translation strings' section\n<fix> placeholders:\n<fix1> - <strong>ru<\/strong>\n"
+    "description": "Paragraph in 'Translation strings' section\n<fix> placeholders:\n<fix1> - <strong>ru<\/strong>\n<a> placeholders:\n<a1>Locale file<\/a1> - <a href=\"#locale-file\">Locale file<\/a>\n"
   },
   "translation-strings-p3": {
     "message": "Будут преобразованы в <fix1> для языка по умолчанию и в <fix2> для русского языка.",

@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "Միջազգայնացման հիմնական կետերը",
+    "message": "Միջազգայնացման հիմնական կետերը:",
     "description": "Page title\n"
   },
   "description": {
@@ -12,7 +12,7 @@
     "description": "presentation title\n<span> placeholders:\n<span1><span>Z<\/span1> - <span class=\"behind-char-jumper\"><span>Z<\/span>\n<span2>S<\/span2> - <span>S<\/span>\n<span3><span>M<\/span3> - <span class=\"behind-char-jumper\"><span>M<\/span>\n<span4>P<\/span4> - <span>P<\/span>\n"
   },
   "me-i18n": {
-    "message": "Ես եւ միջազգայնացումը",
+    "message": "Ես եւ միջազգայնացումը:",
     "description": "\"Me + i18n\" slide title\n"
   },
   "me-i18n-li1": {
