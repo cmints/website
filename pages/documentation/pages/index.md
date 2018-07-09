@@ -40,10 +40,10 @@ path, if for example you host your website at example.com domain, that would be
 {markdown-p[Paragraph in 'Markdown' section]
 In order to write page content using Markdown, just assign <fix>`.md`</fix>
 extension to the file. <fix>CMintS</fix> uses <a href="http://commonmark.org/"
-target="_blank">CommonMark</a> in order to support Markdown pages. CommonMark is
+target="_blank" rel="noopener">CommonMark</a> in order to support Markdown pages. CommonMark is
 a a strongly defined, highly compatible specification of Markdown, basically
 speaking it's a Markdown, but specified. You can learn more about writing
-CommonMark <a href="http://commonmark.org/help/" target="_blank">here</a>.
+CommonMark <a href="http://commonmark.org/help/" target="_blank" rel="noopener">here</a>.
 }
 
 ## ejs
@@ -55,7 +55,7 @@ include HTML tags that will require you also managing them and not forgetting to
 close when required, but when it comes to some complex landing pages sometimes
 Markdown is useless. EJS is a simple templating language that lets you generate
 HTML markup with plain JavaScript. You can learn more about EJS <a
-href="http://ejs.co/" target="_blank">here</a>. In order to create EJS page just
+href="http://ejs.co/" target="_blank" rel="noopener">here</a>. In order to create EJS page just
 assign <fix>`.ejs`</fix> extension to the file.
 }
 

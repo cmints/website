@@ -23,8 +23,8 @@ the development speed up. Thanks for stars and word spreading.}❤️
 
 ## {requirements[Page heading] Requirements}
 
-- <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
-- <a href="https://git-scm.com/" target="_blank">Git</a>
+- <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>
+- <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>
 
 {requirements-p[Paragraph in 'Requirements' section]
 If you have both requirements in place, please follow this installation steps.
@@ -32,21 +32,21 @@ If you have both requirements in place, please follow this installation steps.
 
 ## {installing-git[Page heading] Installing Git}
 
-- Mac: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_mac" target="_blank">Using Xcode Command Line
+- Mac: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_mac" target="_blank" rel="noopener">Using Xcode Command Line
   Tools</a>
-- Windows: Get <a href="https://git-scm.com/download/win" target="_blank">git for windows</a>
+- Windows: Get <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git for windows</a>
 - Linux (Ubuntu, Debian): `sudo apt-get install git-core`
 
 ## {installing-node[Page heading] Installing Node.js}
 
 {installing-node-p[Paragraph in 'Installing Node.js' section]
-Get <fix>Node.js</fix> from the <a href="https://nodejs.org" target="_blank">https://nodejs.org/</a>.
+Get <fix>Node.js</fix> from the <a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org/</a>.
 }
 
 ## {install-cmints[Page heading] Install CMintS}
 
-<a href="https://help.github.com/articles/fork-a-repo/" target="_blank">Fork</a>
-or clone the <a href="https://github.com/Manvel/cmints" target="_blank">CMintS
+<a href="https://help.github.com/articles/fork-a-repo/" target="_blank" rel="noopener">Fork</a>
+or clone the <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">CMintS
 repository</a>:
 ```bash
 git clone https://github.com/Manvel/cmints.git CMintS
@@ -69,7 +69,7 @@ npm run example
 
 {example-project-p2[Paragraph in 'Example projects' section]
 The example project is the content of current website, which can also be found
-in the <a href="https://github.com/Manvel/cmints-website" target="_blank">github</a>.
+in the <a href="https://github.com/Manvel/cmints-website" target="_blank" rel="noopener">github</a>.
 }
 
 {example-project-p3[Paragraph in 'Example projects' section]

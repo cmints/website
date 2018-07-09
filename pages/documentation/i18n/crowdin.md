@@ -9,7 +9,7 @@ order: 3
 ---
 
 {crowdin-p[Paragraph in 'Crowdin integration' section]
-<a href="https://crowdin.com/" target="_blank">Crowdin</a> is a localization and
+<a href="https://crowdin.com/" target="_blank" rel="noopener">Crowdin</a> is a localization and
 translation management platform. <fix>CMintS</fix> uses Crowdin because of it's
 user friendly UI, ability to provide external collaborators with user friendly
 enviroment for translation and most importantly because it's free for Open

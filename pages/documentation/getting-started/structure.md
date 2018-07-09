@@ -96,8 +96,8 @@ Supported page content files are:
 
 extention | Descriptio
 --- | ---
-`.md` | Markdown files, use<a href="http://commonmark.org/" target="_blank">CommonMark</a> to create markdown content. Learn more about writing markdown in <fix>CMintS</fix> <a href="/documentation/pages#markdown" target="_blank">here</a>.
-`.ejs` | For more robust pages you can use <a href="http://ejs.co/" target="_blank">EJS</a> for creating a complex page content. Learn more about creating ejs pages in <fix>CMintS</fix> <a href="/documentation/pages#ejs" target="_blank">here</a>.
+`.md` | Markdown files, use<a href="http://commonmark.org/" target="_blank" rel="noopener">CommonMark</a> to create markdown content. Learn more about writing markdown in <fix>CMintS</fix> <a href="/documentation/pages#markdown" target="_blank" rel="noopener">here</a>.
+`.ejs` | For more robust pages you can use <a href="http://ejs.co/" target="_blank" rel="noopener">EJS</a> for creating a complex page content. Learn more about creating ejs pages in <fix>CMintS</fix> <a href="/documentation/pages#ejs" target="_blank" rel="noopener">here</a>.
 `.html` | HTML files
 
 ## {theme[Page heading] theme}

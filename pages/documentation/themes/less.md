@@ -60,6 +60,6 @@ with `_` sign.
 }
 
 {less-p6[Paragraph in 'less' section]
-To learn more about LESS visit <a href="http://lesscss.org/" target="_blank">
+To learn more about LESS visit <a href="http://lesscss.org/" target="_blank" rel="noopener">
 http://lesscss.org/</a>.
 }
