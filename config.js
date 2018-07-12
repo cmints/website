@@ -14,11 +14,13 @@ const templateData =
       "lt": {name: "Lietuvių", region: "lt_LT", crowdin: "en-lt" },
       "hy-AM": {name: "Հայերեն", region: "hy_AM", crowdin: "en-hy" }
     },
-    defaultLocale: "en"
-  },
-  navigations: [
-    {path: "documentation", contains: "documentation", stringId: "header-menu-item-docs"},
-    {path: "presentation", stringId: "header-menu-item-slides"}]};
+    defaultLocale: "en",
+    navigations: [
+      {path: "documentation", contains: "documentation", stringId: "header-menu-item-docs"},
+      {path: "presentation", stringId: "header-menu-item-slides"}
+    ]
+  }
+};
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
 const markdownOptions = {};

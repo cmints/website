@@ -1,4 +1,4 @@
-<% for (let navigation of navigations) { %>
+<% for (let navigation of site.navigations) { %>
   <li>
     <a <%-href(navigation.path)%>
       <% if (currentPage == navigation.path || currentPage.includes(navigation.contains)) { %>class="active"<% } %>>
