@@ -22,7 +22,8 @@ const templateData =
     navigations: [
       {path: "documentation", stringId: "menu-item-docs"},
       {path: "news", stringId: "menu-item-news"},
-      {path: "blog", stringId: "menu-item-blog"}]
+      {path: "blog", stringId: "menu-item-blog"}
+    ]
   }
 };
 

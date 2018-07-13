@@ -110,16 +110,15 @@ the <fix>`public/css`</fix> folder:
 
 ```bash
 ├── layouts
+│   ├── partials
+│   │   ├── footer.ejs
+│   │   └── header.ejs
 │   ├── default.ejs
 │   └── home.ejs
-├── less
-│   ├── _fonts.less
-│   ├── _footer.less
-│   ├── _grid.less
-│   ├── index.less
-│   └── main.less
-│
-└── partials
-    ├── footer.ejs
-    └── header.ejs
+└── less
+    ├── _fonts.less
+    ├── _footer.less
+    ├── _grid.less
+    ├── index.less
+    └── main.less
 ```
