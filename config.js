@@ -7,6 +7,7 @@ const port = {
   https: 4000,
   http: 3000
 };
+const hostname = "0.0.0.0";
 
 const crowdinId = "cmints-website";
 
@@ -35,4 +36,4 @@ const templateData =
 };
 
 module.exports = {templateData, markdownOptions, defaultLocale, port,
-  crowdinId};
+  hostname, crowdinId};
