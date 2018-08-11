@@ -1,7 +1,7 @@
 <% for (let navigation of site.navigations) { %>
   <li>
     <a <%-href(navigation.path)%>
-      <% if (currentPage == navigation.path || currentPage.includes(navigation.contains)) { %>class="active"<% } %>>
+      <% if (page.path == navigation.path || page.path.includes(navigation.contains)) { %>class="active"<% } %>>
       {<%-navigation.stringId%>(common)}
     </a>
   </li>

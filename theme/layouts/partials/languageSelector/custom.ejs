@@ -1,19 +1,19 @@
-<% if (currentPage == "index" || currentPage == ".") currentPage = "" %>
-<% let pageLocales = getPageLocales() %>
+<% if (page.path == "index" || page.path == ".") page.path = "" %>
+<% let locales = getPageLocales() %>
 <div class="languageSelector custom contextMenu">
-  <% if (pageLocales.length > 1) { %>
+  <% if (locales.length > 1) { %>
     <button class="icon text-arrow" data-action="toggle-context">
   <% } %>
-    <label><%= currentLocale %></label>
-  <% if (pageLocales.length > 1) { %>
+    <label><%= page.locale %></label>
+  <% if (locales.length > 1) { %>
     </button>
   <% } %>
   <ul>
-  <% for (let pageLocale of pageLocales) { %>
-    <% if (pageLocale != currentLocale) { %>
+  <% for (let locale of locales) { %>
+    <% if (locale != page.locale) { %>
       <li>
-        <a href="/<%= pageLocale %>/<%= currentPage %>">
-          <%= site.localeMap[pageLocale].name %>
+        <a href="/<%= locale %>/<%= page.path %>">
+          <%= site.localeMap[locale].name %>
         </a>
       </li>
     <% } %>

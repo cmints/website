@@ -10,7 +10,7 @@
     <% } %>
     <% if (item.url) { %>
       <a <%-href(item.url)%>
-        <% if (item.url == currentPage) { %>class="active"<% } %>>
+        <% if (item.url == page.path) { %>class="active"<% } %>>
         <%= title %>
       </a>
     <% } else { %>

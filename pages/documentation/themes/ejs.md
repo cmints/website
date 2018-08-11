@@ -188,14 +188,14 @@ Data defined in the Front Matter is accessible from the layout files using page 
 There are also some built in helpers in <fix>CMintS</fix> that can be used out of the box.
 }
 
-### currentPage
+### page.path
 
-{currentPage-p[Paragraph in 'currentPage' section] 
-The <fix>currentPage</fix> variable represents the path of the URL:
+{currentPage-p[Paragraph in 'page.path' section] 
+The <fix>page.path</fix> variable represents the path of the URL:
 }
 
 ```HTML
-<a <%-href(item.url)%> <% if (item.url == currentPage) { %>class="active"<% } %>>
+<a <%-href(item.url)%> <% if (item.url == page.path) { %>class="active"<% } %>>
 ```
 
 ### {toc[Page heading] Table Of Content}
