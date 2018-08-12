@@ -10,7 +10,7 @@
     <!-- Navigation Start -->
     <%if (page.showDocNav) { %> 
       <aside id="sitemap" class="cell1 tablet-hide">
-        <% let documentation = getSitemap("documentation"); %>
+        <% let documentation = site.getSitemap("documentation"); %>
         <%if (documentation) { %>
           <% include partials/docNav %>
         <% } %>

@@ -60,7 +60,7 @@ refferencing them from the .ejs file:
 ```
 <% for (let navigation of site.navigations) { %>
   <li>
-    <a <%-href(navigation.path)%>
+    <a <%-i18n.href(navigation.path)%>
       <% if (navigation.path == page.path) { %>class="active"<% } %>>
       {<%-navigation.stringId%>(header)}
     </a>

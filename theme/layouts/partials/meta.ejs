@@ -17,7 +17,7 @@
 <% } %>
 
 <!-- i18n  -->
-<% for (const locale of getPageLocales()) { %>
+<% for (const locale of page.locales) { %>
   <% const localeRegion = site.localeMap[locale] ? site.localeMap[locale].region : locale; %>
   <% if (locale == page.locale) { %>
     <meta property="og:locale" content="<%= localeRegion %>" />

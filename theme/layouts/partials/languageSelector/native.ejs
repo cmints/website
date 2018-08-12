@@ -1,6 +1,6 @@
 <div class="languageSelector native">
   <% if (page.path == "index" || page.path == ".") page.path = "" %>
-  <% let locales = getPageLocales() %>
+  <% let locales = page.locales %>
   <% if (locales.length) { %>
     <select data-page="/<%= page.path %>">
   <% } %>

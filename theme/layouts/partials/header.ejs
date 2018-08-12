@@ -3,7 +3,7 @@
     <nav class="cell1-4">
       <ul>
         <li>
-           <a <%-href("")%> class="cell1 end">
+           <a <%-i18n.href("")%> class="cell1 end">
              <img src="/images/logo.png" alt="CMintS logo">
              <span class="beta">beta</span>
             </a>
@@ -24,7 +24,7 @@
   </div>
   <div class="desktop-hide">
     <div class="col2">
-      <a <%-href("")%> class="cell1 start middle">
+      <a <%-i18n.href("")%> class="cell1 start middle">
         <img src="/images/logo.png" alt="CMintS logo">
         <span class="beta">beta</span>
       </a>
@@ -34,7 +34,7 @@
       <ul>
         <% include mainNav %>
         <%if (page.showDocNav) { %> 
-          <% let documentation = getSitemap("documentation"); %>
+          <% let documentation = site.getSitemap("documentation"); %>
           <%if (documentation) { %>
             <% include docNav %>
           <% } %>

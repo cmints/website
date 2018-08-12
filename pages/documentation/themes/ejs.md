@@ -195,7 +195,7 @@ The <fix>page.path</fix> variable represents the path of the URL:
 }
 
 ```HTML
-<a <%-href(item.url)%> <% if (item.url == page.path) { %>class="active"<% } %>>
+<a <%-i18n.href(item.url)%> <% if (item.url == page.path) { %>class="active"<% } %>>
 ```
 
 ### {toc[Page heading] Table Of Content}
