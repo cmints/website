@@ -28,7 +28,7 @@
     <%if (page.showTOC) { %>
       <aside id="toc" class="cell5 center tablet-hide">
         <h2>{toc-sidebar-header(common)}</h2>
-        <%- include('partials/toc', {items: page.toc.children}) %>
+        <%- include('partials/toc', {items: page.markdown.toc.children}) %>
       </aside>
     <% } %>
     <!-- TOC End -->
