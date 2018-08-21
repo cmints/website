@@ -4,6 +4,7 @@ description: Using translation strings in the themes. Get most out of the <fix>C
 navTitleId: nav-doc-title-themes
 showDocNav: true
 showEdit: documentation/i18n/theme.md
+categories: [documentation, i18n]
 showTranslate: 154
 order: 2
 ---

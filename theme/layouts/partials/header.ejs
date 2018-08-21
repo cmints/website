@@ -34,10 +34,7 @@
       <ul>
         <% include mainNav %>
         <%if (page.showDocNav) { %> 
-          <% let documentation = site.getSitemap("documentation"); %>
-          <%if (documentation) { %>
-            <% include docNav %>
-          <% } %>
+          <% include secondaryNav %>
         <% } %>
         <li>
             <% include languageSelector/native %>

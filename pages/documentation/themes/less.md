@@ -2,8 +2,10 @@
 title: Less
 description: Use <fix>LESS</fix> to create modularize <fix>CSS</fix> with less code for <fix>CMintS</fix> themes.
 showDocNav: true
+categories: [documentation, themes]
 showEdit: documentation/themes/less.md
 showTranslate: 160
+order: 2
 ---
 
 {less-p[Paragraph in 'less' section] 

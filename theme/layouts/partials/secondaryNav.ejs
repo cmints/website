@@ -1,0 +1,31 @@
+<% for(const {category, titleId} of site.secondaryNavigations.documentation) { %>
+  <% let items = site.queryPages((data) => data.categories &&
+                                          data.categories.includes("documentation") &&
+                                          data.categories.includes(category)) %>
+  <li>
+      <h2>{<%= titleId %>(common)}</h2>
+  </li>
+
+  <ul>
+    <% items.sort((a, b) => a.order > b.order).forEach(function(item){ %>
+      <li>
+        <% let title = ""; %>
+        <% if (item.navTitleId) { %>
+          <% title = "{" + item.navTitleId + "(common)}"; %>
+        <% } else if (item.title) { %>
+          <% title = item.title; %>
+        <% } else { %>
+          <% title = item.path; %>
+        <% } %>
+        <% if (item.path) { %>
+          <a <%-i18n.href(item.path)%>
+            <% if (item.path == page.path) { %>class="active"<% } %>>
+            <%= title %>
+          </a>
+        <% } else { %>
+          <%= title %>
+        <% } %>
+      </li>
+    <% }) %>
+  </ul>
+<% } %>

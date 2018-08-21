@@ -5,8 +5,10 @@ navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-pages
 showDocNav: true
 showTOC: true
+categories: [documentation, pages]
 showEdit: documentation/pages/index.md
 showTranslate: 150
+order: 0
 ---
 
 {pages-p[Paragraph in 'Pages' section]

@@ -5,8 +5,10 @@ navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-themes
 showDocNav: true
 showTOC: true
+categories: [documentation, themes]
 showEdit: documentation/themes/index.md
 showTranslate: 150
+order: 0
 ---
 
 ```bash

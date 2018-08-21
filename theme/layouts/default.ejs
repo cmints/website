@@ -9,11 +9,10 @@
   <div class="col5">
     <!-- Navigation Start -->
     <%if (page.showDocNav) { %> 
-      <aside id="sitemap" class="cell1 tablet-hide">
-        <% let documentation = site.getSitemap("documentation"); %>
-        <%if (documentation) { %>
-          <% include partials/docNav %>
-        <% } %>
+      <aside id="sideNav" class="cell1 tablet-hide">
+        <ul>
+          <% include partials/secondaryNav %>
+        </ul>
       </aside>
     <% } %>
     <!-- Navigation End -->

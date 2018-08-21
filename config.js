@@ -32,7 +32,28 @@ const templateData =
     navigations: [
       {path: "documentation", contains: "documentation", stringId: "header-menu-item-docs"},
       {path: "presentation", stringId: "header-menu-item-slides"}
-    ]
+    ],
+    secondaryNavigations: {
+      documentation: [
+        {
+          category: "getting-started",
+          titleId: "nav-doc-title-getting-started"
+        },
+        {
+          category: "i18n",
+          titleId: "nav-doc-title-i18n"
+        },
+        {
+          category: "pages",
+          titleId: "nav-doc-title-pages"
+        },
+        {
+          category: "themes",
+          titleId: "nav-doc-title-themes"
+        }
+      ]
+      
+    }
   }
 };
 

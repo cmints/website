@@ -6,6 +6,7 @@ topicTitle: nav-doc-title-i18n
 showDocNav: true
 showTOC: true
 showEdit: documentation/i18n/index.md
+categories: [documentation, i18n]
 showTranslate: 156
 order: 0
 ---

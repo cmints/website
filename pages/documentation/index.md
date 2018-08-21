@@ -5,7 +5,9 @@ navTitleId: nav-doc-title-installation
 showDocNav: true
 showTOC: true
 showEdit: documentation/index.md
+categories: [documentation, getting-started]
 showTranslate: 148
+order: 1
 ---
 
 ## {what-is-cmints[Page heading] What is CMintS?}

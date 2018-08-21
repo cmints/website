@@ -5,7 +5,9 @@ navTitleId: nav-doc-title-configuration
 showDocNav: true
 showTOC: true
 showEdit: documentation/getting-started/configuration.md
+categories: [documentation, getting-started]
 showTranslate: 158
+order: 2
 ---
 
 {config-p[Paragraph in 'Configuration' section]
