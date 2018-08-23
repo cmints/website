@@ -2,7 +2,6 @@
 title: Project structure
 description: Structure of the project, learn how organize your project and directory naming.
 navTitleId: nav-doc-title-structure
-showDocNav: true
 showTOC: true
 showEdit: documentation/getting-started/structure.md
 categories: [documentation, getting-started]

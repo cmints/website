@@ -8,7 +8,7 @@
 <main class="device">
   <div class="col5">
     <!-- Navigation Start -->
-    <%if (page.showDocNav) { %> 
+    <%if (page.categories.includes("documentation")) { %> 
       <aside id="sideNav" class="cell1 tablet-hide">
         <ul>
           <% include partials/secondaryNav %>

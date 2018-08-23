@@ -1,7 +1,6 @@
 ---
 title: EJS
 description: Learn how to create layouts in <fix>CMintS</fix>. <fix>CMintS</fix> is using ejs as a templating engine for creating layouts.
-showDocNav: true
 showTOC: true
 categories: [documentation, themes]
 showEdit: documentation/themes/ejs.md
@@ -273,7 +272,7 @@ And the snippet can be accessed from the layout using a code below:
 ```
 
 ```javascript
-<%if (page.showDocNav) { %>
+<%if (page.
   <aside id="toc">
     <h2>Table of content</h2>
     <%- include('partials/toc', {items: toc.children}) %> 

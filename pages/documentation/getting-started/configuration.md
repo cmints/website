@@ -2,7 +2,6 @@
 title: Configuration
 description: How to configure <fix>CMintS</fix> and using templateData to pass data to the template.
 navTitleId: nav-doc-title-configuration
-showDocNav: true
 showTOC: true
 showEdit: documentation/getting-started/configuration.md
 categories: [documentation, getting-started]

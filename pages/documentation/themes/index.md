@@ -3,7 +3,6 @@ title: Themes
 description: Learn theme directory structure, how to create layouts and use <fix>LESS</fix> to create modularize <fix>CSS</fix> with less code.
 navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-themes
-showDocNav: true
 showTOC: true
 categories: [documentation, themes]
 showEdit: documentation/themes/index.md
