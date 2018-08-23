@@ -8,7 +8,7 @@
              <span class="beta">beta</span>
             </a>
         </li>
-        <% include mainNav %>
+        <% include navigations/main %>
       </ul>
     </nav>
     <ul class="cell5 end">
@@ -32,9 +32,9 @@
     </div>
     <nav id="hamburger-menu">
       <ul>
-        <% include mainNav %>
+        <% include navigations/main %>
         <%if (page.categories.includes("documentation")) { %> 
-          <% include secondaryNav %>
+          <% include navigations/secondary %>
         <% } %>
         <li>
             <% include languageSelector/native %>

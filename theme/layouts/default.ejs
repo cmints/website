@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="<%= page.locale %>">
 <head>
-  <% include partials/head %>
+  <% include partials/head/main %>
 </head>
 <body>
   <% include partials/header %>
@@ -11,7 +11,7 @@
     <%if (page.categories.includes("documentation")) { %> 
       <aside id="sideNav" class="cell1 tablet-hide">
         <ul>
-          <% include partials/secondaryNav %>
+          <% include partials/navigations/secondary %>
         </ul>
       </aside>
     <% } %>
@@ -27,7 +27,7 @@
     <%if (page.showTOC) { %>
       <aside id="toc" class="cell5 center tablet-hide">
         <h2>{toc-sidebar-header(common)}</h2>
-        <%- include('partials/toc', {items: page.markdown.toc.children}) %>
+        <%- include('partials/navigations/toc', {items: page.markdown.toc.children}) %>
       </aside>
     <% } %>
     <!-- TOC End -->
