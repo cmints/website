@@ -33,7 +33,7 @@
     <nav id="hamburger-menu">
       <ul>
         <% include navigations/main %>
-        <%if (page.categories.includes("documentation")) { %> 
+        <%if (page.categories && page.categories.includes("documentation")) { %> 
           <% include navigations/secondary %>
         <% } %>
         <li>
