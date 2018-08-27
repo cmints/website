@@ -40,7 +40,7 @@ Considering snippet below being <fix>`src/theme/layouts/default.ejs`</fix>:
 </head>
 <body>
 <main>
-  <%- body %>
+  <%- page.body %>
 </main>
 </body>
 </html>
@@ -92,10 +92,10 @@ This page is using home.ejs layout
 ## body
 
 {body-p[Paragraph in 'body' section]
-As you might have noticed from the previous example <fix>`<%- body %>`</fix>
+As you might have noticed from the previous example <fix>`<%- page.body %>`</fix>
 placeholder in the layout ejs is replaced with the actual content, no matter
 what [page is used(markdown, html or ejs)](/documentation/pages) actual content
-of the page is being rendered and replaces the <fix>`<%- body %>`</fix>
+of the page is being rendered and replaces the <fix>`<%- page.body %>`</fix>
 placeholder.
 }
 
@@ -124,7 +124,7 @@ This can come handy for different layout parts separation and reuse:
 <body>
   <% include partials/header %>
 <main>
-  <%- body %>
+  <%- page.body %>
 </main>
   <% include partials/footer %>
 </body>
