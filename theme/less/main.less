@@ -75,6 +75,27 @@ article
   {
     max-width: 100%;
   }
+  table
+  {
+    th
+    {
+      text-align: left;
+    }
+    tr
+    {
+      td, th
+      {
+        &:not(:first-of-type)
+        {
+          padding: 0 10px;
+        }
+      }
+      th
+      {
+        border-bottom: 1px solid @tertiary;
+      }
+    }
+  }
 }
 
 .beta

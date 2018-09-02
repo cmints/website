@@ -186,8 +186,19 @@ Data defined in the Front Matter is accessible from the layout files using page 
 ## {helpers[Page heading] Helpers}
 
 {helpers-p[Paragraph in 'Helpers' section] 
-There are also some built in helpers in <fix>CMintS</fix> that can be used out of the box.
+There are also some built in helpers in <fix>CMintS</fix> that can be used out
+of the box:
 }
+
+{helper-tbl-heading1[Helper Table Heading] Helper} | {helper-tbl-heading2[Helper Table Heading] Type} | {helper-tbl-heading3[Helper Table Heading] Description}
+--- | --- | ---
+page.path | {helper-type-var[Helper type] Variable} | <a href="#page.path">{helper-desc-path[Helper description] URL path of current page}</a>
+page.locale | {helper-type-var} | {helper-desc-locale[Helper description] Locale of the current page}
+page.locales | {helper-type-array[Helper type] Array} | {helper-desc-locales[Helper description] Other locales that current page is available in}
+page.toc | {helper-type-obj[Helper type] Object} | <a href="#toc-heading">{helper-desc-toc[Helper description] Page's Table Of Content}</a>
+i18n.getPageLocales | {helper-type-func[Helper type] Function} | {helper-desc-getPageLocales[Helper description] Get available locales for a specific page}
+i18n.href | {helper-type-func} | {helper-desc-href[Helper description] Generate href and hreflang for path}
+site.queryPages | {helper-type-func} | {helper-desc-query-pages[Helper description] Query pages using metadata}
 
 ### page.path
 
