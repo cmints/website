@@ -75,7 +75,7 @@
     "message": "The <fix1> variable represents the path of the URL:",
     "description": "Paragraph in 'currentPage' section\n<fix> placeholders:\n<fix1> - currentPage\n"
   },
-  "toc": {
+  "toc-heading": {
     "message": "Содержание",
     "description": "Page heading\n"
   },

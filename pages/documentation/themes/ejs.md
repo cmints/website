@@ -199,7 +199,7 @@ The <fix>page.path</fix> variable represents the path of the URL:
 <a <%-i18n.href(item.url)%> <% if (item.url == page.path) { %>class="active"<% } %>>
 ```
 
-### {toc[Page heading] Table Of Content}
+### {toc-heading[Page heading] Table Of Content}
 
 {toc-p[Paragraph in 'Table Of Content' section] 
 With the markdown pages <fix>`toc`</fix> variable in the ".ejs" layouts can be
