@@ -15,33 +15,30 @@ various website default configurations:
 }
 
 ```javascript
-const templateData =
-{
-  site: {
-    title: "CMintS",
-    description: "CMS created with the internationalization in mind",
-    navigations: [
-      {path: "documentation", stringId: "menu-item-docs"},
-      {path: "news", stringId: "menu-item-news"},
-      {path: "blog", stringId: "menu-item-blog"}
-    ]
-  }
-};
-
-// See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
-const markdownOptions = {};
-
-const defaultLocale = "en";
-
 const port = {
   https: 4000,
   http: 3000
 };
 
-exports.templateData = templateData;
-exports.markdownOptions = markdownOptions;
-exports.defaultLocale = defaultLocale;
-exports.port = port;
+const i18nOptions = {
+  defaultLocale: "en",
+  crowdinId: "cmints-website"
+};
+
+const templateData =
+{
+  site: {
+    domain: "cmints.io",
+    title: "CMintS",
+    description: "CMS created with the internationalization in mind",
+    navigations: [
+      {path: "documentation", stringId: "header-menu-item-docs"},
+      {path: "presentation", stringId: "header-menu-item-slides"}
+    ]
+  }
+};
+
+module.exports = {templateData,i18nOptions, port};
 ```
 
 {config-p2[Paragraph in 'Page heading' section]
