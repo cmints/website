@@ -1,9 +1,9 @@
 <div id="edit-page">
-  <% if (page.showEdit) {%>
+  <% if (page.showEdit && site.github) {%>
     <a href="<%= site.github %>/edit/master/pages/<%= page.showEdit %>"
         class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
   <% } %>
-  <% if (page.showTranslate) {%>
+  <% if (page.showTranslate && site.crowdin) {%>
     <div class="contextMenu">
       <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
       <ul>
