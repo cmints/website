@@ -20,10 +20,9 @@ src
 ├── pages
 └── theme
     ├── less
-    ├── partials
     └── layouts
-          ├── default.ejs
-          └── home.ejs
+        ├── default.ejs
+        └── home.ejs
 ```
 
 ## {public[Page heading] public}
@@ -103,9 +102,9 @@ extention | Descriptio
 
 ## {theme[Page heading] theme}
 
-{theme-p[Paragraph in 'theme' section]
+{theme-p2[Paragraph in 'theme' section]
 Theme of the project, main folders are <fix>`layouts`</fix> where actual website layouts
-reside and <fix>`less`</fix> folder which holds website less files which are compiled into
+reside, <fix>`js`</fix> which uses <fix>browserify</fix> to import <fix>JavaScript</fix> modules and <fix>`less`</fix> folder which holds website less files which are compiled into
 the <fix>`public/css`</fix> folder:
 }
 
@@ -116,10 +115,14 @@ the <fix>`public/css`</fix> folder:
 │   │   └── header.ejs
 │   ├── default.ejs
 │   └── home.ejs
-└── less
-    ├── _fonts.less
-    ├── _footer.less
-    ├── _grid.less
-    ├── index.less
-    └── main.less
+├── less
+│   ├── _fonts.less
+│   ├── _footer.less
+│   ├── _grid.less
+│   ├── index.less
+│   └── main.less
+└── js
+    ├── _languageSelector.js
+    ├── _footerModule.js
+    └── main.js
 ```
