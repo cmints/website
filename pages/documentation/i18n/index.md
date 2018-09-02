@@ -52,6 +52,22 @@ should be located in <fix>`/de/about/teams.json`</fix> file to be accessible
 through <fix>`/de/about/teams`</fix> website path.
 }
 
+## {default-locale[Page heading] Default locale}
+
+{default-locale-p[Paragraph in 'Default locale' section]
+Before strating to use i18n features user needs to also specify default
+locale which will be used as the source language. In order to do that,
+`defaultLocale` needs to be added to i18n options in the `config.js`:
+}
+
+```js
+const i18nOptions = {
+  defaultLocale: "en"
+};
+
+module.exports = {i18nOptions};
+```
+
 ## {locale-file[Page heading] Locale file}
 
 {locale-file-p[Paragraph in 'Locale file' section]

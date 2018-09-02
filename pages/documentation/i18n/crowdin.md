@@ -28,6 +28,21 @@ it's time to create a project, [see the Crowdin documentation about creating a
 project](https://support.crowdin.com/creating-project/).
 }
 
+{setting-up-p2[Paragraph in 'Setting up' section]
+After the project is ready, you need to add Crowdin project ID to i18n options
+in the `config.js` file. Ensure that you also have  `defaultLocale` set there as
+well:
+}
+
+```js
+const i18nOptions = {
+  defaultLocale: "en",
+  crowdinId: "cmints-website"
+};
+
+module.exports = {i18nOptions};
+```
+
 ## {upload-source-strings[Page heading] Uploading Source Strings}
 
 {upload-source-strings-p[Paragraph in 'Uploading Source Strings' section]
