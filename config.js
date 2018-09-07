@@ -1,5 +1,14 @@
+const {getLanguage, highlight} = require("highlight.js");
+
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
-const markdownOptions = {};
+const markdownOptions = {
+  highlight(str, lang)
+  {
+    let result = (lang && getLanguage(lang)) ? highlight(lang, str).value : "";
+    // Replace i18n braces to use inside of code blocks
+    return result.replace(/{/g, "&#123;").replace(/}/g, "&#125;");
+  }
+};
 
 const port = {
   https: 4000,

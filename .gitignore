@@ -1,4 +1,6 @@
 .DS_Store
+node_modules
+package-lock.json
 content
 public/css/presentation/index.css
 public/css/main.css

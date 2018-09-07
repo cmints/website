@@ -1,0 +1,22 @@
+{
+  "name": "cmints-website",
+  "version": "0.1.0",
+  "description": "Website content for the CMintS project",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manvel/cmints-website.git"
+  },
+  "author": "Manvel Saroyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manvel/cmints-website/issues"
+  },
+  "homepage": "https://github.com/Manvel/cmints-website#readme",
+  "dependencies": {
+    "highlight.js": "^9.12.0"
+  }
+}
