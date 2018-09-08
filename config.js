@@ -2,11 +2,19 @@ const {getLanguage, highlight} = require("highlight.js");
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
 const markdownOptions = {
-  highlight(str, lang)
+  highlight(str, langAndi18n)
   {
-    let result = (lang && getLanguage(lang)) ? highlight(lang, str).value : "";
-    // Replace i18n braces to use inside of code blocks
-    return result.replace(/{/g, "&#123;").replace(/}/g, "&#125;");
+    const [lang, i18n] = langAndi18n.split("-");
+    const result = (lang && getLanguage(lang)) ? highlight(lang, str).value : "";
+    if (i18n)
+    {
+      return result;
+    }
+    else
+    {
+      // Replace i18n braces to use inside of code blocks
+      return result.replace(/{/g, "&#123;").replace(/}/g, "&#125;");
+    }
   }
 };
 
