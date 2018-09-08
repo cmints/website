@@ -42,10 +42,10 @@ In order to have quick start it's recommended to generate example project by
 running, one of the commands below:
 }
 ```bash
-# Download example project into current directory
+# {example-project-comment1[Comment in 'Example projects' section's code block] Download example project into current directory}
 cmints --example
 
-# Replace optional {PATH} with the path to the download target directory
+# {example-project-comment2[Comment in 'Example projects' section's code block] Replace optional \{PATH\} with the path to the download target directory}
 cmints {PATH} --example
 ```
 
@@ -58,26 +58,26 @@ in the <a href="https://github.com/Manvel/cmints-website" target="_blank" rel="n
 
 #### {start-server-production[Page heading] For the production:}
 
-```bash
-# Run http server serving current folder 
+```bash-i18n
+# {production-server-comment1[Comment in 'For the production' section's code block] Run http server serving current folder}
 cmints --start
 
-# Replace optional {PATH} with the path to the folder you wish to serve.
+# {production-server-comment2[Comment in 'For the production' section's code block] Replace optional \{PATH\} with the path to the folder you wish to serve.}
 cmints {PATH} --start
 
-# https server: Replace {PATH} with the path to the folder you wish to serve
-# Replace {PRIVATE_KEY} with the path to the private key file
-# Replace {CERTIFICATE} with the path to the certiface file
+# {production-server-comment3[Comment in 'For the production' section's code block] https server: Replace \{PATH\} with the path to the folder you wish to serve}
+# {production-server-comment4[Comment in 'For the production' section's code block] Replace \{PRIVATE_KEY\} with the path to the private key file}
+# {production-server-comment5[Comment in 'For the production' section's code block] Replace \{CERTIFICATE\} with the path to the certiface file}
 cmints {PATH} --start --https -k {PRIVATE_KEY} -c {CERTIFICATE}
 ```
 
-#### {start-server-production[Page heading] For development:}
+#### {start-server-development[Page heading] For development:}
 
 ```bash
-# Use --no-cache flag to disable the caching
+# {development-server-commen1[Comment in 'For development' section's code block] Run http server serving current folder] Use --no-cache flag to disable the caching}
 cmints --start --no-cache
 
-# Replace optional {PATH} with the path to the folder you wish to serve.
+# {development-server-commen2[Comment in 'For development' section's code block] Replace optional \{PATH\} with the path to the folder you wish to serve}
 cmints {PATH} --start --no-cache
 ```
 
@@ -87,9 +87,9 @@ cmints {PATH} --start --no-cache
 Run one of the command below in order to generate static content
 }
 ```bash
-# Generate static content of current directory
+# {static-content-generation-comment1[Comment in 'Generating static content' section's code block] Generate static content of current directory}
 cmints --static
 
-# Replace optional {PATH} with the path to the project for content generation
+# {static-content-generation-comment2[Comment in 'Generating static content' section's code block] Replace optional \{PATH\} with the path to the project for content generation}
 cmints {PATH} --static
 ```
