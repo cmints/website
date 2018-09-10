@@ -3,7 +3,7 @@ title: Documentation
 description: <fix>CMintS</fix> documentation, what is <fix>CMintS</fix> and how to install it.
 navTitleId: nav-doc-title-installation
 showTOC: true
-showEdit: documentation/index.md
+showEdit: documentation/getting-started/index.md
 categories: [documentation, getting-started]
 permalink: documentation
 showTranslate: 148
