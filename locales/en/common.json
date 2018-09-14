@@ -39,6 +39,10 @@
     "description": "Documentation sidebar text",
     "message": "Themes"
   },
+  "nav-doc-title-modules": {
+    "description": "Documentation sidebar text",
+    "message": "JS Modules"
+  },
   "nav-doc-title-front-matter": {
     "description": "Documentation sidebar text",
     "message": "Front Matter"

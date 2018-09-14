@@ -10,7 +10,7 @@ order: 2
 {less-p[Paragraph in 'less' section] 
 Less is a backwards-compatible language extension for CSS. It's quite easy start
 writing Less files, because it looks just like CSS. Less files are located in
-src/theme/less folder and all less files that are do not have starting `_` in
+src/theme/less folder and all less files that don't have starting `_` in
 the filename ex.: `_variables.less` are being compiled into the "public/css"
 directory and assigned `.css` extension to a filename.
 }
@@ -19,7 +19,7 @@ directory and assigned `.css` extension to a filename.
 Consider:
 }
 ```less
-/* src/theme/_variables.less */
+/* src/theme/less/_variables.less */
 @primary: #728448;
 @secondary: #49551c;
 ```
@@ -29,7 +29,7 @@ And:
 }
 
 ```less
-/* src/theme/main.less */
+/* src/theme/less/main.less */
 @import "_variables.less";
 
 a
