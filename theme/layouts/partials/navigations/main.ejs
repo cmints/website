@@ -2,7 +2,7 @@
   <li>
     <a <%-i18n.href(navigation.path)%>
       <% if (page.path == navigation.path || page.path.includes(navigation.contains)) { %>class="active"<% } %>>
-      {<%-navigation.stringId%>(common)}
+      {<%-navigation.stringId%>(navigation)}
     </a>
   </li>
 <% } %>

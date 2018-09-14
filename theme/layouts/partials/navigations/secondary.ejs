@@ -3,7 +3,7 @@
                                           data.categories.includes("documentation") &&
                                           data.categories.includes(category)) %>
   <li>
-      <h2>{<%= titleId %>(common)}</h2>
+      <h2>{<%= titleId %>(navigation)}</h2>
   </li>
 
   <ul>
@@ -11,7 +11,7 @@
       <li>
         <% let title = ""; %>
         <% if (item.navTitleId) { %>
-          <% title = "{" + item.navTitleId + "(common)}"; %>
+          <% title = "{" + item.navTitleId + "(navigation)}"; %>
         <% } else if (item.title) { %>
           <% title = item.title; %>
         <% } else { %>
