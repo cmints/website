@@ -11,11 +11,11 @@ order: 0
 ---
 
 {pages-p[Paragraph in 'Pages' section]
-Actual content of the website goes to the <fix>**src/pages**</fix> directory. Content can be
+Actual content of the website goes to the <fix>**pages**</fix> directory. Content can be
 written using Markdown(default), EJS(Complex pages) and HTML. The folder
 structure inside of the pages directory reflect actual path when the page is
 requested, so for example if you consider the structure below and would like to
-request src/pages/about/team.md page you would request it through <fix>**/about/team**</fix>
+request pages/about/team.md page you would request it through <fix>**/about/team**</fix>
 path, if for example you host your website at example.com domain, that would be
 <fix>`https://example.com/about/team`</fix>:
 }

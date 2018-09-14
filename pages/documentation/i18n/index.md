@@ -19,7 +19,7 @@ provide additional helpers for multilanguage website management.
 ## {locales-dir-structure[Page heading] Locales directory structure}
 
 {locales-dir-structure-p[Paragraph in 'Locales directory structure' section]
-Locale files should be located in the <fix>`src/locales`</fix> directory:
+Locale files should be located in the <fix>`locales`</fix> directory:
 }
 
 ```bash
@@ -45,7 +45,7 @@ Locale files should be located in the <fix>`src/locales`</fix> directory:
 ```
 
 {locales-dir-structure-p2[Paragraph in 'Locales directory structure' section]
-Top level directories in the <fix>`src/locales`</fix> are the locale codes.
+Top level directories in the <fix>`locales`</fix> are the locale codes.
 Actual directory structure reflects the page path, so for example translations
 for the <fix>`about/teams.md`</fix> [page](/documentation/pages) translations
 should be located in <fix>`/de/about/teams.json`</fix> file to be accessible

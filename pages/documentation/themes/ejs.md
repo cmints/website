@@ -29,7 +29,7 @@ property needs to be used, which falls back to the default layout.
 }
 
 {layout-p2[Paragraph in 'Layout' section]
-Considering snippet below being <fix>`src/theme/layouts/default.ejs`</fix>:
+Considering snippet below being <fix>`theme/layouts/default.ejs`</fix>:
 }
 
 ```html
@@ -47,7 +47,7 @@ Considering snippet below being <fix>`src/theme/layouts/default.ejs`</fix>:
 ```
 
 {layout-p3[Paragraph in 'Layout' section]
-And snippet below being <fix>`src/pages/about.md`</fix>:
+And snippet below being <fix>`pages/about.md`</fix>:
 }
 
 ```markdown
@@ -76,7 +76,7 @@ The request to the <fix>`/about`</fix> page will generate HTML below:
 
 {layout-p5[Paragraph in 'Layout' section]
 But if you have another layout, which is located in
-<fix>`src/theme/layouts/home.ejs`</fix>, in order to use it you would use Front Matter
+<fix>`theme/layouts/home.ejs`</fix>, in order to use it you would use Front Matter
 ex.:
 }
 
