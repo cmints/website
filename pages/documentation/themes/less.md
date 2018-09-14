@@ -15,18 +15,15 @@ the filename ex.: `_variables.less` are being compiled into the "public/css"
 directory and assigned `.css` extension to a filename.
 }
 
-{less-p2[Paragraph in 'less' section]
-Consider:
-}
+{consider(common)}
+
 ```less
 /* theme/less/_variables.less */
 @primary: #728448;
 @secondary: #49551c;
 ```
 
-{less-p3[Paragraph in 'less' section]
-And:
-}
+{and(common)}
 
 ```less
 /* theme/less/main.less */

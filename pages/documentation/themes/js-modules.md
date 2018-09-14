@@ -20,9 +20,7 @@ have starting `_` in the filename ex.: <fix>`_contextMenu.js`</fix> are being
 compiled into the <fix>`public/js`</fix> directory.
 }
 
-{js-modules-p3[Paragraph in 'JavaScript Modules' page]
-Consider:
-}
+{consider(common)}
 
 ```js
 /* theme/js/_contextMenu.js */
@@ -36,9 +34,7 @@ const toggleContextMenu = (buttonElem) =>
 module.exports.toggleContextMenu = toggleContextMenu;
 ```
 
-{js-modules-p4[Paragraph in 'JavaScript Modules' page]
-And:
-}
+{and(common)}
 
 ```js
 /* theme/js/main */
