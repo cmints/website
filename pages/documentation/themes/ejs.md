@@ -193,21 +193,58 @@ of the box:
 {helper-tbl-heading1[Helper Table Heading] Helper} | {helper-tbl-heading2[Helper Table Heading] Type} | {helper-tbl-heading3[Helper Table Heading] Description}
 --- | --- | ---
 page.path | {helper-type-var[Helper type] Variable} | <a href="#page.path">{helper-desc-path[Helper description] URL path of current page}</a>
-page.locale | {helper-type-var} | {helper-desc-locale[Helper description] Locale of the current page}
-page.locales | {helper-type-array[Helper type] Array} | {helper-desc-locales[Helper description] Other locales that current page is available in}
-page.markdown.toc | {helper-type-obj[Helper type] Object} | <a href="#toc-heading">{helper-desc-toc[Helper description] Page's Table Of Content}</a>
+page.locale | {helper-type-var} | <a href="#page.locale">{helper-desc-locale[Helper description] Locale of the current page}</a>
+page.locales | {helper-type-array[Helper type] Array} | <a href="#page.locales">{helper-desc-locales[Helper description] Other locales that current page is available in</a>}
+page.markdown.toc | {helper-type-obj[Helper type] Object} | <a href="#page.markdown.toc">{helper-desc-toc[Helper description] Page's Table Of Content}</a>
 i18n.getPageLocales | {helper-type-func[Helper type] Function} | {helper-desc-getPageLocales[Helper description] Get available locales for a specific page}
 i18n.href | {helper-type-func} | {helper-desc-href[Helper description] Generate href and hreflang for path}
 site.queryPages | {helper-type-func} | {helper-desc-query-pages[Helper description] Query pages using metadata}
 
 ### page.path
 
-{currentPage-p[Paragraph in 'page.path' section] 
-The <fix>page.path</fix> variable represents the path of the URL:
-}
+{helper-desc-path}:
 
-```HTML
+```js
 <a <%-i18n.href(item.url)%> <% if (item.url == page.path) { %>class="active"<% } %>>
+```
+
+### page.locale
+
+{helper-desc-locale}:
+
+```html
+<!DOCTYPE html>
+<html lang="<%= page.locale %>">
+<head>
+  <title>...</title>
+</head>
+<body>
+...
+```
+
+### page.locales
+
+{helper-desc-locales}:
+
+```html
+<!DOCTYPE html>
+<html lang="<%= page.locale %>">
+<head>
+...
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
+<% for (const locale of page.locales) { %>
+  <% const localeRegion = site.localeMap[locale] ? site.localeMap[locale].region : locale; %>
+  <% if (locale == page.locale) { %>
+    <meta property="og:locale" content="<%= localeRegion %>" />
+    <link rel="canonical" href="https://<%= site.domain %>/<%= page.path %>">
+  <% } else { %>
+    <meta property="og:locale:alternate" content="<%= localeRegion %>" />
+    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= page.path %>" hreflang="<%= locale %>" />
+  <% } %>
+<% } %>
+</head>
+<body>
+...
 ```
 
 ### page.markdown.toc

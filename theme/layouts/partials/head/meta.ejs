@@ -16,7 +16,7 @@
   <meta name="robots" content="noindex">
 <% } %>
 
-<!-- i18n  -->
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
 <% for (const locale of page.locales) { %>
   <% const localeRegion = site.localeMap[locale] ? site.localeMap[locale].region : locale; %>
   <% if (locale == page.locale) { %>
