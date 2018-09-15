@@ -14,5 +14,9 @@
   "and": {
     "description": "Consideration note usually used before code snippets",
     "message": "And:"
+  },
+  "or": {
+    "description": "Consideration note usually used before code snippets",
+    "message": "Or:"
   }
 }

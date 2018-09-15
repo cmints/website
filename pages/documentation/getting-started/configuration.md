@@ -10,8 +10,8 @@ order: 2
 ---
 
 {config-p[Paragraph in 'Configuration' section]
-<fix>config.js</fix> in the <fix>`src`</fix> folder is where you can overwrite
-various website default configurations:
+<fix>`config.js`</fix> is where you can overwrite various website default
+configurations:
 }
 
 ```javascript
@@ -30,15 +30,11 @@ const templateData =
   site: {
     domain: "cmints.io",
     title: "CMintS",
-    description: "CMS created with the internationalization in mind",
-    navigations: [
-      {path: "documentation", stringId: "header-menu-item-docs"},
-      {path: "presentation", stringId: "header-menu-item-slides"}
-    ]
+    description: "CMS created with the internationalization in mind"
   }
 };
 
-module.exports = {templateData,i18nOptions, port};
+module.exports = {templateData, i18nOptions, port};
 ```
 
 {config-p2[Paragraph in 'Page heading' section]
@@ -47,15 +43,64 @@ configurations](https://github.com/Manvel/cmints/blob/master/config.js) set by
 the <fix>CMintS</fix>.
 }
 
-## templateData
+## port
 
-{templateData[Paragraph in 'templateData' section]
-<fix>*templateData*</fix> object holds the data which are passed to the ejs
-template. So you can directly access the values of the that object by simply
-refferencing them from the .ejs file:
+Specifies on which port to run the server, by default it's
+<fix><strong>3000</strong></fix> for <fix><strong>http</strong></fix> and
+<fix><strong>4000</strong></fix> for <fix><strong>https</strong></fix>.
+
+```js
+const port = {
+  https: 4000,
+  http: 3000
+};
+
+module.exports = {port};
+```
+
+## templateData
+data and functions can be accessed from <fix>`.ejs`</fix> pages and layout
+files:
 }
 
+{consider(common)}
+
+```js
+/* config.js */
+
+const templateData =
+{
+  site: {
+    domain: "cmints.io",
+    title: "CMintS",
+    description: "CMS created with the internationalization in mind",
+    navigations: [
+      {path: "documentation", stringId: "header-menu-item-docs"},
+      {path: "presentation", stringId: "header-menu-item-slides"}
+    ]
+  }
+};
+
+module.exports = {templateData};
 ```
+
+{templateData-p2[Paragraph in 'templateData' section]
+So the specified data above can be accessed as in the example:
+}
+
+```html
+<!DOCTYPE html>
+  <head>
+    <title><%= site.title %> | <%= page.title %></title>
+    <meta name="twitter:title" content="<%= site.title %> | {page.title}">
+  </head>
+  <body>
+...
+```
+
+{or(common)}
+
+```js
 <% for (let navigation of site.navigations) { %>
   <li>
     <a <%-i18n.href(navigation.path)%>
@@ -65,3 +110,5 @@ refferencing them from the .ejs file:
   </li>
 <% } %>
 ```
+
+## 
