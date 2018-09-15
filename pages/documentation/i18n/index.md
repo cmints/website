@@ -298,3 +298,32 @@ will result into:
 ```html
 <div title="Логотип сайта" id="logo"><img src="/random/path" alt="Пума в прыжке" />Картинка</div>
 ```
+
+## prefix, postfix
+
+{prefix-postfix-p1[Paragraph in 'prefix, postfix' section]
+It's also possible to specify custom prefix and postfix for i18n strings in the
+`config.js`, it can be useful for fixing incompatibilities with other syntaxes: 
+}
+
+{consider(common)}
+
+```js
+/* config.js */
+
+const i18nOptions = {
+  defaultLocale: "en",
+  prefix: "{{",
+  postfix: "}}"
+};
+
+module.exports = {i18nOptions};
+```
+
+{prefix-postfix-p2[Paragraph in 'prefix, postfix' section]
+For the configuration specified above, you could use the syntax below:
+}
+
+```js
+{{stringId[Description] Source text}}
+```

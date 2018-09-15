@@ -108,7 +108,9 @@ More about <fix>crowdinId</fix></a>.
 ### prefix, postfix
 
 {prefix-postfix-p1[Paragraph in 'prefix, postfix' section]
-Used for specifing custom prefix and postfix for i18n strings.
+Used for specifing custom prefix and postfix for i18n strings. <a
+href="/documentation/i18n#prefix-postfix">Learn More about custom prefix and
+postfix</a>.
 }
 
 ## templateData
@@ -165,5 +167,3 @@ So the specified data above can be accessed as in the example:
   </li>
 <% } %>
 ```
-
-## 
