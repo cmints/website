@@ -20,6 +20,8 @@ const port = {
   http: 3000
 };
 
+const hostname = "0.0.0.0";
+
 const i18nOptions = {
   defaultLocale: "en",
   crowdinId: "cmints-website"
@@ -34,7 +36,7 @@ const templateData =
   }
 };
 
-module.exports = {templateData, i18nOptions, port};
+module.exports = {templateData, i18nOptions, port, hostname};
 ```
 
 {config-p2[Paragraph in 'Page heading' section]
@@ -56,6 +58,19 @@ const port = {
 };
 
 module.exports = {port};
+```
+
+## hostname
+
+{hostname-p[Paragraph in 'hostname' section]
+Specifies the hostname for server to accept connection on, by default
+`127.0.0.1` is used.
+}
+
+```js
+const hostname = "0.0.0.0";
+
+module.exports = {hostname};
 ```
 
 ## i18nOptions
