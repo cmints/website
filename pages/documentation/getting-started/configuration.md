@@ -58,8 +58,48 @@ const port = {
 module.exports = {port};
 ```
 
+## i18nOptions
+
+{i18nOptions-p1[c]
+Used only for multilingual projects:
+}
+
+```js
+const i18nOptions = {
+  defaultLocale: "en",
+  crowdinId: "cmints-website",
+  prefix: "{",
+  postfix: "}"
+};
+
+module.exports = {i18nOptions};
+```
+
+### defaultLocale
+
+{defaultLocale-p1[Paragraph in 'defaultLocale' section]
+Specifies the default locale for the project. <a
+href="/documentation/i18n#default-locale">Learn more about
+<fix>defaultLocale</fix></a>.
+}
+
+### crowdinId
+
+{crowdinId-p1[Paragraph in 'crowdinId' section]
+<fix>Crowdin</fix> projectID name. <a href="/documentation/i18n/crowdin">Learn
+More about <fix>crowdinId</fix></a>.
+}
+
+### prefix, postfix
+
+{prefix-postfix-p1[Paragraph in 'prefix, postfix' section]
+Used for specifing custom prefix and postfix for i18n strings.
+}
+
 ## templateData
-data and functions can be accessed from <fix>`.ejs`</fix> pages and layout
+
+{templateData-p1[Paragraph in 'templateData' section]
+data and functions in templateData can be accessed from <fix>`.ejs`</fix> pages and layout
 files:
 }
 
