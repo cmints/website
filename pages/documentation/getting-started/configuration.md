@@ -161,7 +161,7 @@ So the specified data above can be accessed as in the example:
 <% for (let navigation of site.navigations) { %>
   <li>
     <a <%-i18n.href(navigation.path)%>
-      <% if (navigation.path == page.path) { %>class="active"<% } %>>
+      <% if (navigation.path == page.pathname) { %>class="active"<% } %>>
       {<%-navigation.stringId%>(header)}
     </a>
   </li>

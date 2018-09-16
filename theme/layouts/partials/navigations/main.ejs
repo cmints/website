@@ -1,7 +1,7 @@
 <% for (let navigation of site.navigations) { %>
   <li>
     <a <%-i18n.href(navigation.path)%>
-      <% if (page.path == navigation.path || page.path.includes(navigation.contains)) { %>class="active"<% } %>>
+      <% if (page.pathname == navigation.path || page.pathname.includes(navigation.contains)) { %>class="active"<% } %>>
       {<%-navigation.stringId%>(navigation)}
     </a>
   </li>

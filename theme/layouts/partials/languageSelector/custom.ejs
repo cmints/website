@@ -1,4 +1,4 @@
-<% if (page.path == "index" || page.path == ".") page.path = "" %>
+<% if (page.pathname == "index" || page.pathname == ".") page.pathname = "" %>
 <% let locales = page.locales %>
 <div class="languageSelector custom contextMenu">
   <% if (locales.length > 1) { %>
@@ -12,7 +12,7 @@
   <% for (let locale of locales) { %>
     <% if (locale != page.locale) { %>
       <li>
-        <a href="/<%= locale %>/<%= page.path %>">
+        <a href="/<%= locale %>/<%= page.pathname %>">
           <%= site.localeMap[locale].name %>
         </a>
       </li>

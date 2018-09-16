@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
 <meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
-<meta property="og:url" content="https://<%= site.domain %>/<%= page.locale %>/<%= page.path %>">
+<meta property="og:url" content="https://<%= site.domain %>/<%= page.locale %>/<%= page.pathname %>">
 <meta property="og:type" content="website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,9 +21,9 @@
   <% const localeRegion = site.localeMap[locale] ? site.localeMap[locale].region : locale; %>
   <% if (locale == page.locale) { %>
     <meta property="og:locale" content="<%= localeRegion %>" />
-    <link rel="canonical" href="https://<%= site.domain %>/<%= page.path %>">
+    <link rel="canonical" href="https://<%= site.domain %>/<%= page.pathname %>">
   <% } else { %>
     <meta property="og:locale:alternate" content="<%= localeRegion %>" />
-    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= page.path %>" hreflang="<%= locale %>" />
+    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= page.pathname %>" hreflang="<%= locale %>" />
   <% } %>
 <% } %>

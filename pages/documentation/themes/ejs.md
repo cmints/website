@@ -192,7 +192,7 @@ of the box:
 
 {helper-tbl-heading1[Helper Table Heading] Helper} | {helper-tbl-heading2[Helper Table Heading] Type} | {helper-tbl-heading3[Helper Table Heading] Description}
 --- | --- | ---
-page.path | {helper-type-var[Helper type] Variable} | <a href="#page.path">{helper-desc-path[Helper description] URL path of current page}</a>
+page.pathname | {helper-type-var[Helper type] Variable} | <a href="#page.pathname">{helper-desc-path[Helper description] URL path of current page}</a>
 page.locale | {helper-type-var} | <a href="#page.locale">{helper-desc-locale[Helper description] Locale of the current page}</a>
 page.locales | {helper-type-array[Helper type] Array} | <a href="#page.locales">{helper-desc-locales[Helper description] Other locales that current page is available in</a>}
 page.markdown.toc | {helper-type-obj[Helper type] Object} | <a href="#page.markdown.toc">{helper-desc-toc[Helper description] Page's Table Of Content}</a>
@@ -200,12 +200,12 @@ i18n.getPageLocales | {helper-type-func[Helper type] Function} | <a href="#i18n.
 i18n.href | {helper-type-func} | <a href="#i18n.href">{helper-desc-href[Helper description] Generate href and hreflang for path. Check if the target path is available in current language otherwise falls back to default language.}</a>
 site.queryPages | {helper-type-func} | <a href="#site.querypages">{helper-desc-query-pages[Helper description] Query Array of pages metadata Objects.</a>}
 
-### page.path
+### page.pathname
 
 {helper-desc-path}:
 
 ```js
-<a <%-i18n.href(item.url)%> <% if (item.url == page.path) { %>class="active"<% } %>>
+<a <%-i18n.href(item.url)%> <% if (item.url == page.pathname) { %>class="active"<% } %>>
 ```
 
 ### page.locale
@@ -236,10 +236,10 @@ site.queryPages | {helper-type-func} | <a href="#site.querypages">{helper-desc-q
   <% const localeRegion = site.localeMap[locale] ? site.localeMap[locale].region : locale; %>
   <% if (locale == page.locale) { %>
     <meta property="og:locale" content="<%= localeRegion %>" />
-    <link rel="canonical" href="https://<%= site.domain %>/<%= page.path %>">
+    <link rel="canonical" href="https://<%= site.domain %>/<%= page.pathname %>">
   <% } else { %>
     <meta property="og:locale:alternate" content="<%= localeRegion %>" />
-    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= page.path %>" hreflang="<%= locale %>" />
+    <link rel="alternate" href="https://<%= site.domain %>/<%= locale %>/<%= page.pathname %>" hreflang="<%= locale %>" />
   <% } %>
 <% } %>
 </head>
