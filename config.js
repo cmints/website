@@ -57,16 +57,16 @@ const templateData =
           titleId: "nav-doc-title-getting-started"
         },
         {
-          category: "i18n",
-          titleId: "nav-doc-title-i18n"
-        },
-        {
           category: "pages",
           titleId: "nav-doc-title-pages"
         },
         {
           category: "themes",
           titleId: "nav-doc-title-themes"
+        },
+        {
+          category: "i18n",
+          titleId: "nav-doc-title-i18n"
         }
       ]
       

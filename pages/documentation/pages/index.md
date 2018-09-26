@@ -103,8 +103,25 @@ Learn more about <fix>Markdown</fix> syntax.
 {ejs-p[Paragraph in 'ejs' section]
 <fix>ejs</fix> is a templating language and can be used for more complex pages.
 In order to create them just assign <fix>`.ejs`</fix> extension to the file.
-<fix>ejs</fix> pages can also access page's metadata.
+<fix>ejs</fix> pages can also access page's
+[metadata](/documentation/pages/frontmatter) and
+[website helpers](/documentation/themes/ejs#helpers).
 }
+
+```yaml
+---
+items: 
+  - Apples
+  - Oranges
+  - Cherries
+---
+
+<ul>
+<% for (const item of page.items) { %>
+  <li><%= item %></li>
+<% } %>
+</ul>
+```
 
 <a href="http://ejs.co/" target="_blank" rel="noopener">
 {ejs-p2[Paragraph in 'ejs' section]
@@ -115,10 +132,21 @@ Learn more about <fix>ejs</fix>.
 ## HTML
 
 {html-p[Paragraph in 'HTML' section]
-If you are reading this page you probably already familiar with HTML and you
-most probably used it for your website or you might be familiar with some common
-tags and terms. You should mostly cover your needs by Markdown and EJS for the
-complex pages, but sometimes you might have a ready HTML page which you would
-like to include as a page content in that case just assign <fix>`.html`</fix>
-extension to the file.
+Assign <fix>`.html`</fix> extension to the file in order to write page content
+in <fix>HTML</fix>.
 }
+
+```html
+---
+title: About Markdown
+description: Markdown is a lightweight markup language with plain text formatting syntax
+---
+
+<h2>Subheading of the page</h2>
+<p>Here goes paragraph for the subheading</p>
+<ul>
+  <li>list item1</li>
+  <li>list item2</li>
+  <li>list item3</li>
+</ul>
+```
