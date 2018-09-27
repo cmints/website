@@ -10,34 +10,36 @@ order: 3
 ---
 
 {project-structure-p[Paragraph in 'Project structure' section]
-The project structure is straighforward, the website related files are located
-in src folder, so this is the folder where your website/project will be located.
+<fix>[public](#public), [locales](#locales), [pages](#pages),
+[theme](#theme)</fix> are main directories of the project:
 }
+
 ```
-src
 ├── public
 ├── locales
 ├── pages
-└── theme
-    ├── less
-    └── layouts
-        ├── default.ejs
-        └── home.ejs
+├── theme
+│   ├── less
+│   └── layouts
+│       ├── default.ejs
+│       └── home.ejs
+└── config.js
 ```
 
 ## {public[Page heading] public}
 
 {public-p[Paragraph in 'public' section]
-Stores all the static content of the website. Good example is CSS files, Fonts,
-JS, favicon, robots.txt and etc. By default CSS folder is used as the
-compilation target directory for `.less` files. The content of the folder will
-be copied to the *content* directory after static content generation.
+Serves static content for the website (<fix>CSS, JavaScript, favicon,
+robots.txt</fix> and etc.). The content of the folder will be copied into the
+<fix>*content*</fix> directory when [generating static
+content](/documentation#generate-static-content).
 }
 
 ## {locales[Page heading] locales}
 
 {locales-p[Paragraph in 'locales' section]
-Holds pages and themes language specific data in `.json` format for each locale:
+Holds pages and themes language specific data in <fix>`.json`</fix> format for
+each locale:
 }
 
 ```bash
