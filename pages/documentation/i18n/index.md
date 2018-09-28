@@ -23,6 +23,7 @@ Locale files should be located in the <fix>`locales`</fix> directory:
 }
 
 ```bash
+locales
 ├── de
 │   ├── about.json
 │   └── news.json

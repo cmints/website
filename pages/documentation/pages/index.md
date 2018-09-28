@@ -62,9 +62,7 @@ showToc: true
 ```
 
 <a href="/documentation/pages/frontmatter">
-{front-matter-p2[Paragraph in 'Front Matter' section]
-Learn more about <fix>Front Matter</fix>.
-}
+{learn-more(common)}
 </a>
 
 ## Markdown
@@ -92,11 +90,8 @@ Here goes paragraph for the subheading
 ```
 
 <a href="http://commonmark.org/help">
-{markdown-p2[Paragraph in 'Markdown' section]
-Learn more about <fix>Markdown</fix> syntax.
-}
+{learn-more(common)}
 </a>
-
 
 ## ejs
 
@@ -124,9 +119,7 @@ items:
 ```
 
 <a href="http://ejs.co/" target="_blank" rel="noopener">
-{ejs-p2[Paragraph in 'ejs' section]
-Learn more about <fix>ejs</fix>.
-}
+{learn-more(common)}
 </a>
 
 ## HTML

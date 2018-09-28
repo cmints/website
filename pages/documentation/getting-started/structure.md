@@ -19,14 +19,11 @@ order: 3
 ├── locales
 ├── pages
 ├── theme
-│   ├── less
-│   └── layouts
-│       ├── default.ejs
-│       └── home.ejs
 └── config.js
 ```
+## {project-dirs[Page heading] Project directories}
 
-## {public[Page heading] public}
+### public
 
 {public-p[Paragraph in 'public' section]
 Serves static content for the website (<fix>CSS, JavaScript, favicon,
@@ -35,14 +32,15 @@ robots.txt</fix> and etc.). The content of the folder will be copied into the
 content](/documentation#generate-static-content).
 }
 
-## {locales[Page heading] locales}
+### locales
 
 {locales-p[Paragraph in 'locales' section]
-Holds pages and themes language specific data in <fix>`.json`</fix> format for
-each locale:
+<fix>locales</fix> folder holds translation <fix>`.json`</fix> files that
+contain i18n strings for multilanguage projects.
 }
 
 ```bash
+locales
 ├── de
 │   ├── about.json
 │   └── news.json
@@ -63,20 +61,20 @@ each locale:
     ├── index.json
     └── news.json
 ```
-{locales-p2[Paragraph in 'locales' section]
-The folder names should reflect the `locales` value, set in the configuration
-file. `.json` reflect the path to the page, similar to the structure inside of
-the `pages` directory. [See](/documentation/i18n) for more information about the
-i18n files.
-}
 
-## {pages[Page heading] pages}
+<a href="/documentation/i18n">
+{learn-more(common)}
+</a>
+
+
+### pages
 {pages-p[Paragraph in 'pages' section]
-Actual content of the website goes here and the structure reflects the path to
-the page with `index` files points to the actual directory:
+Actual content of the website pages goes here and the structure reflects the
+path to the page with `index` files points to the actual directory.
 }
 
 ```bash
+pages
 ├── about
 │   └── team.md
 ├── about.md
@@ -92,17 +90,11 @@ the page with `index` files points to the actual directory:
 └── news.md
 ```
 
-{pages-p2[Paragraph in 'pages' section]
-Supported page content files are:
-}
+<a href="/documentation/pages">
+{learn-more(common)}
+</a>
 
-extention | Descriptio
---- | ---
-`.md` | Markdown files, use<a href="http://commonmark.org/" target="_blank" rel="noopener">CommonMark</a> to create markdown content. Learn more about writing markdown in <fix>CMintS</fix> <a href="/documentation/pages#markdown" target="_blank" rel="noopener">here</a>.
-`.ejs` | For more robust pages you can use <a href="http://ejs.co/" target="_blank" rel="noopener">EJS</a> for creating a complex page content. Learn more about creating ejs pages in <fix>CMintS</fix> <a href="/documentation/pages#ejs" target="_blank" rel="noopener">here</a>.
-`.html` | HTML files
-
-## {theme[Page heading] theme}
+### theme
 
 {theme-p2[Paragraph in 'theme' section]
 Theme of the project, main folders are <fix>`layouts`</fix> where actual website layouts
@@ -111,6 +103,7 @@ the <fix>`public/css`</fix> folder:
 }
 
 ```bash
+theme
 ├── layouts
 │   ├── partials
 │   │   ├── footer.ejs
@@ -128,3 +121,7 @@ the <fix>`public/css`</fix> folder:
     ├── _footerModule.js
     └── main.js
 ```
+
+<a href="/documentation/themes">
+{learn-more(common)}
+</a>

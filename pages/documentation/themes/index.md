@@ -11,21 +11,20 @@ order: 0
 ---
 
 ```bash
-src
-└── theme
-    ├── layouts
-    │   ├── default.ejs
-    │   └── home.ejs
-    ├── less
-    │   ├── _footer.less
-    │   ├── _header.less
-    │   ├── _sidebars.less
-    │   ├── _variables.less
-    │   ├── index.less
-    │   └── main.less
-    └── partials
-        ├── footer.ejs
-        └── header.ejs
+theme
+├── layouts
+│   ├── default.ejs
+│   └── home.ejs
+├── less
+│   ├── _footer.less
+│   ├── _header.less
+│   ├── _sidebars.less
+│   ├── _variables.less
+│   ├── index.less
+│   └── main.less
+└── partials
+    ├── footer.ejs
+    └── header.ejs
 ```
 
 {theme-p[Paragraph in 'theme' section]
