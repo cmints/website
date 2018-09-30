@@ -6,21 +6,5 @@
   "description": {
     "message": "Узнайте о структуре страниц и о том, как создавать страницы в <fix1> с помощью <fix2>, <fix3> и <fix4>.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - Markdown\n<fix3> - ejs\n<fix4> - HTML\n"
-  },
-  "pages-p": {
-    "message": "Фактическое содержимое веб-сайта отправляется в каталог <fix1>. Контент может быть\nнаписанные с использованием Markdown (по умолчанию), EJS (сложные страницы) и HTML. Папка\nструктура внутри каталога страниц отражает фактический путь, когда страница\nтак, например, если вы считаете структуру ниже и хотели бы\nзапросите страницу src \/ pages \/ about \/ team.md, которую вы запросите с помощью <fix2>\nпуть, если, например, вы размещаете свой сайт в домене example.com, это будет\n<fix3>:",
-    "description": "Paragraph in 'Pages' section\n<fix> placeholders:\n<fix1> - <strong>src\/pages<\/strong>\n<fix2> - <strong>\/about\/team<\/strong>\n<fix3> - <code>https:\/\/example.com\/about\/team<\/code>\n"
-  },
-  "markdown-p": {
-    "message": "Чтобы написать содержимое страницы с помощью Markdown, просто назначьте <fix1>\nрасширение файла. <fix2> использует <a1> CommonMark <\/a1>, чтобы поддерживать страницы Markdown. CommonMark -\na сильно определенная, очень совместимая спецификация Markdown, в основном\nговоря, что это Markdown, но указано. Вы можете больше узнать о написании\nCommonMark <a2> здесь <\/a2>.",
-    "description": "Paragraph in 'Markdown' section\n<fix> placeholders:\n<fix1> - <code>.md<\/code>\n<fix2> - CMintS\n<a> placeholders:\n<a1>CommonMark<\/a1> - <a href=\"http:\/\/commonmark.org\/\" target=\"_blank\">CommonMark<\/a>\n<a2>here<\/a2> - <a href=\"http:\/\/commonmark.org\/help\/\" target=\"_blank\">here<\/a>\n"
-  },
-  "ejs-p": {
-    "message": "Страницы ejs используются для более сложных страниц, в большинстве случаев вы, вероятно,\nпредпочла бы писать ваш фактический контент с помощью уценки без необходимости\nвключают теги HTML, которые потребуют от вас также управлять ими и не забывать\nзакрыть, когда требуется, но когда дело доходит до некоторых сложных целевых страниц иногда\nMarkdown бесполезен. EJS - простой язык шаблонов, который позволяет генерировать\nHTML-разметка с простым JavaScript. Вы можете узнать больше о EJS <a1> здесь <\/a1>. Чтобы создать страницу EJS просто\nприсвойте в файл расширение <fix1>.",
-    "description": "Paragraph in 'ejs' section\n<a> placeholders:\n<a1>here<\/a1> - <a href=\"http:\/\/ejs.co\/\" target=\"_blank\">here<\/a>\n<fix> placeholders:\n<fix1> - <code>.ejs<\/code>\n"
-  },
-  "html-p": {
-    "message": "Если вы читаете эту страницу, вы, вероятно, уже знакомы с HTML, и вы\nскорее всего, использовали его для вашего веб-сайта, или вы, возможно, знакомы с некоторыми обычными\nтеги и термины. Вы должны в основном покрывать ваши потребности Markdown и EJS для\nсложные страницы, но иногда у вас может быть готовая HTML-страница, которую вы бы\nкак включение содержимого страницы в этом случае, просто назначьте <fix1>\nрасширение файла.",
-    "description": "Paragraph in 'HTML' section\n<fix> placeholders:\n<fix1> - <code>.html<\/code>\n"
   }
 }

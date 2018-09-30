@@ -7,16 +7,8 @@
     "message": "Как настроить <fix1> и с помощью templateData для передачи данных в шаблон.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
-  "config-p": {
-    "message": "<fix1> в папке <fix2>, это где вы можете перезаписать различных конфигураций сайта:",
-    "description": "Paragraph in 'Configuration' section\n<fix> placeholders:\n<fix1> - config.js\n<fix2> - <code>src<\/code>\n"
-  },
   "config-p2": {
     "message": "Этот файл должен перезаписать <a1> default конфигураций <\/a>, установленных\n<fix1>-ом.",
     "description": "Paragraph in 'Page heading' section\n<a> placeholders:\n<a1>default configurations<\/a1> - <a href=\"https:\/\/github.com\/Manvel\/cmints\/blob\/master\/config.js\">default configurations<\/a>\n<fix> placeholders:\n<fix1> - CMintS\n"
-  },
-  "templateData": {
-    "message": "<fix1> объект хранит данные, которые передаются в ejs\nшаблон. Таким образом, вы можете напрямую получить доступ к значениям этого объекта просто\nреферируя их из файла .ejs",
-    "description": "Paragraph in 'templateData' section\n<fix> placeholders:\n<fix1> - <em>templateData<\/em>\n"
   }
 }

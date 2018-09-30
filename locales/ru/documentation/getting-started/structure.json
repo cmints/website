@@ -6,33 +6,5 @@
   "description": {
     "message": "Структура проекта, узнать, как организовать ваш проект и название каталога",
     "description": "Page description\n"
-  },
-  "project-structure-p": {
-    "message": "Структура проекта несложна, файлы, связанные с веб-сайтом, расположены\nв папке src, так что это папка, в которой будет находиться ваш сайт \/ проект",
-    "description": "Paragraph in 'Project structure' section\n"
-  },
-  "public-p": {
-    "message": "Сохраняет весь статический контент веб-сайта. Хорошим примером являются файлы CSS, шрифты,\nJS, favicon, robots.txt и т. Д. По умолчанию папка CSS используется как\nкаталог для компиляции для <code1> .less <\/code1> файлов. Содержимое папки будет\nкопироваться в каталог <em1> content <\/em1> после создания статического контента.",
-    "description": "Paragraph in 'public' section\n"
-  },
-  "locales-p": {
-    "message": "Находятся страницы и темы для конкретных языков в формате .json для каждого языкового стандарта:",
-    "description": "Paragraph in 'locales' section\n"
-  },
-  "locales-p2": {
-    "message": "Имена папок должны отражать значение <code> locales <\/code>, заданное в конфигурации\nфайл. <code> .json <\/ code> отражает путь к странице, аналогичный структуре внутри\nкаталог <code> pages <\/ code>. <a1> См. <\/a1> для получения дополнительной информации о\ni18n.",
-    "description": "Paragraph in 'locales' section\n<a> placeholders:\n<a1>See<\/a1> - <a href=\"\/documentation\/i18n\">See<\/a>\n"
-  },
-  "pages-p": {
-    "message": "Фактическое содержание веб-сайта идет здесь, и структура отражает путь к\nстраница с файлами <code> index <\/code> указывает на фактический каталог:",
-    "description": "Paragraph in 'pages' section\n"
-  },
-  "pages-p2": {
-    "message": "Поддерживаемые файлы содержимого страницы:",
-    "description": "Paragraph in 'pages' section\n"
-  },
-  "theme-p": {
-    "message": "Тема проекта, основные папки - это <fix1>, где фактические макеты веб-сайта\nreside и <fix2>, в которой содержится меньше файлов, которые скомпилированы в\nв папке <fix3>:",
-    "description": "Paragraph in 'theme' section\n<fix> placeholders:\n<fix1> - <code>layouts<\/code>\n<fix2> - <code>less<\/code>\n<fix3> - <code>public\/css<\/code>\n"
   }
 }

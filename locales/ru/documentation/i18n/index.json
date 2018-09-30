@@ -15,10 +15,6 @@
     "message": "Структура директории locales",
     "description": "Page heading\n"
   },
-  "locales-dir-structure-p": {
-    "message": "Файлы локалей должны быть расположены в папке <fix1>:",
-    "description": "Paragraph in 'Locales directory structure' section\n<fix> placeholders:\n<fix1> - <code>src\/locales<\/code>\n"
-  },
   "locale-file": {
     "message": "Файл локалей",
     "description": "Page heading\n"

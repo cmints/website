@@ -1,0 +1,74 @@
+{
+  "title": {
+    "message": "Документация",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "<fix1>, что такое <fix1> и как его установить.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
+  },
+  "what-is-cmints": {
+    "message": "Что такое CMintS?",
+    "description": "Page heading\n"
+  },
+  "what-is-cmints-p": {
+    "message": "<fix1> - это CMS и статический контент-генератор, который был\nсоздан с учетом интернационализации. <fix2> довольно\nпростой в установке, он имеет лишь несколько требований.",
+    "description": "Paragraph in 'What is CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
+  },
+  "requirements": {
+    "message": "Требования",
+    "description": "Page heading\n"
+  },
+  "requirements-p": {
+    "message": "Если у вас установлены требования, следуйте этим инструкциям.",
+    "description": "Paragraph in 'Requirements' section\n"
+  },
+  "installing-git": {
+    "message": "Установка Git",
+    "description": "Page heading\n"
+  },
+  "installing-node": {
+    "message": "Установка Node.js",
+    "description": "Page heading\n"
+  },
+  "installing-node-p": {
+    "message": "Загрузите <fix1> из <a1> https:\/\/nodejs.org\/ <\/a>.",
+    "description": "Paragraph in 'Installing Node.js' section\n<fix> placeholders:\n<fix1> - Node.js\n<a> placeholders:\n<a1>https:\/\/nodejs.org\/<\/a1> - <a href=\"https:\/\/nodejs.org\" target=\"_blank\" rel=\"noopener\">https:\/\/nodejs.org\/<\/a>\n"
+  },
+  "install-cmints": {
+    "message": "Установка CMintS",
+    "description": "Page heading\n"
+  },
+  "example-project": {
+    "message": "Пример проекта",
+    "description": "Page heading\n"
+  },
+  "example-project-p": {
+    "message": "Для того чтобы быстрее освоится рекомендуется создать пример проекта, запустив:",
+    "description": "Paragraph in 'Example projects' section\n"
+  },
+  "example-project-p2": {
+    "message": "Пример проекта - это содержимое текущего веб-сайта, которое также можно найти\nв <a1> github <\/a1>.",
+    "description": "Paragraph in 'Example projects' section\n<a> placeholders:\n<a1>github<\/a1> - <a href=\"https:\/\/github.com\/Manvel\/cmints-website\" target=\"_blank\" rel=\"noopener\">github<\/a>\n"
+  },
+  "example-project-p3": {
+    "message": "Сгенерированный проект будет помещен в каталог <code1> src <\/code1>. Посмотрите\n<a1> структуру проэкта <\/a1> для получения дополнительной информации о структуре \t\nкаталога.",
+    "description": "Paragraph in 'Example projects' section\n<a> placeholders:\n<a1>structures<\/a1> - <a href=\"\/documentation\/getting-started\/structure\">structures<\/a>\n"
+  },
+  "start-server": {
+    "message": "Запустить сервер",
+    "description": "Page heading\n"
+  },
+  "start-server-p": {
+    "message": "Для разработки Используйте флаг <code1> - no-cache <\/code1>, чтобы отключить кеширование",
+    "description": "Paragraph in 'Starting server' section\n"
+  },
+  "generate-static-content": {
+    "message": "Создание статического содержимого",
+    "description": "Page heading\n"
+  },
+  "generate-static-content-p": {
+    "message": "Выполните команды ниже для создания статического содержимого",
+    "description": "Paragraph in 'Generating static content' section\n"
+  }
+}

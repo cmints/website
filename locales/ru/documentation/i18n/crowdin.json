@@ -5,7 +5,7 @@
   },
   "crowdin-p": {
     "message": "<a1>Crowdin<\/a1> это платформа управления переводом и локализацией. <fix1> использует Crowdin из-за простаты использования а так же из за того что Crowdin бесплатен для проектов с открытым кодом.",
-    "description": "Paragraph in 'Crowdin integration' section\n<a> placeholders:\n<a1>Crowdin<\/a1> - <a href=\"https:\/\/crowdin.com\/\" target=\"_blank\">Crowdin<\/a>\n<fix> placeholders:\n<fix1> - CMintS\n"
+    "description": "Paragraph in 'Crowdin integration' section\n<a> placeholders:\n<a1>Crowdin<\/a1> - <a href=\"https:\/\/crowdin.com\/\" target=\"_blank\" rel=\"noopener\">Crowdin<\/a>\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
   "setting-up": {
     "message": "Настройка",

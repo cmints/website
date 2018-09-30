@@ -5,7 +5,7 @@
   },
   "ejs-p": {
     "message": "<fix1> использует <a1> EJS <\/a1> в качестве шаблона\nдвигатель для создания макетов, EJS также может использоваться для\n<a1> страница <\/a1>. EJS - простой шаблонный язык\nкоторый позволяет генерировать HTML-разметку при написании простого JavaScript. Детальный EJS\nсинтаксическая документация может быть найдена <a2 здесь <\/a2>, также есть онлайн-площадка, до <a3> попробуйте\nСинтаксис <\/a>.",
-    "description": "Paragraph in 'ejs' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>EJS<\/a1> - <a href=\"http:\/\/ejs.co\/\" target=\"_blank\">EJS<\/a>\n<a2>page<\/a2> - <a href=\"\/documentation\/pages#ejs\">page<\/a>\n<a3>here<\/a3> - <a href=\"https:\/\/github.com\/mde\/ejs\/blob\/master\/docs\/syntax.md\" target=\"_blank\">here<\/a>\n<a4>try out the syntax<\/a4> - <a href=\"https:\/\/ionicabizau.github.io\/ejs-playground\/\" target=\"_blank\">try out the syntax<\/a>\n"
+    "description": "Paragraph in 'ejs' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>EJS<\/a1> - <a href=\"http:\/\/ejs.co\/\" target=\"_blank\" rel=\"noopener\">EJS<\/a>\n<a2>page<\/a2> - <a href=\"\/documentation\/pages#ejs\">page<\/a>\n"
   },
   "layout": {
     "message": "Внешний вид",
@@ -15,25 +15,9 @@
     "message": "\nКак упоминалось в <a1> обзоре тем <\/a> в\nчтобы решить, какой макет использовать для страницы, Front Matter &quot; layout &quot;\nнеобходимо использовать свойство, которое возвращается к макету по умолчанию.\nKak",
     "description": "Paragraph in 'Layout' section\n<a> placeholders:\n<a1>themes overview<\/a1> - <a href=\"\/documentation\/themes#layouts\">themes overview<\/a>\n"
   },
-  "layout-p2": {
-    "message": "Принимая во внимание фрагмент ниже <fix1>:",
-    "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>src\/theme\/layouts\/default.ejs<\/code>\n"
-  },
-  "layout-p3": {
-    "message": "И фрагмент ниже <fix1>",
-    "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>src\/pages\/about.md<\/code>\n"
-  },
   "layout-p4": {
     "message": "Запрос на страницу <fix1> будет генерировать HTML-код ниже:",
     "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>\/about<\/code>\n"
-  },
-  "layout-p5": {
-    "message": "Но если у вас есть другой макет, который находится в\n<fix1>, чтобы использовать его, вы использовали бы Front Matter\nнапр .:",
-    "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>src\/theme\/layouts\/home.ejs<\/code>\n"
-  },
-  "body-p": {
-    "message": "Как вы могли заметить из предыдущего примера <fix1>\nЗаполнитель в макете ejs заменяется фактическим содержимым, независимо от того,\nкакая страница <a1> используется (markdown, html или ejs) <\/a1> фактическое содержание\nстраницы отображается и заменяет <fix2>\nзаполнитель.",
-    "description": "Paragraph in 'body' section\n<fix> placeholders:\n<fix1> - <code>&lt;%- body %&gt;<\/code>\n<fix2> - <code>&lt;%- body %&gt;<\/code>\n<a> placeholders:\n<a1>page is used(markdown, html or ejs)<\/a1> - <a href=\"\/documentation\/pages\">page is used(markdown, html or ejs)<\/a>\n"
   },
   "partials-p": {
     "message": "Partials - это файлы макета EJS, которые можно загружать в макеты EJS:",
@@ -66,29 +50,5 @@
   "helpers": {
     "message": "Помощники",
     "description": "Page heading\n"
-  },
-  "helpers-p": {
-    "message": "There are also some built in helpers in <fix1> that can be used out of the box.\n",
-    "description": "Paragraph in 'Helpers' section\n<fix> placeholders:\n<fix1> - CMintS\n"
-  },
-  "currentPage-p": {
-    "message": "The <fix1> variable represents the path of the URL:",
-    "description": "Paragraph in 'currentPage' section\n<fix> placeholders:\n<fix1> - currentPage\n"
-  },
-  "toc-heading": {
-    "message": "Содержание",
-    "description": "Page heading\n"
-  },
-  "toc-p": {
-    "message": "С разделительными страницами <fix1> в &quot;.ejs&quot; макеты могут быть\nиспользуется для создания таблицы содержимого. Переменная <strong> toc <\/ strong> - это дерево, подобное\nобъект, где каждый узел соответствует уценке Заголовок, содержащий идентификатор и заголовок\nзаголовка. ID для заголовков загружается и генерируется автоматически. Если\nузел содержит дочерние элементы, то все дочерние узлы могут быть доступны с помощью\nдочернее свойство узла:",
-    "description": "Paragraph in 'Table Of Content' section\n<fix> placeholders:\n<fix1> - <code>toc<\/code>\n"
-  },
-  "toc-p2": {
-    "message": "Итак, чтобы построить таблицу содержимого из этой переменной, фрагмент EJS\nможет использоваться как ниже:",
-    "description": "Paragraph in 'Table Of Content' section\n"
-  },
-  "p3": {
-    "message": "И фрагмент можно получить из макета, используя следующий код:",
-    "description": "Paragraph in 'Table Of Content' section\n"
   }
 }
