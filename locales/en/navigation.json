@@ -46,5 +46,9 @@
   "nav-doc-title-front-matter": {
     "description": "Documentation sidebar text",
     "message": "Front Matter"
+  },
+  "nav-doc-title-404": {
+    "description": "Documentation sidebar text",
+    "message": "404 Error"
   }
 }

@@ -15,7 +15,7 @@ Content of the website goes to the <fix>**pages**</fix> directory. Pages can be
 written in <fix>[Markdown](#markdown)</fix>, <fix>[EJS](#ejs)</fix> or
 <fix>[HTML](#html)</fix>. The folder structure inside of the pages directory
 reflects actual path when the page is requested(unless a
-[permalink](/documentation/pages#permalinks) is specified), which means that
+[permalink](/documentation/pages/frontmatter#permalinks) is specified), which means that
 considering structure below:
 }
 
