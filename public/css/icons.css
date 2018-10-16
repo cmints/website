@@ -1,8 +1,0 @@
-.icon::before {
-  content: "";
-  display: block;
-}
-.icon.edit::before {
-  background-image: url(/image/edit.svg);
-}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImlucHV0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEtBQUs7RUFFSCxTQUFTLEVBQVQ7RUFDQSxjQUFBOztBQUdGLEtBQUssS0FBSztFQUVSLHNDQUFBIn0= */
