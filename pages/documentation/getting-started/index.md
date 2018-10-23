@@ -44,12 +44,9 @@ running, one of the commands below:
 ```bash-i18n
 # {example-project-comment1[Comment in 'Example projects' section's code block] Download example project into current directory and build}
 cmints --example
-npm i
 
 # {example-project-comment2[Comment in 'Example projects' section's code block] Replace optional \{PATH\} with the path to the download target directory}
 cmints {PATH} --example
-cd {PATH}
-npm i
 ```
 
 {example-project-p2[Paragraph in 'Example projects' section]
