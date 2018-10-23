@@ -8,12 +8,12 @@ const markdownOptions = {
     const result = (lang && getLanguage(lang)) ? highlight(lang, str).value : "";
     if (i18n)
     {
-      return result;
+      // Replace i18n braces to use inside of code blocks
+      return result.replace(/\\{/g, "&#123;").replace(/\\}/g, "&#125;");
     }
     else
     {
-      // Replace i18n braces to use inside of code blocks
-      return result.replace(/{/g, "&#123;").replace(/}/g, "&#125;");
+      return result;
     }
   }
 };
