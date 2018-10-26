@@ -3,7 +3,8 @@ title: JavaScript Modules
 description: Implement <fix>CMintS</fix> Theme's functionality using Node.js-style modules and include the compiled files right into layout.
 navTitleId: nav-doc-title-modules
 categories: [documentation, themes]
-showEdit: documentation/pages/js-modules.md
+showEdit: documentation/themes/js-modules.md
+showTranslate: 181
 order: 0
 ---
 
