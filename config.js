@@ -1,3 +1,5 @@
+"use strict";
+
 const {getLanguage, highlight} = require("highlight.js");
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
@@ -17,7 +19,7 @@ const markdownOptions = {
     }
   }
 };
-
+//
 const port = {
   https: 4000,
   http: 3000
@@ -40,15 +42,22 @@ const templateData =
     localeMap: {
       "en": {name: "English", region: "en_US"},
       "de": {name: "Deutsch", region: "de_DE", crowdin: "en-de"},
-      "ru": {name: "Русский", region: "ru_RU", crowdin: "en-ru" },
-      "es": {name: "Español", region: "es_ES", crowdin: "en-es" },
-      "lt": {name: "Lietuvių", region: "lt_LT", crowdin: "en-lt" },
-      "hy-AM": {name: "Հայերեն", region: "hy_AM", crowdin: "en-hy" }
+      "ru": {name: "Русский", region: "ru_RU", crowdin: "en-ru"},
+      "es": {name: "Español", region: "es_ES", crowdin: "en-es"},
+      "lt": {name: "Lietuvių", region: "lt_LT", crowdin: "en-lt"},
+      "hy-AM": {name: "Հայերեն", region: "hy_AM", crowdin: "en-hy"}
     },
     defaultLocale: "en",
     navigations: [
-      {path: "documentation", contains: "documentation", stringId: "header-menu-item-docs"},
-      {path: "presentation", stringId: "header-menu-item-slides"}
+      {
+        path: "documentation",
+        contains: "documentation",
+        stringId: "header-menu-item-docs"
+      },
+      {
+        path: "presentation",
+        stringId: "header-menu-item-slides"
+      }
     ],
     secondaryNavigations: {
       documentation: [
@@ -69,7 +78,6 @@ const templateData =
           titleId: "nav-doc-title-i18n"
         }
       ]
-      
     }
   }
 };
