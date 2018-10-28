@@ -31,6 +31,11 @@ const i18nOptions = {
   crowdinId: "cmints-website"
 };
 
+const deployment = {
+  where: "gh-pages",
+  gitDir: "."
+};
+
 const templateData =
 {
   site: {
@@ -83,4 +88,4 @@ const templateData =
 };
 
 module.exports = {templateData, markdownOptions, i18nOptions, port,
-  hostname};
+  hostname, deployment};
