@@ -74,7 +74,7 @@ cmints {PATH} --start --https -k {PRIVATE_KEY} -c {CERTIFICATE}
 #### {start-server-development[Page heading] For development:}
 
 ```bash-i18n
-# {development-server-commen1[Comment in 'For development' section's code block] Run http server serving current folder] Use --no-cache flag to disable the caching}
+# {development-server-commen1[Comment in 'For development' section's code block] Run http server serving current folder Use --no-cache flag to disable the caching}
 cmints --start --no-cache
 
 # {development-server-commen2[Comment in 'For development' section's code block] Replace optional \{PATH\} with the path to the folder you wish to serve}
