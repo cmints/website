@@ -36,6 +36,8 @@ const deployment = {
   gitDir: "."
 };
 
+const gzip = true;
+
 const templateData =
 {
   site: {
@@ -88,4 +90,4 @@ const templateData =
 };
 
 module.exports = {templateData, markdownOptions, i18nOptions, port,
-  hostname, deployment};
+  hostname, deployment, gzip};
