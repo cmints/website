@@ -94,8 +94,8 @@ inside of opening and closing curly braces. Translation string consist of
 stringId, optional description and source text:
 }
 
-```javascript
-{stringId[Description] Source text}
+```javascript-i18n
+\{stringId[Description] Source text\}
 ```
 
 {translation-strings-p2[Paragraph in 'Translation strings' section]
@@ -103,8 +103,8 @@ So for example considering the <fix>**ru**</fix> locale in [Locale
 file](#locale-file) and translation string below:
 }
 
-```html
-{heading-main[Heading of the main page] Heading}
+```html-i18n
+\{heading-main[Heading of the main page] Heading\}
 ```
 
 {translation-strings-p3[Paragraph in 'Translation strings' section]
@@ -167,8 +167,8 @@ Current tags <fix>`a, img, p, span, div, em, i, b, strong`</fix> can be used by
 default in the translation strings, ex:
 }
 
-```html
-{stringId[Description] My awesome <em>source text</em> goes here}
+```html-i18n
+\{stringId[Description] My awesome <em>source text</em> goes here\}
 ```
 
 #### \<a\>
@@ -179,8 +179,8 @@ on the language, for that reason the order in the locale file string need to be
 defined, so considering the translation string below:
 }
 
-```html
-{paragraph-1 This is <a href="https://www.example1.com">first link</a>, <a href="/random1">second link</a> and <a href="/random2">third link</a>}
+```html-i18n
+\{paragraph-1 This is <a href="https://www.example1.com">first link</a>, <a href="/random1">second link</a> and <a href="/random2">third link</a>\}
 ```
 
 {a-tag-p2[Paragraph in '<a> tag' section]
@@ -218,8 +218,8 @@ Some words do not suppose to be translated in the website(ex: brand names), for
 that reason <fix>`<fix>`</fix> tag can be used:
 }
 
-```html
-{fixed-id <fix>CMintS</fix> uses <fix>fix</fix> tag}
+```html-i18n
+\{fixed-id <fix>CMintS</fix> uses <fix>fix</fix> tag\}
 ```
 
 {fix-tag-p2[Paragraph in 'fix tag' section]
@@ -247,8 +247,8 @@ Similar to the <fix>`<a>`</fix> and <fix>`<fix>`</fix> tags <fix>`<img>`</fix>
 tag also should keep it's order in the translation strings, so for:
 }
 
-```html
-{test-img1 This is <img href="/first.png"> and <img href="/second.png"> image}
+```html-i18n
+\{test-img1 This is <img href="/first.png"> and <img href="/second.png"> image\}
 ```
 
 {img-tag-p2[Paragraph in '<img> tag' section]
@@ -277,8 +277,8 @@ Some attributes are also suppose to be translated in different languages, so
 that attributes can also be used in the translation string tags:
 }
 
-```html
-{test-attribute1 <div title="Website Logo" id="logo"><img src="/random/path" alt="Jumping puma" />Picture</div>}
+```html-i18n
+\{test-attribute1 <div title="Website Logo" id="logo"><img src="/random/path" alt="Jumping puma" />Picture</div>\}
 ```
 
 {title-alt-attr-p2[Paragraph in 'title and alt attributes' section]
@@ -325,6 +325,6 @@ module.exports = {i18nOptions};
 For the configuration specified above, you could use the syntax below:
 }
 
-```js
-{{stringId[Description] Source text}}
+```js-i18n
+\{\{stringId[Description] Source text\}\}
 ```

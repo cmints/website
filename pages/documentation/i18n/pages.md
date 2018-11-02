@@ -17,29 +17,29 @@ of using translation strings in different page types:
 
 ## Markdown
 
-```html
-# {about-us[Heading about us] About Us}
-{about-us-p1[First paragraph of in  About Us section] My awesome <em>source text</em> goes here}
-{about-us-p2[Second paragraph of in  About Us section] Another awesome <em>source text</em> goes here}
+```html-i18n
+# \{about-us[Heading about us] About Us\}
+\{about-us-p1[First paragraph of in  About Us section] My awesome <em>source text</em> goes here\}
+\{about-us-p2[Second paragraph of in  About Us section] Another awesome <em>source text</em> goes here\}
 ```
 
 ## HTML
 
-```html
-<h1>{about-us[Heading about us] About Us}<h1>
-<p>{about-us-p1[First paragraph of in  About Us section] My awesome <em>source text</em> goes here}</p>
-<p>{about-us-p2[Second paragraph of in  About Us section] Another awesome <em>source text</em> goes here}</p>
+```html-i18n
+<h1>\{about-us[Heading about us] About Us\}<h1>
+<p>\{about-us-p1[First paragraph of in  About Us section] My awesome <em>source text</em> goes here\}</p>
+<p>\{about-us-p2[Second paragraph of in  About Us section] Another awesome <em>source text</em> goes here\}</p>
 ```
 
 ##  ejs
 
-```html
+```html-i18n
 <%
 const paragraphs = ["My awesome <em>source text</em> goes here", 
                     "Another awesome <em>source text</em> goes here"]
 %>
 <% for (let i = 0; i < paragraphs.length; i++) { %>
-  <p>{about-us-p<%= i +1 %>[<%= i +1 %> paragraph of About Us section] <%- paragraphs[i] %>}</p>
+  <p>\{about-us-p<%= i +1 %>[<%= i +1 %> paragraph of About Us section] <%- paragraphs[i] %>\}</p>
 <% } %>
 ```
 
@@ -50,12 +50,12 @@ Early defined stringId in the page can be used in multiple places, that's
 possible by referencing to the stringId inside of the braces, ex:
 }
 
-```html
+```html-i18n
 <p>
-  {stringId[Description] My awesome <em>source text</em> goes here}
+  \{stringId[Description] My awesome <em>source text</em> goes here\}
 </p>
 <div>
-  {stringId}
+  \{stringId\}
 <div>
 ```
 
@@ -68,8 +68,8 @@ markdown heading element text translation StringID is used as a header ID,
 considering the example below:
 }
 
-```html
-# {about-us[Heading about us] About Us}
+```html-i18n
+# \{about-us[Heading about us] About Us\}
 ```
 
 {markdown-heading-id-p2[Paragraph in 'Heading IDs in markdown' section]
