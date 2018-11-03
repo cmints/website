@@ -36,6 +36,8 @@ const deployment = {
   where: "git"
 };
 
+const generationType = "Double";
+
 const gzip = true;
 
 const templateData =
@@ -91,4 +93,4 @@ const templateData =
 };
 
 module.exports = {templateData, markdownOptions, i18nOptions, port,
-  hostname, deployment, gzip, root};
+  hostname, deployment, gzip, root, generationType};
