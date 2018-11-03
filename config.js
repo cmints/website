@@ -25,6 +25,7 @@ const port = {
   http: 3000
 };
 const hostname = "0.0.0.0";
+const root = "";
 
 const i18nOptions = {
   defaultLocale: "en",
@@ -32,8 +33,7 @@ const i18nOptions = {
 };
 
 const deployment = {
-  where: "gh-pages",
-  gitDir: "."
+  where: "git"
 };
 
 const gzip = true;
@@ -42,6 +42,7 @@ const templateData =
 {
   site: {
     domain: "cmints.io",
+    root,
     title: "CMintS",
     description: "CMS created with the internationalization in mind",
     github: "https://github.com/Manvel/cmints-website",
@@ -90,4 +91,4 @@ const templateData =
 };
 
 module.exports = {templateData, markdownOptions, i18nOptions, port,
-  hostname, deployment, gzip};
+  hostname, deployment, gzip, root};
