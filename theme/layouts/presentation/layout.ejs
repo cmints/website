@@ -5,12 +5,12 @@
 		<% include ../partials/head/meta %>
 		<link rel="shortcut icon" href="<%= site.root %>/images/favicon.png">
 
-		<link rel="stylesheet" href="<%= site.root %>/css/presentation/reveal/css/reveal.css">
-		<link rel="stylesheet" href="<%= site.root %>/css/presentation/reveal/css/theme/white.css">
+		<link rel="stylesheet" href="<%= site.root %>/presentation/reveal/css/reveal.css">
+		<link rel="stylesheet" href="<%= site.root %>/presentation/reveal/css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="<%= site.root %>/css/presentation/reveal/lib/css/zenburn.css">
-		<link rel="stylesheet" href="<%= site.root %>/css/presentation/index.css">
+		<link rel="stylesheet" href="<%= site.root %>/presentation/reveal/lib/css/zenburn.css">
+		<link rel="stylesheet" href="<%= site.root %>/css/presentation.css">
 		<% include ../partials/head/analytics %>
 	</head>
 	<body>
@@ -21,8 +21,8 @@
 			</div>
 		</div>
 
-		<script src="<%= site.root %>/js/presentation/reveal/lib/js/head.min.js"></script>
-		<script src="<%= site.root %>/js/presentation/reveal/js/reveal.js"></script>
+		<script src="<%= site.root %>/presentation/reveal/lib/js/head.min.js"></script>
+		<script src="<%= site.root %>/presentation/reveal/js/reveal.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -30,10 +30,10 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: 'presentation/reveal/plugin/markdown/marked.js' },
-					{ src: 'presentation/reveal/plugin/markdown/markdown.js' },
-					{ src: 'presentation/reveal/plugin/notes/notes.js', async: true },
-					{ src: 'presentation/reveal/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '<%= site.root %>/presentation/reveal/plugin/markdown/marked.js' },
+					{ src: '<%= site.root %>/presentation/reveal/plugin/markdown/markdown.js' },
+					{ src: '<%= site.root %>/presentation/reveal/plugin/notes/notes.js', async: true },
+					{ src: '<%= site.root %>/presentation/reveal/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 			Reveal.configure({ history: true, loop: true });
