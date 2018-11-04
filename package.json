@@ -4,7 +4,10 @@
   "description": "Website content for the CMintS project",
   "main": "config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cmints --static",
+    "start": "cmints --start",
+    "dev": "cmints --start --no-cache"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/Manvel/cmints-website#readme",
   "dependencies": {
+    "cmints": "^0.7.8",
     "highlight.js": "^9.12.0"
   }
 }
