@@ -3,8 +3,12 @@
     "message": "CMS, созданная с учетом интернационализации",
     "description": "Page title\n"
   },
+  "description": {
+    "message": "<fix1> это CMS и генератор статического контента созданная с учетом интернационализации. Создавайте многоязычных сайты используя <fix2> шаблонизатор, <fix3> и <fix4> и также используя интеграцию с TMS прямо из коробки.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - EJS\n<fix3> - LESS\n<fix4> - Markdown\n"
+  },
   "i18n-in-mind": {
-    "message": "CMS, созданная с учетом интернационализации",
+    "message": "CMS и генератор статики, созданная с учетом интернационализации",
     "description": "Main text\n"
   },
   "get-started": {

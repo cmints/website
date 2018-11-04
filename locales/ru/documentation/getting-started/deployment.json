@@ -1,0 +1,70 @@
+{
+  "title": {
+    "message": "Публикация",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Публикация сайтов для <fix1> в сервисах как Github страницы, Netlify и тд.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "gh-pages": {
+    "message": "Github  страницы",
+    "description": "Page heading\n"
+  },
+  "gh-pages-p": {
+    "message": "<fix1> страницы, это хостинг статичных сайтов созданных для <fix2> репозиторий. Вы можете хостить <fix3> проэкты там, с помощью простой команды ниже:",
+    "description": "Paragraph in the 'Github pages' section\n<fix> placeholders:\n<fix1> - GitHub\n<fix2> - GitHub\n<fix3> - CMintS\n<fix4> - Github\n"
+  },
+  "other-git-hostings": {
+    "message": "Другие гит хостинги",
+    "description": "Page heading\n"
+  },
+  "other-git-hostings-p": {
+    "message": "Команда в разделe <fix1> страниц, публикует на ветку\n gh-pages. Если вы хотите публиковать на другую ветку, вы можете сделать это настроив ветку публикации в <a1>конфигурации<\/a>, как показанно ниже:",
+    "description": "Paragraph in the 'Other git based hostings' section\n<fix> placeholders:\n<fix1> - Github\n<fix2> - git\n<fix3> - Github\n<a> placeholders:\n<a1>configuration file<\/a1> - <a href=\"\/configuration\">configuration file<\/a>\n"
+  },
+  "netlify-p1": {
+    "message": "Используя <fix1> вы можете создать непрерывную интеграцию публикации.",
+    "description": "Paragraph in the 'Netlify' section\n<fix> placeholders:\n<fix1> - Netlify\n"
+  },
+  "netlify-p2": {
+    "message": "Есть несколько способов использование <fix1>:",
+    "description": "Paragraph in the 'Netlify' section\n<fix> placeholders:\n<fix1> - Netlify\n"
+  },
+  "netlify-ci-cd": {
+    "message": "Непрерывное Публикация",
+    "description": "Page heading\n"
+  },
+  "netlify-ci-cd-p1": {
+    "message": "Перейдите на <а1>начальную страницу<\/а1>, присоедините ваш <fix1> хостинг и выберите проэкт <fix1> а.",
+    "description": "Paragraph in the 'Continuous Deployment' section\n<a> placeholders:\n<a1>start page<\/a1> - <a href=\"https:\/\/app.netlify.com\/start\">start page<\/a>\n<fix> placeholders:\n<fix1> - Git\n<fix2> - CMintS\n"
+  },
+  "netlify-ci-cd-p2": {
+    "message": "Используйте настройки ниже:",
+    "description": "Paragraph in the 'Continuous Deployment' section\n"
+  },
+  "netlify-ci-cd-li1": {
+    "message": "Ветка публикаций(Branch to deploy) - указывает ветку построения проэкта, обычно это ветка master.",
+    "description": "List item in the 'Continuous Deployment' section\n"
+  },
+  "netlify-ci-cd-li2": {
+    "message": "Команда построения(Build command) - <fix1>",
+    "description": "List item in the 'Continuous Deployment' section\n<fix> placeholders:\n<fix1> - <code>cmints --static<\/code>\n<a> placeholders:\n<a1>Static site generation<\/a1> - <a href=\"\/documentation#generate-static-content%22\">Static site generation<\/a>\n"
+  },
+  "netlify-ci-cd-li3": {
+    "message": "Папка публикации(Publish directory) - <fix1>",
+    "description": "List item in the 'Continuous Deployment' section\n<fix> placeholders:\n<fix1> - <code>content<\/code>\n<fix2> - CMintS\n"
+  },
+  "netlify-cli-p": {
+    "message": "<a href=\"https:\/\/www.netlify.com\/docs\/cli\/\">интерфейс командной строки Netlify<\/a> позволяет публиковать сайты сразу из командной строки.",
+    "description": "Paragraph in the 'CLI' section\n<a> placeholders:\n<a1>Netlify’s command line interface<\/a1> - <a href=\"https:\/\/www.netlify.com\/docs\/cli\/\">Netlify’s command line interface<\/a>\n"
+  },
+  "netlify-deploy-btn": {
+    "message": "кнопка публикаций Netlify",
+    "description": "Page heading\n"
+  },
+  "netlify-deploy-btn-p1": {
+    "message": "<a1>Кнопка публиковать в Netlify<\/a1> помогает пользователям публиковать сайты с помощи одного клика.",
+    "description": "Paragraph in the 'Deploy to Netlify Button' section\n<a> placeholders:\n<a1>“Deploy to Netlify” button<\/a1> - <a href=\"https:\/\/www.netlify.com\/docs\/deploy-button\/\">“Deploy to Netlify” button<\/a>\n<fix> placeholders:\n<fix1> - Netlify\n"
+  }
+}

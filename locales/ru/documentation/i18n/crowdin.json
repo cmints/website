@@ -13,7 +13,7 @@
   },
   "setting-up-p": {
     "message": "Прежде всего для того, чтобы иметь возможность использовать Crowdin <a1>следует создать аккаунт<\/a1>. Если вы разрабатываете проект с открытым кодом вы можете запросить <a2>бесплатную квоту<\/a2>. В остальных случаях вы будете иметь испытательный срок, чтобы попробовать его. После того, как аккаунт будет готов, вы можете<a3>создать Crowdin проект<\/a3>.",
-    "description": "Paragraph in 'Setting up' section\n<a> placeholders:\n<a1>create an account<\/a1> - <a href=\"https:\/\/crowdin.com\/join\">create an account<\/a>\n<a2>Open Source setup<\/a2> - <a href=\"https:\/\/crowdin.com\/page\/open-source-project-setup-request\">Open Source setup<\/a>\n<a3>see the Crowdin documentation about creating a project<\/a3> - <a href=\"https:\/\/support.crowdin.com\/creating-project\/\">see the Crowdin documentation about creating a project<\/a>\n"
+    "description": "Paragraph in 'Setting up' section\n<fix> placeholders:\n<fix1> - Crowdin\n<a> placeholders:\n<a1>create an account<\/a1> - <a href=\"https:\/\/crowdin.com\/join\">create an account<\/a>\n<a2>Open Source setup<\/a2> - <a href=\"https:\/\/crowdin.com\/page\/open-source-project-setup-request\">Open Source setup<\/a>\n<a3>create a project<\/a3> - <a href=\"https:\/\/support.crowdin.com\/creating-project\">create a project<\/a>\n"
   },
   "upload-source-strings": {
     "message": "Загрузка исходных строк перевода",
@@ -21,15 +21,15 @@
   },
   "upload-source-strings-p": {
     "message": "После настройки проекта вы можете использовать интеграцию <fix1>\nAPI для загрузки всех исходных строк перевода вашего веб-сайта в Crowdin\nпроекта, для этого используйте ключ API Crowdin с помощью <fix2>\nСинхронизация API. Вы можете найти ключ API Crowdin на ключевой вкладке проекта\nстраница настроек:",
-    "description": "Paragraph in 'Uploading Source Strings' section\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
+    "description": "Paragraph in 'Uploading Source Strings' section\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - Crowdin\n<fix3> - Crowdin\n"
   },
   "upload-source-strings-p2": {
     "message": "После того, как вы найдете ключ API crowdin, запустите команду ниже в корневом каталоге <fix1>, заменив <code>crowdin-key<\/ code> на\nфактический ключ :",
-    "description": "Paragraph in 'Uploading Source Strings' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+    "description": "Paragraph in 'Uploading Source Strings' section\n<fix> placeholders:\n<fix1> - Crowdin\n"
   },
   "upload-source-strings-p3": {
     "message": "Это создаст исходные JSON-файлы из проекта <fix1> и\nзагрузите их в проект Crowdin.",
-    "description": "Paragraph in 'Uploading Source Strings' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+    "description": "Paragraph in 'Uploading Source Strings' section\n"
   },
   "download-translation": {
     "message": "Скачать переводы",
@@ -37,11 +37,11 @@
   },
   "download-translation-p": {
     "message": "После того, как переводы будут готовы в crowdin, которые будут загружены, и перевод\nпроекта, выполните команду ниже в корневом каталоге <fix1>:",
-    "description": "Paragraph in 'Download translations' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+    "description": "Paragraph in 'Download translations' section\n<fix> placeholders:\n<fix1> - Crowdin\n"
   },
   "download-translation-p2": {
     "message": "<strong>Примечание:<\/ strong>, чтобы обновить правильные локали, имена каталогов внутри\n<fix1> должен быть совместим с переводом Crowdin\n<a1> именами локалей <\/a1>.",
-    "description": "Paragraph in 'Download translations' section\n<fix> placeholders:\n<fix1> - <code>locales<\/code>\n<a> placeholders:\n<a1>locale names<\/a1> - <a href=\"https:\/\/support.crowdin.com\/api\/language-codes\/\">locale names<\/a>\n"
+    "description": "Paragraph in 'Download translations' section\n<fix> placeholders:\n<fix1> - <code>locales<\/code>\n<fix2> - Crowdin\n<a> placeholders:\n<a1>locale names<\/a1> - <a href=\"https:\/\/support.crowdin.com\/api\/language-codes\/\">locale names<\/a>\n"
   },
   "upload-translation": {
     "message": "Загрузить переводы",
@@ -49,6 +49,6 @@
   },
   "upload-translation-p": {
     "message": "Используйте команду ниже, чтобы обновить проект crowdin с помощью локального\nперевода:",
-    "description": "Paragraph in 'Upload translations' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+    "description": "Paragraph in 'Upload translations' section\n<fix> placeholders:\n<fix1> - Crowdin\n"
   }
 }
