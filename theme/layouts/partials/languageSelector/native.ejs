@@ -6,9 +6,9 @@
   <% } %>
   <% for (let locale of locales) { %>
     <% if (locale != page.locale) { %>
-      <option value="<%= locale %>"><%= locale %></option>
+      <option value="<%= site.root %>/<%= locale %>"><%= locale %></option>
     <% } else { %>
-      <option value="<%= locale %>" selected><%= locale %></option>
+      <option value="<%= site.root %>/<%= locale %>" selected><%= locale %></option>
     <% } %>
   <% } %>
   <% if (locales.length) { %>

@@ -1,16 +1,18 @@
+"use strict";
+
 require("./_contextMenu");
 
-let langaugeSelectors = document.querySelectorAll(".languageSelector select");
+const langaugeSelectors = document.querySelectorAll(".languageSelector select");
 for (const langaugeSelector of langaugeSelectors)
 {
   langaugeSelector.addEventListener("change", () =>
   {
-    let locale = langaugeSelector.value;
-    let page = langaugeSelector.dataset.page;
-    let hostname = window.location.hostname;
-    let protocol = window.location.protocol;
-    let port = ":" + window.location.port;
-    window.location.href = protocol + "//" + hostname + port + "/" +  locale + page;
+    const rootAndlocale = langaugeSelector.value;
+    const page = langaugeSelector.dataset.page;
+    const hostname = window.location.hostname;
+    const protocol = window.location.protocol;
+    const port = ":" + window.location.port;
+    window.location.href = `${protocol}//${hostname}${port}/${rootAndlocale}${page}`;
   });
 }
 

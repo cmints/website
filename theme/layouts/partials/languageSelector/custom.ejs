@@ -12,7 +12,7 @@
   <% for (let locale of locales) { %>
     <% if (locale != page.locale) { %>
       <li>
-        <a href="/<%= locale %>/<%= page.pathname %>">
+        <a href="<%= site.root %>/<%= locale %>/<%= page.pathname %>">
           <%= site.localeMap[locale].name %>
         </a>
       </li>

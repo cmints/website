@@ -3,7 +3,7 @@
     <% for (let locale of locales) { %>
       <% if (locale != page.locale) { %>
         <li>
-          <a href="/<%= locale %>/<%= page.pathname %>"><%= locale %></a>
+          <a href="<%= site.root %>/<%= locale %>/<%= page.pathname %>"><%= locale %></a>
         </li>
       <% } %>
     <% } %>
