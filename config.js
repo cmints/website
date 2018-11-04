@@ -43,7 +43,7 @@ const gzip = true;
 const templateData =
 {
   site: {
-    domain: "cmints.netlify.com",
+    domain: "cmints.io",
     root,
     title: "CMintS",
     description: "CMS created with the internationalization in mind",
