@@ -22,10 +22,22 @@ Developed by: [saroyanm](https://github.com/Manvel)
 npm i
 ```
 
-## Running the server
+## Starting server
 
-See [Starting server using CMintS](https://cmints.io/en/documentation#start-server).
+### With cache
+
+```
+npm start
+```
+
+### For development
+
+```
+npm run dev
+```
 
 ## Generating static content
 
-See [Generating static content using CMintS](https://cmints.io/en/documentation#generate-static-content).
+```
+npm run build
+```
