@@ -73,6 +73,19 @@ const hostname = "0.0.0.0";
 module.exports = {hostname};
 ```
 
+## root
+
+{root-p[Paragraph in 'root' section]
+Specifies the root directory of the website. Makes <fix>CMintS</fix> root
+directory aware.
+}
+
+```js
+const root = "/project-root";
+
+module.exports = {root};
+```
+
 ## i18nOptions
 
 {i18nOptions-p1[c]
