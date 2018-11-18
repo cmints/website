@@ -38,14 +38,14 @@ const deployment = {
 
 const generationType = "Double";
 
-const gzip = true;
-
+let gzip = true;
 let root = "";
 let domain = "cmints.io";
 if (argv.deploy)
 {
   domain = "manvel.github.io"; // Github Pages default domain
   root = "/cmints-website"; // Github Pages root
+  gzip = false;
 }
 else if (argv.dev)
 {
