@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CMintS | Internationalization</title>
+<meta property="og:title" content="CMintS | Internationalization">
+<meta name="twitter:title" content="CMintS | Internationalization">
+<meta content="Learn how to use internationalization strings in CMintS project. Usage of i18n strings, learn about translation files structure and start creating multilanguage websites." name="description">
+<meta content="Learn how to use internationalization strings in CMintS project. Usage of i18n strings, learn about translation files structure and start creating multilanguage websites." property="og:description">
+<meta name="twitter:description" content="Learn how to use internationalization strings in CMintS project. Usage of i18n strings, learn about translation files structure and start creating multilanguage websites.">
+
+<meta charset="UTF-8">
+<meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
+<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
+<meta property="og:url" content="https://manvel.github.io/cmints-website/en/documentation/i18n">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
+
+  
+  
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <link rel="alternate" href="https://manvel.github.io/cmints-website/ru/documentation/i18n" hreflang="ru" />
+  
+
+  
+  
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="https://manvel.github.io/cmints-website/documentation/i18n">
+  
+
+
+<link rel="stylesheet" type="text/css" href="/cmints-website/css/main.css">
+<link rel="shortcut icon" href="/cmints-website/images/favicon.png">
+<script src="/cmints-website/js/main.js" defer></script>
+<script src="/cmints-website/js/redirect.js" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117702399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag()
+  {
+    dataLayer.push(arguments);
+  }
+  if (window.location.host === "cmints.io")
+  {
+    gtag('js', new Date());
+    gtag('config', 'UA-117702399-1');
+  }
+</script>
+
+
+</head>
+<body>
+  <header>
+  <div class="col5 middle device tablet-hide">
+    <nav class="cell1-4">
+      <ul>
+        <li>
+           <a href="/cmints-website/en" hreflang="en" class="cell1 end">
+             <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+             <span class="beta">beta</span>
+            </a>
+        </li>
+        
+  <li>
+    <a href="/cmints-website/en/documentation" hreflang="en"
+      class="active">
+      Documentation
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+      </ul>
+    </nav>
+    <ul class="cell5 end">
+      <li>
+        
+
+<div class="languageSelector custom contextMenu">
+  
+    <button class="icon text-arrow" data-action="toggle-context">
+  
+    <label>en</label>
+  
+    </button>
+  
+  <ul>
+  
+    
+      <li>
+        <a href="/cmints-website/ru/documentation/i18n">
+          Русский
+        </a>
+      </li>
+    
+  
+    
+  
+  </ul>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+        <li>
+          <a href="/cmints-website/ru/documentation/i18n">ru</a>
+        </li>
+      
+    
+      
+    
+  </ul>
+</noscript>
+
+
+      </li>
+      <li>
+        <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">
+          <img src="/cmints-website/images/github-mark.png" alt="Github logo">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="desktop-hide">
+    <div class="col2">
+      <a href="/cmints-website/en" hreflang="en" class="cell1 start middle">
+        <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+        <span class="beta">beta</span>
+      </a>
+      <button class="cell2 end" id="hamburger" aria-label="Open primary navigation"></button>
+    </div>
+    <nav id="hamburger-menu">
+      <ul>
+        
+  <li>
+    <a href="/cmints-website/en/documentation" hreflang="en"
+      class="active">
+      Documentation
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+         
+          
+  
+  <li>
+      <h2>Getting Started</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation" hreflang="en"
+            >
+            Installation
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/configuration" hreflang="en"
+            >
+            Configuration
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/structure" hreflang="en"
+            >
+            Structure
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/deployment" hreflang="en"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Pages</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/frontmatter" hreflang="en"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Themes</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/ejs" hreflang="en"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/less" hreflang="en"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>i18n</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n" hreflang="en"
+            class="active">
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/pages" hreflang="en"
+            >
+            Pages
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/theme" hreflang="en"
+            >
+            Themes
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/crowdin" hreflang="en"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        
+        <li>
+            <div class="languageSelector native">
+  
+  
+  
+    <select data-page="/documentation/i18n">
+  
+  
+    
+      <option value="/cmints-website/ru">ru</option>
+    
+  
+    
+      <option value="/cmints-website/en" selected>en</option>
+    
+  
+  
+    </select>
+  
+  <label class="icon text-arrow">
+    <span>en</span>
+  </label>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+        <li>
+          <a href="/cmints-website/ru/documentation/i18n">ru</a>
+        </li>
+      
+    
+      
+    
+  </ul>
+</noscript>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="device">
+  <div class="col5">
+    <!-- Navigation Start -->
+     
+      <aside id="sideNav" class="cell1 tablet-hide">
+        <ul>
+          
+  
+  <li>
+      <h2>Getting Started</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation" hreflang="en"
+            >
+            Installation
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/configuration" hreflang="en"
+            >
+            Configuration
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/structure" hreflang="en"
+            >
+            Structure
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/deployment" hreflang="en"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Pages</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/frontmatter" hreflang="en"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Themes</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/ejs" hreflang="en"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/less" hreflang="en"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>i18n</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n" hreflang="en"
+            class="active">
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/pages" hreflang="en"
+            >
+            Pages
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/theme" hreflang="en"
+            >
+            Themes
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/crowdin" hreflang="en"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        </ul>
+      </aside>
+    
+    <!-- Navigation End -->
+
+    <article class="cell2-4">
+      <h1>Internationalization</h1>
+      <div id="edit-page">
+  
+    <a href="https://github.com/Manvel/cmints-website/edit/master/pages/documentation/i18n/index.md"
+        class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
+  
+  
+    <div class="contextMenu">
+      <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
+      <ul>
+        
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-de"
+                 target="_blank" rel="noopener">
+              Deutsch
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-ru"
+                 target="_blank" rel="noopener">
+              Русский
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-es"
+                 target="_blank" rel="noopener">
+              Español
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-lt"
+                 target="_blank" rel="noopener">
+              Lietuvių
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-hy"
+                 target="_blank" rel="noopener">
+              Հայերեն
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  
+</div>
+
+      <p>Internaltionalization is one of the core features of CMintS. The idea
+behind is to use common structure and syntax in content pages, themes and
+provide additional helpers for multilanguage website management.</p>
+<h2 id="locales-dir-structure">Locales directory structure</h2>
+<p>Locale files should be located in the <code>locales</code> directory:</p>
+<pre><code class="language-bash">locales
+├── de
+│   ├── about.json
+│   └── news.json
+├── en
+│   ├── about.json
+│   ├── header.json
+│   └── news.json
+└── ru
+    ├── about
+    │   └── team.json
+    ├── about.json
+    ├── documentation
+    │   ├── getting-started
+    │   │   └── configuration.json
+    │   └── i18n
+    │       └── index.json
+    ├── header.json
+    ├── index.json
+    └── news.json
+</code></pre>
+<p>Top level directories in the <code>locales</code> are the locale codes.
+Actual directory structure reflects the page path, so for example translations
+for the <code>about/teams.md</code> <a href="/documentation/pages">page</a> translations
+should be located in <code>/de/about/teams.json</code> file to be accessible
+through <code>/de/about/teams</code> website path.</p>
+<h2 id="default-locale">Default locale</h2>
+<p>Before strating to use i18n features user needs to also specify default
+locale which will be used as the source language. In order to do that,
+<code>defaultLocale</code> needs to be added to i18n options in the <code>config.js</code>:</p>
+<pre><code class="language-js"><span class="hljs-keyword">const</span> i18nOptions = {
+  <span class="hljs-attr">defaultLocale</span>: <span class="hljs-string">"en"</span>
+};
+
+<span class="hljs-built_in">module</span>.exports = {i18nOptions};
+</code></pre>
+<h2 id="locale-file">Locale file</h2>
+<p>Locale files hold list of the translations strings, the translation strings
+consist of stringid, message and optional description.</p>
+<pre><code class="language-json">{
+  "heading-main": {
+    "description": "Heading of the main page",
+    "message": "Заголовок"
+  },
+  ...
+}
+</code></pre>
+<h2 id="translation-strings">Translation strings</h2>
+<p>The translation strings can be defined in the source files by placing them
+inside of opening and closing curly braces. Translation string consist of
+stringId, optional description and source text:</p>
+<pre><code class="language-javascript-i18n">&#123;stringId[Description] Source text&#125;
+</code></pre>
+<p>So for example considering the <strong>ru</strong> locale in <a href="#locale-file">Locale
+file</a> and translation string below:</p>
+<pre><code class="language-html-i18n">&#123;heading-main[Heading of the main page] Heading&#125;
+</code></pre>
+<p>Will be converted to <code>Heading</code> for the source(default) locale and to
+<code>Заголовок</code> for the russian locale.</p>
+<h3 id="defining-path">Defining the path</h3>
+<p>In order to use translation string from a specific path rather than defining
+source text in the page content, it's possible to define the file path next to
+the stringID:</p>
+<pre><code class="language-html">{menu-item-about(menu/header)}
+</code></pre>
+<p>The expression above means - use string with the ID <strong>menu-item-about</strong>
+from the <code>%locale%/menu/header.json</code> files:</p>
+<pre><code class="language-json">/* /en/menu/header.json */
+{
+  "menu-item-about": {
+    "description": "Menu item label",
+    "message": "about us"
+  }
+}
+</code></pre>
+<pre><code class="language-json">/* /ru/menu/header.json */
+{
+  "menu-item-about": {
+    "description": "Menu item label",
+    "message": "о нас"
+  }
+}
+</code></pre>
+<pre><code>// Translation expression
+{menu-item-about(menu/header)}
+</code></pre>
+<p>Considering the <strong>en</strong> and <strong>ru</strong> locales above, the
+translation expression will be converted to <code>about us</code> for the
+<strong>en</strong> locale and to the <code>о нас</code> for the <strong>ru</strong>
+locale.</p>
+<h3 id="using-tags">Using tags</h3>
+<p>Current tags <code>a, img, p, span, div, em, i, b, strong</code> can be used by
+default in the translation strings, ex:</p>
+<pre><code class="language-html-i18n">&#123;stringId[Description] My awesome <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>source text<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> goes here&#125;
+</code></pre>
+<h4 id="lessagreater">&lt;a&gt;</h4>
+<p>Order of the links inside of the translaton strings can be different depending
+on the language, for that reason the order in the locale file string need to be
+defined, so considering the translation string below:</p>
+<pre><code class="language-html-i18n">&#123;paragraph-1 This is <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.example1.com"</span>&gt;</span>first link<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>, <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/random1"</span>&gt;</span>second link<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> and <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/random2"</span>&gt;</span>third link<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>&#125;
+</code></pre>
+<p>And Locale file with the translation string:</p>
+<pre><code class="language-json">{
+ "paragraph-1": {
+   "description": "Paragraph with several links",
+   "message": "Это &lt;a2&gt;вторая ссылка&lt;/a2&gt;, &lt;a1&gt;первая&lt;/a1&gt; и &lt;a3&gt;третья ссылка&lt;/a3&gt;"
+ },
+ ...
+}
+</code></pre>
+<p>The result will be the one below:</p>
+<pre><code class="language-html">Это <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/en/random1"</span> <span class="hljs-attr">hreflang</span>=<span class="hljs-string">"en"</span>&gt;</span>вторая ссылка<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>, <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.example1.com"</span>&gt;</span>первая<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> и <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/en/random2"</span> <span class="hljs-attr">hreflang</span>=<span class="hljs-string">"en"</span>&gt;</span>третья ссылка<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+</code></pre>
+<p><strong>Note:</strong> The <code>hreflang</code> attribute will be set automatically
+depending on whether the relative link target is translated to the language or
+not.</p>
+<h4 id="lessfixgreater">&lt;fix&gt;</h4>
+<p>Some words do not suppose to be translated in the website(ex: brand names), for
+that reason <code>&lt;fix&gt;</code> tag can be used:</p>
+<pre><code class="language-html-i18n">&#123;fixed-id <span class="hljs-tag">&lt;<span class="hljs-name">fix</span>&gt;</span>CMintS<span class="hljs-tag">&lt;/<span class="hljs-name">fix</span>&gt;</span> uses <span class="hljs-tag">&lt;<span class="hljs-name">fix</span>&gt;</span>fix<span class="hljs-tag">&lt;/<span class="hljs-name">fix</span>&gt;</span> tag&#125;
+</code></pre>
+<p>and the locales below:</p>
+<pre><code class="language-json">"fixed-id": {
+ "message": "&lt;fix2&gt; тэг используется &lt;fix1&gt;-ом"
+}
+</code></pre>
+<p>Will result into:</p>
+<pre><code class="language-html">fix тэг используется CMintS-ом
+</code></pre>
+<h4 id="lessimggreater">&lt;img&gt;</h4>
+<p>Similar to the <code>&lt;a&gt;</code> and <code>&lt;fix&gt;</code> tags <code>&lt;img&gt;</code>
+tag also should keep it's order in the translation strings, so for:</p>
+<pre><code class="language-html-i18n">&#123;test-img1 This is <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/first.png"</span>&gt;</span> and <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/second.png"</span>&gt;</span> image&#125;
+</code></pre>
+<p>and the locales below:</p>
+<pre><code class="language-json">"test-img1": {
+   "description": "Test images order",
+   "message": "Это &lt;img2&gt; картинка и &lt;img1&gt;"
+}
+</code></pre>
+<p>will result into:</p>
+<pre><code class="language-html">Это <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/second.png"</span>&gt;</span> картинка и <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/first.png"</span>&gt;</span>
+</code></pre>
+<h4 id="title-alt-attr">title and alt attributes</h4>
+<p>Some attributes are also suppose to be translated in different languages, so
+that attributes can also be used in the translation string tags:</p>
+<pre><code class="language-html-i18n">&#123;test-attribute1 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"Website Logo"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"logo"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/random/path"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Jumping puma"</span> /&gt;</span>Picture<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>&#125;
+</code></pre>
+<p>and the locales below:</p>
+<pre><code class="language-json">"test-img1": {
+   "description": "Test images order",
+   "message": "&lt;div1 title='Логотип сайта'&gt;&lt;img1 alt='Пума в прыжке'&gt;Картинка&lt;/div1&gt;"
+}
+</code></pre>
+<p>will result into:</p>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"Логотип сайта"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"logo"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/random/path"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Пума в прыжке"</span> /&gt;</span>Картинка<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h2 id="prefix-postfix">prefix, postfix</h2>
+<p>It's also possible to specify custom prefix and postfix for i18n strings in the
+<code>config.js</code>, it can be useful for fixing incompatibilities with other syntaxes:</p>
+<p>Consider:</p>
+<pre><code class="language-js"><span class="hljs-comment">/* config.js */</span>
+
+<span class="hljs-keyword">const</span> i18nOptions = {
+  <span class="hljs-attr">defaultLocale</span>: <span class="hljs-string">"en"</span>,
+  <span class="hljs-attr">prefix</span>: <span class="hljs-string">"{{"</span>,
+  <span class="hljs-attr">postfix</span>: <span class="hljs-string">"}}"</span>
+};
+
+<span class="hljs-built_in">module</span>.exports = {i18nOptions};
+</code></pre>
+<p>For the configuration specified above, you could use the syntax below:</p>
+<pre><code class="language-js-i18n">&#123;&#123;stringId[Description] Source text&#125;&#125;
+</code></pre>
+
+    </article>
+
+    <!-- TOC Start -->
+    
+      <aside id="toc" class="cell5 center tablet-hide">
+        <h2>Table of content</h2>
+        
+  <ul>
+    
+    <li>
+        
+          <a href="#locales-dir-structure">Locales directory structure</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#default-locale">Default locale</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#locale-file">Locale file</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#translation-strings">Translation strings</a>
+        
+        
+          
+  <ul>
+    
+    <li>
+        
+          <a href="#defining-path">Defining the path</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#using-tags">Using tags</a>
+        
+        
+          
+  <ul>
+    
+    <li>
+        
+          <a href="#lessagreater">&lt;a&gt;</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#lessfixgreater">&lt;fix&gt;</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#lessimggreater">&lt;img&gt;</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#title-alt-attr">title and alt attributes</a>
+        
+        
+    </li>
+    
+  </ul>
+
+
+        
+    </li>
+    
+  </ul>
+
+
+        
+    </li>
+    
+    <li>
+        
+          <a href="#prefix-postfix">prefix, postfix</a>
+        
+        
+    </li>
+    
+  </ul>
+
+
+      </aside>
+    
+    <!-- TOC End -->
+  </div>
+</main>
+  <footer>
+  <div class="col5 middle">
+    <div class="cell2 center">
+      © 2018 <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">CMintS</a>
+    </div>
+    <div class="cell3-4 center">
+      Website content is licensed under the <a href="http://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons 4.0</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

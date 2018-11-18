@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CMintS | Deployment</title>
+<meta property="og:title" content="CMintS | Deployment">
+<meta name="twitter:title" content="CMintS | Deployment">
+<meta content="CMintS based project deployment hosting in servies like Github/Gitlab Pages, Netlify and etc." name="description">
+<meta content="CMintS based project deployment hosting in servies like Github/Gitlab Pages, Netlify and etc." property="og:description">
+<meta name="twitter:description" content="CMintS based project deployment hosting in servies like Github/Gitlab Pages, Netlify and etc.">
+
+<meta charset="UTF-8">
+<meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
+<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
+<meta property="og:url" content="https://manvel.github.io/cmints-website/en/documentation/getting-started/deployment">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
+
+  
+  
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <link rel="alternate" href="https://manvel.github.io/cmints-website/ru/documentation/getting-started/deployment" hreflang="ru" />
+  
+
+  
+  
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="https://manvel.github.io/cmints-website/documentation/getting-started/deployment">
+  
+
+
+<link rel="stylesheet" type="text/css" href="/cmints-website/css/main.css">
+<link rel="shortcut icon" href="/cmints-website/images/favicon.png">
+<script src="/cmints-website/js/main.js" defer></script>
+<script src="/cmints-website/js/redirect.js" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117702399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag()
+  {
+    dataLayer.push(arguments);
+  }
+  if (window.location.host === "cmints.io")
+  {
+    gtag('js', new Date());
+    gtag('config', 'UA-117702399-1');
+  }
+</script>
+
+
+</head>
+<body>
+  <header>
+  <div class="col5 middle device tablet-hide">
+    <nav class="cell1-4">
+      <ul>
+        <li>
+           <a href="/cmints-website/en" hreflang="en" class="cell1 end">
+             <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+             <span class="beta">beta</span>
+            </a>
+        </li>
+        
+  <li>
+    <a href="/cmints-website/en/documentation" hreflang="en"
+      class="active">
+      Documentation
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+      </ul>
+    </nav>
+    <ul class="cell5 end">
+      <li>
+        
+
+<div class="languageSelector custom contextMenu">
+  
+    <button class="icon text-arrow" data-action="toggle-context">
+  
+    <label>en</label>
+  
+    </button>
+  
+  <ul>
+  
+    
+      <li>
+        <a href="/cmints-website/ru/documentation/getting-started/deployment">
+          Русский
+        </a>
+      </li>
+    
+  
+    
+  
+  </ul>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+        <li>
+          <a href="/cmints-website/ru/documentation/getting-started/deployment">ru</a>
+        </li>
+      
+    
+      
+    
+  </ul>
+</noscript>
+
+
+      </li>
+      <li>
+        <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">
+          <img src="/cmints-website/images/github-mark.png" alt="Github logo">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="desktop-hide">
+    <div class="col2">
+      <a href="/cmints-website/en" hreflang="en" class="cell1 start middle">
+        <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+        <span class="beta">beta</span>
+      </a>
+      <button class="cell2 end" id="hamburger" aria-label="Open primary navigation"></button>
+    </div>
+    <nav id="hamburger-menu">
+      <ul>
+        
+  <li>
+    <a href="/cmints-website/en/documentation" hreflang="en"
+      class="active">
+      Documentation
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+         
+          
+  
+  <li>
+      <h2>Getting Started</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation" hreflang="en"
+            >
+            Installation
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/configuration" hreflang="en"
+            >
+            Configuration
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/structure" hreflang="en"
+            >
+            Structure
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/deployment" hreflang="en"
+            class="active">
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Pages</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/frontmatter" hreflang="en"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Themes</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/ejs" hreflang="en"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/less" hreflang="en"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>i18n</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/pages" hreflang="en"
+            >
+            Pages
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/theme" hreflang="en"
+            >
+            Themes
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/crowdin" hreflang="en"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        
+        <li>
+            <div class="languageSelector native">
+  
+  
+  
+    <select data-page="/documentation/getting-started/deployment">
+  
+  
+    
+      <option value="/cmints-website/ru">ru</option>
+    
+  
+    
+      <option value="/cmints-website/en" selected>en</option>
+    
+  
+  
+    </select>
+  
+  <label class="icon text-arrow">
+    <span>en</span>
+  </label>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+        <li>
+          <a href="/cmints-website/ru/documentation/getting-started/deployment">ru</a>
+        </li>
+      
+    
+      
+    
+  </ul>
+</noscript>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="device">
+  <div class="col5">
+    <!-- Navigation Start -->
+     
+      <aside id="sideNav" class="cell1 tablet-hide">
+        <ul>
+          
+  
+  <li>
+      <h2>Getting Started</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation" hreflang="en"
+            >
+            Installation
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/configuration" hreflang="en"
+            >
+            Configuration
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/structure" hreflang="en"
+            >
+            Structure
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/deployment" hreflang="en"
+            class="active">
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Pages</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/frontmatter" hreflang="en"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Themes</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/ejs" hreflang="en"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/less" hreflang="en"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>i18n</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/pages" hreflang="en"
+            >
+            Pages
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/theme" hreflang="en"
+            >
+            Themes
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/crowdin" hreflang="en"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        </ul>
+      </aside>
+    
+    <!-- Navigation End -->
+
+    <article class="cell2-4">
+      <h1>Deployment</h1>
+      <div id="edit-page">
+  
+    <a href="https://github.com/Manvel/cmints-website/edit/master/pages/documentation/getting-started/deployment.md"
+        class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
+  
+  
+    <div class="contextMenu">
+      <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
+      <ul>
+        
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/186/en-de"
+                 target="_blank" rel="noopener">
+              Deutsch
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/186/en-ru"
+                 target="_blank" rel="noopener">
+              Русский
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/186/en-es"
+                 target="_blank" rel="noopener">
+              Español
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/186/en-lt"
+                 target="_blank" rel="noopener">
+              Lietuvių
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/186/en-hy"
+                 target="_blank" rel="noopener">
+              Հայերեն
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  
+</div>
+
+      <h2 id="gh-pages">Github pages</h2>
+<p>GitHub Pages is a static site hosting service designed to host
+project pages directly from a GitHub repository. You can host
+CMintS projects for free in the Github Pages, by simply
+running the command below:</p>
+<pre><code class="language-bash">cmints --static --deploy
+</code></pre>
+<h2 id="other-git-hostings">Other git based hostings</h2>
+<p>The command in the Github pages section, deploys to the <code>gh-pages</code>
+branch. If you would like to push to another branch of the git
+repository(not neceseraly Github repository) you can do so by
+specifying the deployment branch in the <a href="/configuration">configuration file</a>, as
+shown in the example below:</p>
+<pre><code class="language-js"><span class="hljs-keyword">const</span> deployment =
+{
+  <span class="hljs-attr">where</span>: <span class="hljs-string">"git"</span>,
+  <span class="hljs-attr">branch</span>: <span class="hljs-string">"deployment-branch"</span>
+};
+
+<span class="hljs-built_in">module</span>.exports = {deployment};
+</code></pre>
+<h2 id="netlify">Netlify</h2>
+<p>Netlify provides Git-triggered continuous integration deployment
+hosting, that means it can build and make your website accessible each time your
+push changes to the repository.</p>
+<p>There are several ways you can use Netlify:</p>
+<h3 id="netlify-ci-cd">Continuous Deployment</h3>
+<p>Navigate to the <a href="https://app.netlify.com/start">start page</a>, connect to your
+Git hosting provider and choose a CMintS project
+repository.</p>
+<p>Use options below in the building options page:</p>
+<ul>
+<li>Branch to deploy - specify the project build branch usually it's the <code>master</code>
+branch.</li>
+<li>Build command - <code>cmints --static</code> (<a href="/documentation#generate-static-content%22">Static site
+generation</a>).</li>
+<li>Publish directory - <code>content</code> (Default project output directory of
+CMintS)</li>
+</ul>
+<h3 id="cli">CLI</h3>
+<p><a href="https://www.netlify.com/docs/cli/">Netlify’s command line interface</a> lets you
+deploy sites or configure continuous deployment straight from the command line.</p>
+<h3 id="netlify-deploy-btn">Deploy to Netlify Button</h3>
+<p>The <a href="https://www.netlify.com/docs/deploy-button/">“Deploy to Netlify” button</a>
+helps users deploy sites from templates with one single click. It provides web
+developers a simple one-click step to let their users deploy those applications
+on Netlify.</p>
+
+    </article>
+
+    <!-- TOC Start -->
+    
+      <aside id="toc" class="cell5 center tablet-hide">
+        <h2>Table of content</h2>
+        
+  <ul>
+    
+    <li>
+        
+          <a href="#gh-pages">Github pages</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#other-git-hostings">Other git based hostings</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#netlify">Netlify</a>
+        
+        
+          
+  <ul>
+    
+    <li>
+        
+          <a href="#netlify-ci-cd">Continuous Deployment</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#cli">CLI</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#netlify-deploy-btn">Deploy to Netlify Button</a>
+        
+        
+    </li>
+    
+  </ul>
+
+
+        
+    </li>
+    
+  </ul>
+
+
+      </aside>
+    
+    <!-- TOC End -->
+  </div>
+</main>
+  <footer>
+  <div class="col5 middle">
+    <div class="cell2 center">
+      © 2018 <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">CMintS</a>
+    </div>
+    <div class="cell3-4 center">
+      Website content is licensed under the <a href="http://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons 4.0</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

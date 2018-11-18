@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>CMintS | Интернационализация</title>
+<meta property="og:title" content="CMintS | Интернационализация">
+<meta name="twitter:title" content="CMintS | Интернационализация">
+<meta content="Узнайте, как использовать строки интернационализации в проекте CMintS. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов." name="description">
+<meta content="Узнайте, как использовать строки интернационализации в проекте CMintS. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов." property="og:description">
+<meta name="twitter:description" content="Узнайте, как использовать строки интернационализации в проекте CMintS. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов.">
+
+<meta charset="UTF-8">
+<meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
+<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
+<meta property="og:url" content="https://manvel.github.io/cmints-website/ru/documentation/i18n">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
+
+  
+  
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="canonical" href="https://manvel.github.io/cmints-website/documentation/i18n">
+  
+
+  
+  
+    <meta property="og:locale:alternate" content="en_US" />
+    <link rel="alternate" href="https://manvel.github.io/cmints-website/en/documentation/i18n" hreflang="en" />
+  
+
+
+<link rel="stylesheet" type="text/css" href="/cmints-website/css/main.css">
+<link rel="shortcut icon" href="/cmints-website/images/favicon.png">
+<script src="/cmints-website/js/main.js" defer></script>
+<script src="/cmints-website/js/redirect.js" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117702399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag()
+  {
+    dataLayer.push(arguments);
+  }
+  if (window.location.host === "cmints.io")
+  {
+    gtag('js', new Date());
+    gtag('config', 'UA-117702399-1');
+  }
+</script>
+
+
+</head>
+<body>
+  <header>
+  <div class="col5 middle device tablet-hide">
+    <nav class="cell1-4">
+      <ul>
+        <li>
+           <a href="/cmints-website/ru" hreflang="ru" class="cell1 end">
+             <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+             <span class="beta">beta</span>
+            </a>
+        </li>
+        
+  <li>
+    <a href="/cmints-website/ru/documentation" hreflang="ru"
+      class="active">
+      Документация
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+      </ul>
+    </nav>
+    <ul class="cell5 end">
+      <li>
+        
+
+<div class="languageSelector custom contextMenu">
+  
+    <button class="icon text-arrow" data-action="toggle-context">
+  
+    <label>ru</label>
+  
+    </button>
+  
+  <ul>
+  
+    
+  
+    
+      <li>
+        <a href="/cmints-website/en/documentation/i18n">
+          English
+        </a>
+      </li>
+    
+  
+  </ul>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+    
+      
+        <li>
+          <a href="/cmints-website/en/documentation/i18n">en</a>
+        </li>
+      
+    
+  </ul>
+</noscript>
+
+
+      </li>
+      <li>
+        <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">
+          <img src="/cmints-website/images/github-mark.png" alt="Github logo">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="desktop-hide">
+    <div class="col2">
+      <a href="/cmints-website/ru" hreflang="ru" class="cell1 start middle">
+        <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+        <span class="beta">beta</span>
+      </a>
+      <button class="cell2 end" id="hamburger" aria-label="Open primary navigation"></button>
+    </div>
+    <nav id="hamburger-menu">
+      <ul>
+        
+  <li>
+    <a href="/cmints-website/ru/documentation" hreflang="ru"
+      class="active">
+      Документация
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+         
+          
+  
+  <li>
+      <h2>Начало</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation" hreflang="ru"
+            >
+            Инсталляция
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/configuration" hreflang="ru"
+            >
+            конфигурации
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/structure" hreflang="ru"
+            >
+            Структура
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/deployment" hreflang="ru"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Страницы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages/frontmatter" hreflang="ru"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Темы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/ejs" hreflang="ru"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/less" hreflang="ru"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Многоязычность</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n" hreflang="ru"
+            class="active">
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/pages" hreflang="ru"
+            >
+            Страницы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/theme" hreflang="ru"
+            >
+            Темы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/crowdin" hreflang="ru"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        
+        <li>
+            <div class="languageSelector native">
+  
+  
+  
+    <select data-page="/documentation/i18n">
+  
+  
+    
+      <option value="/cmints-website/ru" selected>ru</option>
+    
+  
+    
+      <option value="/cmints-website/en">en</option>
+    
+  
+  
+    </select>
+  
+  <label class="icon text-arrow">
+    <span>ru</span>
+  </label>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+    
+      
+        <li>
+          <a href="/cmints-website/en/documentation/i18n">en</a>
+        </li>
+      
+    
+  </ul>
+</noscript>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="device">
+  <div class="col5">
+    <!-- Navigation Start -->
+     
+      <aside id="sideNav" class="cell1 tablet-hide">
+        <ul>
+          
+  
+  <li>
+      <h2>Начало</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation" hreflang="ru"
+            >
+            Инсталляция
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/configuration" hreflang="ru"
+            >
+            конфигурации
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/structure" hreflang="ru"
+            >
+            Структура
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/deployment" hreflang="ru"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Страницы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages/frontmatter" hreflang="ru"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Темы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/ejs" hreflang="ru"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/less" hreflang="ru"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Многоязычность</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n" hreflang="ru"
+            class="active">
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/pages" hreflang="ru"
+            >
+            Страницы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/theme" hreflang="ru"
+            >
+            Темы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/crowdin" hreflang="ru"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        </ul>
+      </aside>
+    
+    <!-- Navigation End -->
+
+    <article class="cell2-4">
+      <h1>Интернационализация</h1>
+      <div id="edit-page">
+  
+    <a href="https://github.com/Manvel/cmints-website/edit/master/pages/documentation/i18n/index.md"
+        class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
+  
+  
+    <div class="contextMenu">
+      <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
+      <ul>
+        
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-de"
+                 target="_blank" rel="noopener">
+              Deutsch
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-ru"
+                 target="_blank" rel="noopener">
+              Русский
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-es"
+                 target="_blank" rel="noopener">
+              Español
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-lt"
+                 target="_blank" rel="noopener">
+              Lietuvių
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/156/en-hy"
+                 target="_blank" rel="noopener">
+              Հայերեն
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  
+</div>
+
+      <p>Internaltionalization является одной из основных особенностей CMintS. Идея заключается в том, чтобы использовать общие структуры и синтаксис в страницах, темах и предоставить дополнительные устроиства для управления многоязыковым веб-сайтом.</p>
+<h2 id="locales-dir-structure">Структура директории locales</h2>
+<p>Locale files should be located in the <fix><code>locales</code></fix> directory:</p>
+<pre><code class="language-bash">locales
+├── de
+│   ├── about.json
+│   └── news.json
+├── en
+│   ├── about.json
+│   ├── header.json
+│   └── news.json
+└── ru
+    ├── about
+    │   └── team.json
+    ├── about.json
+    ├── documentation
+    │   ├── getting-started
+    │   │   └── configuration.json
+    │   └── i18n
+    │       └── index.json
+    ├── header.json
+    ├── index.json
+    └── news.json
+</code></pre>
+<p>Top level directories in the <fix><code>locales</code></fix> are the locale codes.
+Actual directory structure reflects the page path, so for example translations
+for the <fix><code>about/teams.md</code></fix> <a href="/documentation/pages">page</a> translations
+should be located in <fix><code>/de/about/teams.json</code></fix> file to be accessible
+through <fix><code>/de/about/teams</code></fix> website path.</p>
+<h2 id="default-locale">Default locale</h2>
+<p>Before strating to use i18n features user needs to also specify default
+locale which will be used as the source language. In order to do that,
+<code>defaultLocale</code> needs to be added to i18n options in the <code>config.js</code>:</p>
+<pre><code class="language-js"><span class="hljs-keyword">const</span> i18nOptions = {
+  <span class="hljs-attr">defaultLocale</span>: <span class="hljs-string">"en"</span>
+};
+
+<span class="hljs-built_in">module</span>.exports = {i18nOptions};
+</code></pre>
+<h2 id="locale-file">Файл локалей</h2>
+<p>Файлы локалей содержат список переводимых строк, строки перевода состоят из stringid, сообщения и необязательного описания.</p>
+<pre><code class="language-json">{
+  "heading-main": {
+    "description": "Heading of the main page",
+    "message": "Заголовок"
+  },
+  ...
+}
+</code></pre>
+<h2 id="translation-strings">Строки перевода</h2>
+<p>Строки перевода могут быть определены в исходных файлах, помещая их
+внутри открывающих и закрывающих фигурных скобок. Строка перевода состоит из
+stringId, необязательное описание и исходный текст</p>
+<pre><code class="language-javascript-i18n">&#123;stringId[Description] Source text&#125;
+</code></pre>
+<p>Например, рассмотрим локаль <strong>ru</strong>  в <a href="#locale-file"> Локальном файле </a> и строку перевода ниже:</p>
+<pre><code class="language-html-i18n">&#123;heading-main[Heading of the main page] Heading&#125;
+</code></pre>
+<p>Будут преобразованы в <code>Heading</code> для языка по умолчанию и в <code>Заголовок</code> для русского языка.</p>
+<h3 id="defining-path">Определение пути</h3>
+<p>Чтобы использовать строку перевода из определенного пути, а не определять
+исходного текста в содержимом страницы, можно определить путь к файлу рядом с
+stringID:</p>
+<pre><code class="language-html">{menu-item-about(menu/header)}
+</code></pre>
+<p>Вышеприведенное выражение означает использование строки с идентификатором <strong>menu-item-about</strong> из файла <code>%locale%/menu/header.json</code>:</p>
+<pre><code class="language-json">/* /en/menu/header.json */
+{
+  "menu-item-about": {
+    "description": "Menu item label",
+    "message": "about us"
+  }
+}
+</code></pre>
+<pre><code class="language-json">/* /ru/menu/header.json */
+{
+  "menu-item-about": {
+    "description": "Menu item label",
+    "message": "о нас"
+  }
+}
+</code></pre>
+<pre><code>// Translation expression
+{menu-item-about(menu/header)}
+</code></pre>
+<p>Учитывая <strong>en</strong> и <strong>ru</strong> языков выше, перевод выражения будут преобразованы в <code>about us</code> для
+<strong>en</strong> языка и <code>о нас</code> для <strong>ru</strong> локали.</p>
+<h3 id="using-tags">Использование тегов</h3>
+<p>Текущие теги <code>a, img, p, span, div, em, i, b, strong</code> могут использоваться по умолчанию в переводе строки, на пример:</p>
+<pre><code class="language-html-i18n">&#123;stringId[Description] My awesome <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>source text<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> goes here&#125;
+</code></pre>
+<h4 id="lessagreater">&lt;a&gt;</h4>
+<p>Порядок ссылок внутри строк перевода может быть различным в зависимости
+на языке, поэтому порядок в строке файла языкового стандарта должен быть
+, поэтому рассмотрим строку перевода ниже:</p>
+<pre><code class="language-html-i18n">&#123;paragraph-1 This is <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.example1.com"</span>&gt;</span>first link<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>, <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/random1"</span>&gt;</span>second link<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> and <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/random2"</span>&gt;</span>third link<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>&#125;
+</code></pre>
+<p>И файл Locale со строкой перевода</p>
+<pre><code class="language-json">{
+ "paragraph-1": {
+   "description": "Paragraph with several links",
+   "message": "Это &lt;a2&gt;вторая ссылка&lt;/a2&gt;, &lt;a1&gt;первая&lt;/a1&gt; и &lt;a3&gt;третья ссылка&lt;/a3&gt;"
+ },
+ ...
+}
+</code></pre>
+<p>Результат будет:</p>
+<pre><code class="language-html">Это <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/en/random1"</span> <span class="hljs-attr">hreflang</span>=<span class="hljs-string">"en"</span>&gt;</span>вторая ссылка<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>, <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.example1.com"</span>&gt;</span>первая<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> и <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/en/random2"</span> <span class="hljs-attr">hreflang</span>=<span class="hljs-string">"en"</span>&gt;</span>третья ссылка<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+</code></pre>
+<p><strong> Примечание. </strong> Атрибут <code>hreflang</code> будет установлен автоматически
+в зависимости от того, переведена ли ссылка относительной ссылки на язык или
+не.</p>
+<h4 id="lessfixgreater">&lt;fix&gt;</h4>
+<p>Некоторые слова не надо переводить на веб-сайте (например, название бренда), для
+этого можно использовать тег <code>&lt;fix&gt;</code>:</p>
+<pre><code class="language-html-i18n">&#123;fixed-id <span class="hljs-tag">&lt;<span class="hljs-name">fix</span>&gt;</span>CMintS<span class="hljs-tag">&lt;/<span class="hljs-name">fix</span>&gt;</span> uses <span class="hljs-tag">&lt;<span class="hljs-name">fix</span>&gt;</span>fix<span class="hljs-tag">&lt;/<span class="hljs-name">fix</span>&gt;</span> tag&#125;
+</code></pre>
+<p>и локали ниже:</p>
+<pre><code class="language-json">"fixed-id": {
+ "message": "&lt;fix2&gt; тэг используется &lt;fix1&gt;-ом"
+}
+</code></pre>
+<p>Получится:</p>
+<pre><code class="language-html">fix тэг используется CMintS-ом
+</code></pre>
+<h4 id="lessimggreater">&lt;img&gt;</h4>
+<p>Подобно тегам <code>&lt;a&gt;</code> и <code>&lt;fix&gt;</code> тег <code>&lt;img&gt;</code> также должен сохранять порядок в строках перевода:</p>
+<pre><code class="language-html-i18n">&#123;test-img1 This is <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/first.png"</span>&gt;</span> and <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/second.png"</span>&gt;</span> image&#125;
+</code></pre>
+<p>и локали ниже:</p>
+<pre><code class="language-json">"test-img1": {
+   "description": "Test images order",
+   "message": "Это &lt;img2&gt; картинка и &lt;img1&gt;"
+}
+</code></pre>
+<p>Получится:</p>
+<pre><code class="language-html">Это <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/second.png"</span>&gt;</span> картинка и <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/first.png"</span>&gt;</span>
+</code></pre>
+<h4 id="title-alt-attr">атрибуты title и alt</h4>
+<p>Некоторые атрибуты также должны быть переведены на разные языки, поэтому
+эти атрибуты также могут использоваться в тегах строки перевода:</p>
+<pre><code class="language-html-i18n">&#123;test-attribute1 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"Website Logo"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"logo"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/random/path"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Jumping puma"</span> /&gt;</span>Picture<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>&#125;
+</code></pre>
+<p>и локали ниже:</p>
+<pre><code class="language-json">"test-img1": {
+   "description": "Test images order",
+   "message": "&lt;div1 title='Логотип сайта'&gt;&lt;img1 alt='Пума в прыжке'&gt;Картинка&lt;/div1&gt;"
+}
+</code></pre>
+<p>Получится:</p>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"Логотип сайта"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"logo"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/random/path"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Пума в прыжке"</span> /&gt;</span>Картинка<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h2 id="prefix-postfix">prefix, postfix</h2>
+<p>It's also possible to specify custom prefix and postfix for i18n strings in the
+<code>config.js</code>, it can be useful for fixing incompatibilities with other syntaxes:</p>
+<p>Consider:</p>
+<pre><code class="language-js"><span class="hljs-comment">/* config.js */</span>
+
+<span class="hljs-keyword">const</span> i18nOptions = {
+  <span class="hljs-attr">defaultLocale</span>: <span class="hljs-string">"en"</span>,
+  <span class="hljs-attr">prefix</span>: <span class="hljs-string">"{{"</span>,
+  <span class="hljs-attr">postfix</span>: <span class="hljs-string">"}}"</span>
+};
+
+<span class="hljs-built_in">module</span>.exports = {i18nOptions};
+</code></pre>
+<p>For the configuration specified above, you could use the syntax below:</p>
+<pre><code class="language-js-i18n">&#123;&#123;stringId[Description] Source text&#125;&#125;
+</code></pre>
+
+    </article>
+
+    <!-- TOC Start -->
+    
+      <aside id="toc" class="cell5 center tablet-hide">
+        <h2>Оглавление</h2>
+        
+  <ul>
+    
+    <li>
+        
+          <a href="#locales-dir-structure">Структура директории locales</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#default-locale">Default locale</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#locale-file">Файл локалей</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#translation-strings">Строки перевода</a>
+        
+        
+          
+  <ul>
+    
+    <li>
+        
+          <a href="#defining-path">Определение пути</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#using-tags">Использование тегов</a>
+        
+        
+          
+  <ul>
+    
+    <li>
+        
+          <a href="#lessagreater">&lt;a&gt;</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#lessfixgreater">&lt;fix&gt;</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#lessimggreater">&lt;img&gt;</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#title-alt-attr">атрибуты title и alt</a>
+        
+        
+    </li>
+    
+  </ul>
+
+
+        
+    </li>
+    
+  </ul>
+
+
+        
+    </li>
+    
+    <li>
+        
+          <a href="#prefix-postfix">prefix, postfix</a>
+        
+        
+    </li>
+    
+  </ul>
+
+
+      </aside>
+    
+    <!-- TOC End -->
+  </div>
+</main>
+  <footer>
+  <div class="col5 middle">
+    <div class="cell2 center">
+      © 2018 <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">CMintS</a>
+    </div>
+    <div class="cell3-4 center">
+      Контент сайта лицензировано под <a href="http://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons 4.0</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

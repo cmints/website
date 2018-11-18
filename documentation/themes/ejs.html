@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CMintS | EJS</title>
+<meta property="og:title" content="CMintS | EJS">
+<meta name="twitter:title" content="CMintS | EJS">
+<meta content="Learn how to create layouts in CMintS. CMintS is using ejs as a templating engine for creating layouts." name="description">
+<meta content="Learn how to create layouts in CMintS. CMintS is using ejs as a templating engine for creating layouts." property="og:description">
+<meta name="twitter:description" content="Learn how to create layouts in CMintS. CMintS is using ejs as a templating engine for creating layouts.">
+
+<meta charset="UTF-8">
+<meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
+<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
+<meta property="og:url" content="https://manvel.github.io/cmints-website/en/documentation/themes/ejs">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
+
+  
+  
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <link rel="alternate" href="https://manvel.github.io/cmints-website/ru/documentation/themes/ejs" hreflang="ru" />
+  
+
+  
+  
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="https://manvel.github.io/cmints-website/documentation/themes/ejs">
+  
+
+
+<link rel="stylesheet" type="text/css" href="/cmints-website/css/main.css">
+<link rel="shortcut icon" href="/cmints-website/images/favicon.png">
+<script src="/cmints-website/js/main.js" defer></script>
+<script src="/cmints-website/js/redirect.js" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117702399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag()
+  {
+    dataLayer.push(arguments);
+  }
+  if (window.location.host === "cmints.io")
+  {
+    gtag('js', new Date());
+    gtag('config', 'UA-117702399-1');
+  }
+</script>
+
+
+</head>
+<body>
+  <header>
+  <div class="col5 middle device tablet-hide">
+    <nav class="cell1-4">
+      <ul>
+        <li>
+           <a href="/cmints-website/en" hreflang="en" class="cell1 end">
+             <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+             <span class="beta">beta</span>
+            </a>
+        </li>
+        
+  <li>
+    <a href="/cmints-website/en/documentation" hreflang="en"
+      class="active">
+      Documentation
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+      </ul>
+    </nav>
+    <ul class="cell5 end">
+      <li>
+        
+
+<div class="languageSelector custom contextMenu">
+  
+    <button class="icon text-arrow" data-action="toggle-context">
+  
+    <label>en</label>
+  
+    </button>
+  
+  <ul>
+  
+    
+      <li>
+        <a href="/cmints-website/ru/documentation/themes/ejs">
+          Русский
+        </a>
+      </li>
+    
+  
+    
+  
+  </ul>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+        <li>
+          <a href="/cmints-website/ru/documentation/themes/ejs">ru</a>
+        </li>
+      
+    
+      
+    
+  </ul>
+</noscript>
+
+
+      </li>
+      <li>
+        <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">
+          <img src="/cmints-website/images/github-mark.png" alt="Github logo">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="desktop-hide">
+    <div class="col2">
+      <a href="/cmints-website/en" hreflang="en" class="cell1 start middle">
+        <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+        <span class="beta">beta</span>
+      </a>
+      <button class="cell2 end" id="hamburger" aria-label="Open primary navigation"></button>
+    </div>
+    <nav id="hamburger-menu">
+      <ul>
+        
+  <li>
+    <a href="/cmints-website/en/documentation" hreflang="en"
+      class="active">
+      Documentation
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+         
+          
+  
+  <li>
+      <h2>Getting Started</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation" hreflang="en"
+            >
+            Installation
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/configuration" hreflang="en"
+            >
+            Configuration
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/structure" hreflang="en"
+            >
+            Structure
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/deployment" hreflang="en"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Pages</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/frontmatter" hreflang="en"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Themes</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/ejs" hreflang="en"
+            class="active">
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/less" hreflang="en"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>i18n</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/pages" hreflang="en"
+            >
+            Pages
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/theme" hreflang="en"
+            >
+            Themes
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/crowdin" hreflang="en"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        
+        <li>
+            <div class="languageSelector native">
+  
+  
+  
+    <select data-page="/documentation/themes/ejs">
+  
+  
+    
+      <option value="/cmints-website/ru">ru</option>
+    
+  
+    
+      <option value="/cmints-website/en" selected>en</option>
+    
+  
+  
+    </select>
+  
+  <label class="icon text-arrow">
+    <span>en</span>
+  </label>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+        <li>
+          <a href="/cmints-website/ru/documentation/themes/ejs">ru</a>
+        </li>
+      
+    
+      
+    
+  </ul>
+</noscript>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="device">
+  <div class="col5">
+    <!-- Navigation Start -->
+     
+      <aside id="sideNav" class="cell1 tablet-hide">
+        <ul>
+          
+  
+  <li>
+      <h2>Getting Started</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation" hreflang="en"
+            >
+            Installation
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/configuration" hreflang="en"
+            >
+            Configuration
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/structure" hreflang="en"
+            >
+            Structure
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/getting-started/deployment" hreflang="en"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Pages</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/frontmatter" hreflang="en"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Themes</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/ejs" hreflang="en"
+            class="active">
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/less" hreflang="en"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>i18n</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n" hreflang="en"
+            >
+            Overview
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/pages" hreflang="en"
+            >
+            Pages
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/theme" hreflang="en"
+            >
+            Themes
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/i18n/crowdin" hreflang="en"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        </ul>
+      </aside>
+    
+    <!-- Navigation End -->
+
+    <article class="cell2-4">
+      <h1>EJS</h1>
+      <div id="edit-page">
+  
+    <a href="https://github.com/Manvel/cmints-website/edit/master/pages/documentation/themes/ejs.md"
+        class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
+  
+  
+    <div class="contextMenu">
+      <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
+      <ul>
+        
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/155/en-de"
+                 target="_blank" rel="noopener">
+              Deutsch
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/155/en-ru"
+                 target="_blank" rel="noopener">
+              Русский
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/155/en-es"
+                 target="_blank" rel="noopener">
+              Español
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/155/en-lt"
+                 target="_blank" rel="noopener">
+              Lietuvių
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/155/en-hy"
+                 target="_blank" rel="noopener">
+              Հայերեն
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  
+</div>
+
+      <p>CMintS is using <a href="http://ejs.co/" target="_blank" rel="noopener">EJS</a> as a templating
+engine for creating layouts, EJS can also be used for the
+<a href="/documentation/pages#ejs">page</a> creation. EJS is a simple templating language
+that lets you generate HTML markup while writing plain JavaScript. Detailed EJS
+syntax documentation can be found <a
+href="https://github.com/mde/ejs/blob/master/docs/syntax.md"
+target="_blank" rel="noopener">here</a>, also there is an online playground, to <a
+href="https://ionicabizau.github.io/ejs-playground/" target="_blank" rel="noopener">try out the
+syntax</a>.</p>
+<h2 id="layout">Layout</h2>
+<p>As was mentioned in the <a href="/documentation/themes#layouts">themes overview</a> in
+order to decide which layout to use for the page, a Front Matter &quot;layout&quot;
+property needs to be used, which falls back to the default layout.</p>
+<p>Considering snippet below being <code>theme/layouts/default.ejs</code>:</p>
+<pre><code class="language-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/css/main.css"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">page.body</span> %&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>And snippet below being <code>pages/about.md</code>:</p>
+<pre><code class="language-markdown"><span class="hljs-section"># about</span>
+This is the about page
+</code></pre>
+<p>The request to the <code>/about</code> page will generate HTML below:</p>
+<pre><code class="language-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/css/main.css"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>about<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is the about page<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>But if you have another layout, which is located in
+<code>theme/layouts/home.ejs</code>, in order to use it you would use Front Matter
+ex.:</p>
+<pre><code class="language-markdown">---
+<span class="hljs-section">layout: home
+---</span>
+
+<span class="hljs-section"># Homepage</span>
+This page is using home.ejs layout
+</code></pre>
+<h2 id="body">body</h2>
+<p>As you might have noticed from the previous example <code>&lt;%- page.body %&gt;</code>
+placeholder in the layout ejs is replaced with the actual content, no matter
+what <a href="/documentation/pages">page is used(markdown, html or ejs)</a> actual content
+of the page is being rendered and replaces the <code>&lt;%- page.body %&gt;</code>
+placeholder.</p>
+<h2 id="partials">partials</h2>
+<p>Partials are EJS layout files that can be loaded into the EJS layouts:</p>
+<pre><code class="language-javascript">&lt;% include partialPath %&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">include</span>('<span class="hljs-attr">partialPath</span>', {<span class="hljs-attr">key:</span> <span class="hljs-attr">value</span>}) %&gt;</span>
+</span></code></pre>
+<p>This can come handy for different layout parts separation and reuse:</p>
+<pre><code class="language-HTML"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en-US"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">include</span> <span class="hljs-attr">partials</span>/<span class="hljs-attr">head</span> %&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">include</span> <span class="hljs-attr">partials</span>/<span class="hljs-attr">meta</span> %&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">include</span> <span class="hljs-attr">partials</span>/<span class="hljs-attr">header</span> %&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">page.body</span> %&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">include</span> <span class="hljs-attr">partials</span>/<span class="hljs-attr">footer</span> %&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>Considering the example above, we could for example create partial that will be
+reusable accross different layouts, ex, consider <code>partials/head.ejs</code> with
+content below:</p>
+<pre><code class="language-HTML"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/css/main.css"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/js/main.js"</span> <span class="hljs-attr">defer</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<p>this snippet now can be used and loaded in the layout by just adding <code>&lt;% include partials/head %&gt;</code> into the layout.</p>
+<h2 id="front-matter">Front Matter</h2>
+<p>As was already mentioned Front Matter is not only used for the layout selection,
+but it's also possible to define page properties which can be accessed from the
+layouts.</p>
+<p>Considering a Front Matter below:</p>
+<pre><code class="language-markdown">---
+title: About page
+<span class="hljs-section">showSidebar: true
+---</span>
+</code></pre>
+<p>Data defined in the Front Matter is accessible from the layout files using page object:</p>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">%=</span> <span class="hljs-attr">page.title</span> %&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">property</span>=<span class="hljs-string">"og:title"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"EJS"</span>&gt;</span>
+
+...
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+...
+<span class="hljs-tag">&lt;<span class="hljs-name">%if</span> (<span class="hljs-attr">page.showSidebar</span>) { %&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">include</span> <span class="hljs-attr">partials</span>/<span class="hljs-attr">sidebar</span> %&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+</code></pre>
+<h2 id="helpers">Helpers</h2>
+<p>There are also some built in helpers in CMintS that can be used out
+of the box:</p>
+<table>
+<thead>
+<tr>
+<th>Helper</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page.pathname</td>
+<td>Variable</td>
+<td><a href="#page.pathname">URL path of current page</a></td>
+</tr>
+<tr>
+<td>page.locale</td>
+<td>Variable</td>
+<td><a href="#page.locale">Locale of the current page</a></td>
+</tr>
+<tr>
+<td>page.locales</td>
+<td>Array</td>
+<td><a href="#page.locales">Other locales that current page is available in</a></td>
+</tr>
+<tr>
+<td>page.markdown.toc</td>
+<td>Object</td>
+<td><a href="#page.markdown.toc">Page's Table Of Content</a></td>
+</tr>
+<tr>
+<td>i18n.getPageLocales</td>
+<td>Function</td>
+<td><a href="#i18n.getpagelocales">Get available locales for a specific page</a></td>
+</tr>
+<tr>
+<td>i18n.href</td>
+<td>Function</td>
+<td><a href="#i18n.href">Generate href and hreflang for path. Check if the target path is available in current language otherwise falls back to default language.</a></td>
+</tr>
+<tr>
+<td>site.queryPages</td>
+<td>Function</td>
+<td><a href="#site.querypages">Query Array of pages metadata Objects.</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="page.pathname">page.pathname</h3>
+<p>URL path of current page:</p>
+<pre><code class="language-js">&lt;a &lt;%-i18n.href(item.url)%&gt; <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">item.url</span> == <span class="hljs-string">page.pathname)</span> { %&gt;</span>class="active"<span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>&gt;
+</span></code></pre>
+<h3 id="page.locale">page.locale</h3>
+<p>Locale of the current page:</p>
+<pre><code class="language-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"&lt;%= page.locale %&gt;"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+...
+</code></pre>
+<h3 id="page.locales">page.locales</h3>
+<p>Other locales that current page is available in</a>:</p>
+<pre><code class="language-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"&lt;%= page.locale %&gt;"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+...
+<span class="hljs-comment">&lt;!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">for</span> (<span class="hljs-attr">const</span> <span class="hljs-attr">locale</span> <span class="hljs-attr">of</span> <span class="hljs-attr">page.locales</span>) { %&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">const</span> <span class="hljs-attr">localeRegion</span> = <span class="hljs-string">site.localeMap[locale]</span> ? <span class="hljs-attr">site.localeMap</span>[<span class="hljs-attr">locale</span>]<span class="hljs-attr">.region</span> <span class="hljs-attr">:</span> <span class="hljs-attr">locale</span>; %&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">locale</span> == <span class="hljs-string">page.locale)</span> { %&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">property</span>=<span class="hljs-string">"og:locale"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"&lt;%= localeRegion %&gt;"</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"canonical"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://&lt;%= site.domain %&gt;/&lt;%= page.pathname %&gt;"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> } <span class="hljs-attr">else</span> { %&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">property</span>=<span class="hljs-string">"og:locale:alternate"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"&lt;%= localeRegion %&gt;"</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"alternate"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://&lt;%= site.domain %&gt;/&lt;%= locale %&gt;/&lt;%= page.pathname %&gt;"</span> <span class="hljs-attr">hreflang</span>=<span class="hljs-string">"&lt;%= locale %&gt;"</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+...
+</code></pre>
+<h3 id="page.markdown.toc">page.markdown.toc</h3>
+<p><code>page.markdown.toc</code> Object can be used in the &quot;.ejs&quot; to create a
+Table Of Content. The Object is a tree where each node corresponds to a markdown
+Heading containing id and title of the heading. If the node contain children,
+then all children nodes can be accessible by the node's <code>children</code>
+property:</p>
+<pre><code class="language-JSON">{
+  <span class="hljs-attr">"children"</span>: [
+    {
+      <span class="hljs-attr">"id"</span>: <span class="hljs-string">"ejs"</span>,
+      <span class="hljs-attr">"title"</span>: <span class="hljs-string">"EJS"</span>,
+      <span class="hljs-attr">"children"</span>: [
+        {
+          <span class="hljs-attr">"id"</span>: <span class="hljs-string">"layout"</span>,
+          <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Layout"</span>
+        },
+        {
+          <span class="hljs-attr">"id"</span>: <span class="hljs-string">"body"</span>,
+          <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Body"</span>
+        }
+        ...
+</code></pre>
+<p>So, in order to construct a Table Of Content from that variable an EJS snippet
+an <code>.ejs</code> file like the one below can be used:</p>
+<pre><code class="language-js">&lt;%<span class="hljs-comment">/* partials/navigations/toc.ejs */</span>%&gt;
+
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">items</span>) { %&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">items.forEach</span>(<span class="hljs-attr">function</span>(<span class="hljs-attr">item</span>){ %&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">item.id</span>) { %&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#&lt;%= item.id %&gt;"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">%=</span> <span class="hljs-attr">item.title</span> %&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">item.children</span>) { %&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">include</span>('<span class="hljs-attr">toc</span>', {<span class="hljs-attr">items:</span> <span class="hljs-attr">item.children</span>}) %&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">%</span> }) %&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+</span></code></pre>
+<p>Considering the example above, the TOC can be generated by simply calling the
+<code>.ejs</code> file and passing the <code>page.markdown.toc</code> to it, for example:</p>
+<pre><code class="language-javascript">&lt;%<span class="hljs-keyword">if</span> (page.
+  &lt;aside id=<span class="hljs-string">"toc"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Table of content<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span></span>
+    &lt;%- include(<span class="hljs-string">'partials/navigations/toc'</span>, {<span class="hljs-attr">items</span>: page.markdown.toc.children}) %&gt;
+  <span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">aside</span>&gt;</span></span>
+&lt;% } %&gt;
+</code></pre>
+<h3 id="i18n.getpagelocales">i18n.getPageLocales</h3>
+<p>Get available locales for a specific page</p>
+<pre><code class="language-js">&lt;% <span class="hljs-keyword">const</span> configPageLocales = i18n.getPageLocales(<span class="hljs-string">"documentation/getting-started/configuration"</span>); %&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">const</span> <span class="hljs-attr">homepageLocales</span> = <span class="hljs-string">i18n.getPageLocales(</span>"<span class="hljs-attr">index</span>"); %&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">homepageLocales.includes</span>("<span class="hljs-attr">de</span>")) { %&gt;</span>
+  Homepage is available in German
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">configPageLocales.includes</span>("<span class="hljs-attr">es</span>")) { %&gt;</span>
+  Config page is available in Spanish
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+</span></code></pre>
+<h3 id="i18n.href">i18n.href</h3>
+<p>Generate href and hreflang for path. Check if the target path is available in current language otherwise falls back to default language.</p>
+<pre><code class="language-js">&lt;a &lt;%-i18n.href("documentation")%&gt; class="button"&gt;Get started&lt;/a&gt;
+</code></pre>
+<h3 id="site.querypages">site.queryPages</h3>
+<p>Query Array of pages metadata Objects.</a></p>
+<p>Besides of Front Matter page metadata, pages contain <code>pathname</code> which
+is actual pathname of the page and <code>originalPathname</code> which holds
+pathname ignoring <code>permalink</code>.</p>
+<pre><code class="language-js">&lt;% <span class="hljs-keyword">let</span> docPages = site.queryPages(<span class="hljs-function">(<span class="hljs-params">data</span>) =&gt;</span> data.categories &amp;&amp;
+                                          data.categories.includes(<span class="hljs-string">"documentation"</span>)) %&gt;
+
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">docPages.forEach</span>(<span class="hljs-attr">function</span>(<span class="hljs-attr">item</span>) { %&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> &lt;%<span class="hljs-attr">-</span> <span class="hljs-attr">i18n.href</span>(<span class="hljs-attr">item.pathname</span>) %&gt;</span>&gt; <span class="hljs-tag">&lt;<span class="hljs-name">%=</span> <span class="hljs-attr">item.title</span> %&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> }); %&gt;</span>
+</span></code></pre>
+
+    </article>
+
+    <!-- TOC Start -->
+    
+      <aside id="toc" class="cell5 center tablet-hide">
+        <h2>Table of content</h2>
+        
+  <ul>
+    
+    <li>
+        
+          <a href="#layout">Layout</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#body">body</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#partials">partials</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#front-matter">Front Matter</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#helpers">Helpers</a>
+        
+        
+          
+  <ul>
+    
+    <li>
+        
+          <a href="#page.pathname">page.pathname</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#page.locale">page.locale</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#page.locales">page.locales</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#page.markdown.toc">page.markdown.toc</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#i18n.getpagelocales">i18n.getPageLocales</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#i18n.href">i18n.href</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#site.querypages">site.queryPages</a>
+        
+        
+    </li>
+    
+  </ul>
+
+
+        
+    </li>
+    
+  </ul>
+
+
+      </aside>
+    
+    <!-- TOC End -->
+  </div>
+</main>
+  <footer>
+  <div class="col5 middle">
+    <div class="cell2 center">
+      © 2018 <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">CMintS</a>
+    </div>
+    <div class="cell3-4 center">
+      Website content is licensed under the <a href="http://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons 4.0</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>CMintS | Crowdin</title>
+<meta property="og:title" content="CMintS | Crowdin">
+<meta name="twitter:title" content="CMintS | Crowdin">
+<meta content="Интеграция проект с Crowdin. Crowdin синхронизация скриптов и как просить установки открытым исходным кодом бесплатно." name="description">
+<meta content="Интеграция проект с Crowdin. Crowdin синхронизация скриптов и как просить установки открытым исходным кодом бесплатно." property="og:description">
+<meta name="twitter:description" content="Интеграция проект с Crowdin. Crowdin синхронизация скриптов и как просить установки открытым исходным кодом бесплатно.">
+
+<meta charset="UTF-8">
+<meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
+<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
+<meta property="og:url" content="https://manvel.github.io/cmints-website/ru/documentation/i18n/crowdin">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
+
+  
+  
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="canonical" href="https://manvel.github.io/cmints-website/documentation/i18n/crowdin">
+  
+
+  
+  
+    <meta property="og:locale:alternate" content="en_US" />
+    <link rel="alternate" href="https://manvel.github.io/cmints-website/en/documentation/i18n/crowdin" hreflang="en" />
+  
+
+
+<link rel="stylesheet" type="text/css" href="/cmints-website/css/main.css">
+<link rel="shortcut icon" href="/cmints-website/images/favicon.png">
+<script src="/cmints-website/js/main.js" defer></script>
+<script src="/cmints-website/js/redirect.js" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117702399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag()
+  {
+    dataLayer.push(arguments);
+  }
+  if (window.location.host === "cmints.io")
+  {
+    gtag('js', new Date());
+    gtag('config', 'UA-117702399-1');
+  }
+</script>
+
+
+</head>
+<body>
+  <header>
+  <div class="col5 middle device tablet-hide">
+    <nav class="cell1-4">
+      <ul>
+        <li>
+           <a href="/cmints-website/ru" hreflang="ru" class="cell1 end">
+             <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+             <span class="beta">beta</span>
+            </a>
+        </li>
+        
+  <li>
+    <a href="/cmints-website/ru/documentation" hreflang="ru"
+      class="active">
+      Документация
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+      </ul>
+    </nav>
+    <ul class="cell5 end">
+      <li>
+        
+
+<div class="languageSelector custom contextMenu">
+  
+    <button class="icon text-arrow" data-action="toggle-context">
+  
+    <label>ru</label>
+  
+    </button>
+  
+  <ul>
+  
+    
+  
+    
+      <li>
+        <a href="/cmints-website/en/documentation/i18n/crowdin">
+          English
+        </a>
+      </li>
+    
+  
+  </ul>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+    
+      
+        <li>
+          <a href="/cmints-website/en/documentation/i18n/crowdin">en</a>
+        </li>
+      
+    
+  </ul>
+</noscript>
+
+
+      </li>
+      <li>
+        <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">
+          <img src="/cmints-website/images/github-mark.png" alt="Github logo">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="desktop-hide">
+    <div class="col2">
+      <a href="/cmints-website/ru" hreflang="ru" class="cell1 start middle">
+        <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+        <span class="beta">beta</span>
+      </a>
+      <button class="cell2 end" id="hamburger" aria-label="Open primary navigation"></button>
+    </div>
+    <nav id="hamburger-menu">
+      <ul>
+        
+  <li>
+    <a href="/cmints-website/ru/documentation" hreflang="ru"
+      class="active">
+      Документация
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+         
+          
+  
+  <li>
+      <h2>Начало</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation" hreflang="ru"
+            >
+            Инсталляция
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/configuration" hreflang="ru"
+            >
+            конфигурации
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/structure" hreflang="ru"
+            >
+            Структура
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/deployment" hreflang="ru"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Страницы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages/frontmatter" hreflang="ru"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Темы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/ejs" hreflang="ru"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/less" hreflang="ru"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Многоязычность</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/pages" hreflang="ru"
+            >
+            Страницы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/theme" hreflang="ru"
+            >
+            Темы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/crowdin" hreflang="ru"
+            class="active">
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        
+        <li>
+            <div class="languageSelector native">
+  
+  
+  
+    <select data-page="/documentation/i18n/crowdin">
+  
+  
+    
+      <option value="/cmints-website/ru" selected>ru</option>
+    
+  
+    
+      <option value="/cmints-website/en">en</option>
+    
+  
+  
+    </select>
+  
+  <label class="icon text-arrow">
+    <span>ru</span>
+  </label>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+    
+      
+        <li>
+          <a href="/cmints-website/en/documentation/i18n/crowdin">en</a>
+        </li>
+      
+    
+  </ul>
+</noscript>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="device">
+  <div class="col5">
+    <!-- Navigation Start -->
+     
+      <aside id="sideNav" class="cell1 tablet-hide">
+        <ul>
+          
+  
+  <li>
+      <h2>Начало</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation" hreflang="ru"
+            >
+            Инсталляция
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/configuration" hreflang="ru"
+            >
+            конфигурации
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/structure" hreflang="ru"
+            >
+            Структура
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/deployment" hreflang="ru"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Страницы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages/frontmatter" hreflang="ru"
+            >
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Темы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/ejs" hreflang="ru"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/less" hreflang="ru"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Многоязычность</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/pages" hreflang="ru"
+            >
+            Страницы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/theme" hreflang="ru"
+            >
+            Темы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/crowdin" hreflang="ru"
+            class="active">
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        </ul>
+      </aside>
+    
+    <!-- Navigation End -->
+
+    <article class="cell2-4">
+      <h1>Crowdin</h1>
+      <div id="edit-page">
+  
+    <a href="https://github.com/Manvel/cmints-website/edit/master/pages/documentation/i18n/crowdin.md"
+        class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
+  
+  
+    <div class="contextMenu">
+      <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
+      <ul>
+        
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/149/en-de"
+                 target="_blank" rel="noopener">
+              Deutsch
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/149/en-ru"
+                 target="_blank" rel="noopener">
+              Русский
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/149/en-es"
+                 target="_blank" rel="noopener">
+              Español
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/149/en-lt"
+                 target="_blank" rel="noopener">
+              Lietuvių
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/149/en-hy"
+                 target="_blank" rel="noopener">
+              Հայերեն
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  
+</div>
+
+      <p><a href="https://crowdin.com/" target="_blank" rel="noopener">Crowdin</a> это платформа управления переводом и локализацией. CMintS использует Crowdin из-за простаты использования а так же из за того что Crowdin бесплатен для проектов с открытым кодом.</p>
+<h2 id="setting-up">Настройка</h2>
+<p>Прежде всего для того, чтобы иметь возможность использовать Crowdin <a href="https://crowdin.com/join">следует создать аккаунт</a>. Если вы разрабатываете проект с открытым кодом вы можете запросить <a href="https://crowdin.com/page/open-source-project-setup-request">бесплатную квоту</a>. В остальных случаях вы будете иметь испытательный срок, чтобы попробовать его. После того, как аккаунт будет готов, вы можете<a href="https://support.crowdin.com/creating-project">создать Crowdin проект</a>.</p>
+<p>After the project is ready, you need to add Crowdin project ID to i18n options
+in the <fix><code>config.js</code></fix> file. Ensure that you also have
+<fix><code>defaultLocale</code></fix> set there as well:</p>
+<pre><code class="language-js"><span class="hljs-keyword">const</span> i18nOptions = {
+  <span class="hljs-attr">defaultLocale</span>: <span class="hljs-string">"en"</span>,
+  <span class="hljs-attr">crowdinId</span>: <span class="hljs-string">"cmints-website"</span>
+};
+
+<span class="hljs-built_in">module</span>.exports = {i18nOptions};
+</code></pre>
+<h2 id="upload-source-strings">Загрузка исходных строк перевода</h2>
+<p>После настройки проекта вы можете использовать интеграцию CMintS
+API для загрузки всех исходных строк перевода вашего веб-сайта в Crowdin
+проекта, для этого используйте ключ API Crowdin с помощью Crowdin
+Синхронизация API. Вы можете найти ключ API Crowdin на ключевой вкладке проекта
+страница настроек:</p>
+<p><img src="/images/crowdin-key.png" alt="Crowdin api location"></p>
+<p>После того, как вы найдете ключ API crowdin, запустите команду ниже в корневом каталоге Crowdin, заменив <code>crowdin-key</ code> на
+фактический ключ :</p>
+<pre><code class="language-bash"><span class="hljs-comment"># Replace {crowdin-key} with the actual one</span>
+cmints --crowdin update-sources --key {crowdin-key}
+</code></pre>
+<p>Это создаст исходные JSON-файлы из проекта &ltfix1&gt; и
+загрузите их в проект Crowdin.</p>
+<h2 id="download-translation">Скачать переводы</h2>
+<p>После того, как переводы будут готовы в crowdin, которые будут загружены, и перевод
+проекта, выполните команду ниже в корневом каталоге Crowdin:</p>
+<pre><code class="language-bash"><span class="hljs-comment"># Replace {crowdin-key} with the actual one</span>
+cmints --crowdin get-translations --key {crowdin-key}
+</code></pre>
+<p><strong>Примечание:</ strong>, чтобы обновить правильные локали, имена каталогов внутри
+<code>locales</code> должен быть совместим с переводом Crowdin
+<a href="https://support.crowdin.com/api/language-codes/"> именами локалей </a>.</p>
+<h2 id="upload-translation">Загрузить переводы</h2>
+<p>Используйте команду ниже, чтобы обновить проект crowdin с помощью локального
+перевода:</p>
+<pre><code class="language-bash"><span class="hljs-comment"># Replace {crowdin-key} with the actual one</span>
+cmints --crowdin update-translations --key {crowdin-key}
+</code></pre>
+
+    </article>
+
+    <!-- TOC Start -->
+    
+      <aside id="toc" class="cell5 center tablet-hide">
+        <h2>Оглавление</h2>
+        
+  <ul>
+    
+    <li>
+        
+          <a href="#setting-up">Настройка</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#upload-source-strings">Загрузка исходных строк перевода</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#download-translation">Скачать переводы</a>
+        
+        
+    </li>
+    
+    <li>
+        
+          <a href="#upload-translation">Загрузить переводы</a>
+        
+        
+    </li>
+    
+  </ul>
+
+
+      </aside>
+    
+    <!-- TOC End -->
+  </div>
+</main>
+  <footer>
+  <div class="col5 middle">
+    <div class="cell2 center">
+      © 2018 <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">CMintS</a>
+    </div>
+    <div class="cell3-4 center">
+      Контент сайта лицензировано под <a href="http://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons 4.0</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

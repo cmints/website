@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>CMintS | Front Matter</title>
+<meta property="og:title" content="CMintS | Front Matter">
+<meta name="twitter:title" content="CMintS | Front Matter">
+<meta content="Front Matter - мощный инструмент, который позволяет страницам определять метаданные в формате YAML." name="description">
+<meta content="Front Matter - мощный инструмент, который позволяет страницам определять метаданные в формате YAML." property="og:description">
+<meta name="twitter:description" content="Front Matter - мощный инструмент, который позволяет страницам определять метаданные в формате YAML.">
+
+<meta charset="UTF-8">
+<meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
+<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
+<meta property="og:url" content="https://manvel.github.io/cmints-website/ru/documentation/pages/frontmatter">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- og:locale, og:locale:alternate, rel="canonical" rel="alternate"  -->
+
+  
+  
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="canonical" href="https://manvel.github.io/cmints-website/documentation/pages/frontmatter">
+  
+
+  
+  
+    <meta property="og:locale:alternate" content="en_US" />
+    <link rel="alternate" href="https://manvel.github.io/cmints-website/en/documentation/pages/frontmatter" hreflang="en" />
+  
+
+
+<link rel="stylesheet" type="text/css" href="/cmints-website/css/main.css">
+<link rel="shortcut icon" href="/cmints-website/images/favicon.png">
+<script src="/cmints-website/js/main.js" defer></script>
+<script src="/cmints-website/js/redirect.js" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117702399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag()
+  {
+    dataLayer.push(arguments);
+  }
+  if (window.location.host === "cmints.io")
+  {
+    gtag('js', new Date());
+    gtag('config', 'UA-117702399-1');
+  }
+</script>
+
+
+</head>
+<body>
+  <header>
+  <div class="col5 middle device tablet-hide">
+    <nav class="cell1-4">
+      <ul>
+        <li>
+           <a href="/cmints-website/ru" hreflang="ru" class="cell1 end">
+             <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+             <span class="beta">beta</span>
+            </a>
+        </li>
+        
+  <li>
+    <a href="/cmints-website/ru/documentation" hreflang="ru"
+      class="active">
+      Документация
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+      </ul>
+    </nav>
+    <ul class="cell5 end">
+      <li>
+        
+
+<div class="languageSelector custom contextMenu">
+  
+    <button class="icon text-arrow" data-action="toggle-context">
+  
+    <label>ru</label>
+  
+    </button>
+  
+  <ul>
+  
+    
+  
+    
+      <li>
+        <a href="/cmints-website/en/documentation/pages/frontmatter">
+          English
+        </a>
+      </li>
+    
+  
+  </ul>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+    
+      
+        <li>
+          <a href="/cmints-website/en/documentation/pages/frontmatter">en</a>
+        </li>
+      
+    
+  </ul>
+</noscript>
+
+
+      </li>
+      <li>
+        <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">
+          <img src="/cmints-website/images/github-mark.png" alt="Github logo">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="desktop-hide">
+    <div class="col2">
+      <a href="/cmints-website/ru" hreflang="ru" class="cell1 start middle">
+        <img src="/cmints-website/images/logo.png" alt="CMintS logo">
+        <span class="beta">beta</span>
+      </a>
+      <button class="cell2 end" id="hamburger" aria-label="Open primary navigation"></button>
+    </div>
+    <nav id="hamburger-menu">
+      <ul>
+        
+  <li>
+    <a href="/cmints-website/ru/documentation" hreflang="ru"
+      class="active">
+      Документация
+    </a>
+  </li>
+
+  <li>
+    <a href="/cmints-website/en/presentation" hreflang="en"
+      >
+      Slides
+    </a>
+  </li>
+
+         
+          
+  
+  <li>
+      <h2>Начало</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation" hreflang="ru"
+            >
+            Инсталляция
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/configuration" hreflang="ru"
+            >
+            конфигурации
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/structure" hreflang="ru"
+            >
+            Структура
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/deployment" hreflang="ru"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Страницы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages/frontmatter" hreflang="ru"
+            class="active">
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Темы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/ejs" hreflang="ru"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/less" hreflang="ru"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Многоязычность</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/pages" hreflang="ru"
+            >
+            Страницы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/theme" hreflang="ru"
+            >
+            Темы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/crowdin" hreflang="ru"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        
+        <li>
+            <div class="languageSelector native">
+  
+  
+  
+    <select data-page="/documentation/pages/frontmatter">
+  
+  
+    
+      <option value="/cmints-website/ru" selected>ru</option>
+    
+  
+    
+      <option value="/cmints-website/en">en</option>
+    
+  
+  
+    </select>
+  
+  <label class="icon text-arrow">
+    <span>ru</span>
+  </label>
+</div>
+
+<noscript>
+  <ul>
+    
+      
+    
+      
+        <li>
+          <a href="/cmints-website/en/documentation/pages/frontmatter">en</a>
+        </li>
+      
+    
+  </ul>
+</noscript>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="device">
+  <div class="col5">
+    <!-- Navigation Start -->
+     
+      <aside id="sideNav" class="cell1 tablet-hide">
+        <ul>
+          
+  
+  <li>
+      <h2>Начало</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation" hreflang="ru"
+            >
+            Инсталляция
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/configuration" hreflang="ru"
+            >
+            конфигурации
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/structure" hreflang="ru"
+            >
+            Структура
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/getting-started/deployment" hreflang="ru"
+            >
+            Deployment
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Страницы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/pages/frontmatter" hreflang="ru"
+            class="active">
+            Front Matter
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/pages/404" hreflang="en"
+            >
+            404 Error
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Темы</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/en/documentation/themes/js-modules" hreflang="en"
+            >
+            JS Modules
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/ejs" hreflang="ru"
+            >
+            EJS
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/themes/less" hreflang="ru"
+            >
+            Less
+          </a>
+        
+      </li>
+    
+  </ul>
+
+  
+  <li>
+      <h2>Многоязычность</h2>
+  </li>
+
+  <ul>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n" hreflang="ru"
+            >
+            Обзор
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/pages" hreflang="ru"
+            >
+            Страницы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/theme" hreflang="ru"
+            >
+            Темы
+          </a>
+        
+      </li>
+    
+      <li>
+        
+        
+          
+        
+        
+          <a href="/cmints-website/ru/documentation/i18n/crowdin" hreflang="ru"
+            >
+            Crowdin
+          </a>
+        
+      </li>
+    
+  </ul>
+
+
+        </ul>
+      </aside>
+    
+    <!-- Navigation End -->
+
+    <article class="cell2-4">
+      <h1>Front Matter</h1>
+      <div id="edit-page">
+  
+    <a href="https://github.com/Manvel/cmints-website/edit/master/pages/documentation/pages/frontmatter.md"
+        class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
+  
+  
+    <div class="contextMenu">
+      <button class="icon translate" title="Translate page" data-action="toggle-context"></button>
+      <ul>
+        
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/157/en-de"
+                 target="_blank" rel="noopener">
+              Deutsch
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/157/en-ru"
+                 target="_blank" rel="noopener">
+              Русский
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/157/en-es"
+                 target="_blank" rel="noopener">
+              Español
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/157/en-lt"
+                 target="_blank" rel="noopener">
+              Lietuvių
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              
+              <a href="https://crowdin.com/translate/cmints-website/157/en-hy"
+                 target="_blank" rel="noopener">
+              Հայերեն
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  
+</div>
+
+      <p>Front Matter - это мощный инструмент, который позволяет страницам определять метаданные в
+YAML, метаданные, определенные на странице, могут использоваться темой и
+доступ через переменную <code>page</code>. Учитывая метаданные, определенные ниже:</p>
+<pre><code class="language-yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">Front</span> <span class="hljs-string">Matter</span>
+<span class="hljs-attr">navTitleId:</span> <span class="hljs-string">Front</span> <span class="hljs-string">Matter</span>
+<span class="hljs-attr">showDocNav:</span> <span class="hljs-literal">true</span>
+<span class="hljs-meta">---</span>
+</code></pre>
+<p>Теперь вы можете использовать метаданные страницы для настройки темы:</p>
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+...
+&lt;title&gt;&lt;%= page.title %&gt;&lt;/title&gt;
+...
+&lt;/head&gt;
+&lt;body&gt;
+...
+&lt;h1&gt;&lt;%= page.title %&gt;&lt;/h1&gt;
+&lt;%if (page.showDocNav) { %&gt;
+  &lt;% include partials/docNav %&gt;
+&lt;% } %&gt;
+...
+</code></pre>
+<h2 id="permalinks">permalinks</h2>
+<p>Permalink variable can be used to change the URL of the page, the permalink
+path will be used to access the page even if you move it's the location in the
+<code>pages</code> directory.</p>
+<pre><code class="language-yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">First</span> <span class="hljs-string">post</span>
+<span class="hljs-attr">permalink:</span> <span class="hljs-number">2018</span><span class="hljs-string">/10/20/first-post</span>
+<span class="hljs-meta">---</span>
+
+<span class="hljs-string">My</span> <span class="hljs-string">first</span> <span class="hljs-string">post</span>
+</code></pre>
+<p>The page in the example above will be accessible through
+<code>2018/10/20/first-post</code> url. If the page is translated leading locale will be
+used, ex.: <code>de/2018/10/20/first-post</code>.</p>
+
+    </article>
+
+    <!-- TOC Start -->
+    
+    <!-- TOC End -->
+  </div>
+</main>
+  <footer>
+  <div class="col5 middle">
+    <div class="cell2 center">
+      © 2018 <a href="https://github.com/Manvel/cmints" target="_blank" rel="noopener">CMintS</a>
+    </div>
+    <div class="cell3-4 center">
+      Контент сайта лицензировано под <a href="http://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons 4.0</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
