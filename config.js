@@ -1,6 +1,7 @@
 "use strict";
 
 const {getLanguage, highlight} = require("highlight.js");
+const argv = require("minimist")(process.argv.slice(2));
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
 const markdownOptions = {
@@ -25,7 +26,6 @@ const port = {
   http: 3000
 };
 const hostname = "0.0.0.0";
-const root = "";
 
 const i18nOptions = {
   defaultLocale: "en",
@@ -40,10 +40,22 @@ const generationType = "Double";
 
 const gzip = true;
 
+let root = "";
+let domain = "cmints.io";
+if (argv.deploy)
+{
+  domain = "manvel.github.io"; // Github Pages default domain
+  root = "/cmints-website"; // Github Pages root
+}
+else if (argv.dev)
+{
+  domain = "http://127.0.0.1:3000";
+}
+
 const templateData =
 {
   site: {
-    domain: "cmints.io",
+    domain,
     root,
     title: "CMintS",
     description: "CMS created with the internationalization in mind",

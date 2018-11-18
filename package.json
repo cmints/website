@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cmints --static",
+    "deploy": "cmints --static --deploy",
     "start": "cmints --start",
-    "dev": "cmints --start --no-cache"
+    "dev": "cmints --start --no-cache --dev"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/Manvel/cmints-website#readme",
   "dependencies": {
     "cmints": "^0.7.8",
-    "highlight.js": "^9.12.0"
+    "highlight.js": "^9.12.0",
+    "minimist": "^1.2.0"
   }
 }
