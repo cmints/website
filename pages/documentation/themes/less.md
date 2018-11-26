@@ -44,7 +44,7 @@ Will be converted into:
 }
 
 ```css
-/* public/main.css */
+/* public/css/main.css */
 a {
   color: #728448;
 }
