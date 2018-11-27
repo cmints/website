@@ -13,18 +13,21 @@ order: 0
 ```bash
 theme
 ├── layouts
+│   ├── partials
+│   │   ├── footer.ejs
+│   │   └── header.ejs  
 │   ├── default.ejs
 │   └── home.ejs
 ├── less
-│   ├── _footer.less
-│   ├── _header.less
+│   ├── _footer.less
+│   ├── _header.less
 │   ├── _sidebars.less
 │   ├── _variables.less
-│   ├── index.less
-│   └── main.less
-└── partials
-    ├── footer.ejs
-    └── header.ejs
+│   ├── index.less
+│   └── main.less
+└── js
+    ├── _contextMenu.js
+    └── main.js
 ```
 
 {theme-p[Paragraph in 'theme' section]
@@ -60,4 +63,13 @@ This page is using home.ejs layout
 <fix>`.less`</fix> files inside of the "less" directory are being processed into the "public/css"
 directory, only filenames starting with "_" are not compiled into the target
 directory, but yet they can be used by other less files.
+}
+
+## js
+
+{js-p[Paragraph in 'js' section]
+<fix>`.js`</fix> files inside of the <fix>js</fix> directory are [Node.js-style
+modules](https://nodejs.org/api/modules.html) that allows making theme
+functionality modular. [Learn more about js
+folder](https://cmints.io/en/documentation/themes/js-modules).
 }
