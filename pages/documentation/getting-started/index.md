@@ -10,7 +10,7 @@ showTranslate: 148
 order: 1
 ---
 
-## {what-is-cmints[Page heading] What is CMintS?}
+## {what-is-cmints[Page heading] What is <fix>CMintS</fix>?}
 
 {what-is-cmints-p[Paragraph in 'What is CMintS' section]
 <fix>CMintS</fix> is a CMS and Static Site Generator that has been
