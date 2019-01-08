@@ -288,7 +288,7 @@ an <fix>`.ejs`</fix> file like the one below can be used:
     <% items.forEach(function(item){ %>
     <li>
         <% if (item.id) { %>
-          <a href="#<%= item.id %>"><%= item.title %></a>
+          <a href="#<%= item.id %>"><%= item.text %></a>
         <% } %>
         <% if (item.children) { %>
           <%- include('toc', {items: item.children}) %>
