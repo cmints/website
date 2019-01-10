@@ -7,17 +7,10 @@ const argv = require("minimist")(process.argv.slice(2));
 const markdownOptions = {
   highlight(str, langAndi18n)
   {
-    const [lang, i18n] = langAndi18n.split("-");
+    const [lang] = langAndi18n.split("-");
     const result = (lang && getLanguage(lang)) ? highlight(lang, str).value : "";
-    if (i18n)
-    {
-      // Replace i18n braces to use inside of code blocks
-      return result.replace(/\\{/g, "&#123;").replace(/\\}/g, "&#125;");
-    }
-    else
-    {
-      return result;
-    }
+    // Escape i18n bracket to use inside i18n strings
+    return result.replace(/\\{/g, "&#123;").replace(/\\}/g, "&#125;");
   }
 };
 //

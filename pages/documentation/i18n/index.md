@@ -103,7 +103,7 @@ So for example considering the <fix>**ru**</fix> locale in [Locale
 file](#locale-file) and translation string below:
 }
 
-```html-i18n
+```html
 \{heading-main[Heading of the main page] Heading\}
 ```
 
@@ -167,7 +167,7 @@ Current tags <fix>`a, img, p, span, div, em, i, b, strong`</fix> can be used by
 default in the translation strings, ex:
 }
 
-```html-i18n
+```html
 \{stringId[Description] My awesome <em>source text</em> goes here\}
 ```
 
@@ -179,7 +179,7 @@ on the language, for that reason the order in the locale file string need to be
 defined, so considering the translation string below:
 }
 
-```html-i18n
+```html
 \{paragraph-1 This is <a href="https://www.example1.com">first link</a>, <a href="/random1">second link</a> and <a href="/random2">third link</a>\}
 ```
 
@@ -218,7 +218,7 @@ Some words do not suppose to be translated in the website(ex: brand names), for
 that reason <fix>`<fix>`</fix> tag can be used:
 }
 
-```html-i18n
+```html
 \{fixed-id <fix>CMintS</fix> uses <fix>fix</fix> tag\}
 ```
 
@@ -247,7 +247,7 @@ Similar to the <fix>`<a>`</fix> and <fix>`<fix>`</fix> tags <fix>`<img>`</fix>
 tag also should keep it's order in the translation strings, so for:
 }
 
-```html-i18n
+```html
 \{test-img1 This is <img href="/first.png"> and <img href="/second.png"> image\}
 ```
 
@@ -277,7 +277,7 @@ Some attributes are also suppose to be translated in different languages, so
 that attributes can also be used in the translation string tags:
 }
 
-```html-i18n
+```html
 \{test-attribute1 <div title="Website Logo" id="logo"><img src="/random/path" alt="Jumping puma" />Picture</div>\}
 ```
 
@@ -325,6 +325,6 @@ module.exports = {i18nOptions};
 For the configuration specified above, you could use the syntax below:
 }
 
-```js-i18n
+```js
 \{\{stringId[Description] Source text\}\}
 ```

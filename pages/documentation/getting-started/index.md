@@ -41,7 +41,7 @@ npm install -g cmints
 In order to have quick start it's recommended to generate example project by
 running, one of the commands below:
 }
-```bash-i18n
+```bash
 # {example-project-comment1[Comment in 'Example projects' section's code block] Download example project into current directory and build}
 cmints --example
 
@@ -58,7 +58,7 @@ in the <a href="https://github.com/Manvel/cmints-website" target="_blank" rel="n
 
 #### {start-server-production[Page heading] For the production:}
 
-```bash-i18n
+```bash
 # {production-server-comment1[Comment in 'For the production' section's code block] Run http server serving current folder}
 cmints --start
 
@@ -73,7 +73,7 @@ cmints {PATH} --start --https -k {PRIVATE_KEY} -c {CERTIFICATE}
 
 #### {start-server-development[Page heading] For development:}
 
-```bash-i18n
+```bash
 # {development-server-commen1[Comment in 'For development' section's code block] Run http server serving current folder Use --no-cache flag to disable the caching}
 cmints --start --no-cache
 
@@ -86,7 +86,7 @@ cmints {PATH} --start --no-cache
 {generate-static-content-p[Paragraph in 'Generating static content' section]
 Run one of the command below in order to generate static content
 }
-```bash-i18n
+```bash
 # {static-content-generation-comment1[Comment in 'Generating static content' section's code block] Generate static content of current directory}
 cmints --static
 

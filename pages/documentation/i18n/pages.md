@@ -17,7 +17,7 @@ of using translation strings in different page types:
 
 ## Markdown
 
-```html-i18n
+```html
 # \{about-us[Heading about us] About Us\}
 \{about-us-p1[First paragraph of in  About Us section] My awesome <em>source text</em> goes here\}
 \{about-us-p2[Second paragraph of in  About Us section] Another awesome <em>source text</em> goes here\}
@@ -25,7 +25,7 @@ of using translation strings in different page types:
 
 ## HTML
 
-```html-i18n
+```html
 <h1>\{about-us[Heading about us] About Us\}<h1>
 <p>\{about-us-p1[First paragraph of in  About Us section] My awesome <em>source text</em> goes here\}</p>
 <p>\{about-us-p2[Second paragraph of in  About Us section] Another awesome <em>source text</em> goes here\}</p>
@@ -33,7 +33,7 @@ of using translation strings in different page types:
 
 ##  ejs
 
-```html-i18n
+```html
 <%
 const paragraphs = ["My awesome <em>source text</em> goes here", 
                     "Another awesome <em>source text</em> goes here"]
@@ -50,7 +50,7 @@ Early defined stringId in the page can be used in multiple places, that's
 possible by referencing to the stringId inside of the braces, ex:
 }
 
-```html-i18n
+```html
 <p>
   \{stringId[Description] My awesome <em>source text</em> goes here\}
 </p>
@@ -68,7 +68,7 @@ markdown heading element text translation StringID is used as a header ID,
 considering the example below:
 }
 
-```html-i18n
+```html
 # \{about-us[Heading about us] About Us\}
 ```
 
