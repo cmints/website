@@ -21,6 +21,8 @@ const port = {
 const hostname = "0.0.0.0";
 
 const i18nOptions = {
+  detectLang: true,
+  type: "Double",
   defaultLocale: "en",
   crowdinId: "cmints-website"
 };
@@ -28,8 +30,6 @@ const i18nOptions = {
 const deployment = {
   where: "git"
 };
-
-const generationType = "Double";
 
 let gzip = true;
 let root = "";
@@ -98,4 +98,4 @@ const templateData =
 };
 
 module.exports = {templateData, markdownOptions, i18nOptions, port,
-  hostname, deployment, gzip, root, generationType};
+  hostname, deployment, gzip, root};
