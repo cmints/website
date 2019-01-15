@@ -180,3 +180,15 @@ So the specified data above can be accessed as in the example:
   </li>
 <% } %>
 ```
+
+## configReloadWatchers
+
+`config.js` does more than configuration and it's can be used for a robust
+action also you can call other modules and/or JSON files from `config.js` and
+you might not want restart the development server each time you update the other
+file, for that reason you can specify `configReloadWatchers`:
+
+```
+const configReloadWatchers = ["data.json", "syncinit.js"];
+module.exports = {configReloadWatchers};
+```
