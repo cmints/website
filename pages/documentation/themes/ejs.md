@@ -195,6 +195,7 @@ of the box:
 page.pathname | {helper-type-var[Helper type] Variable} | <a href="#page.pathname">{helper-desc-path[Helper description] URL path of current page}</a>
 page.locale | {helper-type-var} | <a href="#page.locale">{helper-desc-locale[Helper description] Locale of the current page}</a>
 page.locales | {helper-type-array[Helper type] Array} | <a href="#page.locales">{helper-desc-locales[Helper description] Other locales that current page is available in</a>}
+page.urlLocale | {helper-type-var} | <a href="#page.urllocale">{helper-desc-urlLocale[Helper description] Locale as it's specified in the URL.</a>}
 page.markdown.toc | {helper-type-obj[Helper type] Object} | <a href="#page.markdown.toc">{helper-desc-toc[Helper description] Page's Table Of Content}</a>
 i18n.getPageLocales | {helper-type-func[Helper type] Function} | <a href="#i18n.getpagelocales">{helper-desc-getPageLocales[Helper description] Get available locales for a specific page}</a>
 i18n.href | {helper-type-func} | <a href="#i18n.href">{helper-desc-href[Helper description] Generate href and hreflang for path. Check if the target path is available in current language otherwise falls back to default language.}</a>
@@ -245,6 +246,29 @@ site.queryPages | {helper-type-func} | <a href="#site.querypages">{helper-desc-q
 </head>
 <body>
 ...
+```
+
+
+### page.urlLocale
+
+{helper-desc-urlLocale}
+
+- https://example.com/about
+- https://example.com/**en**/about
+- https://example.com/**de**/about
+- https://example.com/**es**/about
+
+{page-urlLocale-p1[Paragraph in 'page.urlLocale' section]
+Considering the URL structure above, sometimes you might want to have a
+redirection script on pages that doesn't have locale specified in the URL, which
+in the current case is `https://example.com/about`, this is when current helper
+comes handy, for example:
+}
+
+```js
+<% if (!page.urlLocale) { %>
+  <% include redirectionScript %>
+<% } %>
 ```
 
 ### page.markdown.toc
