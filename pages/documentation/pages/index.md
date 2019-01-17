@@ -28,7 +28,7 @@ pages
 │   ├── getting-started
 │   │   ├── configuration.md
 │   │   ├── index.md
-│   │   └── structure.md
+│   │   └── _structure.md
 │   └── i18n
 │       ├── index.md
 │       └── markdown.md
@@ -65,7 +65,17 @@ showToc: true
 {learn-more(common)}
 </a>
 
-## Markdown
+## {types[Page heading] Page types}
+
+{page-type-p[Paragraph in 'Page types' section]
+Currently there are 3 type of pages are supported by CMintS:
+}
+
+- [Markdown(.md)](#markdown)
+- [HTML(.html)](#html)
+- [EJS(.ejs)](#ejs)
+
+### Markdown
 
 {markdown-p[Paragraph in 'Markdown' section]
 In order to write page content using Markdown, just assign <fix>`.md`</fix>
@@ -93,7 +103,7 @@ Here goes paragraph for the subheading
 {learn-more(common)}
 </a>
 
-## ejs
+### ejs
 
 {ejs-p[Paragraph in 'ejs' section]
 <fix>ejs</fix> is a templating language and can be used for more complex pages.
@@ -122,7 +132,7 @@ items:
 {learn-more(common)}
 </a>
 
-## HTML
+### HTML
 
 {html-p[Paragraph in 'HTML' section]
 Assign <fix>`.html`</fix> extension to the file in order to write page content
@@ -143,3 +153,13 @@ description: Markdown is a lightweight markup language with plain text formattin
   <li>list item3</li>
 </ul>
 ```
+
+## {draft-pages[Page heading] Draft pages}
+
+{draft-pages-p[Paragraph in 'Draft pages' section]
+All page names starting with <fix>`_`</fix> are draft pages, those are only
+visible or generated only when `--draft` flag is passed to the server, build or
+deploy script. Those page will not be accessible otherwise, so you can make a
+use of those pages and keep them hidden in the production, while you and your
+team can continue working on it.
+}
