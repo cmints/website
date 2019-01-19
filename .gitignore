@@ -3,7 +3,7 @@ node_modules
 package-lock.json
 content
 public/css/highlightjs/tomorrow.css
-public/css/presentation/index.css
+public/css/presentation.css
 public/css/index.css
 public/css/main.css
 public/js/main.js
