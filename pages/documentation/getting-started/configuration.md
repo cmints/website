@@ -95,6 +95,7 @@ Used only for multilingual projects:
 ```js
 const i18nOptions = {
   defaultLocale: "en",
+  type: "Index",
   crowdinId: "cmints-website",
   prefix: "{",
   postfix: "}"
@@ -109,6 +110,41 @@ module.exports = {i18nOptions};
 Specifies the default locale for the project. <a
 href="/documentation/i18n#default-locale">Learn more about
 <fix>defaultLocale</fix></a>.
+}
+
+### type
+
+- `Index` ({type-deafult[Default mark] Default})
+- `Double`
+
+{type-p1[Paragraph in 'type' section]
+There are two ways how the content of multilanguage website can be generated -
+by duplicating the content of the page of specific language to have a
+redirection path if needed from one of the version(ex.: for redirecting to the
+user preffered language) or generating default language content as root in
+<fix>`content`</fix> directory. By Default <fix>`Index`</fix> option is used, in
+which case only one version of the default language page is generated, on the
+other hand <fix>`Double`</fix> allows you to have that duplication where you can
+setup for example a redirection by using
+[urllocale](documentation/themes/ejs#page.urllocale).
+}
+
+{type-p2[Paragraph in 'type' section] 
+Example below shows generation for <fix>`about`</fix> page when <fix>`en`</fix>
+is the default language:
+}
+
+- about.html
+- en/about.html `Double`
+- de/about/html
+
+#### detectLang
+
+{detectLang-p1[Paragraph in 'detectLang' section]
+This option can only be used when running CMintS server with `i18nOptions.type`
+being set to `Double`, this setting is using user language preference, set in
+the Browser for relevant language page redirection. Setting has no effect on
+Static Website Generation.
 }
 
 ### crowdinId

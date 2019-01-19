@@ -9,13 +9,27 @@ showTranslate: 186
 order: 4
 ---
 
+## {static[Page heading] Generating static content}
+
+```bash
+cmints --static
+```
+
+{static-p[Paragraph in the 'Generating static content' section]
+By running command above your static website should be ready and located in the
+<fix>`content`</fix> directory, you can copy the content of the directory to any
+static hosting of your choice, but you can also use the advantage of the exiting
+tools and deployment integrations in the CMintS to make that much more simpler.
+}
+
 ## {gh-pages[Page heading] Github pages}
 
 {gh-pages-p[Paragraph in the 'Github pages' section]
 <fix>GitHub</fix> Pages is a static site hosting service designed to host
 project pages directly from a <fix>GitHub</fix> repository. You can host
 <fix>CMintS</fix> projects for free in the <fix>Github</fix> Pages, by simply
-running the command below:
+running the command below, considering that you are using <fix>Github</fix> as
+your git hosting:
 }
 
 ```bash
