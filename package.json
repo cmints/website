@@ -8,7 +8,9 @@
     "build": "cmints --static",
     "deploy": "cmints --static --deploy",
     "start": "cmints --start",
-    "dev": "cmints --start --no-cache --dev"
+    "dev": "cmints --start --no-cache --dev",
+    "crowdin-upload": "cmints --crowdin update-sources --key",
+    "crowdin-download": "cmints --crowdin get-translations --key"
   },
   "repository": {
     "type": "git",
