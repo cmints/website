@@ -21,7 +21,7 @@ const port = {
 const hostname = "0.0.0.0";
 
 const i18nOptions = {
-  detectLang: true,
+  detectLang: false,
   type: "Double",
   defaultLocale: "en",
   crowdinId: "cmints-website"
@@ -34,6 +34,7 @@ const deployment = {
 let gzip = true;
 let root = "";
 let domain = "cmints.io";
+let protocol = "https";
 if (argv.deploy)
 {
   domain = "manvel.github.io"; // Github Pages default domain
@@ -42,12 +43,14 @@ if (argv.deploy)
 }
 else if (argv.dev)
 {
-  domain = "http://127.0.0.1:3000";
+  protocol = "http";
+  domain = "127.0.0.1:3000";
 }
 
 const templateData =
 {
   site: {
+    protocol,
     domain,
     root,
     title: "CMintS",

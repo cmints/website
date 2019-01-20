@@ -1,16 +1,24 @@
-<title><%= site.title %> | {title[Page title] <%= page.title %>}</title>
-<meta property="og:title" content="<%= site.title %> | {title}">
-<meta name="twitter:title" content="<%= site.title %> | {title}">
-<meta content="{description[Page description] <%- page.description %>}" name="description">
-<meta content="{description}" property="og:description">
-<meta name="twitter:description" content="{description}">
+<% const sitePath = `${site.protocol}://${site.domain}${site.root}` %>
+<% const currentPage = `${sitePath}/${page.locale}/${page.pathname}` %>
+<% const title = `${site.title} | {title[Page title] ${page.title}}`%>
+<% const description = `{description[Page description] ${page.description}}`%>
+<% const promo = `${sitePath}/images/promo-alternate.png` %>
+
+<title><%= title %></title>
+<meta property="og:title" content="<%= title %>">
+<meta name="twitter:title" content="<%= title %>">
+<meta content="<%- description %>" name="description">
+<meta content="<%- description %>" property="og:description">
+<meta name="twitter:description" content="<%- description %>">
 
 <meta charset="UTF-8">
-<meta property="og:image" content="https://cmints.io/images/promo-alternate.png">
-<meta name="twitter:image" content="https://cmints.io/images/promo-alternate.png">
-<meta property="og:url" content="https://<%= site.domain %><%= site.root %>/<%= page.locale %>/<%= page.pathname %>">
+<meta property="og:image" content="<%= promo %>">
+<meta name="twitter:image" content="<%= promo %>">
+<meta property="og:url" content="<%= currentPage %>">
 <meta property="og:type" content="website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 
 <% if (page.noindex) { %>
   <meta name="robots" content="noindex">
@@ -21,9 +29,9 @@
   <% const localeRegion = site.localeMap[locale] ? site.localeMap[locale].region : locale; %>
   <% if (locale == page.locale) { %>
     <meta property="og:locale" content="<%= localeRegion %>" />
-    <link rel="canonical" href="https://<%= site.domain %><%= site.root %>/<%= page.pathname %>">
+    <link rel="canonical" href="<%= sitePath %>/<%= page.pathname %>">
   <% } else { %>
     <meta property="og:locale:alternate" content="<%= localeRegion %>" />
-    <link rel="alternate" href="https://<%= site.domain %><%= site.root %>/<%= locale %>/<%= page.pathname %>" hreflang="<%= locale %>" />
+    <link rel="alternate" href="<%= sitePath %>/<%= locale %>/<%= page.pathname %>" hreflang="<%= locale %>" />
   <% } %>
 <% } %>
