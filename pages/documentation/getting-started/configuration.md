@@ -6,7 +6,7 @@ showTOC: true
 showEdit: documentation/getting-started/configuration.md
 categories: [documentation, getting-started]
 showTranslate: 158
-order: 2
+order: 3
 ---
 
 {config-p[Paragraph in 'Configuration' section]

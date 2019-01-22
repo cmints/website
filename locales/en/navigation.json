@@ -15,6 +15,10 @@
     "description": "Documentation sidebar text",
     "message": "Installation"
   },
+  "nav-doc-title-quick-start": {
+    "description": "Documentation sidebar text",
+    "message": "Quick start"
+  },
   "nav-doc-title-configuration": {
     "description": "Documentation sidebar text",
     "message": "Configuration"

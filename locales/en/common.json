@@ -22,5 +22,9 @@
   "learn-more": {
     "description": "Links to a specific resource",
     "message": "Learn more"
+  },
+  "step": {
+    "description": "Steps usually used as a tutorial steps, like Step 1, Step 2 and etc..",
+    "message": "Step"
   }
 }

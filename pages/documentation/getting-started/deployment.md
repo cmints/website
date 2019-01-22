@@ -6,7 +6,7 @@ showTOC: true
 showEdit: documentation/getting-started/deployment.md
 categories: [documentation, getting-started]
 showTranslate: 186
-order: 4
+order: 5
 ---
 
 ## {static[Page heading] Generating static content}

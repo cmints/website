@@ -6,7 +6,7 @@ showTOC: true
 showEdit: documentation/getting-started/structure.md
 categories: [documentation, getting-started]
 showTranslate: 151
-order: 3
+order: 4
 ---
 
 {project-structure-p[Paragraph in 'Project structure' section]
