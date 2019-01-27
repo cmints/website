@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Manvel/cmints-website#readme",
   "dependencies": {
-    "cmints": "^0.9.1",
+    "cmints": "^0.9.4",
     "highlight.js": "^9.12.0",
     "lang-redirect": "^0.5.5",
     "minimist": "^1.2.0"

@@ -18,7 +18,7 @@
           <% title = item.pathname; %>
         <% } %>
         <% if (item.pathname) { %>
-          <a <%-i18n.href(item.pathname)%>
+          <a href="/<%- item.pathname %>"
             <% if (item.pathname == page.pathname) { %>class="active"<% } %>>
             <%= title %>
           </a>
