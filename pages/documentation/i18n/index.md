@@ -171,7 +171,7 @@ default in the translation strings, ex:
 \{stringId[Description] My awesome <em>source text</em> goes here\}
 ```
 
-#### \<a\>
+#### &lt;a\&gt;
 
 {a-tag-p[Paragraph in '<a> tag' section]
 Order of the links inside of the translaton strings can be different depending
@@ -211,7 +211,7 @@ depending on whether the relative link target is translated to the language or
 not.
 }
 
-#### \<fix\>
+#### &lt;fix\&gt;
 
 {fix-tag-p[Paragraph in 'fix tag' section]
 Some words do not suppose to be translated in the website(ex: brand names), for
@@ -240,7 +240,7 @@ Will result into:
 fix тэг используется CMintS-ом
 ```
 
-#### \<img\>
+#### &lt;img\&gt;
 
 {img-tag-p[Paragraph in '<img> tag' section]
 Similar to the <fix>`<a>`</fix> and <fix>`<fix>`</fix> tags <fix>`<img>`</fix>
