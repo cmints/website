@@ -217,6 +217,105 @@ So the specified data above can be accessed as in the example:
 <% } %>
 ```
 
+## browserifyOptions
+
+{browserifyOptions-p1[Paragraph in 'browserifyOptions' section]
+Can be used to assign [various existing
+options](https://github.com/browserify/browserify#browserifyfiles--opts) to the
+[JS Modules](/documentation/themes/js-modules) build process. The example below
+shows how to add source map to the generation file for debugging purposes:
+}
+
+```js
+const browserifyOptions = {
+  debug: true
+}
+
+module.exports = {browserifyOptions};
+```
+
+### {minification[Header in 'browserifyOptions and lessOptions' section] Minification}
+
+{browserify-minification-p1[Paragraph in 'browserifyOptions > minification' section]
+Making output of the JS Modules minified is as simple as specifying <fix>`minify`</fix> option:
+}
+
+```js
+const browserifyOptions = {
+  minify: true
+}
+
+module.exports = {browserifyOptions};
+```
+
+{browserify-minification-p2[Paragraph in 'browserifyOptions > minification' section]
+You can also use various <fix>uglify-es</fix>
+[configurations](https://www.npmjs.com/package/uglify-es#minify-options) for [JS
+Modules](/documentation/themes/js-modules) minification. The example below adds
+`sourceMap` to the minified files:
+}
+
+```js
+const browserifyOptions = {
+  minify: {
+    sourceMap: true
+  }
+}
+
+module.exports = {browserifyOptions};
+```
+
+## lessOptions
+
+{lessOptions-p1[Paragraph in 'lessOptions' section]
+Can be used to assign [various
+options](http://lesscss.org/usage/#less-options) to the
+<fix>CSS</fix> [build process](/documentation/themes/less). The example below
+shows how to add source map to the generation file for debugging purposes:
+}
+
+```js
+const lessOptions =
+{
+  sourceMap: {
+    sourceMapFileInline: true
+  }
+};
+
+module.exports = {lessOptions};
+```
+
+### {minification}
+
+{lessOptions-minification-p1[Paragraph in 'lessOptions > minification' section]
+Making output of the [LESS](/documentation/themes/less) minified is as simple as
+by specifying <fix>`minify`</fix> option:
+}
+
+```js
+const lessOptions = {
+  minify: true
+}
+
+module.exports = {lessOptions};
+```
+
+{lessOptions-minification-p2[Paragraph in 'lessOptions > minification' section]
+You can also use various <fix>clean-css</fix> [configurations](https://www.npmjs.com/package/clean-css#constructor-options) for [JS
+Modules](/documentation/themes/js-modules) minification. The example
+below adds `sourceMap` to the minified files:
+}
+
+```js
+const lessOptions = {
+  minify: {
+    sourceMap: true
+  }
+}
+
+module.exports = {lessOptions};
+```
+
 ## configReloadWatchers
 
 `config.js` does more than configuration and it's can be used for a robust
