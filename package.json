@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cmints/cmints-website.git"
+    "url": "git+https://github.com/cmints/website.git"
   },
   "author": "Manvel Saroyan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cmints/cmints-website/issues"
+    "url": "https://github.com/cmints/website/issues"
   },
-  "homepage": "https://github.com/cmints/cmints-website#readme",
+  "homepage": "https://github.com/cmints/website#readme",
   "dependencies": {
     "cmints": "^0.9.6",
     "highlight.js": "^9.12.0",
