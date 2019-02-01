@@ -173,6 +173,15 @@ default in the translation strings, ex:
 
 #### &lt;a\&gt;
 
+{a-tag-p4[Paragraph in '<a> tag' section]
+When a relative URL is used with starting <fix>`/`</fix> path locale and
+<fix>`hreflang`</fix> attributes are being generated automatically depending on
+the target page language regardless whether <fix>`<a>`</fix> tag is declared
+inside or outside of a translation string.
+[root](/documentation/getting-started/configuration#root) configuration can be
+used for specifing root directory for the website if needed.
+}
+
 {a-tag-p[Paragraph in '<a> tag' section]
 Order of the links inside of the translaton strings can be different depending
 on the language, for that reason the order in the locale file string need to be
@@ -204,12 +213,6 @@ The result will be the one below:
 ```html
 Это <a href="/en/random1" hreflang="en">вторая ссылка</a>, <a href="https://www.example1.com">первая</a> и <a href="/en/random2" hreflang="en">третья ссылка</a>
 ```
-
-{a-tag-p4[Paragraph in '<a> tag' section]
-**Note:** The <fix>`hreflang`</fix> attribute will be set automatically
-depending on whether the relative link target is translated to the language or
-not.
-}
 
 #### &lt;fix\&gt;
 
