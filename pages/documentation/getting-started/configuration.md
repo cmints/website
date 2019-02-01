@@ -217,9 +217,9 @@ So the specified data above can be accessed as in the example:
 <% } %>
 ```
 
-## browserifyOptions
+## jsModuleOptions
 
-{browserifyOptions-p1[Paragraph in 'browserifyOptions' section]
+{jsModuleOptions-p1[Paragraph in 'jsModuleOptions' section]
 Can be used to assign [various existing
 options](https://github.com/browserify/browserify#browserifyfiles--opts) to the
 [JS Modules](/documentation/themes/js-modules) build process. The example below
@@ -227,28 +227,28 @@ shows how to add source map to the generation file for debugging purposes:
 }
 
 ```js
-const browserifyOptions = {
+const jsModuleOptions = {
   debug: true
 }
 
-module.exports = {browserifyOptions};
+module.exports = {jsModuleOptions};
 ```
 
-### {minification[Header in 'browserifyOptions and lessOptions' section] Minification}
+### {minification[Header in 'jsModuleOptions and lessOptions' section] Minification}
 
-{browserify-minification-p1[Paragraph in 'browserifyOptions > minification' section]
+{browserify-minification-p1[Paragraph in 'jsModuleOptions > minification' section]
 Making output of the JS Modules minified is as simple as specifying <fix>`minify`</fix> option:
 }
 
 ```js
-const browserifyOptions = {
+const jsModuleOptions = {
   minify: true
 }
 
-module.exports = {browserifyOptions};
+module.exports = {jsModuleOptions};
 ```
 
-{browserify-minification-p2[Paragraph in 'browserifyOptions > minification' section]
+{browserify-minification-p2[Paragraph in 'jsModuleOptions > minification' section]
 You can also use various <fix>uglify-es</fix>
 [configurations](https://www.npmjs.com/package/uglify-es#minify-options) for [JS
 Modules](/documentation/themes/js-modules) minification. The example below adds
@@ -256,13 +256,13 @@ Modules](/documentation/themes/js-modules) minification. The example below adds
 }
 
 ```js
-const browserifyOptions = {
+const jsModuleOptions = {
   minify: {
     sourceMap: true
   }
 }
 
-module.exports = {browserifyOptions};
+module.exports = {jsModuleOptions};
 ```
 
 ## lessOptions
