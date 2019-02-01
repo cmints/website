@@ -41,7 +41,7 @@ module.exports = {templateData, i18nOptions, port, hostname};
 
 {config-p2[Paragraph in 'Page heading' section]
 This file suppose to overwrite [default
-configurations](https://github.com/Manvel/cmints/blob/master/config.js) set by
+configurations](https://github.com/cmints/cmints/blob/master/config.js) set by
 the <fix>CMintS</fix>.
 }
 

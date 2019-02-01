@@ -1,6 +1,6 @@
 # CMintS website
 
-Website content for the [CMintS](https://github.com/Manvel/cmints) project.
+Website content for the [CMintS](https://github.com/cmints/cmints) project.
 
 ## Theme
 Name: CMintS

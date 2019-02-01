@@ -51,7 +51,7 @@ cmints {PATH} --example
 
 {example-project-p2[Paragraph in 'Example projects' section]
 The example project is the content of current website, which can also be found
-in the <a href="https://github.com/Manvel/cmints-website" target="_blank" rel="noopener">github</a>.
+in the <a href="https://github.com/cmints/cmints-website" target="_blank" rel="noopener">github</a>.
 }
 
 ### {start-server[Page heading] Starting server}

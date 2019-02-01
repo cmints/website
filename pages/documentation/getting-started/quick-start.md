@@ -15,7 +15,7 @@ showTOC: true
 
 ### {step(common)} 2: {step2[Step] Fork one of the repositories below:}
 
-#### {step(common)} 2.1: {step2-1[Step] [Single Language Website](https://github.com/Manvel/cmints-single-lang-starter) | [Multi Language Website](https://github.com/Manvel/cmints-multi-lang-starter)}
+#### {step(common)} 2.1: {step2-1[Step] [Single Language Website](https://github.com/cmints/cmints-single-lang-starter) | [Multi Language Website](https://github.com/cmints/cmints-multi-lang-starter)}
 
 <img src="/images/steps/github-fork.png">
 
