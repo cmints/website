@@ -13,9 +13,9 @@ order: 1
 ## {what-is-cmints[Page heading] What is <fix>CMintS</fix>?}
 
 {what-is-cmints-p[Paragraph in 'What is CMintS' section]
-<fix>CMintS</fix> is a CMS and Static Site Generator for creating single and
-multi language websites. <fix>CMintS</fix> is quite easy to install, it has only
-few requirements.
+<fix>CMintS</fix> is a CMS and Static Site Generator for single and multi
+language websites creation. <fix>CMintS</fix> is quite easy to install, it has
+only few requirements.
 }
 
 {what-is-cmints-p3[Paragraph in 'What is CMintS' section]
