@@ -19,14 +19,9 @@ few requirements.
 }
 
 {what-is-cmints-p3[Paragraph in 'What is CMintS' section]
-If you would like to get a quick start and deploy your first app to the web in
-almost no time, check [Quick Start](/quick-start) guide, it doesn't require any
-global installation, you just need to have a [Github](https://github.com/)
-account.
+**Note:** If you would like to deploy your first app to the web without installing
+<fix>CMintS</fix> globally, check [Quick Start](/quick-start) guide.
 }
-
-{what-is-cmints-p2[Paragraph in 'What is CMintS' section]
-Thanks for Github stars and word spreading.}❤️
 
 ## {install-cmints[Page heading] Requirements and installation}
 
@@ -47,10 +42,13 @@ In order to have quick start it's recommended to generate example project by
 running, one of the commands below:
 }
 ```bash
-# {example-project-comment1[Comment in 'Example projects' section's code block] Download example project into current directory and build}
-cmints --example
+# {example-project-comment1[Comment in 'Example projects' section's code block] Generates single language project}
+cmints --example single
 
-# {example-project-comment2[Comment in 'Example projects' section's code block] Replace optional \{PATH\} with the path to the download target directory}
+# {example-project-comment2[Comment in 'Example projects' section's code block] Generates multi language project}
+cmints --example multi
+
+# {example-project-comment3[Comment in 'Example projects' section's code block] Generates multi language project in the \{PATH\} directory.}
 cmints {PATH} --example
 ```
 
