@@ -13,15 +13,20 @@ order: 1
 ## {what-is-cmints[Page heading] What is <fix>CMintS</fix>?}
 
 {what-is-cmints-p[Paragraph in 'What is CMintS' section]
-<fix>CMintS</fix> is a CMS and Static Site Generator that has been
-implemented with the Internationalization in mind. <fix>CMintS</fix> is quite
-easy to install, it has only few requirements.
+<fix>CMintS</fix> is a CMS and Static Site Generator for creating single and
+multi language websites. <fix>CMintS</fix> is quite easy to install, it has only
+few requirements.
 }
 
-{what-is-cmints-p2[Paragraph in 'What is CMintS' section] <strong>Note:</strong>
-<fix>CMintS</fix> is under extensive beta development. Contributions in form of
-Bugreports, Documentation updates and Content Translations will help to boost
-the development speed up. Thanks for stars and word spreading.}❤️
+{what-is-cmints-p3[Paragraph in 'What is CMintS' section]
+If you would like to get a quick start and deploy your first app to the web in
+almost no time, check [Quick Start](/quick-start) guide, it doesn't require any
+global installation, you just need to have a [Github](https://github.com/)
+account.
+}
+
+{what-is-cmints-p2[Paragraph in 'What is CMintS' section]
+Thanks for Github stars and word spreading.}❤️
 
 ## {install-cmints[Page heading] Requirements and installation}
 
