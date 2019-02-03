@@ -73,6 +73,10 @@ const templateData =
         stringId: "header-menu-item-docs"
       },
       {
+        path: "contribute",
+        stringId: "header-menu-item-contribute"
+      },
+      {
         path: "presentation",
         stringId: "header-menu-item-slides"
       }

@@ -1,6 +1,6 @@
 <div id="edit-page">
   <% if (page.showEdit && site.github) {%>
-    <a href="<%= site.github %>/edit/master/pages/<%= page.showEdit %>"
+    <a href="<%= site.github %>/blob/master/pages/<%= page.showEdit %>"
         class="icon edit" target="_blank" rel="noopener" title="Edit page"></a>
   <% } %>
   <% if (page.showTranslate && site.crowdin) {%>

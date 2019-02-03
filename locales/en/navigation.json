@@ -3,6 +3,10 @@
     "description": "Main Navigation text in the header",
     "message": "Documentation"
   },
+  "header-menu-item-contribute": {
+    "description": "Main Navigation text in the header",
+    "message": "Contribute"
+  },
   "header-menu-item-slides": {
     "description": "Main Navigation text in the header",
     "message": "Slides"
