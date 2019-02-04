@@ -11,7 +11,7 @@ order: 0
 ---
 
 {i18n-p1[Paragraph in 'internationalization' section]
-Internaltionalization is one of the core features of <fix>CMintS</fix>. The idea
+Internationalization is one of the core features of <fix>CMintS</fix>. The idea
 behind is to use common structure and syntax in content pages, themes and
 provide additional helpers for multilanguage website management.
 }
