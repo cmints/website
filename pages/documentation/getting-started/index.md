@@ -5,6 +5,7 @@ navTitleId: nav-doc-title-installation
 showTOC: true
 showEdit: documentation/getting-started/index.md
 categories: [documentation, getting-started]
+navCategory: documentation
 permalink: documentation
 showTranslate: 148
 order: 1

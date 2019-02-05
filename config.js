@@ -74,6 +74,7 @@ const templateData =
       },
       {
         path: "contribute",
+        contains: "contribute",
         stringId: "header-menu-item-contribute"
       },
       {
@@ -98,6 +99,12 @@ const templateData =
         {
           category: "i18n",
           titleId: "nav-doc-title-i18n"
+        }
+      ],
+      contribute:[
+        {
+          category: "contribute",
+          titleId: "nav-doc-title-contribute"
         }
       ]
     }

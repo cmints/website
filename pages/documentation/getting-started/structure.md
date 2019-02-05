@@ -5,6 +5,7 @@ navTitleId: nav-doc-title-structure
 showTOC: true
 showEdit: documentation/getting-started/structure.md
 categories: [documentation, getting-started]
+navCategory: documentation
 showTranslate: 151
 order: 4
 ---

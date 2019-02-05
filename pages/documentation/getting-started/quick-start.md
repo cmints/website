@@ -4,6 +4,7 @@ description: Quick start with CMintS starter. Deployment to the Github Page and 
 navTitleId: nav-doc-title-quick-start
 permalink: quick-start
 categories: [documentation, getting-started]
+navCategory: documentation
 order: 2
 showTOC: true
 ---

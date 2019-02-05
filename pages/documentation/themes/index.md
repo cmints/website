@@ -5,6 +5,7 @@ navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-themes
 showTOC: true
 categories: [documentation, themes]
+navCategory: documentation
 showEdit: documentation/themes/index.md
 showTranslate: 150
 order: 0

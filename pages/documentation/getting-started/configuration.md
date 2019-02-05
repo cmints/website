@@ -5,6 +5,7 @@ navTitleId: nav-doc-title-configuration
 showTOC: true
 showEdit: documentation/getting-started/configuration.md
 categories: [documentation, getting-started]
+navCategory: documentation
 showTranslate: 158
 order: 3
 ---

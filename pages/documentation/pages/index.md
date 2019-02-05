@@ -5,6 +5,7 @@ navTitleId: nav-doc-title-overview
 topicTitle: nav-doc-title-pages
 showTOC: true
 categories: [documentation, pages]
+navCategory: documentation
 showEdit: documentation/pages/index.md
 showTranslate: 150
 order: 0

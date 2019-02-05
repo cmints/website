@@ -1,6 +1,6 @@
-<% for(const {category, titleId} of site.secondaryNavigations.documentation) { %>
+<% for(const {category, titleId} of site.secondaryNavigations[page.navCategory]) { %>
   <% let items = site.queryPages((data) => data.categories &&
-                                          data.categories.includes("documentation") &&
+                                          data.categories.includes(page.navCategory) &&
                                           data.categories.includes(category)) %>
   <li>
       <h2>{<%= titleId %>(navigation)}</h2>

@@ -4,6 +4,7 @@ description: Project integration with <fix>Crowdin</fix>. <fix>Crowdin</fix> syn
 showTOC: true
 showEdit: documentation/i18n/crowdin.md
 categories: [documentation, i18n]
+navCategory: documentation
 showTranslate: 149
 order: 3
 ---

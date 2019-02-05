@@ -62,5 +62,17 @@
   "nav-doc-title-404": {
     "description": "Documentation sidebar text",
     "message": "404 Error"
+  },
+  "nav-doc-title-contribute": {
+    "description": "Documentation sidebar text",
+    "message": "Help me with"
+  },
+  "nav-doc-title-contribute-documentaion": {
+    "description": "Documentation sidebar text",
+    "message": "Documentation"
+  },
+  "nav-doc-title-contribute-translation": {
+    "description": "Documentation sidebar text",
+    "message": "Translation"
   }
 }

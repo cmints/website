@@ -5,6 +5,7 @@ navTitleId: nav-doc-title-deployment
 showTOC: true
 showEdit: documentation/getting-started/deployment.md
 categories: [documentation, getting-started]
+navCategory: documentation
 showTranslate: 186
 order: 5
 ---

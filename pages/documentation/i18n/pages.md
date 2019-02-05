@@ -5,6 +5,7 @@ navTitleId: nav-doc-title-pages
 showTOC: true
 showEdit: documentation/i18n/pages.md
 categories: [documentation, i18n]
+navCategory: documentation
 showTranslate: 152
 order: 1
 ---
