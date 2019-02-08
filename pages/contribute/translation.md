@@ -5,6 +5,8 @@ showTOC: true
 navTitleId: nav-doc-title-contribute-translation
 categories: [contribute]
 navCategory: contribute
+showEdit: contribute/translation.md
+showTranslate: 202
 order: 3
 ---
 

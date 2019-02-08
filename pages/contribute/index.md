@@ -5,6 +5,8 @@ showTOC: true
 navTitleId: header-menu-item-contribute
 categories: [contribute]
 navCategory: contribute
+showEdit: contribute/index.md
+showTranslate: 200
 order: 1
 ---
 

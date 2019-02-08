@@ -5,6 +5,8 @@ navTitleId: nav-doc-title-quick-start
 permalink: quick-start
 categories: [documentation, getting-started]
 navCategory: documentation
+showEdit: documentation/getting-started/quick-start.md
+showTranslate: 196
 order: 2
 showTOC: true
 ---

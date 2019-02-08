@@ -7,7 +7,7 @@ showEdit: documentation/getting-started/index.md
 categories: [documentation, getting-started]
 navCategory: documentation
 permalink: documentation
-showTranslate: 148
+showTranslate: 159
 order: 1
 ---
 
