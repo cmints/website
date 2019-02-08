@@ -1,5 +1,6 @@
 ---
-title: Translating CMintS documentation
+title: Translating <fix>CMintS</fix> documentation
+description: Help translating the website documentation into more languages.
 showTOC: true
 navTitleId: nav-doc-title-contribute-translation
 categories: [contribute]
@@ -7,16 +8,21 @@ navCategory: contribute
 order: 3
 ---
 
-In order to propose translation you will need a [Crowdin account](https://crowdin.com/).
+{translating-docs[Paragraph in 'Translating CMintS documentation' section]
+In order to propose translation you will need a [Crowdin
+account](https://crowdin.com/).
+}
 
-### Choose a language for translation proposal
+### {choose-language[Translation step] Choose a language for translation proposal}
 
 ![](/images/contribute/translation-drop-down.png)
 
+{choose-language-p[Paragraph in 'Choose a language' step]
 Note: In case you can't find the langauge you want to translate into, please
 file an issue in [website's Github
 repository](https://github.com/cmints/website/issues).
+}
 
-### Choose a language for translation proposal
+### {translation-edit[Translation step] Edit the text and hit Save button keeping [i18n tags](/documentation/i18n#using-tags)}
 
 ![](/images/contribute/translation-crowdin-proposal.png)

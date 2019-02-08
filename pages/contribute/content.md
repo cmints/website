@@ -1,5 +1,6 @@
 ---
 title: Updating CMintS Documentation
+description: Help fixing issues with the documentation and imporve the quality
 showTOC: true
 navTitleId: nav-doc-title-contribute-documentaion
 categories: [contribute]
@@ -7,20 +8,19 @@ navCategory: contribute
 order: 2
 ---
 
-In order to propose a documentation change, please create a Github Account.
+{update-docs[Paragraph in 'Updating CMintS documentation' section]
+In order to propose a documentation change, please create a [Github
+Account](https://github.com/).
+}
 
-### Click on edit button
+### {edit-click[Update step] Click on edit button}
 
 ![](/images/contribute/github-page.png)
 
-### Make the changes, propose a change name and click on "<fix>Propose file change</fix>" button
+### {propose-file-change[Update step] Make the changes, propose a change name and click on "<fix>Propose file change</fix>" button}
 
 ![](/images/contribute/github-edit.png)
 
-### Review the changes and click on the "<fix>Create pull request</fix>" button
+### {create-pr[Update step] Review the changes and click on the "<fix>Create pull request</fix>" button}
 
 ![](/images/contribute/github-diff.png)
-
-### Changes proposal review is ready
-
-![](/images/contribute/github-pr.png)
