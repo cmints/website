@@ -1,5 +1,5 @@
 ---
-title: Updating CMintS Documentation
+title: Updating <fix>CMintS</fix> Documentation
 description: Help fixing issues with the documentation and imporve the quality
 showTOC: true
 navTitleId: nav-doc-title-contribute-documentaion
