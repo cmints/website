@@ -1,0 +1,11 @@
+language: node_js
+sudo: false
+os:
+  - osx
+node_js:
+  - "node"
+cache: npm
+before_script:
+- npm install
+script:
+- npm run crowdin-upload
