@@ -98,3 +98,16 @@ translations:
 # Replace {crowdin-key} with the actual one
 cmints --crowdin update-translations --key {crowdin-key}
 ```
+
+## {env-variables[Page heading] Using environment variables}
+
+{env-variables-p[Paragraph in 'Using environment variables' section]
+If the environment variables `CROWDIN_KEY` is set, no need to pass the `--key`
+argument so you can invoke translation as shown below:
+}
+
+```
+cmints --crowdin update-sources
+cmints --crowdin get-translations
+cmints --crowdin update-translations
+```
