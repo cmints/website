@@ -1,14 +1,14 @@
 ---
 layout: home
 title: CMS created with the internationalization in mind
-description: <fix>CMintS</fix> is a CMS and Static Site Generator for creating single and multi language websites. Comprehensive i18n implementation, create themes using <fix>EJS</fix> templating engine and <fix>LESS</fix>, write content using <fix>Markdown</fix> and get TMS integration out of the box.
+description: <fix>CMintS</fix> is a CMS and Static Site Generator for single and multi language websites and blogs creation. Comprehensive i18n implementation, create themes using <fix>EJS</fix> templating engine and <fix>LESS</fix>, write content using <fix>Markdown</fix> and get TMS integration out of the box.
 ---
 <section id="main">
   <div class="content device">
     <a href="/" class="cell1 end">
       <img id="logo" src="<%= site.root %>/images/logo.png" alt="CMintS logo">
     </a>
-    <h2>{i18n-in-mind[Main text] CMS and Static Site Generator for creating single and multi language websites}</h2>
+    <h2>{i18n-in-mind[Main text] CMS and Static Site Generator for single and multi language websites creation}</h2>
     <p>
       <a href="/documentation" class="button">{get-started[Main button text] Get started}</a>
     </p>
@@ -22,22 +22,22 @@ description: <fix>CMintS</fix> is a CMS and Static Site Generator for creating s
     <div>
       <h2>{i18n[Feature header] i18n}</h2>
       <p>{i18n-msg["i18n" feature text] Comprehensive internationalization out of the box.}</p>
-      <a href="/documentation/i18n" class="button">{learn-more[Feature button text] Learn more}</a>
-    </div>
-    <div>
-      <h2>{theme[Feature header] Theme}</h2>
-      <p>{theme-msg["Theme" feature text] Start creating themes using EJS templating engine and LESS.}</p>
-      <a href="/documentation/themes" class="button">{learn-more}</a>
+      <a href="/documentation/i18n" class="button">{learn-more-i18n[Feature button text] Learn about i18n}</a>
     </div>
     <div>
       <h2>{markdown[Feature header] Markdown}</h2>
       <p>{markdown-msg["Markdown" feature text] Get CommonMark out of the box to create content faster.}</p>
-      <a href="/documentation/pages" class="button">{learn-more}</a>
+      <a href="/documentation/pages" class="button">{learn-more-md[Feature button text] Learn about pages}</a>
+    </div>
+    <div>
+      <h2>{theme[Feature header] Theme}</h2>
+      <p>{theme-msg["Theme" feature text] Start creating themes using EJS, LESS and JS modules.}</p>
+      <a href="/documentation/themes" class="button">{learn-more-theme[Feature button text] Learn about themes}</a>
     </div>
     <div>
       <h2>{tms[Feature header] TMS integration}</h2>
       <p>{tms-msg["TMS integration" feature text] Handy API to integrate your project with the Crowdin.}</p>
-      <a href="/documentation/i18n/crowdin" class="button">{learn-more}</a>
+      <a href="/documentation/i18n/crowdin" class="button">{learn-more-tms[Feature button text] Learn about TMS}</a>
     </div>
   </div>
 </section>
