@@ -20,7 +20,7 @@ account](https://crowdin.com/).
 ![](/images/contribute/translation-drop-down.png)
 
 {choose-language-p[Paragraph in 'Choose a language' step]
-Note: In case you can't find the langauge you want to translate into, please
+Note: In case you can't find the language you want to translate into, please
 file an issue in [website's Github
 repository](https://github.com/cmints/website/issues).
 }
