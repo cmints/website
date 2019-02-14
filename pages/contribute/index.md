@@ -1,6 +1,6 @@
 ---
 title: Contribute to <fix>CMintS</fix>
-description: Contribute to <fix>CMintS</fix>, by helping with the content maintainment, translations and etc.
+description: Contribute to <fix>CMintS</fix>, by helping with the content maintenance, translations and etc.
 showTOC: true
 navTitleId: header-menu-item-contribute
 categories: [contribute]
