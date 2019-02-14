@@ -14,7 +14,7 @@ order: 1
 It took a lot of effort to create <fix>CMintS</fix> as a side project, it's an
 open source project and each Github Star counts to make it popular, so if you
 appear to have a Github account and you like this project, I'll really
-appreciate if you can start the project on [it's Github
+appreciate if you can star the project on [it's Github
 page](https://github.com/cmints/cmints).
 }
 
