@@ -253,7 +253,7 @@ module.exports = {jsModuleOptions};
 You can also use various <fix>uglify-es</fix>
 [configurations](https://www.npmjs.com/package/uglify-es#minify-options) for [JS
 Modules](/documentation/themes/js-modules) minification. The example below adds
-`sourceMap` to the minified files:
+<fix>`sourceMap`</fix> to the minified files:
 }
 
 ```js
@@ -304,7 +304,7 @@ module.exports = {lessOptions};
 {lessOptions-minification-p2[Paragraph in 'lessOptions > minification' section]
 You can also use various <fix>clean-css</fix> [configurations](https://www.npmjs.com/package/clean-css#constructor-options) for [JS
 Modules](/documentation/themes/js-modules) minification. The example
-below adds `sourceMap` to the minified files:
+below adds <fix>`sourceMap`</fix> to the minified files:
 }
 
 ```js
@@ -319,10 +319,10 @@ module.exports = {lessOptions};
 
 ## configReloadWatchers
 
-`config.js` does more than configuration and it's can be used for a robust
-action also you can call other modules and/or JSON files from `config.js` and
+<fix>`config.js`</fix> does more than configuration and it's can be used for a robust
+action also you can call other modules and/or JSON files from <fix>`config.js`</fix> and
 you might not want restart the development server each time you update the other
-file, for that reason you can specify `configReloadWatchers`:
+file, for that reason you can specify <fix>`configReloadWatchers`</fix>:
 
 ```
 const configReloadWatchers = ["data.json", "syncinit.js"];
