@@ -142,7 +142,7 @@ is the default language:
 #### detectLang
 
 {detectLang-p1[Paragraph in 'detectLang' section]
-This option can only be used when running CMintS server with `i18nOptions.type`
+This option can only be used when running <fix>CMintS</fix> server with `i18nOptions.type`
 being set to `Double`, this setting is using user language preference, set in
 the Browser for relevant language page redirection. Setting has no effect on
 Static Website Generation.
