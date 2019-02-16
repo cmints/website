@@ -26,5 +26,9 @@
   "step": {
     "description": "Steps usually used as a tutorial steps, like Step 1, Step 2 and etc..",
     "message": "Step"
+  },
+  "default": {
+    "description": "Usually describes the default value for example of configuration",
+    "message": "Default"
   }
 }

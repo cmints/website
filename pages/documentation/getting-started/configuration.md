@@ -25,7 +25,9 @@ const hostname = "0.0.0.0";
 
 const i18nOptions = {
   defaultLocale: "en",
-  crowdinId: "cmints-website"
+  crowdin: {
+    id: "cmints-website"
+  }
 };
 
 const templateData =
@@ -97,9 +99,12 @@ Used only for multilingual projects:
 const i18nOptions = {
   defaultLocale: "en",
   type: "Index",
-  crowdinId: "cmints-website",
   prefix: "{",
-  postfix: "}"
+  postfix: "}",
+  crowdin: {
+    id: "cmints-website",
+    updateOption: "update_as_unapproved"
+  }
 };
 
 module.exports = {i18nOptions};
@@ -148,12 +153,31 @@ the Browser for relevant language page redirection. Setting has no effect on
 Static Website Generation.
 }
 
-### crowdinId
+### crowdin.id
 
-{crowdinId-p1[Paragraph in 'crowdinId' section]
+{crowdinId-p1[Paragraph in 'crowdin.id' section]
 <fix>Crowdin</fix> projectID name. <a href="/documentation/i18n/crowdin">Learn
-More about <fix>crowdinId</fix></a>.
+More about <fix>crowdin.id</fix></a>.
 }
+
+### crowdin.updateOption
+
+- **update_as_unapproved**({default(common)}) - {updateOption-li1[List item in 'crowdin.updateOption' section]
+  Preserve translations of changed strings and remove validations of those translations if they exist.}
+- **update_without_changes** - {updateOption-li2[List item in 'crowdin.updateOption' section]
+  Preserve translations and validations of changed strings.}
+- **null** - {updateOption-li3[List item in 'crowdin.updateOption' section]
+  translations for changed strings will be lost after string update.}
+
+```js
+const i18nOptions = {
+  defaultLocale: "en",
+  crowdin: {
+    id: "cmints-website",
+    updateOption: null
+  }
+};
+```
 
 ### prefix, postfix
 

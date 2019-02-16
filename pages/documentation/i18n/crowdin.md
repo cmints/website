@@ -37,7 +37,9 @@ in the <fix>`config.js`</fix> file. Ensure that you also have
 ```js
 const i18nOptions = {
   defaultLocale: "en",
-  crowdinId: "cmints-website"
+  crowdin: {
+    id: "cmints-website"
+  }
 };
 
 module.exports = {i18nOptions};
