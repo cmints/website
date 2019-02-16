@@ -7,13 +7,13 @@
     "message": "Узнайте, как использовать строки интернационализации в проекте <fix1>. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
-  "i18n-p1": {
-    "message": "Internaltionalization является одной из основных особенностей <fix1>. Идея заключается в том, чтобы использовать общие структуры и синтаксис в страницах, темах и предоставить дополнительные устроиства для управления многоязыковым веб-сайтом.",
-    "description": "Paragraph in 'internationalization' section\n<fix> placeholders:\n<fix1> - CMintS\n"
-  },
   "locales-dir-structure": {
     "message": "Структура директории locales",
     "description": "Page heading\n"
+  },
+  "locales-dir-structure-p2": {
+    "message": "Каталоги верхнего уровня в <fix1> являются кодами локали(locale). Структура каталогов отражает путь к странице, например, переводы для <fix2> <a1>страницы<\/a1> должны быть расположен в файле <fix3>, чтобы быть доступным через путь <fix4> сайта",
+    "description": "Paragraph in 'Locales directory structure' section\n<fix> placeholders:\n<fix1> - <code>locales<\/code>\n<fix2> - <code>about\/teams.md<\/code>\n<fix3> - <code>\/de\/about\/teams.json<\/code>\n<fix4> - <code>\/de\/about\/teams<\/code>\n<a> placeholders:\n<a1>page<\/a1> - <a href=\"\/documentation\/pages\">page<\/a>\n"
   },
   "locale-file": {
     "message": "Файл локалей",
@@ -74,10 +74,6 @@
   "a-tag-p3": {
     "message": "Результат будет:",
     "description": "Paragraph in '<a> tag' section\n"
-  },
-  "a-tag-p4": {
-    "message": "<strong> Примечание. <\/strong> Атрибут <fix1> будет установлен автоматически\nв зависимости от того, переведена ли ссылка относительной ссылки на язык или\nне.",
-    "description": "Paragraph in '<a> tag' section\n<fix> placeholders:\n<fix1> - <code>hreflang<\/code>\n"
   },
   "fix-tag-p": {
     "message": "Некоторые слова не надо переводить на веб-сайте (например, название бренда), для\nэтого можно использовать тег <fix1>:",

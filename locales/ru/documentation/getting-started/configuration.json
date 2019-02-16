@@ -7,8 +7,88 @@
     "message": "Как настроить <fix1> и с помощью templateData для передачи данных в шаблон.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
+  "config-p": {
+    "message": "В <fix1> вы можете задать разные конфигурации для сайта:",
+    "description": "Paragraph in 'Configuration' section\n<fix> placeholders:\n<fix1> - <code>config.js<\/code>\n"
+  },
   "config-p2": {
-    "message": "Этот файл должен перезаписать <a1> default конфигураций <\/a>, установленных\n<fix1>-ом.",
-    "description": "Paragraph in 'Page heading' section\n<a> placeholders:\n<a1>default configurations<\/a1> - <a href=\"https:\/\/github.com\/Manvel\/cmints\/blob\/master\/config.js\">default configurations<\/a>\n<fix> placeholders:\n<fix1> - CMintS\n"
+    "message": "Этот файл может переписать <a1>конфигураций заданные по умолчанию<\/a> <fix1>-ом.",
+    "description": "Paragraph in 'Page heading' section\n<a> placeholders:\n<a1>default configurations<\/a1> - <a href=\"https:\/\/github.com\/cmints\/cmints\/blob\/master\/config.js\">default configurations<\/a>\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "hostname-p": {
+    "message": "Определяет адрес хоста сервера. По умолчанию используется\n<code>127.0.0.1<\/code>.",
+    "description": "Paragraph in 'hostname' section\n"
+  },
+  "root-p": {
+    "message": "Определяет корневой каталог сайта.",
+    "description": "Paragraph in 'root' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "i18nOptions-p1": {
+    "message": "Используется только для многоязычных проектов:",
+    "description": "c\n"
+  },
+  "defaultLocale-p1": {
+    "message": "Указывает основной язык проекта. <a1>Подробнее о\n<fix1><\/a>.",
+    "description": "Paragraph in 'defaultLocale' section\n<fix> placeholders:\n<fix1> - defaultLocale\n"
+  },
+  "type-deafult": {
+    "message": "По умолчанию",
+    "description": "Default mark\n"
+  },
+  "type-p1": {
+    "message": "Существует два способа, генерации многоязычного веб-сайта -\nдублировать содержание на странице конкретного языка для пути перенаправления\nпри необходимости от одного из версия (пример.: для перенаправления на предпочитаемый язык пользовотельского устроиства) или генерации контента основного язык как корень в\nдиректории <fix1> . По умолчанию используется опция <fix2>, в этом случае только одна версия языка страницы по умолчанию генерируется. <fix3> позволяет чтобы иметь дублирование основного языка, где вы можете установки\nнапример перенаправление с помощью\n<a1>urllocale<\/a>.",
+    "description": "Paragraph in 'type' section\n<fix> placeholders:\n<fix1> - <code>content<\/code>\n<fix2> - <code>Index<\/code>\n<fix3> - <code>Double<\/code>\n<a> placeholders:\n<a1>urllocale<\/a1> - <a href=\"documentation\/themes\/ejs#page.urllocale\">urllocale<\/a>\n"
+  },
+  "type-p2": {
+    "message": "Пример ниже показыват генерацию страницы <fix1> когда <fix2> используется как основной язык(локаль):",
+    "description": "Paragraph in 'type' section\n<fix> placeholders:\n<fix1> - <code>about<\/code>\n<fix2> - <code>en<\/code>\n"
+  },
+  "detectLang-p1": {
+    "message": "Эта опция может только использоваться когда запускается <fix1> сервер с опцией <fix2> установленного на <fix3>. Эта опция использует языковые опции пользователя установленные в браузере для переадресации на предпочтительный язык сайта. Эта опция не действует когда вы генерируете статичный контент.",
+    "description": "Paragraph in 'detectLang' section\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - <code>i18nOptions.type<\/code>\n<fix3> - <code>Double<\/code>\n"
+  },
+  "crowdinId-p1": {
+    "message": "Идентификатор проекта <fix1>. <a1>Узнайте\nПодробнее про идентификатор Crowdin<\/a1>",
+    "description": "Paragraph in 'crowdinId' section\n<fix> placeholders:\n<fix1> - Crowdin\n<a> placeholders:\n<a1>Learn More about <fix>crowdinId<\/a1> - <a href=\"\/documentation\/i18n\/crowdin\">Learn More about <fix>crowdinId<\/a>\n"
+  },
+  "prefix-postfix-p1": {
+    "message": "Используется для настройки пользовательского префикса и постфикса для строк интернационализации. <a1>Подробнее о пользовательском префиксе и постфиксе<\/a>.",
+    "description": "Paragraph in 'prefix, postfix' section\n"
+  },
+  "templateData-p1": {
+    "message": "данные и функции в шаблонных данных могут быть доступны с <fix1> страниц и макета\nфайлов:",
+    "description": "Paragraph in 'templateData' section\n<fix> placeholders:\n<fix1> - <code>.ejs<\/code>\n"
+  },
+  "templateData-p2": {
+    "message": "Таким образом, указанные данные могут быть доступны как в примере:",
+    "description": "Paragraph in 'templateData' section\n"
+  },
+  "jsModuleOptions-p1": {
+    "message": "Можно использовать чтобы настроить <a1>Разные опции генерации<\/a1> для <a1>Модулей JS<\/a1>. Пример ниже показывает как добавить source map к генерируемым файлом для удобства отладки:",
+    "description": "Paragraph in 'jsModuleOptions' section\n<a> placeholders:\n<a1>various existing options<\/a1> - <a href=\"https:\/\/github.com\/browserify\/browserify#browserifyfiles--opts\">various existing options<\/a>\n<a2>JS Modules<\/a2> - <a href=\"\/documentation\/themes\/js-modules\">JS Modules<\/a>\n"
+  },
+  "minification": {
+    "message": "Минификация",
+    "description": "Header in 'jsModuleOptions and lessOptions' section\n"
+  },
+  "browserify-minification-p1": {
+    "message": "Для минифицированного вывода JS модулей просто укажите опцию <fix1>:",
+    "description": "Paragraph in 'jsModuleOptions &gt; minification' section\n<fix> placeholders:\n<fix1> - <code>minify<\/code>\n"
+  },
+  "browserify-minification-p2": {
+    "message": "Можно также использовать различные <fix1>\n<a1>конфигурации<\/a1> для минификации <a2>JS\nмодулей<\/a2>. В приведенном ниже примере добавляется\n<fix2> к минифицированным файлам:",
+    "description": "Paragraph in 'jsModuleOptions &gt; minification' section\n<fix> placeholders:\n<fix1> - uglify-es\n<fix2> - <code>sourceMap<\/code>\n<a> placeholders:\n<a1>configurations<\/a1> - <a href=\"https:\/\/www.npmjs.com\/package\/uglify-es#minify-options\">configurations<\/a>\n<a2>JS Modules<\/a2> - <a href=\"\/documentation\/themes\/js-modules\">JS Modules<\/a>\n"
+  },
+  "lessOptions-p1": {
+    "message": "Может использоваться для задачи <a1>различных опций<\/a1> к <a2>генераций CSS<\/a2>. Пример ниже показывает как добавить source map к генерируемым файлом для отладок:",
+    "description": "Paragraph in 'lessOptions' section\n<a> placeholders:\n<a1>various options<\/a1> - <a href=\"http:\/\/lesscss.org\/usage\/#less-options\">various options<\/a>\n<a2>build process<\/a2> - <a href=\"\/documentation\/themes\/less\">build process<\/a>\n<fix> placeholders:\n<fix1> - CSS\n"
+  },
+  "lessOptions-minification-p1": {
+    "message": "Для минифицированного вывода <a1>LESS<\/a1> просто укажите опцию <fix1>:",
+    "description": "Paragraph in 'lessOptions &gt; minification' section\n<a> placeholders:\n<a1>LESS<\/a1> - <a href=\"\/documentation\/themes\/less\">LESS<\/a>\n<fix> placeholders:\n<fix1> - <code>minify<\/code>\n"
+  },
+  "lessOptions-minification-p2": {
+    "message": "Вы также можете использовать разные <fix1> <a1>конфигурации<\/a1> для минификации <a2>модулей JS<\/a2>. Пример ниже добавляет <fix2> к минифицированному файлу:",
+    "description": "Paragraph in 'lessOptions &gt; minification' section\n<fix> placeholders:\n<fix1> - clean-css\n<fix2> - <code>sourceMap<\/code>\n<a> placeholders:\n<a1>configurations<\/a1> - <a href=\"https:\/\/www.npmjs.com\/package\/clean-css#constructor-options\">configurations<\/a>\n<a2>JS Modules<\/a2> - <a href=\"\/documentation\/themes\/js-modules\">JS Modules<\/a>\n"
   }
 }

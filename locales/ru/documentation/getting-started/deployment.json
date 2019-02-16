@@ -7,13 +7,21 @@
     "message": "Публикация сайтов для <fix1> в сервисах как Github страницы, Netlify и тд.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
+  "static": {
+    "message": "Создание статического контента",
+    "description": "Page heading\n"
+  },
+  "static-p": {
+    "message": "Выполняя команду выше ваш статичный контент сайта должен быть готовым и расположены в каталоге <fix1>, вы можете скопировать содержимое каталога в любой\nстатический хостинг на ваш выбор, но вы также можете использовать преимущества сушествующих инструментов <fix2>, чтобы сделать это гораздо проще.",
+    "description": "Paragraph in the 'Generating static content' section\n<fix> placeholders:\n<fix1> - <code>content<\/code>\n<fix2> - CMintS\n"
+  },
   "gh-pages": {
     "message": "Github  страницы",
     "description": "Page heading\n"
   },
   "gh-pages-p": {
-    "message": "<fix1> страницы, это хостинг статичных сайтов созданных для <fix2> репозиторий. Вы можете хостить <fix3> проэкты там, с помощью простой команды ниже:",
-    "description": "Paragraph in the 'Github pages' section\n<fix> placeholders:\n<fix1> - GitHub\n<fix2> - GitHub\n<fix3> - CMintS\n<fix4> - Github\n"
+    "message": "Страницы Гитхаб - это служба хостинга статичных сайтов, предназначенная для размещения страниц проекта непосредственно из репозитория Гитхаб. Вы можете хостить проекты <fix1> бесплатно на страницах Гитхаб, просто запустив команду ниже, учитывая, что\nвы используете Гитхаб как ваш git хостинг:",
+    "description": "Paragraph in the 'Github pages' section\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
   "other-git-hostings": {
     "message": "Другие гит хостинги",

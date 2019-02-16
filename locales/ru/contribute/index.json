@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "Сделать вклад в <fix1>",
+    "description": "Page title\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "description": {
+    "message": "Помогите сделать <fix1> лучше, улучшая документацию, переводы и тд.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "contribute-p": {
+    "message": "Потребовалось много усилий для создания <fix1>, так-как он разрабатывался как \"side project\". <fix1> \nэто проект с открытым кодом и я буду благодарен, если вы добавите звезду в Гитхабе. Если он вам понравился и если у вас есть Гитхаб аккаунт то просто можете <a href=\"https:\/\/github.com\/cmints\/cmints\">Нажать на кнопку star тут<\/a>.",
+    "description": "Paragraph in 'Contribute to CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>it's Github page<\/a1> - <a href=\"https:\/\/github.com\/cmints\/cmints\">it's Github page<\/a>\n"
+  },
+  "website-content": {
+    "message": "Контент сайта",
+    "description": "Page heading\n"
+  },
+  "english": {
+    "message": "Английский",
+    "description": "Page heading\n"
+  },
+  "english-p": {
+    "message": "Тут довольно много ресурсов и документации, я буду очень признателен, если\nвы можете помочь мне обнаружить проблемы с ним и исправить их, для того чтобы обновить оригинальную документацию пожалуйста почитайте про то <а1>как предложить изменение в Английском тексте<\/а1>.",
+    "description": "Paragraph in 'English' section\n<a> placeholders:\n<a1>documentation change proposal<\/a1> - <a href=\"\/contribute\/documentation\">documentation change proposal<\/a>\n"
+  },
+  "translations": {
+    "message": "Переводы",
+    "description": "Page heading\n"
+  },
+  "translations-p": {
+    "message": "Перевод это один из ключевых функций <fix1> и я буду очень благодарен если вы поможете мне перевести документацию на другие языки, если вы хотите мне в этом помочь пожалуйста прочитайте про <а1>перевод документации <fix1><\/а1>.",
+    "description": "Paragraph in 'Translations' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>translating documentation<\/a1> - <a href=\"\/contribute\/translation\">translating documentation<\/a>\n"
+  },
+  "bug-reports": {
+    "message": "Сообщить о проблеме",
+    "description": "Page heading\n"
+  },
+  "bug-reports-p": {
+    "message": "Для обычных ошибках или вопросов пожалуйста создайте запрос в <а1>Репозитории CMintS в Гитхабе<\/а1>.",
+    "description": "Paragraph in 'Bug Reports' section\n<a> placeholders:\n<a1>CMintS's Github repository<\/a1> - <a href=\"https:\/\/github.com\/cmints\/cmints\/issues\">CMintS's Github repository<\/a>\n"
+  }
+}

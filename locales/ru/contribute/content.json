@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Обновление документации <fix1>",
+    "description": "Page title\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "description": {
+    "message": "Помогите исправить качество документации",
+    "description": "Page description\n"
+  },
+  "update-docs": {
+    "message": "Для того чтобы предложить изменение документации, пожалуйста, создайте <a1>учётную запись Github<\/a1>.",
+    "description": "Paragraph in 'Updating CMintS documentation' section\n<a> placeholders:\n<a1>Github Account<\/a1> - <a href=\"https:\/\/github.com\/\">Github Account<\/a>\n"
+  },
+  "edit-click": {
+    "message": "Кликнить на кнопку редактирования",
+    "description": "Update step\n"
+  },
+  "propose-file-change": {
+    "message": "Сделайте изменения, предложите название изменения и нажмите на кнопку \"<fix1>\"",
+    "description": "Update step\n<fix> placeholders:\n<fix1> - Propose file change\n"
+  },
+  "create-pr": {
+    "message": "Пересмотрите изменения и нажмите на кнопку \"<fix1>\"",
+    "description": "Update step\n<fix> placeholders:\n<fix1> - Create pull request\n"
+  }
+}
