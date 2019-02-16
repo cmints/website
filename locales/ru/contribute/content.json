@@ -12,7 +12,7 @@
     "description": "Paragraph in 'Updating CMintS documentation' section\n<a> placeholders:\n<a1>Github Account<\/a1> - <a href=\"https:\/\/github.com\/\">Github Account<\/a>\n"
   },
   "edit-click": {
-    "message": "Кликнить на кнопку редактирования",
+    "message": "Нажмите на кнопку редактирования",
     "description": "Update step\n"
   },
   "propose-file-change": {

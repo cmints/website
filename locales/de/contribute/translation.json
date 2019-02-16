@@ -1,3 +1,14 @@
 {
-
+  "description": {
+    "message": "Hilf die Dokumentation in andere Sprachen zu übersetzen.",
+    "description": "Page description\n"
+  },
+  "translating-docs": {
+    "message": "Um Übersetzung vorzuschlagen, benötigen Sie ein <a href=\"https:\/\/crowdin.com\/\">Crowdin\nKonto<\/a>.",
+    "description": "Paragraph in 'Translating CMintS documentation' section\n<a> placeholders:\n<a1>Crowdin account<\/a1> - <a href=\"https:\/\/crowdin.com\/\">Crowdin account<\/a>\n"
+  },
+  "choose-language": {
+    "message": "Wählen Sie eine Sprache für den Übersetzungsvorschlag",
+    "description": "Translation step\n"
+  }
 }

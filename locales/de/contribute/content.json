@@ -1,3 +1,22 @@
 {
-
+  "title": {
+    "message": "Aktualisiere <fix>CMintS<\/fix>Dokumentation",
+    "description": "Page title\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "description": {
+    "message": "Hilf Probleme mit der Dokumentation zu lösen und die Qualität zu verbessern",
+    "description": "Page description\n"
+  },
+  "update-docs": {
+    "message": "Um eine Dokumentationsänderung vorzuschlagen, erstellen Sie bitte ein <a href=\"https:\/\/github.com\/\">Github\nKonto<\/a>.",
+    "description": "Paragraph in 'Updating CMintS documentation' section\n<a> placeholders:\n<a1>Github Account<\/a1> - <a href=\"https:\/\/github.com\/\">Github Account<\/a>\n"
+  },
+  "propose-file-change": {
+    "message": "Änderungen vornehmen, einen Änderungsnamen vorschlagen und auf \"<fix>Dateiänderung vorschlagen<\/fix>\" klicken",
+    "description": "Update step\n<fix> placeholders:\n<fix1> - Propose file change\n"
+  },
+  "create-pr": {
+    "message": "Überprüfen Sie die Änderungen und klicken Sie auf den \"<fix>Pull Request erstellen<\/fix>\" Button",
+    "description": "Update step\n<fix> placeholders:\n<fix1> - Create pull request\n"
+  }
 }

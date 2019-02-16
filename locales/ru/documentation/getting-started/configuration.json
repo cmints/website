@@ -49,7 +49,7 @@
   },
   "crowdinId-p1": {
     "message": "Идентификатор проекта <fix1>. <a1>Узнайте\nПодробнее про идентификатор Crowdin<\/a1>",
-    "description": "Paragraph in 'crowdinId' section\n<fix> placeholders:\n<fix1> - Crowdin\n<a> placeholders:\n<a1>Learn More about <fix>crowdinId<\/a1> - <a href=\"\/documentation\/i18n\/crowdin\">Learn More about <fix>crowdinId<\/a>\n"
+    "description": "Paragraph in 'crowdin.id' section\n<fix> placeholders:\n<fix1> - Crowdin\n<a> placeholders:\n<a1>Learn More about <fix>crowdin.id<\/a1> - <a href=\"\/documentation\/i18n\/crowdin\">Learn More about <fix>crowdin.id<\/a>\n"
   },
   "prefix-postfix-p1": {
     "message": "Используется для настройки пользовательского префикса и постфикса для строк интернационализации. <a1>Подробнее о пользовательском префиксе и постфиксе<\/a>.",
