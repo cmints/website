@@ -58,7 +58,7 @@ const templateData =
     title: "CMintS",
     description: "CMS created with the internationalization in mind",
     github: "https://github.com/cmints/website",
-    crowdin: `https://crowdin.com/translate/${i18nOptions.crowdinId}`,
+    crowdin: `https://crowdin.com/translate/${i18nOptions.crowdin.id}`,
     localeMap: {
       "en": {name: "English", region: "en_US"},
       "de": {name: "Deutsch", region: "de_DE", crowdin: "en-de"},
