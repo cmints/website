@@ -41,3 +41,17 @@ npm run dev
 ```
 npm run build
 ```
+
+## Crowdin
+
+### Upload source strings to the Crowdin
+
+```
+npm run crowdin-upload -- {crowdin-key}
+```
+
+### Download translations from the crowdin
+
+```
+npm run crowdin-download -- {crowdin-key}
+```
