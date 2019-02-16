@@ -24,7 +24,9 @@ const i18nOptions = {
   detectLang: false,
   type: "Double",
   defaultLocale: "en",
-  crowdinId: "cmints-website"
+  crowdin: {
+    id: "cmints-website"
+  }
 };
 
 const deployment = {
