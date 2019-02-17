@@ -1,4 +1,8 @@
 {
+  "title": {
+    "message": "Übersetze <fix1> Dokumentation",
+    "description": "Page title\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
   "description": {
     "message": "Hilf die Dokumentation in andere Sprachen zu übersetzen.",
     "description": "Page description\n"
@@ -10,5 +14,13 @@
   "choose-language": {
     "message": "Wählen Sie eine Sprache für den Übersetzungsvorschlag",
     "description": "Translation step\n"
+  },
+  "choose-language-p": {
+    "message": "Hinweis: Wenn Sie die Sprache in die Sie übersetzen wollen nicht finden, melden Sie dies bitte als Problem im <a1>GitHub-Repository <\/a1>.",
+    "description": "Paragraph in 'Choose a language' step\n<a> placeholders:\n<a1>website's Github repository<\/a1> - <a href=\"https:\/\/github.com\/cmints\/website\/issues\">website's Github repository<\/a>\n"
+  },
+  "translation-edit": {
+    "message": "Bearbeiten Sie den Text und drücken Sie \"Speichern und <a1>i18n Tags<\/a1> behalten\"",
+    "description": "Translation step\n<a> placeholders:\n<a1>i18n tags<\/a1> - <a href=\"\/documentation\/i18n#using-tags\">i18n tags<\/a>\n"
   }
 }

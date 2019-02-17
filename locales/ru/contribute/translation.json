@@ -20,7 +20,7 @@
     "description": "Paragraph in 'Choose a language' step\n<a> placeholders:\n<a1>website's Github repository<\/a1> - <a href=\"https:\/\/github.com\/cmints\/website\/issues\">website's Github repository<\/a>\n"
   },
   "translation-edit": {
-    "message": "Редактируйте текст и нажмите на кнопку Сохранить",
-    "description": "Translation step\n"
+    "message": "Редактируйте текст <a1>используя тэги интернационализации<\/a1> и нажмите на кнопку Сохранить",
+    "description": "Translation step\n<a> placeholders:\n<a1>i18n tags<\/a1> - <a href=\"\/documentation\/i18n#using-tags\">i18n tags<\/a>\n"
   }
 }
