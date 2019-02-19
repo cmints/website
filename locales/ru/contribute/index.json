@@ -36,7 +36,7 @@
     "description": "Page heading\n"
   },
   "bug-reports-p": {
-    "message": "Для обычных ошибках или вопросов пожалуйста создайте запрос в <а1>Репозитории CMintS в Гитхабе<\/а1>.",
+    "message": "Для обычных ошибках или вопросов пожалуйста создайте запрос в <a1>Репозитории CMintS в Гитхабе<\/a1>.",
     "description": "Paragraph in 'Bug Reports' section\n<a> placeholders:\n<a1>CMintS's Github repository<\/a1> - <a href=\"https:\/\/github.com\/cmints\/cmints\/issues\">CMintS's Github repository<\/a>\n"
   }
 }

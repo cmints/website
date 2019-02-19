@@ -8,7 +8,7 @@
     "description": "Page description\n"
   },
   "translating-docs": {
-    "message": "Для того чтобы предложить перевод вам нужна будет <а1>учётная запись в Crowdin<\/а1>.",
+    "message": "Для того чтобы предложить перевод вам нужна будет <a1>учётная запись в Crowdin<\/a1>.",
     "description": "Paragraph in 'Translating CMintS documentation' section\n<a> placeholders:\n<a1>Crowdin account<\/a1> - <a href=\"https:\/\/crowdin.com\/\">Crowdin account<\/a>\n"
   },
   "choose-language": {
