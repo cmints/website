@@ -179,7 +179,7 @@ When a relative URL is used with starting <fix>`/`</fix> path locale and
 <fix>`hreflang`</fix> attributes are being generated automatically depending on
 the target page language regardless whether <fix>`<a>`</fix> tag is declared
 inside or outside of a translation string.
-[root](/documentation/getting-started/configuration#root) configuration can be
+<fix>[root](/documentation/getting-started/configuration#root)</fix> configuration can be
 used for specifing root directory for the website if needed.
 }
 
