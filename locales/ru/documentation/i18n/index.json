@@ -7,13 +7,29 @@
     "message": "Узнайте, как использовать строки интернационализации в проекте <fix1>. Использование i18n строк, узнать о структура файлов перевода и начать создание многоязычных веб-сайтов.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
+  "i18n-p1": {
+    "message": "Интернационализация является одной из основных особенностей <fix1>. Идея\nявляется в использование общей структуры и синтаксиса в страницах, теме и\nпредоставить дополнительные помощников для управления многоязычным сайтом.",
+    "description": "Paragraph in 'internationalization' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
   "locales-dir-structure": {
     "message": "Структура директории locales",
     "description": "Page heading\n"
   },
+  "locales-dir-structure-p": {
+    "message": "файлы локалей должны находиться в каталоге<fix1>:",
+    "description": "Paragraph in 'Locales directory structure' section\n<fix> placeholders:\n<fix1> - <code>locales<\/code>\n"
+  },
   "locales-dir-structure-p2": {
     "message": "Каталоги верхнего уровня в <fix1> являются кодами локали(locale). Структура каталогов отражает путь к странице, например, переводы для <fix2> <a1>страницы<\/a1> должны быть расположен в файле <fix3>, чтобы быть доступным через путь <fix4> сайта",
     "description": "Paragraph in 'Locales directory structure' section\n<fix> placeholders:\n<fix1> - <code>locales<\/code>\n<fix2> - <code>about\/teams.md<\/code>\n<fix3> - <code>\/de\/about\/teams.json<\/code>\n<fix4> - <code>\/de\/about\/teams<\/code>\n<a> placeholders:\n<a1>page<\/a1> - <a href=\"\/documentation\/pages\">page<\/a>\n"
+  },
+  "default-locale": {
+    "message": "Язык по умолчанию",
+    "description": "Page heading\n"
+  },
+  "default-locale-p": {
+    "message": "Прежде чем использовать i18n функции, пользователь должен также указать \"локаль\" по умолчанию, который будет использоваться в качестве исходного языка. Для этого\n<code>defaultLocale<\/code> необходимо добавить в параметры i18n в <code>config.js<\/code>:",
+    "description": "Paragraph in 'Default locale' section\n"
   },
   "locale-file": {
     "message": "Файл локалей",
@@ -114,5 +130,13 @@
   "title-alt-attr-p3": {
     "message": "Получится:",
     "description": "Paragraph in 'title and alt attributes' section\n"
+  },
+  "prefix-postfix-p1": {
+    "message": "Можно также редактировать префикс и постфикс для строк интернационализации в\n<code>config.js<\/code>. Это может быть полезно для исправления несовместимости с другими синтаксисами:",
+    "description": "Paragraph in 'prefix, postfix' section\n"
+  },
+  "prefix-postfix-p2": {
+    "message": "Для конфигурации, указанной выше можно использовать синтаксис ниже:",
+    "description": "Paragraph in 'prefix, postfix' section\n"
   }
 }

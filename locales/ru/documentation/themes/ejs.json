@@ -1,4 +1,8 @@
 {
+  "title": {
+    "message": "EJS",
+    "description": "Page title\n"
+  },
   "description": {
     "message": "Узнайте, как для создания макет страницы в <fix>CMintS<\/fix>. <fix>CMintS<\/fix> использует ejs как шаблонизатор для создания макетов.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
@@ -15,9 +19,25 @@
     "message": "\nКак упоминалось в <a1> обзоре тем <\/a> в\nчтобы решить, какой макет использовать для страницы, Front Matter &quot; layout &quot;\nнеобходимо использовать свойство, которое возвращается к макету по умолчанию.\nKak",
     "description": "Paragraph in 'Layout' section\n<a> placeholders:\n<a1>themes overview<\/a1> - <a href=\"\/documentation\/themes#layouts\">themes overview<\/a>\n"
   },
+  "layout-p2": {
+    "message": "Принимая во внимание фрагмент ниже <fix1>:",
+    "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>theme\/layouts\/default.ejs<\/code>\n"
+  },
+  "layout-p3": {
+    "message": "И фрагмент ниже <fix1>",
+    "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>pages\/about.md<\/code>\n"
+  },
   "layout-p4": {
     "message": "Запрос на страницу <fix1> будет генерировать HTML-код ниже:",
     "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>\/about<\/code>\n"
+  },
+  "layout-p5": {
+    "message": "Но если у вас есть другой макет, который находится в\n<fix1>, вы можете задать его в Front Matter, чтобы использовать его напр .:",
+    "description": "Paragraph in 'Layout' section\n<fix> placeholders:\n<fix1> - <code>theme\/layouts\/home.ejs<\/code>\n"
+  },
+  "body-p": {
+    "message": "Как вы могли заметить из предыдущего примера, заполнитель <fix1>\nв макете ejs заменяется фактическим содержимым страницы, независимо от того,\nкакая страница <a1>используется (markdown, html или ejs) <\/a1> фактическое содержание\nстраницы отображается и заменяет <fix2> заполнитель.",
+    "description": "Paragraph in 'body' section\n<fix> placeholders:\n<fix1> - <code>&lt;%- page.body %&gt;<\/code>\n<fix2> - <code>&lt;%- page.body %&gt;<\/code>\n<a> placeholders:\n<a1>page is used(markdown, html or ejs)<\/a1> - <a href=\"\/documentation\/pages\">page is used(markdown, html or ejs)<\/a>\n"
   },
   "partials-p": {
     "message": "Partials - это файлы макета EJS, которые можно загружать в макеты EJS:",
@@ -35,6 +55,10 @@
     "message": "этот фрагмент теперь можно использовать и загружать в макет, просто добавив <fix1> в макет.",
     "description": "Paragraph in 'partials' section\n<fix> placeholders:\n<fix1> - <code>&lt;% include partials\/head %&gt;<\/code>\n"
   },
+  "front-matter": {
+    "message": "Front Matter",
+    "description": "Page heading\n"
+  },
   "front-matter-p": {
     "message": "Как уже упоминалось, Front Matter используется не только для выбора макета,\nно также можно определить свойства страницы, к которым можно получить доступ из\nмакеты.",
     "description": "Paragraph in 'Front Matter' section\n"
@@ -50,5 +74,61 @@
   "helpers": {
     "message": "Помощники",
     "description": "Page heading\n"
+  },
+  "helpers-p": {
+    "message": "В <fix1> также есть некоторые встроенные помощники:",
+    "description": "Paragraph in 'Helpers' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "helper-tbl-heading1": {
+    "message": "Помощник",
+    "description": "Helper Table Heading\n"
+  },
+  "helper-tbl-heading2": {
+    "message": "Тип",
+    "description": "Helper Table Heading\n"
+  },
+  "helper-tbl-heading3": {
+    "message": "Описание",
+    "description": "Helper Table Heading\n"
+  },
+  "helper-type-var": {
+    "message": "Переменная",
+    "description": "Helper type\n"
+  },
+  "helper-desc-path": {
+    "message": "Путь к текущей странице",
+    "description": "Helper description\n"
+  },
+  "helper-desc-locale": {
+    "message": "Языковой стандарт текущей страницы",
+    "description": "Helper description\n"
+  },
+  "helper-type-array": {
+    "message": "Массив",
+    "description": "Helper type\n"
+  },
+  "helper-type-obj": {
+    "message": "Объект",
+    "description": "Helper type\n"
+  },
+  "helper-desc-toc": {
+    "message": "Таблица содержимого страницы",
+    "description": "Helper description\n"
+  },
+  "helper-type-func": {
+    "message": "Функция",
+    "description": "Helper type\n"
+  },
+  "helper-desc-getPageLocales": {
+    "message": "Получить доступные локали для определенной страницы",
+    "description": "Helper description\n"
+  },
+  "toc-p2": {
+    "message": "Итак, чтобы построить таблицу содержимого из этой переменной, фрагмент EJS\nможет использоваться как ниже:",
+    "description": "Paragraph in 'Table Of Content' section\n<fix> placeholders:\n<fix1> - <code>.ejs<\/code>\n"
+  },
+  "queryPages-p1": {
+    "message": "Помимо метаданных Front Matter, страницы содержат <fix1> , который\nявляется фактическим именем страницы и <fix2> , который содержит\nимя пути игнорируя <fix3>.",
+    "description": "Paragraph in 'site.queryPages' section\n<fix> placeholders:\n<fix1> - <code>pathname<\/code>\n<fix2> - <code>originalPathname<\/code>\n<fix3> - <code>permalink<\/code>\n"
   }
 }

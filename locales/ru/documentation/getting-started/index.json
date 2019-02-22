@@ -11,9 +11,21 @@
     "message": "Что такое <fix1>?",
     "description": "Page heading\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
+  "what-is-cmints-p": {
+    "message": "<fix1> - это CMS и статический контент-генератор, для создания одноязычных и многоязычных сайтов. <fix1> довольно\nпростой в установке, он имеет лишь несколько требований.",
+    "description": "Paragraph in 'What is CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
+  },
+  "what-is-cmints-p3": {
+    "message": "<strong>Примечание:<\/strong> если вы хотите публиковать ваш первый проект без глобальной инсталяции <fix1>, прочтите <a1>про быстрый старт<\/a1>.",
+    "description": "Paragraph in 'What is CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>Quick Start<\/a1> - <a href=\"\/quick-start\">Quick Start<\/a>\n"
+  },
   "install-cmints": {
     "message": "Установка CMintS",
     "description": "Page heading\n"
+  },
+  "install-cmints-p1": {
+    "message": "Установка CMintS довольно проста, убедитесь, что у вас установлен <fix1> и запустите команду ниже:",
+    "description": "Paragraph in 'Install CMintS' section\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/nodejs.org\/en\/download\/\" target=\"_blank\" rel=\"noopener\">Node.js\n"
   },
   "example-project": {
     "message": "Пример проекта",
@@ -23,9 +35,57 @@
     "message": "Для того чтобы быстрее освоится рекомендуется создать пример проекта, запустив:",
     "description": "Paragraph in 'Example projects' section\n"
   },
+  "example-project-comment1": {
+    "message": "Генерация одноязычного проекта",
+    "description": "Comment in 'Example projects' section's code block\n"
+  },
+  "example-project-comment2": {
+    "message": "Генерация многоязычного проекта",
+    "description": "Comment in 'Example projects' section's code block\n"
+  },
+  "example-project-comment3": {
+    "message": "Генерирует многоязыковый проект в каталоге &#123;PATH&#125;.",
+    "description": "Comment in 'Example projects' section's code block\n"
+  },
   "start-server": {
     "message": "Запустить сервер",
     "description": "Page heading\n"
+  },
+  "start-server-production": {
+    "message": "Для производства:",
+    "description": "Page heading\n"
+  },
+  "production-server-comment1": {
+    "message": "Запустить http сервер, обслуживающий текущую папку",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment2": {
+    "message": "Заменить опциональное &#123;PATH&#125; путём к папке, которую вы хотите использовать.",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment3": {
+    "message": "https-сервер: Заменить &#123;PATH&#125; путём к папке, которую вы хотите обслуживать",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment4": {
+    "message": "Замените &#123;PRIVATE_KEY&#125; путём к файлу закрытого ключа(private key)",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment5": {
+    "message": "Замените &#123;CERTIFICATE&#125; на путь к файлу сертификата",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "start-server-development": {
+    "message": "Для разработки:",
+    "description": "Page heading\n"
+  },
+  "development-server-commen1": {
+    "message": "Запустите http-сервер, обслуживающий текущую папку, используйте --no-cache чтобы отключить кэширование",
+    "description": "Comment in 'For development' section's code block\n"
+  },
+  "development-server-commen2": {
+    "message": "Заменить опциональный параметр &#123;PATH&#125; путём папки, которую вы хотите использовать",
+    "description": "Comment in 'For development' section's code block\n"
   },
   "generate-static-content": {
     "message": "Создание статического содержимого",
@@ -34,5 +94,13 @@
   "generate-static-content-p": {
     "message": "Выполните команды ниже для создания статического содержимого",
     "description": "Paragraph in 'Generating static content' section\n"
+  },
+  "static-content-generation-comment1": {
+    "message": "Генерировать статический контент текущего каталога",
+    "description": "Comment in 'Generating static content' section's code block\n"
+  },
+  "static-content-generation-comment2": {
+    "message": "Заменить опциональное &#123;PATH&#125; путё к проекту для генерации контента",
+    "description": "Comment in 'Generating static content' section's code block\n"
   }
 }

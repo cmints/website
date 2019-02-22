@@ -1,3 +1,22 @@
 {
-
+  "title": {
+    "message": "Модули JavaScript",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Создать функционал темы <fix1> с помощью модулей в стиле модулей Node.js и добавить скомпилированные файлы прямо в макет.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "js-modules-p1": {
+    "message": "<fix1> использует <a1>Модули в стиле Node.js<\/a1> и помогает создать модуляризированный функционал для темы. Все это делается с помощью <a1>просмотров<\/a1>",
+    "description": "Paragraph in 'JavaScript Modules' page\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>Node.js-style modules<\/a1> - <a href=\"https:\/\/nodejs.org\/api\/modules.html\">Node.js-style modules<\/a>\n<a2>browserify<\/a2> - <a href=\"http:\/\/browserify.org\/\">browserify<\/a>\n"
+  },
+  "js-modules-p2": {
+    "message": "Файлы JavaScript, размещенные в файле <fix1> и не начинаются с <code>_<\/code>, например.: <fix2> компилируются папку <fix3>.",
+    "description": "Paragraph in 'JavaScript Modules' page\n<fix> placeholders:\n<fix1> - <code>theme\/js<\/code>\n<fix2> - <code>_contextMenu.js<\/code>\n<fix3> - <code>public\/js<\/code>\n"
+  },
+  "js-modules-p5": {
+    "message": "Пример выше будет скомпилирован в <fix1> и можно включить в макет темы:",
+    "description": "Paragraph in 'JavaScript Modules' page\n<fix> placeholders:\n<fix1> - <code>public\/js\/main.js<\/code>\n"
+  }
 }

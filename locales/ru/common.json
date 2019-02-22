@@ -6,5 +6,29 @@
   "footer-license-text": {
     "description": "License text in the Footer",
     "message": "Контент сайта лицензировано под"
+  },
+  "consider": {
+    "description": "Consideration note usually used before code snippets",
+    "message": "Рассмотрим:"
+  },
+  "and": {
+    "description": "Consideration note usually used before code snippets",
+    "message": "И:"
+  },
+  "or": {
+    "description": "Consideration note usually used before code snippets",
+    "message": "Или:"
+  },
+  "learn-more": {
+    "description": "Links to a specific resource",
+    "message": "Подробнее"
+  },
+  "step": {
+    "description": "Steps usually used as a tutorial steps, like Step 1, Step 2 and etc..",
+    "message": "Шаг"
+  },
+  "default": {
+    "description": "Usually describes the default value for example of configuration",
+    "message": "По умолчанию"
   }
 }

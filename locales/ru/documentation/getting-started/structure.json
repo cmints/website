@@ -6,5 +6,29 @@
   "description": {
     "message": "Структура проекта, узнать, как организовать ваш проект и название каталога",
     "description": "Page description\n"
+  },
+  "project-structure-p": {
+    "message": "<fix1> являются главными каталогами проекта:",
+    "description": "Paragraph in 'Project structure' section\n<fix> placeholders:\n<fix1> - <a href=\"#public\">public\n<a> placeholders:\n<a1>locales<\/a1> - <a href=\"#locales\">locales<\/a>\n<a2>pages<\/a2> - <a href=\"#pages\">pages<\/a>\n<a3>theme<\/a3> - <a href=\"#theme\">theme<\/a>\n"
+  },
+  "project-dirs": {
+    "message": "Каталоги проекта",
+    "description": "Page heading\n"
+  },
+  "public-p": {
+    "message": "Директория для статических файлов веб-сайта (<fix1> и т.д.). Содержимое этой папки будет скопировано в каталог<fix2> \nво время <a href=\"\/documentation#generate-static-content\">генерации статического контента<\/a>.",
+    "description": "Paragraph in 'public' section\n<fix> placeholders:\n<fix1> - CSS, JavaScript, favicon, robots.txt\n<fix2> - <em>content<\/em>\n<a> placeholders:\n<a1>generating static content<\/a1> - <a href=\"\/documentation#generate-static-content\">generating static content<\/a>\n"
+  },
+  "locales-p": {
+    "message": "Папка <fix1> содержит переводы в файлах <fix1>, которые\nсодержат строки перевода для многоязычных проектов.",
+    "description": "Paragraph in 'locales' section\n<fix> placeholders:\n<fix1> - locales\n<fix2> - <code>.json<\/code>\n"
+  },
+  "pages-p": {
+    "message": "Содержание страниц сайта идет сюда, и структура отражает путь к странице, странницы <code>index<\/code> указывают на текущий каталог.",
+    "description": "Paragraph in 'pages' section\n"
+  },
+  "theme-p2": {
+    "message": "Тема проекта, основные папки являются <fix1> где находятся макеты проекта, <fix2> который использует <fix3> для <\/fix4> модуляризации и <fix5>, которая содержит препроцессор CSS-а, которые компилируются в\nпапку <fix6>:",
+    "description": "Paragraph in 'theme' section\n<fix> placeholders:\n<fix1> - <code>layouts<\/code>\n<fix2> - <code>js<\/code>\n<fix3> - browserify\n<fix4> - JavaScript\n<fix5> - <code>less<\/code>\n<fix6> - <code>public\/css<\/code>\n"
   }
 }

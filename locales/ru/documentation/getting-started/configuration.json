@@ -51,6 +51,18 @@
     "message": "Идентификатор проекта <fix1>. <a1>Узнайте\nПодробнее про идентификатор crowdin.id<\/a1>",
     "description": "Paragraph in 'crowdin.id' section\n<fix> placeholders:\n<fix1> - Crowdin\n<a> placeholders:\n<a1>Learn More about <fix>crowdin.id<\/a1> - <a href=\"\/documentation\/i18n\/crowdin\">Learn More about <fix>crowdin.id<\/a>\n"
   },
+  "updateOption-li1": {
+    "message": "Сохранить переводы с отменой их утверждений.",
+    "description": "List item in 'crowdin.updateOption' section\n"
+  },
+  "updateOption-li2": {
+    "message": "Сохранить переводы с и их утверждения.",
+    "description": "List item in 'crowdin.updateOption' section\n"
+  },
+  "updateOption-li3": {
+    "message": "переводы измененных строк будут утеряны.",
+    "description": "List item in 'crowdin.updateOption' section\n"
+  },
   "prefix-postfix-p1": {
     "message": "Используется для настройки пользовательского префикса и постфикса для строк интернационализации. <a1>Подробнее о пользовательском префиксе и постфиксе<\/a>.",
     "description": "Paragraph in 'prefix, postfix' section\n"

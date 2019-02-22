@@ -1,4 +1,8 @@
 {
+  "title": {
+    "message": "Crowdin",
+    "description": "Page title\n"
+  },
   "description": {
     "message": "Интеграция проект с <fix1>. <fix1> синхронизация скриптов и как просить установки открытым исходным кодом бесплатно.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - Crowdin\n<fix2> - Crowdin\n"
@@ -14,6 +18,10 @@
   "setting-up-p": {
     "message": "Прежде всего для того, чтобы иметь возможность использовать Crowdin <a1>следует создать аккаунт<\/a1>. Если вы разрабатываете проект с открытым кодом вы можете запросить <a2>бесплатную квоту<\/a2>. В остальных случаях вы будете иметь испытательный срок, чтобы попробовать его. После того, как аккаунт будет готов, вы можете<a3>создать Crowdin проект<\/a3>.",
     "description": "Paragraph in 'Setting up' section\n<fix> placeholders:\n<fix1> - Crowdin\n<a> placeholders:\n<a1>create an account<\/a1> - <a href=\"https:\/\/crowdin.com\/join\">create an account<\/a>\n<a2>Open Source setup<\/a2> - <a href=\"https:\/\/crowdin.com\/page\/open-source-project-setup-request\">Open Source setup<\/a>\n<a3>create a project<\/a3> - <a href=\"https:\/\/support.crowdin.com\/creating-project\">create a project<\/a>\n"
+  },
+  "setting-up-p2": {
+    "message": "После того, как проект готов, вам нужно добавить идентификатор проекта Crowdin в параметры i18n\nв <fix1>. Убедитесь, что у вас также установлен главный язык(<fix2>):",
+    "description": "Paragraph in 'Setting up' section\n<fix> placeholders:\n<fix1> - <code>config.js<\/code>\n<fix2> - <code>defaultLocale<\/code>\n"
   },
   "upload-source-strings": {
     "message": "Загрузка исходных строк перевода",
@@ -50,5 +58,13 @@
   "upload-translation-p": {
     "message": "Используйте команду ниже, чтобы обновить проект crowdin с помощью локального\nперевода:",
     "description": "Paragraph in 'Upload translations' section\n<fix> placeholders:\n<fix1> - Crowdin\n"
+  },
+  "env-variables": {
+    "message": "Использование переменных environment",
+    "description": "Page heading\n"
+  },
+  "env-variables-p": {
+    "message": "Если переменные environment <code>CROWDIN_KEY<\/code> установлен, не нужно использовать <code>--key<\/code>\nаргумент, вы можете переводить, как показано ниже:",
+    "description": "Paragraph in 'Using environment variables' section\n"
   }
 }

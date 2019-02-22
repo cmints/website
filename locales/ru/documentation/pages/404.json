@@ -1,3 +1,18 @@
 {
-
+  "title": {
+    "message": "Страница ошибки 404",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Создание пользовательских страницы ошибки <fix>404<\/fix> для не сушествующих странниц.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - 404\n"
+  },
+  "404-p1": {
+    "message": "Чтобы добавить <fix>404<\/fix> страницу для вашего веб-сайта, просто создайте один из\nфайла указаных ниже в верхнем уровне каталога <a1>pages<\/a1>:",
+    "description": "Paragraph in '404 page' section\n<fix> placeholders:\n<fix1> - 404\n"
+  },
+  "404-p2": {
+    "message": "Например, страница ошибки для 404.md может иметь содержимое, как ниже:",
+    "description": "Paragraph in '404 page' section\n"
+  }
 }

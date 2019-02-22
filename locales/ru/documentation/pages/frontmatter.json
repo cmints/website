@@ -1,4 +1,8 @@
 {
+  "title": {
+    "message": "Front Matter",
+    "description": "Page title\n"
+  },
   "description": {
     "message": "Front Matter - мощный инструмент, который позволяет страницам определять метаданные в формате <fix1>.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - YAML\n"

@@ -18,5 +18,9 @@
   "less-p": {
     "message": "<fix1> files inside of the &quot;less&quot; directory are being processed into the &quot;public\/css&quot;\ndirectory, only filenames starting with &quot;_&quot; are not compiled into the target\ndirectory, but yet they can be used by other less files.",
     "description": "Paragraph in 'less' section\n<fix> placeholders:\n<fix1> - <code>.less<\/code>\n"
+  },
+  "js-p": {
+    "message": "<fix1> файлы внутри каталога <fix2> являются <a href=\"https:\/\/nodejs.org\/api\/modules.html\">Модулями похожие на Node.js модули<\/a> , которые позволяют сделать функциональность темы модуляризированным. <a1>Узнайте больше о папке js<\/a1>.",
+    "description": "Paragraph in 'js' section\n<fix> placeholders:\n<fix1> - <code>.js<\/code>\n<fix2> - js\n<a> placeholders:\n<a1>Node.js-style modules<\/a1> - <a href=\"https:\/\/nodejs.org\/api\/modules.html\">Node.js-style modules<\/a>\n<a2>Learn more about js folder<\/a2> - <a href=\"https:\/\/cmints.io\/en\/documentation\/themes\/js-modules\">Learn more about js folder<\/a>\n"
   }
 }

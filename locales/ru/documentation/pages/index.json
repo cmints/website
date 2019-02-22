@@ -6,5 +6,41 @@
   "description": {
     "message": "Узнайте о структуре страниц и о том, как создавать страницы в <fix1> с помощью <fix2>, <fix3> и <fix4>.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - Markdown\n<fix3> - ejs\n<fix4> - HTML\n"
+  },
+  "pages-p": {
+    "message": "Содержание веб-сайта находится  в директории <fix1>. Страницы могут быть\nнаписаны в <fix2>, <fix3> или <fix4>. Структура папок внутри каталога pages\nотражает фактический путь запроса страницы (за исключением когда\nуказан <a1>permalink<\/a>), что означает, учитывая структуру ниже:",
+    "description": "Paragraph in 'Pages' section\n<fix> placeholders:\n<fix1> - <strong>pages<\/strong>\n<fix2> - <a href=\"#markdown\">Markdown\n<fix3> - <a href=\"#ejs\">EJS\n<fix4> - <a href=\"#html\">HTML\n<a> placeholders:\n<a1>permalink<\/a1> - <a href=\"\/documentation\/pages\/frontmatter#permalinks\">permalink<\/a>\n"
+  },
+  "pages-p2": {
+    "message": "Когда <a1>сервер запусшен<\/a> страницы могут быть доступны адресом ниже:",
+    "description": "Paragraph in 'Pages' section\n<a> placeholders:\n<a1>the server is running<\/a1> - <a href=\"\/documentation#start-server\">the server is running<\/a>\n"
+  },
+  "front-matter-p1": {
+    "message": "<a1>Front Matter<\/a> помогает легко определить метадаты(например: название страницы, описание и тд.) для страницы, например:",
+    "description": "Paragraph in 'Front Matter' section\n<a> placeholders:\n<a1>Front Matter<\/a1> - <a href=\"\/documentation\/pages\/frontmatter\">Front Matter<\/a>\n"
+  },
+  "types": {
+    "message": "Типы страниц",
+    "description": "Page heading\n"
+  },
+  "page-type-p": {
+    "message": "Пока что CMintS поддерживает 3 вида страниц:",
+    "description": "Paragraph in 'Page types' section\n"
+  },
+  "markdown-p": {
+    "message": "Чтобы писать содержимое страницы используя Markdown, просто используйте <fix1>\nкак расширение к файлу. <fix2> использует <a1>CommonMark<\/a1> для создания\nMarkdown страниц:",
+    "description": "Paragraph in 'Markdown' section\n<fix> placeholders:\n<fix1> - <code>.md<\/code>\n<fix2> - CMintS\n<fix3> - Markdown\n"
+  },
+  "ejs-p": {
+    "message": "<fix1> — это язык шаблонов и может быть использован для более сложных страниц.\nдля того чтобы создать их просто создайте файл с расширением <fix2>.\n<fix3> страницы могут также получить доступ к <a1>метаданным<\/a1> страницы и\n<a2>к помошникам<\/a2>.",
+    "description": "Paragraph in 'ejs' section\n<fix> placeholders:\n<fix1> - ejs\n<fix2> - <code>.ejs<\/code>\n<fix3> - ejs\n<a> placeholders:\n<a1>metadata<\/a1> - <a href=\"\/documentation\/pages\/frontmatter\">metadata<\/a>\n<a2>website helpers<\/a2> - <a href=\"\/documentation\/themes\/ejs#helpers\">website helpers<\/a>\n"
+  },
+  "html-p": {
+    "message": "Используйте расширение <fix1> для записи содержимого страницы в <fix2>.",
+    "description": "Paragraph in 'HTML' section\n<fix> placeholders:\n<fix1> - <code>.html<\/code>\n<fix2> - HTML\n"
+  },
+  "draft-pages": {
+    "message": "Черновики",
+    "description": "Page heading\n"
   }
 }

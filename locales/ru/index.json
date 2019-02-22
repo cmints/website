@@ -3,6 +3,14 @@
     "message": "CMS, созданная с учетом интернационализации",
     "description": "Page title\n"
   },
+  "description": {
+    "message": "<fix1> это CMS и генератор статического контента для создания одноязычных и многоязычных сайтов. Всесторонная имплементация для многоязычных сайтов, Создавайте сайты используя <fix2> шаблонизатор, <fix3> и <fix4> и также используя интеграцию с TMS прямо из коробки.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - EJS\n<fix3> - LESS\n<fix4> - Markdown\n"
+  },
+  "i18n-in-mind": {
+    "message": "CMS и статический контент-генератор, для создания одноязычных и многоязычных сайтов.",
+    "description": "Main text\n"
+  },
   "get-started": {
     "message": "Начало",
     "description": "Main button text\n"
@@ -11,17 +19,41 @@
     "message": "Возможности",
     "description": "Features header\n"
   },
+  "i18n": {
+    "message": "Многоязычность",
+    "description": "Feature header\n"
+  },
   "i18n-msg": {
     "message": "Исчерпывающая интернационализация, прямо из коробки",
     "description": "\"i18n\" feature text\n"
+  },
+  "learn-more-i18n": {
+    "message": "Узнайте о i18n",
+    "description": "Feature button text\n"
+  },
+  "markdown": {
+    "message": "Markdown",
+    "description": "Feature header\n"
   },
   "markdown-msg": {
     "message": "Получите CommonMark из коробки, чтобы быстрее создавать контент.",
     "description": "\"Markdown\" feature text\n"
   },
+  "learn-more-md": {
+    "message": "Узнайте о страницах",
+    "description": "Feature button text\n"
+  },
   "theme": {
     "message": "Тема",
     "description": "Feature header\n"
+  },
+  "theme-msg": {
+    "message": "Создавайте темы с помощью EJS, LESS и JS модулей.",
+    "description": "\"Theme\" feature text\n"
+  },
+  "learn-more-theme": {
+    "message": "Узнайте о темах",
+    "description": "Feature button text\n"
   },
   "tms": {
     "message": "Интеграция с TMS",
@@ -30,5 +62,9 @@
   "tms-msg": {
     "message": "API для интеграции вашего проекта с Crowdin",
     "description": "\"TMS integration\" feature text\n"
+  },
+  "learn-more-tms": {
+    "message": "Узнайте о TMS",
+    "description": "Feature button text\n"
   }
 }
