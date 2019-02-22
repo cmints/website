@@ -26,7 +26,7 @@ const i18nOptions = {
   defaultLocale: "en",
   crowdin: {
     id: "cmints-website",
-    updateOption: "update_without_changes"
+    updateOption: "update_as_unapproved"
   }
 };
 

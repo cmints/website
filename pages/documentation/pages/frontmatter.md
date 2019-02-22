@@ -48,7 +48,7 @@ You can now use page metadata to adjust theme and page accordingly:
 {permalink-p[Paragraph in 'permalinks' section]
 Permalink variable can be used to change the URL of the page, the permalink
 path will be used to access the page even if you move it's the location in the
-`pages` directory.
+<fix>`pages`</fix> directory.
 }
 
 ```yaml
@@ -61,7 +61,7 @@ My first post
 ```
 
 {permalink-p2[Paragraph in 'permalinks' section]
-The page in the example above will be accessible through 
-`2018/10/20/first-post` url. If the page is translated leading locale will be
-used, ex.: `de/2018/10/20/first-post`.
+The page in the example above will be accessible through
+<fix>`2018/10/20/first-post`</fix> url. If the page is translated leading locale
+will be used, ex.: <fix>`de/2018/10/20/first-post`</fix>.
 }
