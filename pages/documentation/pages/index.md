@@ -159,8 +159,8 @@ description: Markdown is a lightweight markup language with plain text formattin
 
 {draft-pages-p[Paragraph in 'Draft pages' section]
 All page names starting with <fix>`_`</fix> are draft pages, those are only
-visible or generated only when `--draft` flag is passed to the server, build or
-deploy script. Those page will not be accessible otherwise, so you can make a
-use of those pages and keep them hidden in the production, while you and your
-team can continue working on it.
+visible or generated only when <fix>`--draft`</fix> flag is passed to the
+server, build or deploy script. Those page will not be accessible otherwise, so
+you can make a use of those pages and keep them hidden in the production, while
+you and your team can continue working on it.
 }
