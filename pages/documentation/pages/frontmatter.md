@@ -63,5 +63,5 @@ My first post
 {permalink-p2[Paragraph in 'permalinks' section]
 The page in the example above will be accessible through
 <fix>`2018/10/20/first-post`</fix> url. If the page is translated leading locale
-will be used, ex.: <fix>`de/2018/10/20/first-post`</fix>.
+can be used, ex.: <fix>`de/2018/10/20/first-post`</fix>.
 }
