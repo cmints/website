@@ -54,8 +54,16 @@ cmints {PATH} --example
 ```
 
 {example-project-p2[Paragraph in 'Example projects' section]
-The example project is the content of current website, which can also be found
-in the <a href="https://github.com/cmints/website" target="_blank" rel="noopener">github</a>.
+You can find content of the example projects below:
+}
+
+- {example-project-li1[List item in 'Example projects' section]
+  Single language - [GitHub](https://github.com/cmints/single-lang-starter),
+  [Online](https://single.cmints.io/).
+}
+- {example-project-li2[List item in 'Example projects' section]
+  Multi language - [GitHub](https://github.com/cmints/multi-lang-starter),
+  [Online](https://multi.cmints.io/).
 }
 
 ### {start-server[Page heading] Starting server}
