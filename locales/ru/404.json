@@ -2,5 +2,9 @@
   "title": {
     "message": "Ошибка 404",
     "description": "Page title\n"
+  },
+  "description": {
+    "message": "Ошибка 404",
+    "description": "Page description\n"
   }
 }

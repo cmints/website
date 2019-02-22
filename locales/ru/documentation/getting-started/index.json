@@ -47,6 +47,18 @@
     "message": "Генерирует многоязыковый проект в каталоге &#123;PATH&#125;.",
     "description": "Comment in 'Example projects' section's code block\n"
   },
+  "example-project-p2": {
+    "message": "Вы можете найти содержание примеров проекта ниже:",
+    "description": "Paragraph in 'Example projects' section\n"
+  },
+  "example-project-li1": {
+    "message": "Одноязычный - <a1>Гитхаб<\/a1>, <a2>Онлайн<\/a2>",
+    "description": "List item in 'Example projects' section\n<a> placeholders:\n<a1>GitHub<\/a1> - <a href=\"https:\/\/github.com\/cmints\/single-lang-starter\">GitHub<\/a>\n<a2>Online<\/a2> - <a href=\"https:\/\/single.cmints.io\/\">Online<\/a>\n"
+  },
+  "example-project-li2": {
+    "message": "Многоязычный - <a1>Гитхаб<\/a1>, <a2>Онлайн<\/a2>",
+    "description": "List item in 'Example projects' section\n<a> placeholders:\n<a1>GitHub<\/a1> - <a href=\"https:\/\/github.com\/cmints\/multi-lang-starter\">GitHub<\/a>\n<a2>Online<\/a2> - <a href=\"https:\/\/multi.cmints.io\/\">Online<\/a>\n"
+  },
   "start-server": {
     "message": "Запустить сервер",
     "description": "Page heading\n"

@@ -107,6 +107,14 @@
     "message": "Массив",
     "description": "Helper type\n"
   },
+  "helper-desc-locales": {
+    "message": "Другие локали, в которых доступна текущая страница",
+    "description": "Helper description\n"
+  },
+  "helper-desc-urlLocale": {
+    "message": "Локаль, как это указано в URL.",
+    "description": "Helper description\n"
+  },
   "helper-type-obj": {
     "message": "Объект",
     "description": "Helper type\n"
@@ -123,9 +131,33 @@
     "message": "Получить доступные локали для определенной страницы",
     "description": "Helper description\n"
   },
+  "helper-desc-href": {
+    "message": "Сгенерировать <fix1> и <fix2> для пути. Проверяет, переведён ли путь на язык странницы, если нет то используется язык по умолчанию.",
+    "description": "Helper description\n<fix> placeholders:\n<fix1> - href\n<fix2> - hreflang\n"
+  },
+  "helper-desc-query-pages": {
+    "message": "Запрос массива метаданных объектов страниц.",
+    "description": "Helper description\n"
+  },
+  "page-urlLocale-p1": {
+    "message": "С учетом структуры URL выше, иногда вам может понадобится скрипт перенаправления\nна страницах которые не имеют локали в URL, что в этом случает\nявляется <fix1>, в таких случаях текущий помощник может пригодиться, на например:",
+    "description": "Paragraph in 'page.urlLocale' section\n<fix> placeholders:\n<fix1> - <code>https:\/\/example.com\/about<\/code>\n"
+  },
+  "toc-p": {
+    "message": "Объект <fix1> может быть использован в \".ejs\" для создания таблицы контента.\nОбъект является деревом, в котором каждый узел соответствует заголовку markdown, каждый узел состоит из идентификатора и заголовка. Если узел содержит потомков, то все дочерние узлы могут быть доступны через свойство <fix1>:",
+    "description": "Paragraph in 'Table Of Content' section\n<fix> placeholders:\n<fix1> - <code>page.markdown.toc<\/code>\n<fix2> - <code>children<\/code>\n"
+  },
   "toc-p2": {
     "message": "Итак, чтобы построить таблицу содержимого из этой переменной, фрагмент EJS\nможет использоваться как ниже:",
     "description": "Paragraph in 'Table Of Content' section\n<fix> placeholders:\n<fix1> - <code>.ejs<\/code>\n"
+  },
+  "toc-p3": {
+    "message": "Учитывая приведенный выше пример, таблица контента может быть сгенерировано просто запросив\n<fix1> файл используя переменную <fix1>, пример:",
+    "description": "Paragraph in 'Table Of Content' section\n<fix> placeholders:\n<fix1> - <code>.ejs<\/code>\n<fix2> - <code>page.markdown.toc<\/code>\n"
+  },
+  "get-started": {
+    "message": "Начало",
+    "description": "Main button text\n"
   },
   "queryPages-p1": {
     "message": "Помимо метаданных Front Matter, страницы содержат <fix1> , который\nявляется фактическим именем страницы и <fix2> , который содержит\nимя пути игнорируя <fix3>.",

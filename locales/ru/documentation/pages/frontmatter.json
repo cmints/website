@@ -14,5 +14,13 @@
   "front-matter-p2": {
     "message": "Теперь вы можете использовать метаданные страницы для настройки темы:",
     "description": "Paragraph in 'Front Matter' section\n"
+  },
+  "permalink-p": {
+    "message": "Переменная permalink может быть использована для изменения URL страницы, путь permalink\nбудет использован для доступа к странице, даже если вы переместите его в другую папку.",
+    "description": "Paragraph in 'permalinks' section\n<fix> placeholders:\n<fix1> - <code>pages<\/code>\n"
+  },
+  "permalink-p2": {
+    "message": "Страница в примере выше будет доступна через адрес\n<fix1>. Если страница переведена тогда лидирующий локаль языка\nможет быть использован, например: <fix2>.",
+    "description": "Paragraph in 'permalinks' section\n<fix> placeholders:\n<fix1> - <code>2018\/10\/20\/first-post<\/code>\n<fix2> - <code>de\/2018\/10\/20\/first-post<\/code>\n"
   }
 }

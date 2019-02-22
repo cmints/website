@@ -7,9 +7,17 @@
     "message": "Используйте <fix1> для создания модульного <fix2> с меньшим количеством кода для тем <fix3>.",
     "description": "Page description\n<fix> placeholders:\n<fix1> - LESS\n<fix2> - CSS\n<fix3> - CMintS\n"
   },
+  "less-p": {
+    "message": "LESS это динамический язык стилей. Это довольно просто писать LESS потому что он похож на CSS.\nзаписи меньше файлов, потому что он выглядит так же, как CSS. Файлы Less расположены в папке\n<fix1> папки и все файлы LESS, которые не начинаются на <fix2>(на пример: <fix3>) компилируются в директорию <fix4>\nс расширением <fix5>.",
+    "description": "Paragraph in 'less' section\n<fix> placeholders:\n<fix1> - <code>theme\/less<\/code>\n<fix2> - <code>_<\/code>\n<fix3> - <code>_variables.less<\/code>\n<fix4> - <code>public\/css<\/code>\n<fix5> - <code>.css<\/code>\n"
+  },
   "less-p4": {
     "message": "Получится:",
     "description": "Paragraph in 'less' section\n"
+  },
+  "less-p5": {
+    "message": "<strong>Примечание:<\/strong> файл <fix1> не генерируется так как файл начинается с <fix2>.",
+    "description": "Paragraph in 'less' section\n<fix> placeholders:\n<fix1> - <code>public\/_variables.css<\/code>\n<fix2> - <code>_<\/code>\n"
   },
   "less-p6": {
     "message": "Чтобы узнать больше о LESS, посетите <a1>http:\/\/lesscss.org\/<\/a1>.",
