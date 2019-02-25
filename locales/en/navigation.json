@@ -11,6 +11,10 @@
     "description": "Main Navigation text in the header",
     "message": "Slides"
   },
+  "header-menu-item-tutorial": {
+    "description": "Main Navigation text in the header",
+    "message": "Tutorial"
+  },
   "nav-doc-title-getting-started": {
     "description": "Documentation sidebar text",
     "message": "Getting Started"

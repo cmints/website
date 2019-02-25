@@ -76,13 +76,13 @@ const templateData =
         stringId: "header-menu-item-docs"
       },
       {
+        path: "quick-start",
+        stringId: "header-menu-item-tutorial"
+      },
+      {
         path: "contribute",
         contains: "contribute",
         stringId: "header-menu-item-contribute"
-      },
-      {
-        path: "presentation",
-        stringId: "header-menu-item-slides"
       }
     ],
     secondaryNavigations: {
