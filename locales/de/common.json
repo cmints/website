@@ -1,3 +1,22 @@
 {
-
+  "and": {
+    "description": "Consideration note usually used before code snippets",
+    "message": "Und:"
+  },
+  "or": {
+    "description": "Consideration note usually used before code snippets",
+    "message": "Oder:"
+  },
+  "learn-more": {
+    "description": "Links to a specific resource",
+    "message": "Weitere Informationen"
+  },
+  "step": {
+    "description": "Steps usually used as a tutorial steps, like Step 1, Step 2 and etc..",
+    "message": "Schritt"
+  },
+  "default": {
+    "description": "Usually describes the default value for example of configuration",
+    "message": "Standard"
+  }
 }

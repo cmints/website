@@ -1,3 +1,14 @@
 {
-
+  "helper-tbl-heading3": {
+    "message": "Beschreibung",
+    "description": "Helper Table Heading\n"
+  },
+  "helper-type-obj": {
+    "message": "Objekt",
+    "description": "Helper type\n"
+  },
+  "helper-type-func": {
+    "message": "Funktion",
+    "description": "Helper type\n"
+  }
 }

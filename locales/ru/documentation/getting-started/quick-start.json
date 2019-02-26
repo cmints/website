@@ -8,7 +8,7 @@
     "description": "Page description\n"
   },
   "github-account": {
-    "message": "Если у вас есть аккаунт <a1>Github<\/a1>.",
+    "message": "Предполагается что у вас есть аккаунт <a1>Github<\/a1>.",
     "description": "\n<a> placeholders:\n<a1>Github Account<\/a1> - <a href=\"https:\/\/github.com\/\">Github Account<\/a>\n"
   },
   "step1": {
@@ -16,7 +16,7 @@
     "description": "Step\n<a> placeholders:\n<a1>Install NodeJS<\/a1> - <a href=\"https:\/\/nodejs.org\/en\/\">Install NodeJS<\/a>\n"
   },
   "step2": {
-    "message": "Forkните один из репозиторий ниже",
+    "message": "Создайте \"Fork\" одного из репозиторий ниже",
     "description": "Step\n"
   },
   "step2-1": {

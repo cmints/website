@@ -155,10 +155,6 @@
     "message": "Учитывая приведенный выше пример, таблица контента может быть сгенерировано просто запросив\n<fix1> файл используя переменную <fix1>, пример:",
     "description": "Paragraph in 'Table Of Content' section\n<fix> placeholders:\n<fix1> - <code>.ejs<\/code>\n<fix2> - <code>page.markdown.toc<\/code>\n"
   },
-  "get-started": {
-    "message": "Начало",
-    "description": "Main button text\n"
-  },
   "queryPages-p1": {
     "message": "Помимо метаданных Front Matter, страницы содержат <fix1> , который\nявляется фактическим именем страницы и <fix2> , который содержит\nимя пути игнорируя <fix3>.",
     "description": "Paragraph in 'site.queryPages' section\n<fix> placeholders:\n<fix1> - <code>pathname<\/code>\n<fix2> - <code>originalPathname<\/code>\n<fix3> - <code>permalink<\/code>\n"
