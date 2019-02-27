@@ -1,3 +1,70 @@
 {
-
+  "title": {
+    "message": "CMS wurde mit der Internationaliersierung im Hinterkopf erstellt",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "<fix1> ist ein CMS und Statischer Seiten Generator für die einzel und mehrsprachige Blogs und Websiten Erstellung. Umfassende i18n Integration, erstelle Themen mit der <fix2> Vorlagenmaschine und mit <fix3>, schreibe Inhalt mit <fix4> und bekomme betriebsfertige TMS Integration.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - EJS\n<fix3> - LESS\n<fix4> - Markdown\n"
+  },
+  "i18n-in-mind": {
+    "message": "CMS und Statisticher Seiten Generator für das erstellen von einzel und mehrsprachigen Websiten",
+    "description": "Main text\n"
+  },
+  "get-started": {
+    "message": "Jetzt starten",
+    "description": "Main button text\n"
+  },
+  "features": {
+    "message": "Funktionen",
+    "description": "Features header\n"
+  },
+  "i18n": {
+    "message": "i18n",
+    "description": "Feature header\n"
+  },
+  "i18n-msg": {
+    "message": "Umfassende betriebsfertige Internationalisierung.",
+    "description": "\"i18n\" feature text\n"
+  },
+  "learn-more-i18n": {
+    "message": "Wissenswertes über i18n",
+    "description": "Feature button text\n"
+  },
+  "markdown": {
+    "message": "Herabsetzung",
+    "description": "Feature header\n"
+  },
+  "markdown-msg": {
+    "message": "Holen sie sich CommonMark um schneller betriebfertigen Inhalt zu erstellen.",
+    "description": "\"Markdown\" feature text\n"
+  },
+  "learn-more-md": {
+    "message": "Wissenswertes über Seiten",
+    "description": "Feature button text\n"
+  },
+  "theme": {
+    "message": "Design",
+    "description": "Feature header\n"
+  },
+  "theme-msg": {
+    "message": "Starte das Themen erstellen mit EJS, LESS und JS Modulen.",
+    "description": "\"Theme\" feature text\n"
+  },
+  "learn-more-theme": {
+    "message": "Wissenswertes übers Thema",
+    "description": "Feature button text\n"
+  },
+  "tms": {
+    "message": "TMS-Integration",
+    "description": "Feature header\n"
+  },
+  "tms-msg": {
+    "message": "Handy API um ihr Projekt mit Crowdin zu interagrieren lassen.",
+    "description": "\"TMS integration\" feature text\n"
+  },
+  "learn-more-tms": {
+    "message": "Wissenswertes übers TMS",
+    "description": "Feature button text\n"
+  }
 }

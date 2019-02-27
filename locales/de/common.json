@@ -1,4 +1,16 @@
 {
+  "toc-sidebar-header": {
+    "description": "Sidebar widget header",
+    "message": "Inhaltsverzeichnis"
+  },
+  "footer-license-text": {
+    "description": "License text in the Footer",
+    "message": "Der Websiten Inhalt ist lizensiert unter"
+  },
+  "consider": {
+    "description": "Consideration note usually used before code snippets",
+    "message": "Bedenke:"
+  },
   "and": {
     "description": "Consideration note usually used before code snippets",
     "message": "Und:"

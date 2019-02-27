@@ -1,3 +1,110 @@
 {
-
+  "me-i18n": {
+    "message": "Ich und i18n",
+    "description": "\"Me + i18n\" slide title\n"
+  },
+  "me-i18n-li3": {
+    "message": "Google Chrome Erweiterungen",
+    "description": "point in \"Me + i18n\" slide\n"
+  },
+  "date": {
+    "message": "Datum",
+    "description": "Slide title\n"
+  },
+  "date-p1": {
+    "message": "Datum: <fix><a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018<\/a><\/fix>",
+    "description": "Point in \"Date\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018\n"
+  },
+  "decimal-sep": {
+    "message": "Dezimaltrennzeichen",
+    "description": "Slide title\n"
+  },
+  "decimal-sep-p1": {
+    "message": "Nummer: <fix>1234567.89<\/fix>",
+    "description": "Point in \"Decimal separators\" slide\n<fix> placeholders:\n<fix1> - 1234567.89\n"
+  },
+  "order": {
+    "message": "Auftrag",
+    "description": "Slide title\n"
+  },
+  "Accessibility": {
+    "message": "Zugänglichkeit",
+    "description": "Slide title\n"
+  },
+  "attributes": {
+    "message": "Eigenschaften",
+    "description": "Slide title\n"
+  },
+  "directions": {
+    "message": "Richtung",
+    "description": "Slide title\n"
+  },
+  "select-language": {
+    "message": "Sprache auswählen",
+    "description": "Drop down item in \"fixed Layouts\" slides\n"
+  },
+  "fonts": {
+    "message": "Schriftarten",
+    "description": "SLide title\n"
+  },
+  "i18n": {
+    "message": "Internationalisierung",
+    "description": "Slide title\n"
+  },
+  "i18n-files": {
+    "message": "Übersetzungsdateien",
+    "description": "Slide title\n"
+  },
+  "i18n-strings": {
+    "message": "Übersetzungszeilen",
+    "description": "Slide title\n"
+  },
+  "i18n-translation-strings": {
+    "message": "Benutze Übersetzungszeilen",
+    "description": "Slide title\n"
+  },
+  "word-order": {
+    "message": "Wortstellung",
+    "description": "Slide title\n"
+  },
+  "fixed": {
+    "message": "Festgelegt",
+    "description": "Slide title\n"
+  },
+  "fixed-brand": {
+    "message": "Markennamen",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "fixed-usernames": {
+    "message": "Benutzernamen",
+    "description": "Point in \"Fixed\" slide\n"
+  },
+  "structure": {
+    "message": "Struktur",
+    "description": "Slide title\n"
+  },
+  "simple-website": {
+    "message": "Einfache Website erstellen",
+    "description": "Slide title\n"
+  },
+  "simple-website-layout": {
+    "message": "Anordnung",
+    "description": "Point in \"simple website\" slide\n"
+  },
+  "pages": {
+    "message": "Seiten",
+    "description": "Slide title\n"
+  },
+  "resources": {
+    "message": "Ressourcen",
+    "description": "Slide title\n"
+  },
+  "libraries-frameworks": {
+    "message": "Biblitoheken\/Rahmen",
+    "description": "Slide title\n"
+  },
+  "thanks": {
+    "message": "Danke für die Aufmerksamkeit!",
+    "description": "Slide title\n"
+  }
 }

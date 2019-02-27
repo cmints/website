@@ -1,3 +1,18 @@
 {
-
+  "title": {
+    "message": "404 Fehlerseite",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Erstelle benutzerdefinierte <fix1> Fehlerseite für nicht vorhandene Seite.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - 404\n"
+  },
+  "404-p1": {
+    "message": "Um eine benutzerdefinierte <fix1> Seite zu ihrer Website hinzuzufügen müssen sie einfach eine Datei im <a1>pages<\/a1> Verzeichnis:",
+    "description": "Paragraph in '404 page' section\n<fix> placeholders:\n<fix1> - 404\n"
+  },
+  "404-p2": {
+    "message": "Eien benutzerdefinierte Fehlerseite für 404.md kann beispielsweise den Inhalt wie unten haben:",
+    "description": "Paragraph in '404 page' section\n"
+  }
 }

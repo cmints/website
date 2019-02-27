@@ -1,3 +1,10 @@
 {
-
+  "title": {
+    "message": "Fehler 404",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Fehler 404",
+    "description": "Page description\n"
+  }
 }
