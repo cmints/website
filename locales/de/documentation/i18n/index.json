@@ -1,3 +1,14 @@
 {
-
+  "locale-file": {
+    "message": "Lokale Datei",
+    "description": "Page heading\n"
+  },
+  "translation-strings": {
+    "message": "Übersetzungszeilen",
+    "description": "Page heading\n"
+  },
+  "fix-tag-p3": {
+    "message": "Ergebnis:",
+    "description": "Paragraph in 'fix tag' section\n"
+  }
 }

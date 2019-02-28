@@ -55,6 +55,10 @@
     "description": "Documentation sidebar text",
     "message": "JS Module"
   },
+  "nav-doc-title-front-matter": {
+    "description": "Documentation sidebar text",
+    "message": "Front Matter"
+  },
   "nav-doc-title-404": {
     "description": "Documentation sidebar text",
     "message": "Fehler 404"

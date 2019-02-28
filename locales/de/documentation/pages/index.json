@@ -1,3 +1,18 @@
 {
-
+  "title": {
+    "message": "Seiten",
+    "description": "Page title\n"
+  },
+  "types": {
+    "message": "Seitentyp",
+    "description": "Page heading\n"
+  },
+  "page-type-p": {
+    "message": "Aktuell werden 3 Arten von Seiten von CMintS unterstützt:",
+    "description": "Paragraph in 'Page types' section\n"
+  },
+  "draft-pages": {
+    "message": "Seitenentwürfe",
+    "description": "Page heading\n"
+  }
 }

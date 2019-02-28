@@ -12,7 +12,7 @@
     "description": "Slide title\n"
   },
   "date-p1": {
-    "message": "Datum: <fix><a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018<\/a><\/fix>",
+    "message": "Datum: <fix1>",
     "description": "Point in \"Date\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018\n"
   },
   "decimal-sep": {
@@ -20,7 +20,7 @@
     "description": "Slide title\n"
   },
   "decimal-sep-p1": {
-    "message": "Nummer: <fix>1234567.89<\/fix>",
+    "message": "Nummer: <fix1>",
     "description": "Point in \"Decimal separators\" slide\n<fix> placeholders:\n<fix1> - 1234567.89\n"
   },
   "order": {
@@ -101,6 +101,10 @@
   },
   "libraries-frameworks": {
     "message": "Biblitoheken\/Rahmen",
+    "description": "Slide title\n"
+  },
+  "follow-contact": {
+    "message": "Folgen\/Kontaktieren",
     "description": "Slide title\n"
   },
   "thanks": {

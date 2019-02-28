@@ -1,3 +1,118 @@
 {
-
+  "title": {
+    "message": "Dokumentation",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "<fix1> Dokumentation, was ist <fix1> und wie installieren sie es.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
+  },
+  "what-is-cmints": {
+    "message": "Was ist <fix1>?",
+    "description": "Page heading\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "what-is-cmints-p": {
+    "message": "<fix1> ist ein CMS und Statischer Seiten Generator für die Erstellung einzel und mehrsprachige Websiten.<fix1> ist einfach zu installieren und hat nur wenige Vorraussetzungen.",
+    "description": "Paragraph in 'What is CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<fix2> - CMintS\n"
+  },
+  "what-is-cmints-p3": {
+    "message": "<strong>Bedenke:<\/strong>Wenn sie ihre erste App veröffentlichen möchten ohne <fix1> global zu installieren. Schauen sie in der <a1>Schnellstart<\/a1> Anleitung.",
+    "description": "Paragraph in 'What is CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>Quick Start<\/a1> - <a href=\"\/quick-start\">Quick Start<\/a>\n"
+  },
+  "install-cmints": {
+    "message": "Anforderungen und Installation",
+    "description": "Page heading\n"
+  },
+  "install-cmints-p1": {
+    "message": "CMintS zu installieren ist einfach. Stellen sie sicher das sie:<fix1> intalliert haben und führen sie die folgenden Befehle aus:",
+    "description": "Paragraph in 'Install CMintS' section\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/nodejs.org\/en\/download\/\" target=\"_blank\" rel=\"noopener\">Node.js\n"
+  },
+  "example-project": {
+    "message": "Beispiel-Projekte",
+    "description": "Page heading\n"
+  },
+  "example-project-p": {
+    "message": "Um Schnell starten zu können, empfiehlt es sich ein Beispielprojekt durch einen der folgenenden Befehle zu erstellen:",
+    "description": "Paragraph in 'Example projects' section\n"
+  },
+  "example-project-comment1": {
+    "message": "Erstellt ein einzel sprachiges Projekt",
+    "description": "Comment in 'Example projects' section's code block\n"
+  },
+  "example-project-comment2": {
+    "message": "Erstellt ein mehrsprachiges Projekt",
+    "description": "Comment in 'Example projects' section's code block\n"
+  },
+  "example-project-comment3": {
+    "message": "Erzeugt ein mehrsprachiges Projekt in dem &#123;PATH&#125; Verzeichnis.",
+    "description": "Comment in 'Example projects' section's code block\n"
+  },
+  "example-project-p2": {
+    "message": "Sie können Inhalt einiger Beispielprojekte unten finden:",
+    "description": "Paragraph in 'Example projects' section\n"
+  },
+  "example-project-li1": {
+    "message": "Einzelsprachig -<a1>GitHub<\/a1>, <a2>Online<\/a2>.",
+    "description": "List item in 'Example projects' section\n<a> placeholders:\n<a1>GitHub<\/a1> - <a href=\"https:\/\/github.com\/cmints\/single-lang-starter\">GitHub<\/a>\n<a2>Online<\/a2> - <a href=\"https:\/\/single.cmints.io\/\">Online<\/a>\n"
+  },
+  "example-project-li2": {
+    "message": "Mehrsprachig -<a1>GitHub<\/a1>, <a2>Online<\/a2>.",
+    "description": "List item in 'Example projects' section\n<a> placeholders:\n<a1>GitHub<\/a1> - <a href=\"https:\/\/github.com\/cmints\/multi-lang-starter\">GitHub<\/a>\n<a2>Online<\/a2> - <a href=\"https:\/\/multi.cmints.io\/\">Online<\/a>\n"
+  },
+  "start-server": {
+    "message": "Server starten",
+    "description": "Page heading\n"
+  },
+  "start-server-production": {
+    "message": "Für die produktion:",
+    "description": "Page heading\n"
+  },
+  "production-server-comment1": {
+    "message": "Starten sie einen Http Server der den aktuellen Ordner benutzt",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment2": {
+    "message": "Ersetzen sie optional&#123;PATH&#125; mit dem Pfad den sie benutzen möchten.",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment3": {
+    "message": "http server: Ersetzn sie &#123;PATH&#125; mit dem Pfad zu dem Ordner welchen sie benutzen möchten",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment4": {
+    "message": "Ersetzen sie&#123;PRIVATE_KEY&#125; mit dem Pfad der privaten Schlüsseldatei",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "production-server-comment5": {
+    "message": "Ersetzen sie&#123;CERTIFICATE&#125; mit dem Pfad zur Zertifikatdatei",
+    "description": "Comment in 'For the production' section's code block\n"
+  },
+  "start-server-development": {
+    "message": "Für die Entwicklung:",
+    "description": "Page heading\n"
+  },
+  "development-server-commen1": {
+    "message": "Starten sie den http server welcher den aktuellen Ordner benutzt- Es gibt keine Möglichkeit das Caching zu deaktivieren",
+    "description": "Comment in 'For development' section's code block\n"
+  },
+  "development-server-commen2": {
+    "message": "Ersetzen sie optional&#123;PATH&#125; mit dem Pfad zu dem Ordner welchen sie benutzen möchten",
+    "description": "Comment in 'For development' section's code block\n"
+  },
+  "generate-static-content": {
+    "message": "Generiere statischen Inhalt",
+    "description": "Page heading\n"
+  },
+  "generate-static-content-p": {
+    "message": "Führen sie einen der Kommandos unten aus um Statischen Inhalt zu generieren",
+    "description": "Paragraph in 'Generating static content' section\n"
+  },
+  "static-content-generation-comment1": {
+    "message": "Generiere Statischen Inhalt des aktuellen Verzeichnisses",
+    "description": "Comment in 'Generating static content' section's code block\n"
+  },
+  "static-content-generation-comment2": {
+    "message": "Ersetzen sie optional&#123;PATH&#125; mit dem Pfad zum Projekt für die Inhaltserstellung",
+    "description": "Comment in 'Generating static content' section's code block\n"
+  }
 }

@@ -1,3 +1,10 @@
 {
-
+  "title": {
+    "message": "Themen i18n",
+    "description": "Page title\n"
+  },
+  "themes-i18n-p3": {
+    "message": "Außerdem sind Übersetzungsdateien bei <fix1> hinterlegt:",
+    "description": "Paragraph in 'Themes i18n' section\n<fix> placeholders:\n<fix1> - <em>locales\/ru\/navigation\/header.json<\/em>\n"
+  }
 }

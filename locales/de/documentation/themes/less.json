@@ -1,3 +1,18 @@
 {
-
+  "title": {
+    "message": "Less",
+    "description": "Page title\n"
+  },
+  "less-p4": {
+    "message": "Wird konvertiert in:",
+    "description": "Paragraph in 'less' section\n"
+  },
+  "less-p5": {
+    "message": "<strong>Bedenke:<\/strong> Das keine <fix1> generiert wird weil die Datei mit einem <fix2> Zeichen beginnt.",
+    "description": "Paragraph in 'less' section\n<fix> placeholders:\n<fix1> - <code>public\/_variables.css<\/code>\n<fix2> - <code>_<\/code>\n"
+  },
+  "less-p6": {
+    "message": "Um mehr über LESS zu erfahren besuche:<a1>\nhttp:\/\/lesscss.org\/<\/a1>.",
+    "description": "Paragraph in 'less' section\n<a> placeholders:\n<a1> http:\/\/lesscss.org\/<\/a1> - <a href=\"http:\/\/lesscss.org\/\" target=\"_blank\" rel=\"noopener\"> http:\/\/lesscss.org\/<\/a>\n"
+  }
 }

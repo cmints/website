@@ -1,3 +1,18 @@
 {
-
+  "title": {
+    "message": "Konfiguration",
+    "description": "Page title\n"
+  },
+  "i18nOptions-p1": {
+    "message": "Nur für mehrsprachige Projekte verwendet:",
+    "description": "c\n"
+  },
+  "type-deafult": {
+    "message": "Standard",
+    "description": "Default mark\n"
+  },
+  "updateOption-li3": {
+    "message": "übersetzungen für geänderte Zeilengehen nach einem Zeilen Update verloren.",
+    "description": "List item in 'crowdin.updateOption' section\n"
+  }
 }

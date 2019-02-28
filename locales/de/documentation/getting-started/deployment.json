@@ -1,3 +1,14 @@
 {
-
+  "static": {
+    "message": "Erstelle statischen Inhalt",
+    "description": "Page heading\n"
+  },
+  "gh-pages": {
+    "message": "GitHub-Seiten",
+    "description": "Page heading\n"
+  },
+  "netlify-p2": {
+    "message": "Es gibt verschiedene Wege wie du <fix1> benutzen kannst:",
+    "description": "Paragraph in the 'Netlify' section\n<fix> placeholders:\n<fix1> - Netlify\n"
+  }
 }

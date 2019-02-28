@@ -1,3 +1,38 @@
 {
-
+  "title": {
+    "message": "Crowdin",
+    "description": "Page title\n"
+  },
+  "setting-up": {
+    "message": "Einrichten",
+    "description": "Page heading\n"
+  },
+  "upload-source-strings": {
+    "message": "Quellenzeilen hochladen",
+    "description": "Page heading\n"
+  },
+  "upload-source-strings-p3": {
+    "message": "Das wird eine JSON Datei generieren und sie zu dem Crowdin Projekt hochladen.",
+    "description": "Paragraph in 'Uploading Source Strings' section\n"
+  },
+  "download-translation": {
+    "message": "Übersetzungen runterladen",
+    "description": "Page heading\n"
+  },
+  "download-translation-p": {
+    "message": "Wenn die Übersetzungen zum Download fertig sind in <fix1> und das Übersetzungsprojekt erstellt wurde Führen sie folgenden Befehl vom Website Root Verzeichnis aus:",
+    "description": "Paragraph in 'Download translations' section\n<fix> placeholders:\n<fix1> - Crowdin\n"
+  },
+  "upload-translation": {
+    "message": "Übersetzungen hochladen",
+    "description": "Page heading\n"
+  },
+  "upload-translation-p": {
+    "message": "Benutzen sie folgenden Befehl zum aktualisieren des<fix1> Projekt mit den lokalen Übersetzungen:",
+    "description": "Paragraph in 'Upload translations' section\n<fix> placeholders:\n<fix1> - Crowdin\n"
+  },
+  "env-variables": {
+    "message": "Benutze Umgebungsvariablen",
+    "description": "Page heading\n"
+  }
 }

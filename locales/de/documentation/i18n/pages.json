@@ -1,3 +1,10 @@
 {
-
+  "title": {
+    "message": "Seiten",
+    "description": "Page title\n"
+  },
+  "reusing-id": {
+    "message": "Benutze IDs erneut",
+    "description": "Page heading\n"
+  }
 }

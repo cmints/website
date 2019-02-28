@@ -1,3 +1,26 @@
 {
-
+  "title": {
+    "message": "Projektstruktur",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Struktur des Projekts, lerne wie man sein Projekt organisiert und seien Verzeichnisse benennt.",
+    "description": "Page description\n"
+  },
+  "project-structure-p": {
+    "message": "<fix1> Sind Grundverzeichnisse des Projektes:",
+    "description": "Paragraph in 'Project structure' section\n<fix> placeholders:\n<fix1> - <a href=\"#public\">public\n<a> placeholders:\n<a1>locales<\/a1> - <a href=\"#locales\">locales<\/a>\n<a2>pages<\/a2> - <a href=\"#pages\">pages<\/a>\n<a3>theme<\/a3> - <a href=\"#theme\">theme<\/a>\n"
+  },
+  "project-dirs": {
+    "message": "Projektverzeichnis",
+    "description": "Page heading\n"
+  },
+  "locales-p": {
+    "message": "Der <fix1>Ordner beinhaltet Übersetzungsdateien <fix2>, die i18n Zeilen beinhalten für mehrsprachige Projekte.",
+    "description": "Paragraph in 'locales' section\n<fix> placeholders:\n<fix1> - locales\n<fix2> - <code>.json<\/code>\n"
+  },
+  "pages-p": {
+    "message": "Aktueller Inhalt der Websiteseiten geht hierhin und die Struktur spiegelt den Pfad der Seite mit<code>index<\/code> Dateien zum aktuellen Verzeichnis wieder.",
+    "description": "Paragraph in 'pages' section\n"
+  }
 }

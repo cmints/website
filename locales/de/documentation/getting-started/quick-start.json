@@ -1,3 +1,74 @@
 {
-
+  "title": {
+    "message": "Schnellstart",
+    "description": "Page title\n"
+  },
+  "github-account": {
+    "message": "Nehmen wir an sie haben ein <a1>GitHub Benutzerkonto<\/a1>.",
+    "description": "\n<a> placeholders:\n<a1>Github Account<\/a1> - <a href=\"https:\/\/github.com\/\">Github Account<\/a>\n"
+  },
+  "step1": {
+    "message": "<a1>NodeJS Installation<\/a1>",
+    "description": "Step\n<a> placeholders:\n<a1>Install NodeJS<\/a1> - <a href=\"https:\/\/nodejs.org\/en\/\">Install NodeJS<\/a>\n"
+  },
+  "step2-1": {
+    "message": "<a1>Einzelsprachige Website<\/a1>|<a2>Mehrsprachige Website<\/a2>",
+    "description": "Step\n<a> placeholders:\n<a1>Single Language Website<\/a1> - <a href=\"https:\/\/github.com\/cmints\/single-lang-starter\">Single Language Website<\/a>\n<a2>Multi Language Website<\/a2> - <a href=\"https:\/\/github.com\/cmints\/multi-lang-starter\">Multi Language Website<\/a>\n"
+  },
+  "step3": {
+    "message": "Klonen und in dieses Verzeichnis navigieren",
+    "description": "Step\n"
+  },
+  "step4": {
+    "message": "befehle unten ausführen",
+    "description": "Step\n"
+  },
+  "step5": {
+    "message": "Navigieren sie zu<a1>http:\/\/127.0.0.1:3000<\/a1>",
+    "description": "Step\n<a> placeholders:\n<a1>http:\/\/127.0.0.1:3000<\/a1> - <a href=\"http:\/\/127.0.0.1:3000\">http:\/\/127.0.0.1:3000<\/a>\n"
+  },
+  "step5-p": {
+    "message": "Hurra. Die Website läuft lokal. Jetzt lassen sie uns eine Änderungen vornehmen.",
+    "description": "paragraph in 'Navigate to localhost' step\n"
+  },
+  "step6": {
+    "message": "Aktualisieren sie die aktuelle Seite wie sie möchten.",
+    "description": "Step\n"
+  },
+  "step6-p": {
+    "message": "Du kannst hier mehr über<a1>CMintS<\/a1>erfahren",
+    "description": "paragraph in 'Update current website the way you want' step\n<a> placeholders:\n<a1>CMintS here<\/a1> - <a href=\"https:\/\/cmints.io\/\">CMintS here<\/a>\n"
+  },
+  "deploy-github": {
+    "message": "Veröffentliche zu<fix1>Seiten",
+    "description": "Page heading\n<fix> placeholders:\n<fix1> - Github\n"
+  },
+  "deploy-github-1": {
+    "message": "Befehl unten ausführen",
+    "description": "Step in Github Deployment\n"
+  },
+  "deploy-netlify": {
+    "message": "Veröffentlichen in Netlify",
+    "description": "Step in Github Deployment\n"
+  },
+  "deploy-netlify-1": {
+    "message": "<a1>Anmelden für Netlify<\/a1>",
+    "description": "Step in Netlify Deployment\n<a> placeholders:\n<a1>Signup for Netlify<\/a1> - <a href=\"https:\/\/app.netlify.com\/signup\">Signup for Netlify<\/a>\n"
+  },
+  "deploy-netlify-2": {
+    "message": "Neue Seite von Git",
+    "description": "Step in Netlify Deployment\n"
+  },
+  "deploy-netlify-3": {
+    "message": "Mit Github verbinden",
+    "description": "Step in Netlify Deployment\n"
+  },
+  "deploy-netlify-5": {
+    "message": "Bereitstellen",
+    "description": "Step in Netlify Deployment\n"
+  },
+  "deploy-netlify-6": {
+    "message": "Website ansehen",
+    "description": "Step in Netlify Deployment\n"
+  }
 }
