@@ -46,10 +46,10 @@ running, one of the commands below:
 # {example-project-comment1[Comment in 'Example projects' section's code block] Generates single language project}
 cmints --example single
 
-# {example-project-comment2[Comment in 'Example projects' section's code block] Generates multi language project}
+# {example-project-comment2[Comment in 'Example projects' section's code block] Generates multi-language project}
 cmints --example multi
 
-# {example-project-comment3[Comment in 'Example projects' section's code block] Generates multi language project in the \{PATH\} directory.}
+# {example-project-comment3[Comment in 'Example projects' section's code block] Generates multi-language project in the \{PATH\} directory.}
 cmints {PATH} --example
 ```
 
@@ -62,7 +62,7 @@ You can find content of the example projects below:
   [Online](https://single.cmints.io/).
 }
 - {example-project-li2[List item in 'Example projects' section]
-  Multi language - [GitHub](https://github.com/cmints/multi-lang-starter),
+  Multi-language - [GitHub](https://github.com/cmints/multi-lang-starter),
   [Online](https://multi.cmints.io/).
 }
 
