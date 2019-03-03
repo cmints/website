@@ -31,6 +31,10 @@
     "description": "Documentation sidebar text",
     "message": "Konfiguration"
   },
+  "nav-doc-title-deployment": {
+    "description": "Documentation sidebar text",
+    "message": "Veröffentlichung"
+  },
   "nav-doc-title-structure": {
     "description": "Documentation sidebar text",
     "message": "Struktur"

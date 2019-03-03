@@ -3,6 +3,10 @@
     "message": "Schnellstart",
     "description": "Page title\n"
   },
+  "description": {
+    "message": "Schnellstart mit CMintS Starter. Veröffentlichung zur GitHub Seite und Netlify.",
+    "description": "Page description\n"
+  },
   "github-account": {
     "message": "Nehmen wir an sie haben ein <a1>GitHub Benutzerkonto<\/a1>.",
     "description": "\n<a> placeholders:\n<a1>Github Account<\/a1> - <a href=\"https:\/\/github.com\/\">Github Account<\/a>\n"
@@ -10,6 +14,10 @@
   "step1": {
     "message": "<a1>NodeJS Installation<\/a1>",
     "description": "Step\n<a> placeholders:\n<a1>Install NodeJS<\/a1> - <a href=\"https:\/\/nodejs.org\/en\/\">Install NodeJS<\/a>\n"
+  },
+  "step2": {
+    "message": "Wähle eine der Verzichnisse unten:",
+    "description": "Step\n"
   },
   "step2-1": {
     "message": "<a1>Einzelsprachige Website<\/a1>|<a2>Mehrsprachige Website<\/a2>",
@@ -47,6 +55,10 @@
     "message": "Befehl unten ausführen",
     "description": "Step in Github Deployment\n"
   },
+  "deploy-github-2": {
+    "message": "Du hast es geschafft: Schaue dir die Veröffentlichung an!",
+    "description": "Step in Github Deployment\n"
+  },
   "deploy-netlify": {
     "message": "Veröffentlichen in Netlify",
     "description": "Step in Github Deployment\n"
@@ -61,6 +73,10 @@
   },
   "deploy-netlify-3": {
     "message": "Mit Github verbinden",
+    "description": "Step in Netlify Deployment\n"
+  },
+  "deploy-netlify-4": {
+    "message": "Wähle das Verzeichnis",
     "description": "Step in Netlify Deployment\n"
   },
   "deploy-netlify-5": {

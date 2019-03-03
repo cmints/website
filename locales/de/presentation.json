@@ -1,11 +1,35 @@
 {
+  "title": {
+    "message": "Internationalisierungs Grundpunkte",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Folien der Internationalisierungs Kernpunkte Präsentation",
+    "description": "Page description\n"
+  },
   "me-i18n": {
     "message": "Ich und i18n",
     "description": "\"Me + i18n\" slide title\n"
   },
+  "me-i18n-li1": {
+    "message": "Spricht <fix1> Sprachen",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - 3.1\n"
+  },
+  "me-i18n-li2": {
+    "message": "<fix1> und <fix2>",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/www.be2.com\/\">Be2\n<fix2> - C-date\n"
+  },
   "me-i18n-li3": {
     "message": "Google Chrome Erweiterungen",
     "description": "point in \"Me + i18n\" slide\n"
+  },
+  "me-i18n-li4": {
+    "message": "Websiten für <fix1>",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/eyeo.com\/\">eyeo\n"
+  },
+  "me-i18n-li5": {
+    "message": "<fix1> UI",
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus\n"
   },
   "date": {
     "message": "Datum",
@@ -31,12 +55,32 @@
     "message": "Zugänglichkeit",
     "description": "Slide title\n"
   },
+  "lang-attr": {
+    "message": "<fix1> Attribut",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - lang\n"
+  },
+  "lang-attr-p": {
+    "message": "Deklariert die Standard Sprache des Dokuments",
+    "description": "Point in \"lang attribute\" slide\n"
+  },
+  "accept-language": {
+    "message": "<fix1> Kopfzeile",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - Accept-Language\n"
+  },
+  "accept-language-p": {
+    "message": "<fix1> Größe der locale",
+    "description": "Point in \"Accept-Language header\" slide\n<fix> placeholders:\n<fix1> - <code>q<\/code>\n"
+  },
   "attributes": {
     "message": "Eigenschaften",
     "description": "Slide title\n"
   },
   "directions": {
     "message": "Richtung",
+    "description": "Slide title\n"
+  },
+  "layouts-fix": {
+    "message": "Die Layouts sind für feste Breiten erstellt",
     "description": "Slide title\n"
   },
   "select-language": {
@@ -46,6 +90,26 @@
   "fonts": {
     "message": "Schriftarten",
     "description": "SLide title\n"
+  },
+  "fonts-p1": {
+    "message": "Unterstützt von Zielsprachen",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "fonts-p3": {
+    "message": "Verwende Unicode Bereiche",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "unicode-range": {
+    "message": "Unicode Bereiche <fix1>",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - (5-18kb)\n"
+  },
+  "seo-title-desc": {
+    "message": "Übersetze Seitentitel und die Beschreibung",
+    "description": "Slide title\n"
+  },
+  "canonical": {
+    "message": "Benutze <fix1> zum Inhalt verdoppeln",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - canonical\n"
   },
   "i18n": {
     "message": "Internationalisierung",
@@ -63,6 +127,14 @@
     "message": "Benutze Übersetzungszeilen",
     "description": "Slide title\n"
   },
+  "i18n-translation-strings-p1": {
+    "message": "Referenzübersetzungsdatei",
+    "description": "Point in \"Using translation strings\" slide\n"
+  },
+  "i18n-translation-strings-p2": {
+    "message": "Refferenz StringID",
+    "description": "Point in \"Using translation strings\" slide\n"
+  },
   "word-order": {
     "message": "Wortstellung",
     "description": "Slide title\n"
@@ -70,6 +142,10 @@
   "fixed": {
     "message": "Festgelegt",
     "description": "Slide title\n"
+  },
+  "fixed-term": {
+    "message": "Befristungen",
+    "description": "Point in \"Fixed\" slide\n"
   },
   "fixed-brand": {
     "message": "Markennamen",
@@ -87,13 +163,33 @@
     "message": "Einfache Website erstellen",
     "description": "Slide title\n"
   },
+  "simple-website-static": {
+    "message": "Statische Inhaltserstellung",
+    "description": "Point in \"simple website\" slide\n"
+  },
+  "simple-website-tmpl": {
+    "message": "Vorlagen-Engine",
+    "description": "Point in \"simple website\" slide\n"
+  },
   "simple-website-layout": {
     "message": "Anordnung",
     "description": "Point in \"simple website\" slide\n"
   },
+  "simple-website-tms": {
+    "message": "<fix1> Integration",
+    "description": "Point in \"simple website\" slide\n<fix> placeholders:\n<fix1> - TMS\n"
+  },
   "pages": {
     "message": "Seiten",
     "description": "Slide title\n"
+  },
+  "pages-p": {
+    "message": "Serverseite über locale",
+    "description": "Point in \"Pages\" slide\n"
+  },
+  "pages-markdown": {
+    "message": "<fix1> Seite",
+    "description": "Slide title\n<fix> placeholders:\n<fix1> - Markdown\n"
   },
   "resources": {
     "message": "Ressourcen",

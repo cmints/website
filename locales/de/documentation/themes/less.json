@@ -3,6 +3,10 @@
     "message": "Less",
     "description": "Page title\n"
   },
+  "description": {
+    "message": "Benutze <fix1> um modularisierte <fix2> mit lesscode für <fix3> Designs zu erstellen.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - LESS\n<fix2> - CSS\n<fix3> - CMintS\n"
+  },
   "less-p4": {
     "message": "Wird konvertiert in:",
     "description": "Paragraph in 'less' section\n"

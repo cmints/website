@@ -1,4 +1,28 @@
 {
+  "title": {
+    "message": "Internationalisierung",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "Erfahren sie wie sie die Internationalisierungszeilen in <fix1> benutzen. Die Benutzung von i18n, lernen sie die Übersetzungsdateien kennen und starten sie mit dem kreieren von mehrsprachigen Websites.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "i18n-p1": {
+    "message": "Internationalisierung ist eine der Kernfunktionen von <fix1>. Die Idee\ndahinter besteht darin, gemeinsame Struktur und Syntax in Inhaltsseiten, Design und\nzusätzliche Helfer für das mehrsprachige Webmanagement zu verwenden.",
+    "description": "Paragraph in 'internationalization' section\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
+  "locales-dir-structure": {
+    "message": "Lokale Verzeichnisstruktur",
+    "description": "Page heading\n"
+  },
+  "locales-dir-structure-p": {
+    "message": "Lokale Dateien sollten in dem <fix1> Verzeichnis liegen:",
+    "description": "Paragraph in 'Locales directory structure' section\n<fix> placeholders:\n<fix1> - <code>locales<\/code>\n"
+  },
+  "default-locale": {
+    "message": "Standard Lokalisierung",
+    "description": "Page heading\n"
+  },
   "locale-file": {
     "message": "Lokale Datei",
     "description": "Page heading\n"
@@ -7,8 +31,48 @@
     "message": "Übersetzungszeilen",
     "description": "Page heading\n"
   },
+  "defining-path": {
+    "message": "Definiere den Pfad",
+    "description": "Page heading\n"
+  },
+  "using-tags": {
+    "message": "Benutze Schlagwörter",
+    "description": "Page heading\n"
+  },
+  "a-tag-p2": {
+    "message": "Und die Lokale Datei mit den Übersetzungszeilen:",
+    "description": "Paragraph in '<a> tag' section\n"
+  },
+  "a-tag-p3": {
+    "message": "Das Ergebnis wird wie dies aussehen:",
+    "description": "Paragraph in '<a> tag' section\n"
+  },
+  "fix-tag-p": {
+    "message": "Einzelne Wörter sollen nicht in der Website übersetzt werden(z.b. Markennamen) dafür kann der folgende Tag benutzt werden <fix1>:",
+    "description": "Paragraph in 'fix tag' section\n<fix> placeholders:\n<fix1> - <code>&lt;fix&gt;<\/code>\n"
+  },
+  "fix-tag-p2": {
+    "message": "und die Lokalen unten:",
+    "description": "Paragraph in 'fix tag' section\n"
+  },
   "fix-tag-p3": {
     "message": "Ergebnis:",
     "description": "Paragraph in 'fix tag' section\n"
+  },
+  "img-tag-p2": {
+    "message": "und die Lokalen unten:",
+    "description": "Paragraph in '<img> tag' section\n"
+  },
+  "img-tag-p3": {
+    "message": "wird das Ergebnis sein:",
+    "description": "Paragraph in '<img> tag' section\n"
+  },
+  "title-alt-attr-p2": {
+    "message": "und die Lokalen unten:",
+    "description": "Paragraph in 'title and alt attributes' section\n"
+  },
+  "title-alt-attr-p3": {
+    "message": "wird das Ergebnis sein:",
+    "description": "Paragraph in 'title and alt attributes' section\n"
   }
 }

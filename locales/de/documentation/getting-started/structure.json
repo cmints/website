@@ -15,6 +15,10 @@
     "message": "Projektverzeichnis",
     "description": "Page heading\n"
   },
+  "public-p": {
+    "message": "Liefert statischen Inhalt für die Website(<fix1> und etc.). Der Inhalt des Ordners wird ins <fix2> Verzeichnis kopiert, wenn<a1>statischen Content generiert<\/a1>.",
+    "description": "Paragraph in 'public' section\n<fix> placeholders:\n<fix1> - CSS, JavaScript, favicon, robots.txt\n<fix2> - <em>content<\/em>\n<a> placeholders:\n<a1>generating static content<\/a1> - <a href=\"\/documentation#generate-static-content\">generating static content<\/a>\n"
+  },
   "locales-p": {
     "message": "Der <fix1>Ordner beinhaltet Übersetzungsdateien <fix2>, die i18n Zeilen beinhalten für mehrsprachige Projekte.",
     "description": "Paragraph in 'locales' section\n<fix> placeholders:\n<fix1> - locales\n<fix2> - <code>.json<\/code>\n"
@@ -22,5 +26,9 @@
   "pages-p": {
     "message": "Aktueller Inhalt der Websiteseiten geht hierhin und die Struktur spiegelt den Pfad der Seite mit<code>index<\/code> Dateien zum aktuellen Verzeichnis wieder.",
     "description": "Paragraph in 'pages' section\n"
+  },
+  "theme-p2": {
+    "message": "Desgin des Projektes, Hauptordnder sind <fix1> wo die aktuellen layouts liwgen, <fix2> welche <fix3> benutzt zum importieren von <fix4> Modulen und der <fix5> Ordner welcher die Less Dateien der Website beinhält. Diese sind dann in dem <fix6> Ordner gesammelt:",
+    "description": "Paragraph in 'theme' section\n<fix> placeholders:\n<fix1> - <code>layouts<\/code>\n<fix2> - <code>js<\/code>\n<fix3> - browserify\n<fix4> - JavaScript\n<fix5> - <code>less<\/code>\n<fix6> - <code>public\/css<\/code>\n"
   }
 }

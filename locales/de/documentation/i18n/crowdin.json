@@ -3,6 +3,10 @@
     "message": "Crowdin",
     "description": "Page title\n"
   },
+  "description": {
+    "message": "Projektintegration mit <fix1>. <fix1> syncronisier Scripts und wie man Open Source Setups kostenlos bekommt.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - Crowdin\n<fix2> - Crowdin\n"
+  },
   "setting-up": {
     "message": "Einrichten",
     "description": "Page heading\n"

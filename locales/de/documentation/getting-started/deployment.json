@@ -1,4 +1,12 @@
 {
+  "title": {
+    "message": "Veröffentlichung",
+    "description": "Page title\n"
+  },
+  "description": {
+    "message": "<fix1> basiertes Projekt zur Veröffentlichung in hostingservices wie GitHub\/Gitlab Seiten, Netlify und mehr.",
+    "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
+  },
   "static": {
     "message": "Erstelle statischen Inhalt",
     "description": "Page heading\n"
@@ -7,8 +15,36 @@
     "message": "GitHub-Seiten",
     "description": "Page heading\n"
   },
+  "other-git-hostings": {
+    "message": "Andere git-basierte Hostings",
+    "description": "Page heading\n"
+  },
   "netlify-p2": {
     "message": "Es gibt verschiedene Wege wie du <fix1> benutzen kannst:",
     "description": "Paragraph in the 'Netlify' section\n<fix> placeholders:\n<fix1> - Netlify\n"
+  },
+  "netlify-ci-cd": {
+    "message": "Kontinuierliche Veröffentlichung",
+    "description": "Page heading\n"
+  },
+  "netlify-ci-cd-p1": {
+    "message": "Navigiere zu der <a1>Startseite<\/a>, verbinde dich mit deinem <fix1> hosting Anbioeter und wähle eine <fix2> Projektverzeichnis.",
+    "description": "Paragraph in the 'Continuous Deployment' section\n<a> placeholders:\n<a1>start page<\/a1> - <a href=\"https:\/\/app.netlify.com\/start\">start page<\/a>\n<fix> placeholders:\n<fix1> - Git\n<fix2> - CMintS\n"
+  },
+  "netlify-ci-cd-p2": {
+    "message": "Benutze die unteren Optionen in der Baueinstellungsseite:",
+    "description": "Paragraph in the 'Continuous Deployment' section\n"
+  },
+  "netlify-cli-p": {
+    "message": "<a1>Netlify's Kommandozeile<\/a1> erlaubt dir die Veröffentlichung von Seiten oder die Konfiguierung direkt von der Kommandozeile.",
+    "description": "Paragraph in the 'CLI' section\n<a> placeholders:\n<a1>Netlify’s command line interface<\/a1> - <a href=\"https:\/\/www.netlify.com\/docs\/cli\/\">Netlify’s command line interface<\/a>\n"
+  },
+  "netlify-deploy-btn": {
+    "message": "Veröffentlichen zu Netlify",
+    "description": "Page heading\n"
+  },
+  "netlify-deploy-btn-p1": {
+    "message": "Der <a1> \"Deploy to Netlify\" Button<\/a1> Hilft Benutzern Seiten von Vorlagen mit einem Klick zu veröffentlichen. Es stellt Internetentwicklern eine 1 Schritt Anleitung zur Verfügung welche Benutzer das veröffentlichen auf <fix1> erlaubt.",
+    "description": "Paragraph in the 'Deploy to Netlify Button' section\n<a> placeholders:\n<a1>“Deploy to Netlify” button<\/a1> - <a href=\"https:\/\/www.netlify.com\/docs\/deploy-button\/\">“Deploy to Netlify” button<\/a>\n<fix> placeholders:\n<fix1> - Netlify\n"
   }
 }
