@@ -61,12 +61,17 @@ const templateData =
     github: "https://github.com/cmints/website",
     crowdin: `https://crowdin.com/translate/${i18nOptions.crowdin.id}`,
     localeMap: {
-      "en": {name: "English", region: "en_US"},
       "de": {name: "Deutsch", region: "de_DE", crowdin: "en-de"},
-      "ru": {name: "Русский", region: "ru_RU", crowdin: "en-ru"},
+      "en": {name: "English", region: "en_US"},
       "es-ES": {name: "Español", region: "es_ES", crowdin: "en-es"},
+      "fr": {name: "Français", region: "fr_FR", crowdin: "en-fr"},
+      "hy-AM": {name: "Հայերեն", region: "hy_AM", crowdin: "en-hy"},
+      "it": {name: "Italiano", region: "it_IT", crowdin: "en-it"},
       "lt": {name: "Lietuvių", region: "lt_LT", crowdin: "en-lt"},
-      "hy-AM": {name: "Հայերեն", region: "hy_AM", crowdin: "en-hy"}
+      "pl": {name: "Polski", region: "pl_PL", crowdin: "en-pl"},
+      "pt": {name: "Português", region: "pt_PT", crowdin: "en-pt"},
+      "ru": {name: "Русский", region: "ru_RU", crowdin: "en-ru"},
+      "zh-CN": {name: "中文", region: "zh_CN", crowdin: "en-zhcn"}
     },
     defaultLocale: "en",
     navigations: [
