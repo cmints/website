@@ -27,9 +27,8 @@ only few requirements.
 ## {install-cmints[Page heading] Requirements and installation}
 
 {install-cmints-p1[Paragraph in 'Install CMintS' section]
-Installing CMintS is quite easy, ensure that you have <fix><a
-href="https://nodejs.org/en/download/" target="_blank"
-rel="noopener">Node.js</a></fix> installed and run the commands below:
+Installing CMintS is quite easy, ensure that you have <fix><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a></fix>
+installed and run the commands below:
 }
 
 ```bash

@@ -27,8 +27,8 @@ order: 4
 ### public
 
 {public-p[Paragraph in 'public' section]
-Serves static content for the website (<fix>CSS, JavaScript, favicon,
-robots.txt</fix> and etc.). The content of the folder will be copied into the
+Serves static content for the website (<fix>CSS, JavaScript, favicon, robots.txt</fix>
+and etc.). The content of the folder will be copied into the
 <fix>*content*</fix> directory when [generating static
 content](/documentation#generate-static-content).
 }
