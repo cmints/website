@@ -8,7 +8,7 @@
     "description": "Page description\n<fix> placeholders:\n<fix1> - CMintS\n"
   },
   "contribute-p": {
-    "message": "Потребовалось много усилий для создания <fix1>, так-как он разрабатывался как \"side project\". <fix1> \nэто проект с открытым кодом и я буду благодарен, если вы добавите звезду в Гитхабе. Если он вам понравился и если у вас есть Гитхаб аккаунт то просто можете <a href=\"https:\/\/github.com\/cmints\/cmints\">Нажать на кнопку star тут<\/a>.",
+    "message": "Потребовалось много усилий для создания <fix1>, так-как он разрабатывался как \"side project\". <fix1> \nэто проект с открытым кодом и я буду благодарен, если вы добавите звезду в Гитхабе. Если он вам понравился и если у вас есть Гитхаб аккаунт то просто можете <a1>Нажать на кнопку star тут<\/a1>.",
     "description": "Paragraph in 'Contribute to CMintS' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>it's Github page<\/a1> - <a href=\"https:\/\/github.com\/cmints\/cmints\">it's Github page<\/a>\n"
   },
   "website-content": {
