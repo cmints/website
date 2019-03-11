@@ -44,7 +44,7 @@
     "description": "Page heading\n"
   },
   "netlify-ci-cd-p1": {
-    "message": "Перейдите на <а1>начальную страницу<\/а1>, присоедините ваш <fix1> хостинг и выберите проэкт <fix1> а.",
+    "message": "Перейдите на <a1>начальную страницу<\/a1>, присоедините ваш <fix1> хостинг и выберите проэкт <fix1> а.",
     "description": "Paragraph in the 'Continuous Deployment' section\n<a> placeholders:\n<a1>start page<\/a1> - <a href=\"https:\/\/app.netlify.com\/start\">start page<\/a>\n<fix> placeholders:\n<fix1> - Git\n<fix2> - CMintS\n"
   },
   "netlify-ci-cd-p2": {
