@@ -17,7 +17,7 @@
   },
   "me-i18n-li2": {
     "message": "<fix1> und <fix2>",
-    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/www.be2.com\/\">Be2\n<fix2> - C-date\n"
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/www.be2.com\/\">Be2<\/a>\n<fix2> - C-date\n<a> placeholders:\n<a1>Be2<\/a1> - <a href=\"https:\/\/www.be2.com\/\">Be2<\/a>\n"
   },
   "me-i18n-li3": {
     "message": "Google Chrome Erweiterungen",
@@ -25,11 +25,11 @@
   },
   "me-i18n-li4": {
     "message": "Websiten für <fix1>",
-    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/eyeo.com\/\">eyeo\n"
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/eyeo.com\/\">eyeo<\/a>\n<a> placeholders:\n<a1>eyeo<\/a1> - <a href=\"https:\/\/eyeo.com\/\">eyeo<\/a>\n"
   },
   "me-i18n-li5": {
     "message": "<fix1> UI",
-    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus\n"
+    "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus<\/a>\n<a> placeholders:\n<a1>Adblock Plus<\/a1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus<\/a>\n"
   },
   "date": {
     "message": "Datum",
@@ -37,7 +37,7 @@
   },
   "date-p1": {
     "message": "Datum: <fix1>",
-    "description": "Point in \"Date\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018\n"
+    "description": "Point in \"Date\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018<\/a>\n<a> placeholders:\n<a1>12\/11\/2018<\/a1> - <a href=\"https:\/\/en.wikipedia.org\/wiki\/Date_format_by_country\">12\/11\/2018<\/a>\n"
   },
   "decimal-sep": {
     "message": "Dezimaltrennzeichen",

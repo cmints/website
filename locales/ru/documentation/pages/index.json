@@ -9,7 +9,7 @@
   },
   "pages-p": {
     "message": "Содержание веб-сайта находится  в директории <fix1>. Страницы могут быть\nнаписаны в <fix2>, <fix3> или <fix4>. Структура папок внутри каталога pages\nотражает фактический путь запроса страницы (за исключением когда\nуказан <a1>permalink<\/a>), что означает, учитывая структуру ниже:",
-    "description": "Paragraph in 'Pages' section\n<fix> placeholders:\n<fix1> - <strong>pages<\/strong>\n<fix2> - <a href=\"#markdown\">Markdown\n<fix3> - <a href=\"#ejs\">EJS\n<fix4> - <a href=\"#html\">HTML\n<a> placeholders:\n<a1>permalink<\/a1> - <a href=\"\/documentation\/pages\/frontmatter#permalinks\">permalink<\/a>\n"
+    "description": "Paragraph in 'Pages' section\n<fix> placeholders:\n<fix1> - <strong>pages<\/strong>\n<fix2> - <a href=\"#markdown\">Markdown<\/a>\n<fix3> - <a href=\"#ejs\">EJS<\/a>\n<fix4> - <a href=\"#html\">HTML<\/a>\n<a> placeholders:\n<a1>Markdown<\/a1> - <a href=\"#markdown\">Markdown<\/a>\n<a2>EJS<\/a2> - <a href=\"#ejs\">EJS<\/a>\n<a3>HTML<\/a3> - <a href=\"#html\">HTML<\/a>\n<a4>permalink<\/a4> - <a href=\"\/documentation\/pages\/frontmatter#permalinks\">permalink<\/a>\n"
   },
   "pages-p2": {
     "message": "Когда <a1>сервер запусшен<\/a> страницы могут быть доступны адресом ниже:",

@@ -21,7 +21,7 @@
   },
   "step2-1": {
     "message": "<a1>Одноязычный сайт<\/a1> | <a2>Многоязычный сайт<\/a2> ",
-    "description": "Step\n<a> placeholders:\n<a1>Single Language Website<\/a1> - <a href=\"https:\/\/github.com\/cmints\/single-lang-starter\">Single Language Website<\/a>\n<a2>Multi Language Website<\/a2> - <a href=\"https:\/\/github.com\/cmints\/multi-lang-starter\">Multi Language Website<\/a>\n"
+    "description": "Step\n<a> placeholders:\n<a1>Single Language Website<\/a1> - <a href=\"https:\/\/github.com\/cmints\/single-lang-starter\">Single Language Website<\/a>\n<a2>Multi-Language Website<\/a2> - <a href=\"https:\/\/github.com\/cmints\/multi-lang-starter\">Multi-Language Website<\/a>\n"
   },
   "step3": {
     "message": "Клонируйте его и перейдите в этот каталог",

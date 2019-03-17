@@ -9,14 +9,14 @@
   },
   "project-structure-p": {
     "message": "<fix1> являются главными каталогами проекта:",
-    "description": "Paragraph in 'Project structure' section\n<fix> placeholders:\n<fix1> - <a href=\"#public\">public\n<a> placeholders:\n<a1>locales<\/a1> - <a href=\"#locales\">locales<\/a>\n<a2>pages<\/a2> - <a href=\"#pages\">pages<\/a>\n<a3>theme<\/a3> - <a href=\"#theme\">theme<\/a>\n"
+    "description": "Paragraph in 'Project structure' section\n<fix> placeholders:\n<fix1> - <a href=\"#public\">public<\/a>, <a href=\"#locales\">locales<\/a>, <a href=\"#pages\">pages<\/a>, <a href=\"#theme\">theme<\/a>\n<a> placeholders:\n<a1>public<\/a1> - <a href=\"#public\">public<\/a>\n<a2>locales<\/a2> - <a href=\"#locales\">locales<\/a>\n<a3>pages<\/a3> - <a href=\"#pages\">pages<\/a>\n<a4>theme<\/a4> - <a href=\"#theme\">theme<\/a>\n"
   },
   "project-dirs": {
     "message": "Каталоги проекта",
     "description": "Page heading\n"
   },
   "public-p": {
-    "message": "Директория для статических файлов веб-сайта (<fix1> и т.д.). Содержимое этой папки будет скопировано в каталог<fix2> \nво время <a href=\"\/documentation#generate-static-content\">генерации статического контента<\/a>.",
+    "message": "Директория для статических файлов веб-сайта (<fix1> и т.д.). Содержимое этой папки будет скопировано в каталог<fix2> \nво время <a1>генерации статического контента<\/a>.",
     "description": "Paragraph in 'public' section\n<fix> placeholders:\n<fix1> - CSS, JavaScript, favicon, robots.txt\n<fix2> - <em>content<\/em>\n<a> placeholders:\n<a1>generating static content<\/a1> - <a href=\"\/documentation#generate-static-content\">generating static content<\/a>\n"
   },
   "locales-p": {

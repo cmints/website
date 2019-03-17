@@ -81,7 +81,7 @@
   },
   "a-tag-p4": {
     "message": "Когда используется относительный путь с начинающимся <fix1> путём, то локаль и <fix2> атрибут создаются автоматически в зависимости от языка целевой страницы.\nКонфигурация <fix4> может быть использована для спецификации корневого каталога веб-сайта, если это необходимо.",
-    "description": "Paragraph in '<a> tag' section\n<fix> placeholders:\n<fix1> - <code>\/<\/code>\n<fix2> - <code>hreflang<\/code>\n<fix3> - <code>&lt;a&gt;<\/code>\n<fix4> - <a href=\"\/documentation\/getting-started\/configuration#root\">root\n"
+    "description": "Paragraph in '<a> tag' section\n<fix> placeholders:\n<fix1> - <code>\/<\/code>\n<fix2> - <code>hreflang<\/code>\n<fix3> - <code>&lt;a&gt;<\/code>\n<fix4> - <a href=\"\/documentation\/getting-started\/configuration#root\">root<\/a>\n<a> placeholders:\n<a1>root<\/a1> - <a href=\"\/documentation\/getting-started\/configuration#root\">root<\/a>\n"
   },
   "a-tag-p": {
     "message": "Порядок ссылок внутри строк перевода может быть различным в зависимости\nна языке, поэтому порядок в строке файла языкового стандарта должен быть\n, поэтому рассмотрим строку перевода ниже:",

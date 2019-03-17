@@ -9,7 +9,7 @@
   },
   "project-structure-p": {
     "message": "<fix1> Sind Grundverzeichnisse des Projektes:",
-    "description": "Paragraph in 'Project structure' section\n<fix> placeholders:\n<fix1> - <a href=\"#public\">public\n<a> placeholders:\n<a1>locales<\/a1> - <a href=\"#locales\">locales<\/a>\n<a2>pages<\/a2> - <a href=\"#pages\">pages<\/a>\n<a3>theme<\/a3> - <a href=\"#theme\">theme<\/a>\n"
+    "description": "Paragraph in 'Project structure' section\n<fix> placeholders:\n<fix1> - <a href=\"#public\">public<\/a>, <a href=\"#locales\">locales<\/a>, <a href=\"#pages\">pages<\/a>, <a href=\"#theme\">theme<\/a>\n<a> placeholders:\n<a1>public<\/a1> - <a href=\"#public\">public<\/a>\n<a2>locales<\/a2> - <a href=\"#locales\">locales<\/a>\n<a3>pages<\/a3> - <a href=\"#pages\">pages<\/a>\n<a4>theme<\/a4> - <a href=\"#theme\">theme<\/a>\n"
   },
   "project-dirs": {
     "message": "Projektverzeichnis",

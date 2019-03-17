@@ -13,7 +13,7 @@
   },
   "config-p2": {
     "message": "Этот файл может переписать <a1>конфигураций заданные по умолчанию<\/a> <fix1>-ом.",
-    "description": "Paragraph in 'Page heading' section\n<a> placeholders:\n<a1>default configurations<\/a1> - <a href=\"https:\/\/github.com\/cmints\/cmints\/blob\/master\/config.js\">default configurations<\/a>\n<fix> placeholders:\n<fix1> - CMintS\n"
+    "description": "Paragraph in 'Page heading' section\n<fix> placeholders:\n<fix1> - CMintS\n<a> placeholders:\n<a1>default configurations<\/a1> - <a href=\"https:\/\/github.com\/cmints\/cmints\/blob\/master\/config.js\">default configurations<\/a>\n"
   },
   "hostname-p": {
     "message": "Определяет адрес хоста сервера. По умолчанию используется\n<code>127.0.0.1<\/code>.",
@@ -49,7 +49,7 @@
   },
   "crowdinId-p1": {
     "message": "Идентификатор проекта <fix1>. <a1>Узнайте\nПодробнее про идентификатор crowdin.id<\/a1>",
-    "description": "Paragraph in 'crowdin.id' section\n<fix> placeholders:\n<fix1> - Crowdin\n<a> placeholders:\n<a1>Learn More about <fix>crowdin.id<\/a1> - <a href=\"\/documentation\/i18n\/crowdin\">Learn More about <fix>crowdin.id<\/a>\n"
+    "description": "Paragraph in 'crowdin.id' section\n<fix> placeholders:\n<fix1> - Crowdin\n<fix2> - crowdin.id\n<a> placeholders:\n<a1>Learn More about <fix>crowdin.id<\/fix><\/a1> - <a href=\"\/documentation\/i18n\/crowdin\">Learn More about <fix>crowdin.id<\/fix><\/a>\n"
   },
   "updateOption-li1": {
     "message": "Сохранить переводы с отменой их утверждений.",
@@ -93,11 +93,11 @@
   },
   "lessOptions-p1": {
     "message": "Может использоваться для задачи <a1>различных опций<\/a1> к <a2>генераций CSS<\/a2>. Пример ниже показывает как добавить source map к генерируемым файлом для отладок:",
-    "description": "Paragraph in 'lessOptions' section\n<a> placeholders:\n<a1>various options<\/a1> - <a href=\"http:\/\/lesscss.org\/usage\/#less-options\">various options<\/a>\n<a2>build process<\/a2> - <a href=\"\/documentation\/themes\/less\">build process<\/a>\n<fix> placeholders:\n<fix1> - CSS\n"
+    "description": "Paragraph in 'lessOptions' section\n<fix> placeholders:\n<fix1> - CSS\n<a> placeholders:\n<a1>various options<\/a1> - <a href=\"http:\/\/lesscss.org\/usage\/#less-options\">various options<\/a>\n<a2>build process<\/a2> - <a href=\"\/documentation\/themes\/less\">build process<\/a>\n"
   },
   "lessOptions-minification-p1": {
     "message": "Для минифицированного вывода <a1>LESS<\/a1> просто укажите опцию <fix1>:",
-    "description": "Paragraph in 'lessOptions &gt; minification' section\n<a> placeholders:\n<a1>LESS<\/a1> - <a href=\"\/documentation\/themes\/less\">LESS<\/a>\n<fix> placeholders:\n<fix1> - <code>minify<\/code>\n"
+    "description": "Paragraph in 'lessOptions &gt; minification' section\n<fix> placeholders:\n<fix1> - <code>minify<\/code>\n<a> placeholders:\n<a1>LESS<\/a1> - <a href=\"\/documentation\/themes\/less\">LESS<\/a>\n"
   },
   "lessOptions-minification-p2": {
     "message": "Вы также можете использовать разные <fix1> <a1>конфигурации<\/a1> для минификации <a2>модулей JS<\/a2>. Пример ниже добавляет <fix2> к минифицированному файлу:",

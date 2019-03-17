@@ -45,7 +45,7 @@
   },
   "netlify-ci-cd-p1": {
     "message": "Перейдите на <a1>начальную страницу<\/a1>, присоедините ваш <fix1> хостинг и выберите проэкт <fix1> а.",
-    "description": "Paragraph in the 'Continuous Deployment' section\n<a> placeholders:\n<a1>start page<\/a1> - <a href=\"https:\/\/app.netlify.com\/start\">start page<\/a>\n<fix> placeholders:\n<fix1> - Git\n<fix2> - CMintS\n"
+    "description": "Paragraph in the 'Continuous Deployment' section\n<fix> placeholders:\n<fix1> - Git\n<fix2> - CMintS\n<a> placeholders:\n<a1>start page<\/a1> - <a href=\"https:\/\/app.netlify.com\/start\">start page<\/a>\n"
   },
   "netlify-ci-cd-p2": {
     "message": "Используйте настройки ниже:",
@@ -73,6 +73,6 @@
   },
   "netlify-deploy-btn-p1": {
     "message": "<a1>Кнопка публиковать в Netlify<\/a1> помогает пользователям публиковать сайты с помощи одного клика.",
-    "description": "Paragraph in the 'Deploy to Netlify Button' section\n<a> placeholders:\n<a1>“Deploy to Netlify” button<\/a1> - <a href=\"https:\/\/www.netlify.com\/docs\/deploy-button\/\">“Deploy to Netlify” button<\/a>\n<fix> placeholders:\n<fix1> - Netlify\n"
+    "description": "Paragraph in the 'Deploy to Netlify Button' section\n<fix> placeholders:\n<fix1> - Netlify\n<a> placeholders:\n<a1>“Deploy to Netlify” button<\/a1> - <a href=\"https:\/\/www.netlify.com\/docs\/deploy-button\/\">“Deploy to Netlify” button<\/a>\n"
   }
 }

@@ -25,7 +25,7 @@
   },
   "install-cmints-p1": {
     "message": "Установка CMintS довольно проста, убедитесь, что у вас установлен <fix1> и запустите команду ниже:",
-    "description": "Paragraph in 'Install CMintS' section\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/nodejs.org\/en\/download\/\" target=\"_blank\" rel=\"noopener\">Node.js\n"
+    "description": "Paragraph in 'Install CMintS' section\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/nodejs.org\/en\/download\/\" target=\"_blank\" rel=\"noopener\">Node.js<\/a>\n<a> placeholders:\n<a1>Node.js<\/a1> - <a href=\"https:\/\/nodejs.org\/en\/download\/\" target=\"_blank\" rel=\"noopener\">Node.js<\/a>\n"
   },
   "example-project": {
     "message": "Пример проекта",
