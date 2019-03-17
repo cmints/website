@@ -115,7 +115,21 @@ const templateData =
           titleId: "nav-doc-title-contribute"
         }
       ]
-    }
+    },
+    footerNavigations: [
+      {
+        path: "https://single.cmints.io",
+        stringId: "footer-menu-item-single-lang"
+      },
+      {
+        path: "https://multi.cmints.io",
+        stringId: "footer-menu-item-single-multi"
+      },
+      {
+        path: "/presentation",
+        stringId: "header-menu-item-slides"
+      }
+    ]
   }
 };
 

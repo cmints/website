@@ -5,9 +5,13 @@
         Resources
       </h3>
       <ul>
-        <li><a href="https://single.cmints.io" target="_blank">Single language starter</a></li>
-        <li><a href="https://multi.cmints.io" target="_blank">Multi language starter</a></li>
-        <li><a href="https://cmints.io/presentation" target="_blank">Slides</a></li>
+      <% for (let footerNav of site.footerNavigations) { %>
+        <li>
+          <a href="<%= footerNav.path %>" target="_blank">
+            {<%-footerNav.stringId%>(navigation)}
+          </a>
+        </li>
+      <% } %>
       </ul>
     </div>
     <div class="cell3-5 center">

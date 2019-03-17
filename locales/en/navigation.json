@@ -78,5 +78,13 @@
   "nav-doc-title-contribute-translation": {
     "description": "Documentation sidebar text",
     "message": "Translation"
+  },
+  "footer-menu-item-single-lang": {
+    "description": "Footer Navigation link text",
+    "message": "Single language starter"
+  },
+  "footer-menu-item-single-multi": {
+    "description": "Footer Navigation link text",
+    "message": "Multi language starter"
   }
 }
