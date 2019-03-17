@@ -127,7 +127,7 @@ const templateData =
       },
       {
         path: "/presentation",
-        stringId: "header-menu-item-slides"
+        stringId: "footer-menu-item-slides"
       }
     ]
   }
