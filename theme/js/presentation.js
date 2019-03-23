@@ -155,7 +155,7 @@ function execAction(action, element)
       document.querySelector("#fix-dir-layout").classList.add("rtl");
       break;
     case "move-item-up":
-      element.closest(".order").classList.add("reorder");
+      element.closest("section").querySelector(".order").classList.add("reorder");
       break;
     case "remove-removable":
       const removable = findSection(element).querySelector(".removable:not(.remove)");
