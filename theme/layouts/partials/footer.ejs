@@ -7,7 +7,9 @@
       <ul>
       <% for (let footerNav of site.footerNavigations) { %>
         <li>
-          <a href="<%= footerNav.path %>" target="_blank">
+          <a href="<%= footerNav.path %>" target="_blank"
+             <% if(!footerNav.path.startsWith("/")) { %> rel="noopener" <% } %>
+             >
             {<%-footerNav.stringId%>(navigation)}
           </a>
         </li>
