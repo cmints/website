@@ -1,5 +1,5 @@
 <% const sitePath = `${site.protocol}://${site.domain}${site.root}` %>
-<% const currentPage = `${sitePath}/${page.locale}/${page.pathname}` %>
+<% const currentPage = `${sitePath}${page.urlLocale ? "/" + page.urlLocale : ""}/${page.pathname}` %>
 <% const title = `${site.title} | {title[Page title] ${page.title}}`%>
 <% const description = `{description[Page description] ${page.description}}`%>
 <% const promo = `${sitePath}/images/promo-alternate.png` %>
