@@ -131,13 +131,16 @@ function execAction(action, element)
     case "set-button-german":
       const locale = document.querySelector("#fix-dir-select").value;
       const doneButton = document.getElementById("done-button");
+      const fixedLabel = document.getElementById("fixed-label");
       if (locale == "de")
       {
         doneButton.textContent = "Fertigstellen";
+        fixedLabel.textContent = "Überprüfen Sie Ihre Benachric...";
       }
       else if (locale == "he")
       {
         doneButton.textContent = "בוצע";
+        fixedLabel.textContent = "עיין בהגדרות ההתראות שלך";
         document.querySelector("#fix-dir-layout").setAttribute("dir", "rtl");
       }
       break;
