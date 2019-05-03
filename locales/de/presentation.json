@@ -7,6 +7,10 @@
     "message": "Folien der Internationalisierungs Kernpunkte Präsentation",
     "description": "Page description\n"
   },
+  "main-title": {
+    "message": "Hauptpunkte der Internationalisierung",
+    "description": "presentation title\n<span> placeholders:\n<span1><span>Z<\/span1> - <span class=\"behind-char-jumper\"><span>Z<\/span>\n<span2>S<\/span2> - <span>S<\/span>\n<span3><span>M<\/span3> - <span class=\"behind-char-jumper\"><span>M<\/span>\n<span4>P<\/span4> - <span>P<\/span>\n"
+  },
   "me-i18n": {
     "message": "Ich und i18n",
     "description": "\"Me + i18n\" slide title\n"
@@ -30,6 +34,10 @@
   "me-i18n-li5": {
     "message": "<fix1> UI",
     "description": "point in \"Me + i18n\" slide\n<fix> placeholders:\n<fix1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus<\/a>\n<a> placeholders:\n<a1>Adblock Plus<\/a1> - <a href=\"https:\/\/adblockplus.org\/\">Adblock Plus<\/a>\n"
+  },
+  "l10n": {
+    "message": "Lokalisierung",
+    "description": "Slide title\n<span> placeholders:\n<span1>z<\/span1> - <span>z<\/span>\n<span2>s<\/span2> - <span>s<\/span>\n"
   },
   "date": {
     "message": "Datum",
@@ -93,6 +101,10 @@
   },
   "fonts-p1": {
     "message": "Unterstützt von Zielsprachen",
+    "description": "Point in \"Fonts\" slide\n"
+  },
+  "fonts-p2": {
+    "message": "Betrachten Sie Fallbacks",
     "description": "Point in \"Fonts\" slide\n"
   },
   "fonts-p3": {
