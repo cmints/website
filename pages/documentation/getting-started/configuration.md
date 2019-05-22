@@ -343,10 +343,12 @@ module.exports = {lessOptions};
 
 ## configReloadWatchers
 
+{configReloadWatchers-p[Paragraph in 'configReloadWatchers' section]
 <fix>`config.js`</fix> does more than configuration and it's can be used for a robust
 action also you can call other modules and/or JSON files from <fix>`config.js`</fix> and
 you might not want restart the development server each time you update the other
 file, for that reason you can specify <fix>`configReloadWatchers`</fix>:
+}
 
 ```
 const configReloadWatchers = ["data.json", "syncinit.js"];
