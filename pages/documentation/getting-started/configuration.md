@@ -341,6 +341,20 @@ const lessOptions = {
 module.exports = {lessOptions};
 ```
 
+## markdownOptions
+
+{markdownOptions-p[Paragraph in 'markdownOptions' section]
+Use <fix>markdownOptions</fix> to change variouse [markdown 
+configurations](https://markdown-it.github.io/markdown-it/#MarkdownIt.new). The
+example below adds syntax highlighting to code blocks:
+}
+
+```js
+const markdownOptions = {
+  highlight: (str, lang) => (lang && getLanguage(lang)) ? highlight(lang, str).value : ""
+};
+```
+
 ## configReloadWatchers
 
 {configReloadWatchers-p[Paragraph in 'configReloadWatchers' section]
