@@ -355,6 +355,43 @@ const markdownOptions = {
 };
 ```
 
+### {markdown-plugins[Header in 'markdownOptions' section] <fix>Markdown</fix> plugins}
+
+You can use [markdown-it
+plugins](https://www.npmjs.com/search?q=keywords:markdown-it-plugin) to extend
+markdown parser. That can be done using <fix>`plugins`</fix> property of
+<fix>`markdownOptions`</fix> configuration. Each plugin item can be either
+array, with plugin as the first item and plugin params as the rest, or by just
+by passing plugin if no other parameter needs to be specified. The example below
+adds
+[markdown-it-link-attributes](https://www.npmjs.com/package/markdown-it-link-attributes)
+plugin to the project with configuration to open all external links in the
+separate tab and
+[markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
+plugin:
+
+```js
+// Open external links in the new tab
+const markdownLink = require("markdown-it-link-attributes");
+const markdownItFootnote = require("markdown-it-footnote");
+const markdownOptions = {
+  plugins: [
+    [
+      markdownLink, {
+        pattern: /^https?:\/\//,
+        attrs: {
+          target: "_blank",
+          rel: "noopener"
+        }
+      }
+    ],
+    markdownItFootnote
+  ]
+};
+
+module.exports = {markdownOptions};
+```
+
 ## configReloadWatchers
 
 {configReloadWatchers-p[Paragraph in 'configReloadWatchers' section]
