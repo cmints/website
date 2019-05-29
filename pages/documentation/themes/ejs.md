@@ -193,7 +193,7 @@ of the box:
 
 {helper-tbl-heading1[Helper Table Heading] Helper} | {helper-tbl-heading2[Helper Table Heading] Type} | {helper-tbl-heading3[Helper Table Heading] Description}
 --- | --- | ---
-page.pathname | {helper-type-var[Helper type] Variable} | <a href="#page.pathname">{helper-desc-path[Helper description] URL path of current page}</a>
+page.pathname | {helper-type-var[Helper type] Variable} | <a href="#page.pathname">{helper-desc-path[Helper description] URL path of current page (without locale)}</a>
 page.locale | {helper-type-var} | <a href="#page.locale">{helper-desc-locale[Helper description] Locale of the current page}</a>
 page.locales | {helper-type-array[Helper type] Array} | <a href="#page.locales">{helper-desc-locales[Helper description] Other locales that current page is available in}</a>
 page.urlLocale | {helper-type-var} | <a href="#page.urllocale">{helper-desc-urlLocale[Helper description] Locale as it's specified in the URL.}</a>
