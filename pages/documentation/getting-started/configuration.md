@@ -357,6 +357,7 @@ const markdownOptions = {
 
 ### {markdown-plugins[Header in 'markdownOptions' section] <fix>Markdown</fix> plugins}
 
+{markdown-plugins-p[Paragraph in 'Markdown plugins' section]
 You can use [markdown-it
 plugins](https://www.npmjs.com/search?q=keywords:markdown-it-plugin) to extend
 markdown parser. That can be done using <fix>`plugins`</fix> property of
@@ -369,6 +370,7 @@ plugin to the project with configuration to open all external links in the
 separate tab and
 [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
 plugin:
+}
 
 ```js
 // Open external links in the new tab
