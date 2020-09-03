@@ -290,7 +290,7 @@ and the locales below:
 }
 
  ```json
-"test-img1": {
+"test-attribute1": {
     "description": "Test images order",
     "message": "<div1 title='Логотип сайта'><img1 alt='Пума в прыжке'>Картинка</div1>"
 }
